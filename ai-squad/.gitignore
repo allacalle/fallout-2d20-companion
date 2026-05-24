@@ -1,0 +1,35 @@
+# .gitignore - Keep this framework lean (164 KB)
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# Editor directories
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Temp files
+tmp/
+temp/
+
+# Don't upload your actual projects
+snake-neon/
+tres-en-raya-temp/
+template_empresa_ia/
+
+# Node (if used for tooling)
+node_modules/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.pyc
+.venv/

@@ -1,0 +1,185 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "default_agent": "orchestrator",
+  "agent": {
+    "orchestrator": {
+      "description": "v7.1 Orchestrator - coordinates the squad, proposes options, executes locked tasks. Does NOT make architectural decisions.",
+      "tools": {
+        "skill": true,
+        "glob": true,
+        "grep": true,
+        "edit": true,
+        "write": true,
+        "read": true,
+        "bash": true,
+        "context7": true
+      }
+    },
+    "project-manager": {
+      "description": "Project Manager - planning, sprints and coordination",
+      "tools": {
+        "skill": true,
+        "read": true,
+        "write": true
+      }
+    },
+    "tech-lead": {
+      "description": "Tech Lead - architecture, technical review and quality standards",
+      "tools": {
+        "skill": true,
+        "read": true,
+        "edit": true,
+        "bash": true,
+        "context7": true
+      }
+    },
+    "backend-dev": {
+      "description": "Backend Developer - APIs, services and server logic",
+      "tools": {
+        "skill": true,
+        "read": true,
+        "edit": true,
+        "write": true,
+        "bash": true,
+        "context7": true
+      }
+    },
+    "frontend-dev": {
+      "description": "Frontend Developer - interfaces, components and user experience",
+      "tools": {
+        "skill": true,
+        "read": true,
+        "edit": true,
+        "write": true,
+        "bash": true,
+        "context7": true
+      }
+    },
+    "designer": {
+      "description": "Designer - UI/UX, visual identity, STYLE_GUIDE and UX_FLOW",
+      "tools": {
+        "skill": true,
+        "read": true,
+        "write": true
+      }
+    },
+    "qa-engineer": {
+      "description": "QA Engineer - testing, coverage and quality assurance",
+      "tools": {
+        "skill": true,
+        "read": true,
+        "bash": true,
+        "context7": true
+      }
+    },
+    "documentador": {
+      "description": "Documenter - technical documentation, README and usage guides",
+      "tools": {
+        "skill": true,
+        "read": true,
+        "write": true,
+        "context7": true
+      }
+    },
+    "devops-eng": {
+      "description": "DevOps Engineer - CI/CD, infrastructure and deployment",
+      "tools": {
+        "skill": true,
+        "read": true,
+        "write": true,
+        "bash": true,
+        "context7": true
+      }
+    },
+    "security-spec": {
+      "description": "Security Specialist - auditing, pentesting and security",
+      "tools": {
+        "skill": true,
+        "read": true,
+        "bash": true,
+        "context7": true
+      }
+    },
+    "ai-engineer": {
+      "description": "AI/Data Engineer - LLMs, RAG and data architecture",
+      "tools": {
+        "skill": true,
+        "read": true,
+        "edit": true,
+        "write": true,
+        "bash": true,
+        "context7": true
+      }
+    },
+    "business-analyst": {
+      "description": "Business Analyst - requirements and business analysis",
+      "tools": {
+        "skill": true,
+        "read": true,
+        "write": true
+      }
+    },
+    "sre-engineer": {
+      "description": "SRE Engineer - reliability, scalability and performance",
+      "tools": {
+        "skill": true,
+        "read": true,
+        "bash": true,
+        "context7": true
+      }
+    },
+    "process-auditor": {
+      "description": "v7.1 Process Auditor - watchdog that verifies the process, blocks transitions on violations",
+      "tools": {
+        "skill": true,
+        "glob": true,
+        "grep": true,
+        "read": true,
+        "write": true
+      }
+    },
+    "uncertainty-reporter": {
+      "description": "v7.1 Uncertainty Reporter - reports agent uncertainty to the Owner",
+      "tools": {
+        "skill": true,
+        "read": true,
+        "write": true
+      }
+    }
+  },
+  "mcp": {
+    "engram": {
+      "command": [
+        "C:\\Users\\Usuario\\bin\\engram.exe",
+        "mcp",
+        "--tools=agent"
+      ],
+      "enabled": true,
+      "type": "local"
+    },
+    "opencode-mcp": {
+      "command": [
+        "npx",
+        "-y",
+        "opencode-mcp"
+      ],
+      "enabled": true,
+      "type": "local"
+    },
+    "context7": {
+      "type": "remote",
+      "url": "https://mcp.context7.com/mcp",
+      "enabled": true
+    }
+  },
+  "permission": {
+    "skill": {
+      "*": "allow"
+    },
+    "bash": {
+      "rm *": "ask",
+      "del *": "ask",
+      "format *": "ask"
+    }
+  }
+}

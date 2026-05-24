@@ -1,0 +1,51 @@
+{
+  "idle_timeout_minutes": 5,
+  "wake_up_enabled": true,
+  "wake_up_message": "Despierta! Hay trabajo pendiente en el backlog.",
+  
+  "auto_task_detection": {
+    "enabled": true,
+    "check_interval_seconds": 60,
+    "look_in_backlog": true
+  },
+  
+  "idle_actions": {
+    "frontend": {
+      "enabled": true,
+      "actions": [
+        "Revisar CSS por optimización",
+        "Proponer mejoras de UI",
+        "Code review de componentes"
+      ]
+    },
+    "backend": {
+      "enabled": true,
+      "actions": [
+        "Proponer refactors",
+        "Revisar rendimiento de APIs",
+        "Documentar endpoints"
+      ]
+    },
+    "qa": {
+      "enabled": true,
+      "actions": [
+        "Code review automático",
+        "Añadir tests de edge cases",
+        "Revisar coverage"
+      ]
+    },
+    "docs": {
+      "enabled": true,
+      "actions": [
+        "Actualizar README",
+        "Mejorar comentarios",
+        "Crear ejemplos"
+      ]
+    }
+  },
+  
+  "notifications": {
+    "wake_up_to": "logs/agents/{agent}-wake-up.log",
+    "activity_to": "logs/agents/{agent}-activity.log"
+  }
+}

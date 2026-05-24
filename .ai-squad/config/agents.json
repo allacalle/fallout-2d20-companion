@@ -1,0 +1,245 @@
+{
+  "version": "7.1",
+  "nombre": "AI-SQUAD Framework — Decision Type Routing Edition",
+  "project": "experimento-b7-imaginarium",
+
+  "paradigm": {
+    "note": "v7.1: Every decision is classified by type (ABANICO/INSTINTIVO/CERRADO/INCIERTO) before being presented to the Owner. The Process Auditor enforces this. No decision is made without the correct flow.",
+    "worlds": {
+      "definition": "Owner drives. Agents classify + propose. Process Auditor validates.",
+      "execution": "Agents execute locked tasks. Zero decisions. Integrator audits post-build."
+    }
+  },
+
+  "agentes": {
+    "researcher": {
+      "mundo": "definition",
+      "modelo": "Qwen3.5 Plus",
+      "backup": "DeepSeek V4 Flash",
+      "coste": "bajo",
+      "escribe_codigo": false,
+      "decision_type": "ABANICO AMPLIO",
+      "skills": ["decision-type-routing", "discovery-form", "pollinations-integration", "ai-description-generator", "zoom-out"],
+      "archivos": ["docs/research/*.md"],
+      "excluye": ["src/**/*"],
+      "nota": "v7.1: Investiga Pollinations API, Supabase PostgreSQL, Express+CORS. Classifica como ABANICO AMPLIO."
+    },
+
+    "architect": {
+      "mundo": "definition",
+      "modelo": "Kimi K2.6",
+      "backup": "Qwen3.5 Plus",
+      "coste": "alto",
+      "escribe_codigo": false,
+      "decision_type": "ABANICO AMPLIO",
+      "skills": ["decision-type-routing", "zoom-out"],
+      "archivos": ["docs/architecture/ADR-*.md"],
+      "excluye": ["src/**/*"],
+      "nota": "v7.1: ADRs clasificados. Stack ya decidido en VISION.md, documenta para completitud."
+    },
+
+    "ux-architect": {
+      "mundo": "definition",
+      "modelo": "Qwen3.5 Plus",
+      "backup": "DeepSeek V4 Flash",
+      "coste": "bajo",
+      "escribe_codigo": false,
+      "decision_type": "INSTINTIVO",
+      "skills": ["decision-type-routing", "discovery-form", "gallery-navigation"],
+      "archivos": ["docs/ux/UX_DIRECTION.md", "docs/ux/UX_FLOW.md"],
+      "excluye": ["src/**/*"],
+      "nota": "v7.1: Define flujos Estudio↔Galería, navegación, responsive. Pregunta directo al Owner (INSTINTIVO)."
+    },
+
+    "designer": {
+      "mundo": "definition",
+      "modelo": "GLM-5.1",
+      "backup": "Qwen3.5 Plus",
+      "coste": "medio",
+      "escribe_codigo": false,
+      "decision_type": "INSTINTIVO",
+      "skills": ["decision-type-routing", "direction-picker", "whimsy-injector", "glassmorphism-css", "mode-toggle-theatrical"],
+      "archivos": ["DESIGN.md", "docs/UX_FLOW.md"],
+      "excluye": ["src/**/*"],
+      "nota": "v7.1: Dirección visual museo oscuro + glassmorphism + transiciones teatrales. Owner elige por gusto."
+    },
+
+    "accessibility-auditor": {
+      "mundo": "definition",
+      "modelo": "Qwen3.5 Plus",
+      "backup": "DeepSeek V4 Flash",
+      "coste": "bajo",
+      "escribe_codigo": false,
+      "decision_type": "CERRADO",
+      "skills": ["decision-type-routing"],
+      "archivos": ["docs/a11y-audits/*.md"],
+      "excluye": ["src/**/*"],
+      "nota": "WCAG 2.2 AA. CERRADO — aplica el estándar. Audita DESIGN.md, navegación teclado, screen readers."
+    },
+
+    "specifier": {
+      "mundo": "definition",
+      "modelo": "Kimi K2.6",
+      "backup": "MiniMax M2.7",
+      "coste": "alto",
+      "escribe_codigo": false,
+      "decision_type": "CERRADO",
+      "skills": ["decision-type-routing", "integration-contracts"],
+      "archivos": ["docs/specs/*.md"],
+      "excluye": ["src/**/*"],
+      "nota": "v7.1: Contratos API (4 rutas) + componentes React. CERRADO — escribe contra ADRs."
+    },
+
+    "frontend": {
+      "mundo": "execution",
+      "modelo": "MiniMax M2.7",
+      "backup": "MiniMax M2.5",
+      "coste": "medio-bajo",
+      "escribe_codigo": true,
+      "decision_type": "CERRADO",
+      "skills": ["decision-type-routing", "uncertainty-reporter", "gallery-navigation", "mode-toggle-theatrical", "glassmorphism-css", "whimsy-injector", "vitest-testing", "diagnose"],
+      "archivos": ["frontend/src/components/**/*", "frontend/src/hooks/**/*", "frontend/src/*.css", "frontend/src/App.tsx", "frontend/public/**/*", "frontend/src/api/**/*", "frontend/src/types/**/*"],
+      "excluye": ["frontend/src/routes/**/*", "frontend/src/**/*.test.*", "docs/architecture/*", "docs/specs/*"],
+      "nota": "v7.1: Ejecución CERRADO. Dos modos (Estudio/Galería), navegación inmersiva, glassmorphism. Si ambiguo → Uncertainty Reporter."
+    },
+
+    "backend": {
+      "mundo": "execution",
+      "modelo": "MiniMax M2.7",
+      "backup": "MiniMax M2.5",
+      "coste": "medio-bajo",
+      "escribe_codigo": true,
+      "decision_type": "CERRADO",
+      "skills": ["decision-type-routing", "uncertainty-reporter", "pollinations-integration", "ai-description-generator", "diagnose"],
+      "archivos": ["backend/src/routes/**/*", "backend/src/lib/**/*", "backend/src/db.ts", "backend/src/index.ts", "backend/seed/**/*"],
+      "excluye": ["src/components/**/*", "src/**/*.test.*", "docs/architecture/*", "docs/specs/*"],
+      "nota": "v7.1: Express 4 + Supabase PostgreSQL (postgres/Postgres.js) + Pollinations primary + HuggingFace fallback. Genera imágenes y descripciones poéticas. Async description non-blocking. Si ambiguo → Uncertainty Reporter."
+    },
+
+    "qa": {
+      "mundo": "execution",
+      "modelo": "DeepSeek V4 Flash",
+      "backup": "GLM-5",
+      "coste": "muy-bajo",
+      "escribe_codigo": true,
+      "decision_type": "CERRADO",
+      "skills": ["decision-type-routing", "anti-slop-checklist", "vitest-testing", "uncertainty-reporter", "diagnose"],
+      "archivos": ["src/**/*.test.*", "tests/**/*", "coverage/**/*"],
+      "excluye": [],
+      "nota": "v7.1: Auditoría nuclear + tests. Verifica ADRs + specs + contratos API. Detecta dead code."
+    },
+
+    "integrator": {
+      "mundo": "execution",
+      "modelo": "Qwen3.5 Plus",
+      "backup": "DeepSeek V4 Flash",
+      "coste": "bajo",
+      "escribe_codigo": true,
+      "decision_type": "CERRADO",
+      "skills": ["decision-type-routing", "integration-contracts", "diagnose"],
+      "archivos": ["docs/integration/*.md", "tests/integration/**/*"],
+      "excluye": ["src/**/*"],
+      "nota": "v7.1: Post-merge audit. Verifica FE↔BE contratos, dead code, orphan files, test/prod divergence."
+    },
+
+    "reality-checker": {
+      "mundo": "execution",
+      "modelo": "Qwen3.5 Plus",
+      "backup": "DeepSeek V4 Flash",
+      "coste": "bajo",
+      "escribe_codigo": false,
+      "decision_type": "INSTINTIVO + CERRADO",
+      "skills": ["decision-type-routing", "anti-slop-checklist"],
+      "archivos": ["docs/reality-checks/*.md"],
+      "excluye": ["src/**/*"],
+      "nota": "v7.1: Mixed. Juzga usabilidad (INSTINTIVO) + verifica specs (CERRADO). Gatekeeper con autoridad de bloqueo."
+    },
+
+    "process-auditor": {
+      "mundo": "definition + execution",
+      "modelo": "Qwen3.5 Plus",
+      "backup": "DeepSeek V4 Flash",
+      "coste": "bajo",
+      "escribe_codigo": false,
+      "decision_type": "CERRADO",
+      "skills": ["decision-type-routing", "superpowers-discipline"],
+      "archivos": [".ai-squad/docs/AUDIT_LOG.md"],
+      "excluye": ["src/**/*", "docs/**/*"],
+      "nota": "v7.1: Watchdog. Verifica proceso, clasifica decisiones, bloquea transiciones si hay violaciones."
+    }
+  },
+
+  "skills": {
+    "decision-type-routing": {
+      "modelo": "any",
+      "coste": "none",
+      "agentes": ["todos"],
+      "nota": "v7.1: Every agent must classify their decisions before acting."
+    },
+    "uncertainty-reporter": {
+      "modelo": "any",
+      "coste": "none",
+      "agentes": ["frontend", "backend", "qa", "integrator"],
+      "nota": "v7.1: Execution agents use this skill to report doubts instead of assuming."
+    },
+    "pollinations-integration": {
+      "modelo": "any",
+      "coste": "none",
+      "agentes": ["backend", "researcher"],
+      "nota": "Integración API Pollinations (imagen + texto), encoding, timeouts, retry."
+    },
+    "ai-description-generator": {
+      "modelo": "any",
+      "coste": "none",
+      "agentes": ["backend", "researcher"],
+      "nota": "Generar descripciones poéticas tipo placa de museo con text.pollinations.ai."
+    },
+    "gallery-navigation": {
+      "modelo": "any",
+      "coste": "none",
+      "agentes": ["frontend", "ux-architect"],
+      "nota": "Navegación una-obra-a-la-vez, flechas, swipe, mini-grid, contador."
+    },
+    "mode-toggle-theatrical": {
+      "modelo": "any",
+      "coste": "none",
+      "agentes": ["frontend", "designer"],
+      "nota": "Transición teatral Estudio ↔ Galería, animaciones, accesibilidad."
+    },
+    "glassmorphism-css": {
+      "modelo": "any",
+      "coste": "none",
+      "agentes": ["frontend", "designer"],
+      "nota": "Cards glassmorphism, backdrop-filter, fallbacks, legibilidad."
+    }
+  },
+
+  "model_usage_summary": {
+    "version": "7.1",
+    "Kimi K2.6": {
+      "agentes": ["architect", "specifier"],
+      "fase": "0.7 (Architecture), 2 (Spec)",
+      "coste_estimado": "High — only for decisions requiring surgical precision"
+    },
+    "MiniMax M2.7": {
+      "agentes": ["frontend", "backend"],
+      "fase": "4 (Build)",
+      "coste_estimado": "Medium — 2 agents in parallel"
+    },
+    "GLM-5.1": {
+      "agentes": ["designer"],
+      "fase": "1.5 (Design)",
+      "coste_estimado": "Medio — 1 agente"
+    },
+    "Qwen3.5 Plus": {
+      "agentes": ["researcher", "ux-architect", "accessibility-auditor", "integrator", "reality-checker", "process-auditor"],
+      "fase": "0.5, 1, 1.5, 5, 6, 3.5",
+      "coste_estimado": "Low — 5 agents sequential (now 6 with Process Auditor)"
+    },
+    "DeepSeek V4 Flash": {
+      "agentes": ["qa"],
+      "fase": "4 (Build)",
+      "coste_estimado": "Very low — ideal for mass testing"
+    }
+  }
+}
