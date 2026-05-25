@@ -1,0 +1,104 @@
+[
+  {
+    "id": "athletics",
+    "name": "Athletics",
+    "attribute": "STR",
+    "description": "Lifting, pushing, pulling, jumping, running, and swimming. Used for physical exertion, climbing, and swimming."
+  },
+  {
+    "id": "barter",
+    "name": "Barter",
+    "attribute": "CHA",
+    "description": "Buying and selling, negotiating prices, and making deals with traders."
+  },
+  {
+    "id": "big_guns",
+    "name": "Big Guns",
+    "attribute": "END",
+    "description": "Using heavy weapons such as miniguns, Fat Mans, and gatling lasers."
+  },
+  {
+    "id": "energy_weapons",
+    "name": "Energy Weapons",
+    "attribute": "PER",
+    "description": "Using energy-based firearms like laser guns, plasma guns, and gauss weaponry."
+  },
+  {
+    "id": "explosives",
+    "name": "Explosives",
+    "attribute": "PER",
+    "description": "Using, throwing, placing, and detonating explosive devices like grenades and mines."
+  },
+  {
+    "id": "lockpick",
+    "name": "Lockpick",
+    "attribute": "PER",
+    "description": "Opening locks without the key, picking safes and locked doors."
+  },
+  {
+    "id": "medicine",
+    "name": "Medicine",
+    "attribute": "INT",
+    "description": "Healing people, stabilizing the dying, administering chems, and treating radiation poisoning."
+  },
+  {
+    "id": "melee_weapons",
+    "name": "Melee Weapons",
+    "attribute": "STR",
+    "description": "Fighting with bats, clubs, knives, boards, wrenches, and sledges."
+  },
+  {
+    "id": "pilot",
+    "name": "Pilot",
+    "attribute": "PER",
+    "description": "Operating vehicles, from buggies and motorcycles to Vertibirds and tanks."
+  },
+  {
+    "id": "repair",
+    "name": "Repair",
+    "attribute": "INT",
+    "description": "Fixing stuff, crafting things, building machines, and modifying weapons."
+  },
+  {
+    "id": "science",
+    "name": "Science",
+    "attribute": "INT",
+    "description": "Hacking computers, programming robots, and brewing chems."
+  },
+  {
+    "id": "small_guns",
+    "name": "Small Guns",
+    "attribute": "AGI",
+    "description": "Shooting with pistols, rifles, and shotguns."
+  },
+  {
+    "id": "sneak",
+    "name": "Sneak",
+    "attribute": "AGI",
+    "description": "Moving quietly, staying hidden, and avoiding detection."
+  },
+  {
+    "id": "speech",
+    "name": "Speech",
+    "attribute": "CHA",
+    "description": "Making friends, influencing people, and lying to them if you have to."
+  },
+  {
+    "id": "survival",
+    "name": "Survival",
+    "attribute": "END",
+    "description": "Foraging, hunting, cooking, and enduring the wastes."
+  },
+  {
+    "id": "throwing",
+    "name": "Throwing",
+    "attribute": "AGI",
+    "description": "Launching weapons from your hands, like spears or knives."
+  },
+  {
+    "id": "unarmed",
+    "name": "Unarmed",
+    "attribute": "STR",
+    "description": "Fighting without a weapon by making unarmed attacks."
+  }
+]

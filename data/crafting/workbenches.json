@@ -1,0 +1,44 @@
+[
+  {
+    "id": "armor_workbench",
+    "name": "Armor Workbench",
+    "skills": ["Repair"],
+    "perks": ["Armorer"],
+    "usedFor": "Armor mods, clothing mods, outfit mods (not power armor)"
+  },
+  {
+    "id": "chemistry_station",
+    "name": "Chemistry Station",
+    "skills": ["Science", "Explosives"],
+    "perks": ["Chemist", "Demolition Expert"],
+    "usedFor": "Chems, explosives, Syringer ammunition"
+  },
+  {
+    "id": "cooking_station",
+    "name": "Cooking Station",
+    "skills": ["Survival"],
+    "perks": [],
+    "usedFor": "Food and beverages. Can be crafted anywhere. Functions for 8 hours."
+  },
+  {
+    "id": "power_armor_station",
+    "name": "Power Armor Station",
+    "skills": ["Repair", "Science"],
+    "perks": ["Armorer", "Science!"],
+    "usedFor": "Power Armor upgrades, systems, plating"
+  },
+  {
+    "id": "robot_workbench",
+    "name": "Robot Workbench",
+    "skills": ["Repair", "Science"],
+    "perks": ["Robotics Expert"],
+    "usedFor": "Robot armor, robot mods"
+  },
+  {
+    "id": "weapons_workbench",
+    "name": "Weapons Workbench",
+    "skills": ["Repair", "Science"],
+    "perks": ["Gun Nut", "Science!", "Blacksmith"],
+    "usedFor": "Weapon mods (small guns, energy weapons, big guns, melee)"
+  }
+]

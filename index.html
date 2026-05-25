@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vault-Tec Companion</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div id="app">
+    <header id="header">
+      <button id="menu-toggle" aria-label="Toggle menu">☰</button>
+      <h1 id="logo">Vault-Tec Companion</h1>
+      <div id="search-container">
+        <input type="search" id="search-input" placeholder="Search..." autocomplete="off">
+        <div id="search-results" class="hidden"></div>
+      </div>
+    </header>
+
+    <div id="layout">
+      <div id="sidebar-backdrop"></div>
+      <nav id="sidebar" class="hidden">
+        <ul id="nav-list">
+          <li><a href="#home" data-nav="home">Home</a></li>
+
+          <li class="nav-group-header">Weapons &amp; Ammo</li>
+          <li><a href="#weapons" data-nav="weapons">Weapons</a></li>
+          <li><a href="#mods" data-nav="mods">Weapon Mods</a></li>
+          <li><a href="#calibers" data-nav="calibers">Calibers</a></li>
+
+          <li class="nav-group-header">Protection</li>
+          <li><a href="#armor" data-nav="armor">Armor Pieces</a></li>
+          <li><a href="#armor-sets" data-nav="armor-sets">Armor Sets</a></li>
+          <li><a href="#armor-mods" data-nav="armor-mods">Armor Mods</a></li>
+          <li><a href="#clothing" data-nav="clothing">Clothing</a></li>
+          <li><a href="#outfits" data-nav="outfits">Outfits</a></li>
+
+          <li class="nav-group-header">Consumables</li>
+          <li><a href="#consumables" data-nav="consumables">All Consumables</a></li>
+
+          <li class="nav-group-header">Character</li>
+          <li><a href="#perks" data-nav="perks">Perks</a></li>
+          <li><a href="#skills" data-nav="skills">Skills</a></li>
+
+          <li class="nav-group-header">Crafting</li>
+          <li><a href="#crafting" data-nav="crafting">Crafting Home</a></li>
+          <li><a href="#crafting/workbenches" data-nav="crafting">Workbenches</a></li>
+          <li><a href="#crafting/materials" data-nav="crafting">Materials Reference</a></li>
+          <li><a href="#crafting/chem-recipes" data-nav="crafting">Chem Recipes</a></li>
+          <li><a href="#crafting/cooking-recipes" data-nav="crafting">Cooking Recipes</a></li>
+          <li><a href="#crafting/power-armor-recipes" data-nav="crafting">Power Armor Recipes</a></li>
+
+          <li class="nav-group-header">Reference</li>
+          <li><a href="#effects" data-nav="effects">Effects Glossary</a></li>
+        </ul>
+      </nav>
+
+      <main id="content">
+        <div id="loading">Loading Vault-Tec data...</div>
+      </main>
+    </div>
+    <button id="scroll-top" aria-label="Scroll to top">↑</button>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/router.js"></script>
+  <script src="js/views.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

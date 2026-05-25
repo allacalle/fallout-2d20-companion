@@ -1,0 +1,23 @@
+{
+  "tiers": [
+    {"id":"component_common","name":"Common Materials","rarity":"common","weight":1,"cost":1,"includes":["Wood","Steel","Plastic","Rubber","Cloth","Concrete","Bone","Ceramics"]},
+    {"id":"component_uncommon","name":"Uncommon Materials","rarity":"uncommon","weight":1,"cost":3,"includes":["Copper","Aluminum","Lead","Silver","Cork","Glass","Fertilizer","Fiberglass","Gears","Springs","Screws"]},
+    {"id":"component_rare","name":"Rare Materials","rarity":"rare","weight":1,"cost":5,"includes":["Asbestos","Ballistic Fiber","Circuitry","Fiber Optics","Corrosive/Antiseptic Chemicals","Nuclear Material"]}
+  ],
+  "complexityTable": [
+    {"complexity": "1", "materials": "Common Materials ×2"},
+    {"complexity": "2", "materials": "Common Materials ×3"},
+    {"complexity": "3", "materials": "Common Materials ×4, Uncommon Materials ×2"},
+    {"complexity": "4", "materials": "Common Materials ×5, Uncommon Materials ×3"},
+    {"complexity": "5", "materials": "Common Materials ×6, Uncommon Materials ×4, Rare Materials ×2"},
+    {"complexity": "6", "materials": "Common Materials ×7, Uncommon Materials ×5, Rare Materials ×3"},
+    {"complexity": "7+", "materials": "Common Materials ×8, Uncommon Materials ×6, Rare Materials ×4"}
+  ],
+  "repairTable": [
+    {"rarity": "0-1", "materials": "Common Materials ×1"},
+    {"rarity": "2", "materials": "Common Materials ×2, Uncommon Materials ×1"},
+    {"rarity": "3", "materials": "Common Materials ×2, Uncommon Materials ×2"},
+    {"rarity": "4", "materials": "Common Materials ×2, Uncommon Materials ×2, Rare Materials ×1"},
+    {"rarity": "5+", "materials": "Common Materials ×3, Uncommon Materials ×3, Rare Materials ×1"}
+  ]
+}

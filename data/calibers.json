@@ -1,0 +1,182 @@
+[
+  {
+    "id": "38",
+    "name": ".38 Rounds",
+    "quantityFound": "10+5DC",
+    "weight": "<1",
+    "cost": 1,
+    "rarity": 0,
+    "description": "Small-caliber pistol ammunition designed for double-action revolvers before the Great War. Abundant enough that it is the ammunition of choice for most makeshift firearms."
+  },
+  {
+    "id": "10mm",
+    "name": "10mm Rounds",
+    "quantityFound": "8+4DC",
+    "weight": "<1",
+    "cost": 2,
+    "rarity": 0,
+    "description": "One of the most common types of pistol round found in the wastelands, manufactured in vast quantities before the Great War for 10mm pistols."
+  },
+  {
+    "id": "308",
+    "name": ".308 Rounds",
+    "quantityFound": "6+3DC",
+    "weight": "<1",
+    "cost": 3,
+    "rarity": 1,
+    "description": "A high-powered rifle round normally used in hunting rifles and some bolt-action pipe rifles."
+  },
+  {
+    "id": "flare",
+    "name": "Flare",
+    "quantityFound": "2+1DC",
+    "weight": "<1",
+    "cost": 1,
+    "rarity": 1,
+    "description": "A small tube like a shotgun cartridge, containing a chemical which burns brightly when ignited. Fired from a flare gun."
+  },
+  {
+    "id": "shotgun_shell",
+    "name": "Shotgun Shells",
+    "quantityFound": "6+3DC",
+    "weight": "<1",
+    "cost": 3,
+    "rarity": 1,
+    "description": "The standard shotgun shell found in the wastelands is a 12 gauge 2 3/4\" cartridge filled with #0 buckshot."
+  },
+  {
+    "id": "45",
+    "name": ".45 Rounds",
+    "quantityFound": "8+4DC",
+    "weight": "<1",
+    "cost": 3,
+    "rarity": 2,
+    "description": "A decent round which combines reasonable stopping power with manageable recoil."
+  },
+  {
+    "id": "flamer_fuel",
+    "name": "Flamer Fuel",
+    "quantityFound": "12+6DC",
+    "weight": "<1",
+    "cost": 1,
+    "rarity": 2,
+    "description": "Fuel for flamers and other fire-based weapons."
+  },
+  {
+    "id": "fusion_cell",
+    "name": "Fusion Cell",
+    "quantityFound": "14+7DC",
+    "weight": "<1",
+    "cost": 3,
+    "rarity": 2,
+    "description": "A small, self-contained power source used by many energy weapons. When found, it is in the form of a small battery-like device."
+  },
+  {
+    "id": "gamma_round",
+    "name": "Gamma Round",
+    "quantityFound": "4+2DC",
+    "weight": "<1",
+    "cost": 10,
+    "rarity": 2,
+    "description": "Specialized ammunition for the gamma gun, inflicting radiation damage."
+  },
+  {
+    "id": "railway_spike",
+    "name": "Railway Spike",
+    "quantityFound": "6+3DC",
+    "weight": "<1",
+    "cost": 1,
+    "rarity": 2,
+    "description": "A standard railway spike, used as ammunition for the railway rifle."
+  },
+  {
+    "id": "syringer_ammo",
+    "name": "Syringer Ammo",
+    "quantityFound": "4+2DC",
+    "weight": "<1",
+    "cost": 0,
+    "rarity": 2,
+    "description": "Syringer ammunition comes in various forms, often hand-crafted by wasteland chemists. None of the Effects rolled on the damage roll inflict any additional effects."
+  },
+  {
+    "id": "44_magnum",
+    "name": ".44 Magnum",
+    "quantityFound": "4+2DC",
+    "weight": "<1",
+    "cost": 3,
+    "rarity": 3,
+    "description": "The powerful .44 Magnum round was originally developed for revolvers. Its excellent stopping power makes it a favorite among wastelanders."
+  },
+  {
+    "id": "50",
+    "name": ".50 Rounds",
+    "quantityFound": "4+2DC",
+    "weight": "<1",
+    "cost": 4,
+    "rarity": 3,
+    "description": "A high-powered rifle round used by specialized weapons."
+  },
+  {
+    "id": "5_56mm",
+    "name": "5.56mm Rounds",
+    "quantityFound": "8+4DC",
+    "weight": "<1",
+    "cost": 2,
+    "rarity": 3,
+    "description": "The standard U.S. Army rifle round before the Great War. Common enough to sustain regular use."
+  },
+  {
+    "id": "5mm",
+    "name": "5mm Rounds",
+    "quantityFound": "10x 12+6DC",
+    "weight": "<1",
+    "cost": 1,
+    "rarity": 3,
+    "description": "Small-caliber ammunition used by miniguns and other Gatling weapons. Consumed at ten times the normal rate."
+  },
+  {
+    "id": "fusion_core",
+    "name": "Fusion Core",
+    "quantityFound": "1",
+    "weight": 4,
+    "cost": 200,
+    "rarity": 3,
+    "description": "A large, powerful energy source used by Power Armor and some heavy energy weapons."
+  },
+  {
+    "id": "missile",
+    "name": "Missile",
+    "quantityFound": "2+1DC",
+    "weight": 7,
+    "cost": 25,
+    "rarity": 3,
+    "description": "A self-propelled explosive projectile used by missile launchers and similar heavy weapons."
+  },
+  {
+    "id": "plasma_cartridge",
+    "name": "Plasma Cartridge",
+    "quantityFound": "10+5DC",
+    "weight": "<1",
+    "cost": 5,
+    "rarity": 4,
+    "description": "A specialized energy cartridge used by plasma weapons."
+  },
+  {
+    "id": "2mm_ec",
+    "name": "2mm EC",
+    "quantityFound": "6+3DC",
+    "weight": "<1",
+    "cost": 10,
+    "rarity": 5,
+    "description": "Electromagnetic cartridge used by the gauss rifle. Rare and expensive."
+  },
+  {
+    "id": "mini_nuke",
+    "name": "Mini-Nuke",
+    "quantityFound": "1+1DC",
+    "weight": 12,
+    "cost": 100,
+    "rarity": 6,
+    "description": "A miniature nuclear warhead used by the Fat Man launcher. Extremely rare and devastating."
+  }
+]

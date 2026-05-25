@@ -1,0 +1,872 @@
+[
+  {
+    "id": "armorer",
+    "name": "Armorer",
+    "ranks": 4,
+    "requirements": { "STR": 5, "INT": 6 },
+    "effects": {
+      "1": "Unlocks rank 1 armor mods",
+      "2": "Unlocks rank 2 armor mods",
+      "3": "Unlocks rank 3 armor mods",
+      "4": "Unlocks rank 4 armor mods"
+    }
+  },
+  {
+    "id": "awareness",
+    "name": "Awareness",
+    "ranks": 1,
+    "requirements": { "PER": 7 },
+    "effects": {
+      "1": "When you take the Aim minor action at a target within Close range, the next attack against that target gains Piercing 1, or improves existing Piercing X by 1."
+    }
+  },
+  {
+    "id": "barbarian",
+    "name": "Barbarian",
+    "ranks": 1,
+    "requirements": { "STR": 7 },
+    "effects": {
+      "1": "Physical DR increases on all hit locations based on STR: STR 7-8: +1 DR, STR 9-10: +2 DR, STR 11+: +3 DR. Does not work while wearing Power Armor."
+    }
+  },
+  {
+    "id": "basher",
+    "name": "Basher",
+    "ranks": 1,
+    "requirements": { "STR": 6 },
+    "effects": {
+      "1": "When you make a melee attack by bashing with your gun, your attack gains the Vicious damage effect."
+    }
+  },
+  {
+    "id": "better_criticals",
+    "name": "Better Criticals",
+    "ranks": 1,
+    "requirements": { "LCK": 9 },
+    "effects": {
+      "1": "When you inflict one or more points of damage to an enemy, you may spend 1 Luck Point to automatically inflict a critical hit, causing an injury."
+    }
+  },
+  {
+    "id": "big_leagues",
+    "name": "Big Leagues",
+    "ranks": 1,
+    "requirements": { "STR": 8 },
+    "effects": {
+      "1": "When you make a melee attack with a two-handed melee weapon, the weapon gains the Vicious damage effect."
+    }
+  },
+  {
+    "id": "black_widow_lady_killer",
+    "name": "Black Widow/Lady Killer",
+    "ranks": 1,
+    "requirements": { "CHA": 6 },
+    "effects": {
+      "1": "When you attempt a CHA-based skill test to influence a character of the chosen gender, you may re-roll 1d20. Your attacks inflict +1DC additional damage against characters of the chosen gender."
+    }
+  },
+  {
+    "id": "blacksmith",
+    "name": "Blacksmith",
+    "ranks": 3,
+    "requirements": { "STR": 6 },
+    "effects": {
+      "1": "Unlocks rank 1 melee weapon mods",
+      "2": "Unlocks rank 2 melee weapon mods",
+      "3": "Unlocks rank 3 melee weapon mods"
+    }
+  },
+  {
+    "id": "blitz",
+    "name": "Blitz",
+    "ranks": 2,
+    "requirements": { "AGI": 9 },
+    "effects": {
+      "1": "When you move into reach of an opponent and make a melee attack in one turn, re-roll one d20.",
+      "2": "Also inflict +1DC damage with that attack."
+    }
+  },
+  {
+    "id": "bloody_mess",
+    "name": "Bloody Mess",
+    "ranks": 1,
+    "requirements": { "LCK": 6 },
+    "effects": {
+      "1": "When you inflict a critical hit, roll 1DC; if you roll an Effect, you inflict one additional injury to a random location."
+    }
+  },
+  {
+    "id": "can_do",
+    "name": "Can Do!",
+    "ranks": 1,
+    "requirements": { "LCK": 5 },
+    "effects": {
+      "1": "When scavenging a location that contains food, you gain 1 additional random food item without spending AP."
+    }
+  },
+  {
+    "id": "cap_collector",
+    "name": "Cap Collector",
+    "ranks": 1,
+    "requirements": { "CHA": 5 },
+    "effects": {
+      "1": "When you buy or sell items, you may increase or decrease the price of the goods being traded by 10%."
+    }
+  },
+  {
+    "id": "cautious_nature",
+    "name": "Cautious Nature",
+    "ranks": 1,
+    "requirements": { "PER": 7 },
+    "effects": {
+      "1": "Whenever you attempt a skill test and buy one or more d20s by spending Action Points, you may re-roll 1d20 on that test. Cannot have Daring Nature."
+    }
+  },
+  {
+    "id": "center_mass",
+    "name": "Center Mass",
+    "ranks": 1,
+    "requirements": { "AGI": 7 },
+    "effects": {
+      "1": "When you make a ranged attack, you may choose to strike your target's Torso without increasing difficulty. You may also re-roll 1d20 when making the attack test."
+    }
+  },
+  {
+    "id": "chem_resistant",
+    "name": "Chem Resistant",
+    "ranks": 2,
+    "requirements": { "END": 7 },
+    "effects": {
+      "1": "Roll one fewer DC when determining addiction (min 0).",
+      "2": "Cannot become addicted to chems."
+    }
+  },
+  {
+    "id": "chemist",
+    "name": "Chemist",
+    "ranks": 1,
+    "requirements": { "INT": 7 },
+    "effects": {
+      "1": "Chems you create last twice as long as normal. Unlocks chem recipes that have this perk as a requirement."
+    }
+  },
+  {
+    "id": "commando",
+    "name": "Commando",
+    "ranks": 2,
+    "requirements": { "AGI": 8 },
+    "effects": {
+      "1": "When making a ranged attack with any weapon with Fire Rate 3+ (except heavy weapons), add +1DC to damage.",
+      "2": "Add +2DC to damage."
+    }
+  },
+  {
+    "id": "comprehension",
+    "name": "Comprehension",
+    "ranks": 1,
+    "requirements": { "INT": 6 },
+    "effects": {
+      "1": "After using a magazine bonus, roll 1DC. If you roll an Effect, you may use that bonus one additional time."
+    }
+  },
+  {
+    "id": "concentrated_fire",
+    "name": "Concentrated Fire",
+    "ranks": 1,
+    "requirements": { "PER": 8, "AGI": 6 },
+    "effects": {
+      "1": "When you make a ranged attack and spend ammunition to increase damage, you may re-roll up to 3DC for your damage roll."
+    }
+  },
+  {
+    "id": "daring_nature",
+    "name": "Daring Nature",
+    "ranks": 1,
+    "requirements": { "LCK": 7 },
+    "effects": {
+      "1": "Whenever you attempt a skill test and buy d20s by giving the GM Action Points, you may re-roll 1d20. Cannot have Cautious Nature."
+    }
+  },
+  {
+    "id": "demolition_expert",
+    "name": "Demolition Expert",
+    "ranks": 1,
+    "requirements": { "PER": 6, "LCK": 6 },
+    "effects": {
+      "1": "Attacks using weapons with Blast quality gain Vicious damage effect. Unlocks explosives recipes that have this perk as a requirement."
+    }
+  },
+  {
+    "id": "dodger",
+    "name": "Dodger",
+    "ranks": 2,
+    "requirements": { "AGI": 6 },
+    "effects": {
+      "1": "When taking Defend action, reduce difficulty by 1.",
+      "2": "AP cost to further increase Defense reduced to 1 AP."
+    }
+  },
+  {
+    "id": "dogmeat",
+    "name": "Dogmeat",
+    "ranks": 1,
+    "requirements": { "CHA": 5 },
+    "effects": {
+      "1": "You have a pet dog companion (allied NPC). Dog levels with you, increases Body or Mind at odd levels, HP +1 per level, bite damage +1DC at 5th level and every 5 beyond."
+    }
+  },
+  {
+    "id": "entomologist",
+    "name": "Entomologist",
+    "ranks": 1,
+    "requirements": { "INT": 7 },
+    "effects": {
+      "1": "Attacks against NPCs with Insect keyword gain Piercing 1, or improve existing Piercing X by +1."
+    }
+  },
+  {
+    "id": "fast_metabolism",
+    "name": "Fast Metabolism",
+    "ranks": 3,
+    "requirements": { "END": 6 },
+    "effects": {
+      "1": "When regaining HP from any source other than rest, increase total HP regained by +1.",
+      "2": "Increase by +2.",
+      "3": "Increase by +3."
+    }
+  },
+  {
+    "id": "faster_healing",
+    "name": "Faster Healing",
+    "ranks": 1,
+    "requirements": { "END": 6 },
+    "effects": {
+      "1": "When making an END + Survival test to heal your own injuries, the first additional d20 you buy is free (max 5d20 still applies)."
+    }
+  },
+  {
+    "id": "finesse",
+    "name": "Finesse",
+    "ranks": 1,
+    "requirements": { "AGI": 9 },
+    "effects": {
+      "1": "Once per combat encounter, re-roll all DC on a single damage roll without spending any Luck points."
+    }
+  },
+  {
+    "id": "fortune_finder",
+    "name": "Fortune Finder",
+    "ranks": 3,
+    "requirements": { "LCK": 5 },
+    "effects": {
+      "1": "When rolling to determine money found: +3DC caps.",
+      "2": "+6DC caps.",
+      "3": "+10DC caps."
+    }
+  },
+  {
+    "id": "ghost",
+    "name": "Ghost",
+    "ranks": 1,
+    "requirements": { "PER": 5, "AGI": 6 },
+    "effects": {
+      "1": "When attempting an AGI + Sneak test in shadows or darkness, the first additional d20 you buy is free (max 5d20 still applies)."
+    }
+  },
+  {
+    "id": "grim_reapers_sprint",
+    "name": "Grim Reaper's Sprint",
+    "ranks": 1,
+    "requirements": { "LCK": 8 },
+    "effects": {
+      "1": "When you make an attack that kills one or more enemies, roll 1DC. If you roll an Effect, add 2 AP to the group's pool."
+    }
+  },
+  {
+    "id": "gun_fu",
+    "name": "Gun Fu",
+    "ranks": 3,
+    "requirements": { "AGI": 10 },
+    "effects": {
+      "1": "On successful ranged attack: spend 1 AP + 1 ammo to hit second target within Close range.",
+      "2": "Spend 2 AP + 2 ammo for two additional targets.",
+      "3": "Spend 3 AP + 3 ammo for three additional targets."
+    }
+  },
+  {
+    "id": "gun_nut",
+    "name": "Gun Nut",
+    "ranks": 4,
+    "requirements": { "INT": 6 },
+    "effects": {
+      "1": "Unlocks rank 1 small gun and heavy weapon mods",
+      "2": "Unlocks rank 2 small gun and heavy weapon mods",
+      "3": "Unlocks rank 3 small gun and heavy weapon mods",
+      "4": "Unlocks rank 4 small gun and heavy weapon mods"
+    }
+  },
+  {
+    "id": "gunslinger",
+    "name": "Gunslinger",
+    "ranks": 2,
+    "requirements": { "AGI": 7 },
+    "effects": {
+      "1": "When attacking with one-handed ranged weapon with Fire Rate 2 or lower, increase damage by +1DC. May re-roll hit location die.",
+      "2": "Increase damage by +2DC."
+    }
+  },
+  {
+    "id": "hacker",
+    "name": "Hacker",
+    "ranks": 1,
+    "requirements": { "INT": 8 },
+    "effects": {
+      "1": "Difficulty of skill tests to hack computers is decreased by 1 (min 0)."
+    }
+  },
+  {
+    "id": "healer",
+    "name": "Healer",
+    "ranks": 3,
+    "requirements": { "INT": 7 },
+    "effects": {
+      "1": "When healing a patient using First Aid, increase HP healed by +1.",
+      "2": "Increase by +2.",
+      "3": "Increase by +3."
+    }
+  },
+  {
+    "id": "heave_ho",
+    "name": "Heave Ho!",
+    "ranks": 1,
+    "requirements": { "STR": 8 },
+    "effects": {
+      "1": "When making a thrown weapon attack, spend 1 AP to increase weapon Range by one step (Close to Medium, or Medium to Long)."
+    }
+  },
+  {
+    "id": "hunter",
+    "name": "Hunter",
+    "ranks": 1,
+    "requirements": { "END": 6 },
+    "effects": {
+      "1": "When attacking an NPC with Mammal, Lizard, or Insect keyword and Mutated keyword, your attack gains Vicious damage effect if it didn't already have it."
+    }
+  },
+  {
+    "id": "infiltrator",
+    "name": "Infiltrator",
+    "ranks": 1,
+    "requirements": { "PER": 8 },
+    "effects": {
+      "1": "When attempting a Lockpick skill test to unlock a door or container, you may re-roll 1d20."
+    }
+  },
+  {
+    "id": "inspirational",
+    "name": "Inspirational",
+    "ranks": 1,
+    "requirements": { "CHA": 8 },
+    "effects": {
+      "1": "The maximum number of AP the group may save is increased by 1."
+    }
+  },
+  {
+    "id": "intense_training",
+    "name": "Intense Training",
+    "ranks": 10,
+    "requirements": {},
+    "effects": {
+      "1": "Increase any one S.P.E.C.I.A.L. attribute by 1 (max 10).",
+      "2": "Increase any one S.P.E.C.I.A.L. attribute by 1 (max 10).",
+      "3": "Increase any one S.P.E.C.I.A.L. attribute by 1 (max 10).",
+      "4": "Increase any one S.P.E.C.I.A.L. attribute by 1 (max 10).",
+      "5": "Increase any one S.P.E.C.I.A.L. attribute by 1 (max 10).",
+      "6": "Increase any one S.P.E.C.I.A.L. attribute by 1 (max 10).",
+      "7": "Increase any one S.P.E.C.I.A.L. attribute by 1 (max 10).",
+      "8": "Increase any one S.P.E.C.I.A.L. attribute by 1 (max 10).",
+      "9": "Increase any one S.P.E.C.I.A.L. attribute by 1 (max 10).",
+      "10": "Increase any one S.P.E.C.I.A.L. attribute by 1 (max 10)."
+    }
+  },
+  {
+    "id": "iron_fist",
+    "name": "Iron Fist",
+    "ranks": 2,
+    "requirements": { "STR": 6 },
+    "effects": {
+      "1": "Unarmed attacks inflict +1DC damage.",
+      "2": "Unarmed attacks also gain Vicious damage effect."
+    }
+  },
+  {
+    "id": "junktown_jerky_vendor",
+    "name": "Junktown Jerky Vendor",
+    "ranks": 1,
+    "requirements": { "CHA": 8 },
+    "effects": {
+      "1": "Difficulty of any CHA + Barter test to buy or sell goods is reduced by 1 (min 0)."
+    }
+  },
+  {
+    "id": "jury_rigging",
+    "name": "Jury Rigging",
+    "ranks": 1,
+    "requirements": {},
+    "effects": {
+      "1": "You can repair an item without expending components. Repair is temporary; item breaks on next complication while using it. Complication range increases by 1 (19-20)."
+    }
+  },
+  {
+    "id": "laser_commander",
+    "name": "Laser Commander",
+    "ranks": 2,
+    "requirements": { "PER": 8 },
+    "effects": {
+      "1": "When attacking with a ranged energy weapon, damage increased by +1DC.",
+      "2": "Damage increased by +2DC."
+    }
+  },
+  {
+    "id": "lead_belly",
+    "name": "Lead Belly",
+    "ranks": 2,
+    "requirements": { "END": 6 },
+    "effects": {
+      "1": "Re-roll DC to determine radiation damage from irradiated food/drink.",
+      "2": "Immune to radiation from irradiated food/drink."
+    }
+  },
+  {
+    "id": "life_giver",
+    "name": "Life Giver",
+    "ranks": 5,
+    "requirements": {},
+    "effects": {
+      "1": "Increase maximum HP by your Endurance rank.",
+      "2": "Increase maximum HP by your Endurance rank.",
+      "3": "Increase maximum HP by your Endurance rank.",
+      "4": "Increase maximum HP by your Endurance rank.",
+      "5": "Increase maximum HP by your Endurance rank."
+    }
+  },
+  {
+    "id": "light_step",
+    "name": "Light Step",
+    "ranks": 1,
+    "requirements": {},
+    "effects": {
+      "1": "When rolling complications on an Agility-based skill test, ignore one complication per 1 AP spent. Re-roll 1d20 on AGI + Athletics tests to avoid traps."
+    }
+  },
+  {
+    "id": "master_thief",
+    "name": "Master Thief",
+    "ranks": 1,
+    "requirements": { "PER": 8, "AGI": 9 },
+    "effects": {
+      "1": "When attempting to pick a lock or pickpocket, the difficulty of the opponent's detection test increases by +1."
+    }
+  },
+  {
+    "id": "medic",
+    "name": "Medic",
+    "ranks": 1,
+    "requirements": { "INT": 8 },
+    "effects": {
+      "1": "When using First Aid to treat an injury, you can re-roll 1d20."
+    }
+  },
+  {
+    "id": "meltdown",
+    "name": "Meltdown",
+    "ranks": 1,
+    "requirements": { "PER": 10 },
+    "effects": {
+      "1": "When you kill an enemy with an energy weapon, they explode. Roll DC equal to half the weapon's damage (round down). For each Effect rolled, one creature within Close range suffers energy damage equal to the total rolled."
+    }
+  },
+  {
+    "id": "mister_sandman",
+    "name": "Mister Sandman",
+    "ranks": 1,
+    "requirements": { "AGI": 9 },
+    "effects": {
+      "1": "When making a sneak attack with a silenced/suppressed weapon, damage increased by +2DC. Cannot gain benefit while in Power Armor."
+    }
+  },
+  {
+    "id": "moving_target",
+    "name": "Moving Target",
+    "ranks": 1,
+    "requirements": { "AGI": 6 },
+    "effects": {
+      "1": "When you take the Sprint action, your Defense increases by +1 until the start of your next turn."
+    }
+  },
+  {
+    "id": "mysterious_stranger",
+    "name": "Mysterious Stranger",
+    "ranks": 1,
+    "requirements": { "LCK": 7 },
+    "effects": {
+      "1": "At start of combat, spend 1 Luck point. Mysterious Stranger may appear during scene, make a single ranged attack (.44 Magnum inflicts 8DC Piercing 1, Vicious physical damage), then vanish. If Stranger doesn't appear, Luck point refunded."
+    }
+  },
+  {
+    "id": "nerd_rage",
+    "name": "Nerd Rage!",
+    "ranks": 3,
+    "requirements": { "INT": 8 },
+    "effects": {
+      "1": "While HP below 1/4 max: +1 physical DR, +1 energy DR, +1DC damage.",
+      "2": "+2 DR, +2DC damage.",
+      "3": "+3 DR, +3DC damage."
+    }
+  },
+  {
+    "id": "night_person",
+    "name": "Night Person",
+    "ranks": 1,
+    "requirements": { "PER": 7 },
+    "effects": {
+      "1": "Reduce any difficulty increases due to darkness by 1."
+    }
+  },
+  {
+    "id": "ninja",
+    "name": "Ninja",
+    "ranks": 1,
+    "requirements": { "AGI": 8 },
+    "effects": {
+      "1": "When making a sneak attack with a melee weapon or unarmed attack, damage increased by +2DC. Cannot gain benefit while in Power Armor."
+    }
+  },
+  {
+    "id": "nuclear_physicist",
+    "name": "Nuclear Physicist",
+    "ranks": 1,
+    "requirements": { "INT": 9 },
+    "effects": {
+      "1": "When using weapons that inflict radiation damage or have Radioactive effect, each Effect rolled inflicts one additional point of radiation damage. Fusion cores have 3 additional charges."
+    }
+  },
+  {
+    "id": "pain_train",
+    "name": "Pain Train",
+    "ranks": 2,
+    "requirements": { "STR": 9, "END": 7 },
+    "effects": {
+      "1": "Charge as major action in Power Armor or as super mutant. Move into reach of enemy within Medium range, STR + Athletics test (diff 2). On success, enemy suffers unarmed damage and knocked prone.",
+      "2": "+1DC and Stun effect."
+    }
+  },
+  {
+    "id": "paralyzing_palm",
+    "name": "Paralyzing Palm",
+    "ranks": 1,
+    "requirements": { "STR": 8 },
+    "effects": {
+      "1": "When making an unarmed attack and choosing to strike a specific location, your attack gains the Stun damage effect."
+    }
+  },
+  {
+    "id": "party_boy_party_girl",
+    "name": "Party Boy/Party Girl",
+    "ranks": 1,
+    "requirements": { "END": 6, "CHA": 7 },
+    "effects": {
+      "1": "Cannot become addicted to alcoholic drinks. Whenever you drink an alcoholic drink, heal +2 HP."
+    }
+  },
+  {
+    "id": "pathfinder",
+    "name": "Pathfinder",
+    "ranks": 1,
+    "requirements": { "PER": 6, "END": 6 },
+    "effects": {
+      "1": "When traveling long distances through wilderness, a successful PER + Survival test reduces travel time by half."
+    }
+  },
+  {
+    "id": "pharma_farma",
+    "name": "Pharma Farma",
+    "ranks": 1,
+    "requirements": { "LCK": 6 },
+    "effects": {
+      "1": "When scavenging a location that contains medicine or chems, find one additional item randomly without spending AP."
+    }
+  },
+  {
+    "id": "pickpocket",
+    "name": "Pickpocket",
+    "ranks": 3,
+    "requirements": { "PER": 8, "AGI": 8 },
+    "effects": {
+      "1": "Ignore first complication on AGI + Sneak test to steal/plant.",
+      "2": "Re-roll 1d20 when pickpocketing.",
+      "3": "Reduce difficulty of pickpocketing by 1."
+    }
+  },
+  {
+    "id": "piercing_strike",
+    "name": "Piercing Strike",
+    "ranks": 1,
+    "requirements": { "STR": 7 },
+    "effects": {
+      "1": "Unarmed attacks and bladed melee weapons gain Piercing 1, or add +1 to existing Piercing X damage effect."
+    }
+  },
+  {
+    "id": "pyromaniac",
+    "name": "Pyromaniac",
+    "ranks": 3,
+    "requirements": { "END": 6 },
+    "effects": {
+      "1": "Damage dealt using fire-based weapons increases by +1DC.",
+      "2": "+2DC.",
+      "3": "+3DC."
+    }
+  },
+  {
+    "id": "quick_draw",
+    "name": "Quick Draw",
+    "ranks": 1,
+    "requirements": { "AGI": 6 },
+    "effects": {
+      "1": "Each turn, draw a single weapon or item carried on your person without using a minor action."
+    }
+  },
+  {
+    "id": "quick_hands",
+    "name": "Quick Hands",
+    "ranks": 1,
+    "requirements": { "AGI": 8 },
+    "effects": {
+      "1": "When making a ranged attack, spend 2 AP to increase Fire Rate of your gun by +2 for that attack."
+    }
+  },
+  {
+    "id": "rad_resistance",
+    "name": "Rad Resistance",
+    "ranks": 2,
+    "requirements": { "END": 8 },
+    "effects": {
+      "1": "Radiation DR to all hit locations increases by +1.",
+      "2": "Radiation DR increases by +2."
+    }
+  },
+  {
+    "id": "refractor",
+    "name": "Refractor",
+    "ranks": 2,
+    "requirements": { "PER": 6, "LCK": 7 },
+    "effects": {
+      "1": "Energy DR to all hit locations increases by +1.",
+      "2": "Energy DR increases by +2."
+    }
+  },
+  {
+    "id": "ricochet",
+    "name": "Ricochet",
+    "ranks": 1,
+    "requirements": { "LCK": 10 },
+    "effects": {
+      "1": "If an enemy makes a ranged attack against you and rolls a complication, spend 1 Luck point to have their ricochet hit them. Resolve damage against attacking enemy instead."
+    }
+  },
+  {
+    "id": "rifleman",
+    "name": "Rifleman",
+    "ranks": 2,
+    "requirements": { "AGI": 7 },
+    "effects": {
+      "1": "When attacking with two-handed weapon with Fire Rate 2 or lower (except heavy weapons), add +1DC.",
+      "2": "Add +2DC. Also add Piercing 1 or +1 to existing Piercing X."
+    }
+  },
+  {
+    "id": "robotics_expert",
+    "name": "Robotics Expert",
+    "ranks": 3,
+    "requirements": { "INT": 8 },
+    "effects": {
+      "1": "Modify robot armor, weapon mounts, modules with rank 1 mods.",
+      "2": "Access rank 2 mods, reduce repair tests difficulty by 1.",
+      "3": "Access rank 3 mods, reprogram robots."
+    }
+  },
+  {
+    "id": "science",
+    "name": "Science!",
+    "ranks": 3,
+    "requirements": { "INT": 6 },
+    "effects": {
+      "1": "Modify energy weapons with weapon mods, craft advanced armor mods. Unlocks rank 1 mods.",
+      "2": "Unlocks rank 2 mods.",
+      "3": "Unlocks rank 3 mods."
+    }
+  },
+  {
+    "id": "scoundrel",
+    "name": "Scoundrel",
+    "ranks": 1,
+    "requirements": { "CHA": 7 },
+    "effects": {
+      "1": "When making a CHA + Speech test to convince someone of a lie, ignore the first complication you roll."
+    }
+  },
+  {
+    "id": "scrapper",
+    "name": "Scrapper",
+    "ranks": 2,
+    "requirements": {},
+    "effects": {
+      "1": "When scrapping an item, salvage uncommon components as well as common.",
+      "2": "Also salvage rare materials."
+    }
+  },
+  {
+    "id": "scrounger",
+    "name": "Scrounger",
+    "ranks": 3,
+    "requirements": { "LCK": 6 },
+    "effects": {
+      "1": "When rolling for ammunition found: +3DC shots.",
+      "2": "+6DC shots.",
+      "3": "+10DC shots."
+    }
+  },
+  {
+    "id": "shotgun_surgeon",
+    "name": "Shotgun Surgeon",
+    "ranks": 1,
+    "requirements": { "STR": 5, "AGI": 7 },
+    "effects": {
+      "1": "Ranged attacks using shotguns gain Piercing 1, or add +1 to existing Piercing X damage effect."
+    }
+  },
+  {
+    "id": "skilled",
+    "name": "Skilled",
+    "ranks": 10,
+    "requirements": {},
+    "effects": {
+      "1": "Add +1 rank to two skills or +2 ranks to one skill (max 6 ranks per skill).",
+      "2": "Add +1 rank to two skills or +2 ranks to one skill (max 6 ranks per skill).",
+      "3": "Add +1 rank to two skills or +2 ranks to one skill (max 6 ranks per skill).",
+      "4": "Add +1 rank to two skills or +2 ranks to one skill (max 6 ranks per skill).",
+      "5": "Add +1 rank to two skills or +2 ranks to one skill (max 6 ranks per skill).",
+      "6": "Add +1 rank to two skills or +2 ranks to one skill (max 6 ranks per skill).",
+      "7": "Add +1 rank to two skills or +2 ranks to one skill (max 6 ranks per skill).",
+      "8": "Add +1 rank to two skills or +2 ranks to one skill (max 6 ranks per skill).",
+      "9": "Add +1 rank to two skills or +2 ranks to one skill (max 6 ranks per skill).",
+      "10": "Add +1 rank to two skills or +2 ranks to one skill (max 6 ranks per skill)."
+    }
+  },
+  {
+    "id": "size_matters",
+    "name": "Size Matters",
+    "ranks": 3,
+    "requirements": { "END": 7, "AGI": 6 },
+    "effects": {
+      "1": "When making ranged attack with heavy weapon, add +1DC to damage.",
+      "2": "+2DC.",
+      "3": "+3DC."
+    }
+  },
+  {
+    "id": "slayer",
+    "name": "Slayer",
+    "ranks": 1,
+    "requirements": { "STR": 8 },
+    "effects": {
+      "1": "When inflicting damage with unarmed attack or melee weapon, spend 1 Luck point to immediately inflict a critical hit (and injury) on the location hit."
+    }
+  },
+  {
+    "id": "smooth_talker",
+    "name": "Smooth Talker",
+    "ranks": 1,
+    "requirements": { "CHA": 6 },
+    "effects": {
+      "1": "When making a Barter or Speech test as part of an opposed test, re-roll 1d20."
+    }
+  },
+  {
+    "id": "snakeater",
+    "name": "Snakeater",
+    "ranks": 1,
+    "requirements": { "END": 7 },
+    "effects": {
+      "1": "Poison Damage Resistance increases by +2."
+    }
+  },
+  {
+    "id": "sniper",
+    "name": "Sniper",
+    "ranks": 1,
+    "requirements": { "PER": 8, "AGI": 6 },
+    "effects": {
+      "1": "When you take Aim minor action, then make a ranged attack with a two-handed weapon with Accurate quality, specify a hit location without increasing difficulty."
+    }
+  },
+  {
+    "id": "solar_powered",
+    "name": "Solar Powered",
+    "ranks": 1,
+    "requirements": { "END": 7 },
+    "effects": {
+      "1": "For every hour spent in direct sunlight, heal 1 radiation damage."
+    }
+  },
+  {
+    "id": "steady_aim",
+    "name": "Steady Aim",
+    "ranks": 1,
+    "requirements": { "STR": 8, "AGI": 7 },
+    "effects": {
+      "1": "When taking Aim minor action, either re-roll 2d20 on first attack this turn, or re-roll 1d20 on all attacks this turn."
+    }
+  },
+  {
+    "id": "strong_back",
+    "name": "Strong Back",
+    "ranks": 3,
+    "requirements": { "STR": 5 },
+    "effects": {
+      "1": "Maximum carry weight increased by +25 lbs.",
+      "2": "Maximum carry weight increased by +50 lbs.",
+      "3": "Maximum carry weight increased by +75 lbs."
+    }
+  },
+  {
+    "id": "tag",
+    "name": "Tag!",
+    "ranks": 1,
+    "requirements": {},
+    "effects": {
+      "1": "Select one additional Tag skill. Increase skill rank by 2 (max 6), mark as Tag skill allowing critical success on d20 result equal or under skill rank."
+    }
+  },
+  {
+    "id": "terrifying_presence",
+    "name": "Terrifying Presence",
+    "ranks": 2,
+    "requirements": { "STR": 6, "CHA": 8 },
+    "effects": {
+      "1": "When making Speech test to threaten/scare, re-roll 1d20.",
+      "2": "Use major action in combat to threaten enemy within Medium range (STR + Speech, diff 2). On success, enemy must move away next turn."
+    }
+  },
+  {
+    "id": "toughness",
+    "name": "Toughness",
+    "ranks": 2,
+    "requirements": { "END": 6, "LCK": 6 },
+    "effects": {
+      "1": "Physical DR to all hit locations increases by +1.",
+      "2": "Physical DR increases by +2."
+    }
+  }
+]

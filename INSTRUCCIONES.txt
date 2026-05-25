@@ -1,0 +1,137 @@
+========================================
+VAULT-TEC COMPANION - INSTRUCCIONES
+========================================
+
+1. ABRE UNA TERMINAL (consola de comandos)
+
+2. NAVEGA A LA CARPETA DEL PROYECTO:
+   cd /mnt/d/DesarrolladorSoftware/IA/Proyectos/ProyectosAgentesIA/ProyectoFalloutRolWeb
+
+3. INICIA EL SERVIDOR WEB:
+   python3 -m http.server 8080
+
+4. ABRE EL NAVEGADOR Y VE A:
+   http://localhost:8080
+
+5. PARA DETENER EL SERVIDOR:
+   Presiona Ctrl+C en la terminal
+
+========================================
+ESTRUCTURA DE LA WEB
+========================================
+
+Sidebar organizado en grupos:
+
+  [Weapons & Ammo]
+    Weapons - TODAS las armas en una tabla (67 items)
+    Weapon Mods - TODOS los mods de arma (102 items)
+    Calibers - Tipos de municion (20 items)
+
+  [Protection]
+    Armor Pieces - TODAS las piezas de armadura (56 items)
+    Armor Sets - Sets completos (21 items)
+    Armor Mods - Mods de armadura (49 items)
+    Clothing - Ropa basica (7 items)
+    Outfits - Trajes (12 items)
+
+  [Consumables]
+    All Consumables - Chems, comida, bebida TODO junto (98 items)
+
+  [Character]
+    Perks - Habilidades especiales (89 items)
+    Skills - Habilidades de atributos (17 items)
+
+  [Crafting]
+    Crafting Home - Resumen de todo el crafting
+    Workbenches - 6 tipos de workbench
+    Materials Reference - Tablas de materiales
+    Chem Recipes - 43 recetas de chemistry station
+    Cooking Recipes - 33 recetas de cooking station
+    Power Armor Recipes - 50 recetas de PA station
+
+  [Reference]
+    Effects Glossary - TODOS los efectos explicados
+
+========================================
+NAVEGACION
+========================================
+
+Click en cualquier nombre azul = va al detalle
+Click en perks/skills/efectos = va a esa pagina
+Boton "Back" = vuelve a la lista
+
+En detalle de ARMAS:
+  - Stats completos (damage, range, ammo, qualities, etc)
+  - TODOS los mods compatibles organizados por parte (receiver, barrel, etc)
+  - Cada mod muestra: nombre, efectos, complejidad, coste, perks, skill
+
+En detalle de ARMADURA:
+  - Stats completos (DR, peso, coste, etc)
+  - TODOS los armor mods compatibles organizados por tipo (material, utility)
+  - Cada mod muestra: nombre, efectos, complejidad, coste, perks, skill
+
+En detalle de CALIBERS:
+  - Info del calibre + lista de armas que lo usan
+
+Busqueda:
+  - Escribe en la barra de busqueda (arriba)
+  - Busca en TODOS los datos incluyendo recetas de crafting
+  - Click en un resultado para ir directo
+
+========================================
+CRAFTING
+========================================
+
+Workbenches:
+  - Armor Workbench → Armor mods (Repair + Armorer)
+  - Chemistry Station → Chems, explosives, syringer (Science/Explosives)
+  - Cooking Station → Food/beverages (Survival)
+  - Power Armor Station → PA upgrades/systems/plating (Repair/Science)
+  - Robot Workbench → Robot armor/mods (Repair/Science + Robotics Expert)
+  - Weapons Workbench → Weapon mods (Repair/Science + Gun Nut/Science!/Blacksmith)
+
+Materiales:
+  - Common: Wood, Steel, Plastic, Rubber, Cloth, Concrete, Bone, Ceramics
+  - Uncommon: Copper, Aluminum, Lead, Silver, Cork, Glass, Fertilizer, Fiberglass, Gears, Springs, Screws
+  - Rare: Asbestos, Ballistic Fiber, Circuitry, Fiber Optics, Chemicals, Nuclear Material
+
+Coste por complejidad:
+  - Complejidad 1: Common ×2
+  - Complejidad 2: Common ×3
+  - Complejidad 3: Common ×4, Uncommon ×2
+  - Complejidad 4: Common ×5, Uncommon ×3
+  - Complejidad 5: Common ×6, Uncommon ×4, Rare ×2
+  - Complejidad 6: Common ×7, Uncommon ×5, Rare ×3
+  - Complejidad 7+: Common ×8, Uncommon ×6, Rare ×4
+
+Reparacion por rareza:
+  - Rareza 0-1: Common ×1
+  - Rareza 2: Common ×2, Uncommon ×1
+  - Rareza 3: Common ×2, Uncommon ×2
+  - Rareza 4: Common ×2, Uncommon ×2, Rare ×1
+  - Rareza 5+: Common ×3, Uncommon ×3, Rare ×1
+
+========================================
+NOTAS IMPORTANTES
+========================================
+
+- Necesitas Python 3 instalado (viene con la mayoria de Linux/Mac)
+- Si usas Windows y no tienes python3, usa: python -m http.server 8080
+- El puerto 8080 debe estar libre (no tener otro programa usandolo)
+- Los archivos JSON deben estar en la carpeta data/
+- No necesitas instalar nada mas, es HTML+CSS+JS puro
+
+========================================
+PARA COMPARTIR CON AMIGOS
+========================================
+
+Opcion 1: GitHub Pages (gratis)
+  1. Sube todo el repo a GitHub
+  2. Settings > Pages > Source: main branch
+  3. Tu web estara en: https://TU-USUARIO.github.io/ProyectoFalloutRolWeb/
+
+Opcion 2: Servidor local en tu red
+  1. python3 -m http.server 8080 --bind 0.0.0.0
+  2. Tus amigos acceden desde: http://TU-IP:8080
+
+========================================

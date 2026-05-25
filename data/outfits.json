@@ -1,0 +1,14 @@
+[
+  {"id":"outfit_brotherhood_fatigues","name":"Brotherhood of Steel Fatigues","covers":["arms","legs","torso"],"physicalDR":2,"energyDR":2,"radiationDR":2,"weight":4,"cost":20,"rarity":3,"underArmor":false,"compatibleMods":[]},
+  {"id":"outfit_brotherhood_scribes","name":"Brotherhood Scribe's Armor","covers":["arms","legs","torso"],"physicalDR":1,"energyDR":2,"radiationDR":2,"weight":4,"cost":20,"rarity":2,"underArmor":false,"compatibleMods":[]},
+  {"id":"outfit_cage_armor","name":"Cage Armor","covers":["head","arms","legs","torso"],"physicalDR":3,"energyDR":4,"radiationDR":0,"weight":33,"cost":110,"rarity":3,"underArmor":false,"compatibleMods":[]},
+  {"id":"outfit_drifter","name":"Drifter Outfit","covers":["arms","legs","torso"],"physicalDR":1,"energyDR":2,"radiationDR":0,"weight":10,"cost":35,"rarity":1,"underArmor":false,"compatibleMods":[]},
+  {"id":"outfit_engineers","name":"Engineer's Armor","covers":["arms","legs","torso"],"physicalDR":1,"energyDR":1,"radiationDR":0,"weight":2,"cost":15,"rarity":1,"underArmor":false,"compatibleMods":[]},
+  {"id":"outfit_formal","name":"Formal Clothing","covers":["arms","legs","torso"],"physicalDR":0,"energyDR":0,"radiationDR":0,"weight":2,"cost":30,"rarity":2,"underArmor":false,"compatibleMods":["armor_mod_ballistic_weave"]},
+  {"id":"outfit_hazmat","name":"Hazmat Suit","covers":["head","arms","legs","torso"],"physicalDR":0,"energyDR":0,"radiationDR":"immune","weight":5,"cost":85,"rarity":3,"underArmor":false,"compatibleMods":[]},
+  {"id":"outfit_heavy_coat","name":"Heavy Coat","covers":["arms","legs","torso"],"physicalDR":1,"energyDR":1,"radiationDR":1,"weight":2,"cost":20,"rarity":1,"underArmor":false,"compatibleMods":["armor_mod_ballistic_weave"]},
+  {"id":"outfit_hides","name":"Hides","covers":["arms","legs","torso"],"physicalDR":1,"energyDR":0,"radiationDR":0,"weight":4,"cost":13,"rarity":0,"underArmor":false,"compatibleMods":[]},
+  {"id":"outfit_lab_coat","name":"Lab Coat","covers":["arms","legs","torso"],"physicalDR":0,"energyDR":0,"radiationDR":0,"weight":2,"cost":10,"rarity":1,"underArmor":false,"compatibleMods":["armor_mod_ballistic_weave"]},
+  {"id":"outfit_spike_armor","name":"Spike Armor","covers":["head","arms","legs","torso"],"physicalDR":2,"energyDR":2,"radiationDR":0,"weight":17,"cost":65,"rarity":2,"underArmor":false,"compatibleMods":[]},
+  {"id":"outfit_utility_coveralls","name":"Utility Coveralls","covers":["arms","legs","torso"],"physicalDR":2,"energyDR":0,"radiationDR":0,"weight":2,"cost":12,"rarity":1,"underArmor":false,"compatibleMods":[]}
+]

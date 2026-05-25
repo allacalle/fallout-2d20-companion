@@ -1,0 +1,406 @@
+{
+  "damageEffects": {
+    "Burst": {
+      "name": "Burst",
+      "description": "The attack may hit one additional target within Close range of the primary target for each Effect rolled. Each additional target costs 1 additional shot from the weapon."
+    },
+    "Breaking": {
+      "name": "Breaking",
+      "description": "For each Effect rolled, reduce the number of Cover Dice a piece of cover provides by 1, permanently. If the target is not in cover, instead reduce the damage resistance on the location struck by 1, according to the damage type of the weapon."
+    },
+    "Persistent": {
+      "name": "Persistent",
+      "description": "If one or more Effects are rolled, the target suffers the weapon's damage again at the end of their next and subsequent turns, for a number of rounds equal to the number of Effects rolled. A character may spend a major action to make a test to stop Persistent damage early; the difficulty is equal to the number of Effects rolled."
+    },
+    "Piercing 1": {
+      "name": "Piercing 1",
+      "description": "Ignore 1 point of the target's damage reduction for each Effect rolled."
+    },
+    "Piercing 2": {
+      "name": "Piercing 2",
+      "description": "Ignore 2 points of the target's damage reduction for each Effect rolled."
+    },
+    "Radioactive": {
+      "name": "Radioactive",
+      "description": "For every Effect rolled, the target also suffers 1 point of Radiation damage. This Radiation damage is totaled and applied separately, after a character has suffered the normal damage from the attack."
+    },
+    "Spread": {
+      "name": "Spread",
+      "description": "For each Effect rolled, your attack inflicts one additional hit on the target. Each additional hit inflicts half the rolled damage (round down) and hits a random location even if a specific location was targeted for the initial attack."
+    },
+    "Stun": {
+      "name": "Stun",
+      "description": "If one or more Effects are rolled, the target loses their normal actions in their next turn. A stunned character or creature may still spend AP to take additional actions as normal."
+    },
+    "Vicious": {
+      "name": "Vicious",
+      "description": "The attack inflicts +1 damage for each Effect rolled."
+    }
+  },
+  "qualities": {
+    "Accurate": {
+      "name": "Accurate",
+      "description": "If you take the Aim minor action before attacking with an Accurate weapon, you may spend up to 3 AP to add +1 DC per AP spent to the attack's damage. If you gain damage in this way, you may not spend ammunition for extra damage. A weapon cannot be both Accurate and Inaccurate."
+    },
+    "Blast": {
+      "name": "Blast",
+      "description": "When you make an attack with a Blast weapon, you do not target a single opponent. Instead, select a single zone you can see, and make the appropriate skill test to attack, with a basic difficulty of 2 (adjusted for range as normal). If you succeed, every creature in that zone suffers the weapon's damage. If you fail, roll only half the weapon's DC to determine the damage inflicted."
+    },
+    "Close Quarters": {
+      "name": "Close Quarters",
+      "description": "A Close Quarters weapon is easy to use up-close, and suffers no difficulty increase for being used when within Reach of an enemy."
+    },
+    "Concealed": {
+      "name": "Concealed",
+      "description": "A Concealed weapon is small, or otherwise easy to hide on your person. Enemies do not spot a Concealed weapon unless you're wielding it, or if they make a thorough search and succeed at a PER + Survival test with a difficulty of 2."
+    },
+    "Debilitating": {
+      "name": "Debilitating",
+      "description": "The difficulty of any skill test to treat injuries inflicted by a Debilitating weapon increase by +1."
+    },
+    "Gatling": {
+      "name": "Gatling",
+      "description": "Ammunition is spent at ten times the normal rate by Gatling weapons: whenever you would spend one shot of ammunition, a Gatling weapon instead spends a burst of 10 shots. Whenever you spend ammunition to increase this weapon's damage, add +2 DC per ten-shot burst (to a maximum number of bursts equal to the weapon's Fire Rate), rather than +1 DC per shot."
+    },
+    "Inaccurate": {
+      "name": "Inaccurate",
+      "description": "An Inaccurate weapon is harder to aim. You cannot benefit from the Aim minor action with an Inaccurate weapon."
+    },
+    "Mine": {
+      "name": "Mine",
+      "description": "A mine is placed on the ground and uses a pressure plate or proximity sensor to trigger detonation when someone gets too close."
+    },
+    "Parry": {
+      "name": "Parry",
+      "description": "A weapon with the Parry quality can be used to parry melee attacks, adding to your Defense when taking the Defend action."
+    },
+    "Reliable": {
+      "name": "Reliable",
+      "description": "A Reliable weapon is well-built and sturdy. When you roll a complication on an attack with a Reliable weapon, the weapon does not jam and you do not need to use the Interact minor action to clear it."
+    },
+    "Suppressed": {
+      "name": "Suppressed",
+      "description": "A Suppressed weapon is quiet when fired. Enemies do not automatically detect you when you make a ranged attack with a Suppressed weapon from hiding."
+    },
+    "Thrown (C)": {
+      "name": "Thrown (C)",
+      "description": "A thrown weapon with Close range. Can be thrown at targets within the same zone."
+    },
+    "Thrown (M)": {
+      "name": "Thrown (M)",
+      "description": "A thrown weapon with Medium range. Can be thrown at targets in an adjacent zone."
+    },
+    "Two-Handed": {
+      "name": "Two-Handed",
+      "description": "A Two-Handed weapon requires both hands to use effectively. You cannot use a Two-Handed weapon while holding something in your other hand."
+    },
+    "Unreliable": {
+      "name": "Unreliable",
+      "description": "An Unreliable weapon is crude or damaged. When you roll a complication on an attack with an Unreliable weapon, the weapon jams and you must use the Interact minor action to clear it before you can fire again."
+    }
+  },
+  "armorModEffects": {
+    "+1 Physical DR": {
+      "name": "+1 Physical DR",
+      "description": "Increases Physical Damage Resistance by 1. Reduces incoming Physical damage by 1 point per hit."
+    },
+    "+1 Energy DR": {
+      "name": "+1 Energy DR",
+      "description": "Increases Energy Damage Resistance by 1. Reduces incoming Energy damage by 1 point per hit."
+    },
+    "+2 Physical DR": {
+      "name": "+2 Physical DR",
+      "description": "Increases Physical Damage Resistance by 2. Reduces incoming Physical damage by 2 points per hit."
+    },
+    "+2 Energy DR": {
+      "name": "+2 Energy DR",
+      "description": "Increases Energy Damage Resistance by 2. Reduces incoming Energy damage by 2 points per hit."
+    },
+    "+3 Physical DR": {
+      "name": "+3 Physical DR",
+      "description": "Increases Physical Damage Resistance by 3. Reduces incoming Physical damage by 3 points per hit."
+    },
+    "+3 Energy DR": {
+      "name": "+3 Energy DR",
+      "description": "Increases Energy Damage Resistance by 3. Reduces incoming Energy damage by 3 points per hit."
+    },
+    "+4 Physical DR": {
+      "name": "+4 Physical DR",
+      "description": "Increases Physical Damage Resistance by 4. Reduces incoming Physical damage by 4 points per hit."
+    },
+    "+4 Energy DR": {
+      "name": "+4 Energy DR",
+      "description": "Increases Energy Damage Resistance by 4. Reduces incoming Energy damage by 4 points per hit."
+    },
+    "+3 Radiation DR": {
+      "name": "+3 Radiation DR",
+      "description": "Increases Radiation Damage Resistance by 3. Reduces incoming Radiation damage by 3 points per hit."
+    },
+    "Weight -1": {
+      "name": "Weight -1",
+      "description": "Reduces the armor piece's weight by 1 lb. Helps avoid encumbrance penalties."
+    },
+    "Weight -3": {
+      "name": "Weight -3",
+      "description": "Reduces the armor piece's weight by 3 lbs. Significantly helps avoid encumbrance penalties."
+    },
+    "+10 Carry Weight": {
+      "name": "+10 Carry Weight",
+      "description": "Increases your maximum carry weight by 10 lbs. Helps avoid encumbrance penalties."
+    },
+    "+20 Carry Weight": {
+      "name": "+20 Carry Weight",
+      "description": "Increases your maximum carry weight by 20 lbs. Significantly helps avoid encumbrance penalties."
+    },
+    "+2 DR vs Blast weapons": {
+      "name": "+2 DR vs Blast weapons",
+      "description": "Increases Damage Resistance by 2 specifically against weapons with the Blast quality. Only applies to torso location."
+    },
+    "+4 DR vs Blast weapons": {
+      "name": "+4 DR vs Blast weapons",
+      "description": "Increases Damage Resistance by 4 specifically against weapons with the Blast quality. Only applies to torso location."
+    },
+    "Ignore Energy Persistent damage": {
+      "name": "Ignore Energy Persistent damage",
+      "description": "You are immune to Persistent damage of the Energy type. The ongoing burn effect from energy weapons does not affect you."
+    },
+    "Chems last twice as long": {
+      "name": "Chems last twice as long",
+      "description": "The duration of all chems you take is doubled. Brief chems become Lasting, and Lasting chems last twice as many turns."
+    },
+    "Stun requires 2+ Effects": {
+      "name": "Stun requires 2+ Effects",
+      "description": "You are only stunned if an attack rolls 2 or more Effects on the damage dice. Single Effect results do not stun you."
+    },
+    "Unarmed +1 DC damage": {
+      "name": "Unarmed +1 DC damage",
+      "description": "Your unarmed attacks deal +1 DC additional damage. Only applies to arm location."
+    },
+    "+2 DR vs melee attacks": {
+      "name": "+2 DR vs melee attacks",
+      "description": "Increases Damage Resistance by 2 specifically against melee weapon attacks. Only applies to arm location."
+    },
+    "When aiming, ranged attack +1 DC damage": {
+      "name": "When aiming, ranged attack +1 DC damage",
+      "description": "When you take the Aim minor action and then make a ranged attack, the attack deals +1 DC additional damage. Only applies to arm location."
+    },
+    "May spend up to 4 AP on bonus melee damage": {
+      "name": "May spend up to 4 AP on bonus melee damage",
+      "description": "You may spend up to 4 Action Points on a melee attack to add +1 DC per AP spent to the damage. Only applies to arm location."
+    },
+    "Melee/Unarmed gain Piercing 1": {
+      "name": "Melee/Unarmed gain Piercing 1",
+      "description": "Your melee and unarmed attacks gain the Piercing 1 damage effect, ignoring 1 point of the target's damage reduction per Effect rolled."
+    },
+    "+2 Physical DR vs falling damage": {
+      "name": "+2 Physical DR vs falling damage",
+      "description": "Increases Physical Damage Resistance by 2 specifically against damage from falling. Only applies to leg location."
+    },
+    "Re-roll 1d20 on Stealth tests": {
+      "name": "Re-roll 1d20 on Stealth tests",
+      "description": "When making an AGI + Sneak test, you may re-roll one d20. Only applies to leg location."
+    },
+    "On successful attack, spend 2 AP to disarm opponent": {
+      "name": "Disarm on attack",
+      "description": "On a successful attack, you may spend 2 AP to disarm your opponent, knocking one held weapon away from them."
+    }
+  },
+  "chemEffects": {
+    "Heals X HP": {
+      "name": "Heals X HP",
+      "description": "Restores X Hit Points to the character. HP cannot exceed the character's maximum."
+    },
+    "Heals X Radiation damage": {
+      "name": "Heals X Radiation damage",
+      "description": "Reduces the character's accumulated Radiation damage by X points."
+    },
+    "+X Physical DR": {
+      "name": "+X Physical DR",
+      "description": "Increases Physical Damage Resistance by X for the duration of the chem effect."
+    },
+    "+X Energy DR": {
+      "name": "+X Energy DR",
+      "description": "Increases Energy Damage Resistance by X for the duration of the chem effect."
+    },
+    "+X Radiation DR": {
+      "name": "+X Radiation DR",
+      "description": "Increases Radiation Damage Resistance by X for the duration of the chem effect."
+    },
+    "+X Max HP": {
+      "name": "+X Max HP",
+      "description": "Increases the character's maximum Hit Points by X for the duration of the chem effect. If current HP is at maximum, current HP also increases."
+    },
+    "+X DC damage to all attacks": {
+      "name": "+X DC damage to all attacks",
+      "description": "Increases the damage rating of all attacks by X DC for the duration of the chem effect."
+    },
+    "+X DC melee damage": {
+      "name": "+X DC melee damage",
+      "description": "Increases the damage rating of melee and unarmed attacks by X DC for the duration of the chem effect."
+    },
+    "Re-roll 1d20 on X tests": {
+      "name": "Re-roll 1d20 on X tests",
+      "description": "When making a skill test of the specified type, you may re-roll one d20."
+    },
+    "Reduce difficulty of X tests by X": {
+      "name": "Reduce difficulty of X tests by X",
+      "description": "The difficulty of skill tests of the specified type is reduced by the specified amount (minimum difficulty 0)."
+    },
+    "Gain X AP": {
+      "name": "Gain X AP",
+      "description": "Immediately adds X Action Points to the group's action point pool."
+    },
+    "Gain 1 free AP at start of each turn": {
+      "name": "Gain 1 free AP at start of each turn",
+      "description": "At the start of each of your turns, you gain 1 additional Action Point added to the group pool."
+    },
+    "Extra actions cost 1 less AP": {
+      "name": "Extra actions cost 1 less AP",
+      "description": "The cost to take additional actions (beyond your normal major and minor actions) is reduced by 1 AP."
+    },
+    "First d20 bought on all tests is free": {
+      "name": "First d20 bought on all tests is free",
+      "description": "When you buy additional d20s on any skill test by spending AP, the first d20 you buy costs 0 AP."
+    },
+    "Aim lets you re-roll 1 additional d20": {
+      "name": "Aim lets you re-roll 1 additional d20",
+      "description": "When you take the Aim minor action, you may re-roll one additional d20 on your next attack beyond the normal benefit."
+    },
+    "Removes all addictions": {
+      "name": "Removes all addictions",
+      "description": "Cures the character of all chem addictions immediately."
+    },
+    "Cures all illnesses": {
+      "name": "Cures all illnesses",
+      "description": "Cures the character of all diseases and illnesses immediately."
+    },
+    "Heals X HP to all within Close range": {
+      "name": "Heals X HP to all within Close range",
+      "description": "Restores X Hit Points to all characters within Close range of the user."
+    },
+    "+2 DC sneak attack damage": {
+      "name": "+2 DC sneak attack damage",
+      "description": "When making a sneak attack, the attack deals +2 DC additional damage."
+    },
+    "+1 difficulty to X tests": {
+      "name": "+1 difficulty to X tests",
+      "description": "The difficulty of skill tests of the specified type is increased by 1 for the duration of the chem effect."
+    }
+  },
+  "meleeModEffects": {
+    "Gain Persistent": {
+      "name": "Gain Persistent",
+      "description": "The weapon gains the Persistent damage effect. If one or more Effects are rolled, the target suffers the weapon's damage again at the end of their next and subsequent turns."
+    },
+    "Change Damage Type to Energy": {
+      "name": "Change Damage Type to Energy",
+      "description": "The weapon's damage type changes from Physical to Energy. This affects which Damage Resistance applies and which perks affect the damage."
+    },
+    "Gain Stun": {
+      "name": "Gain Stun",
+      "description": "The weapon gains the Stun damage effect. If one or more Effects are rolled, the target loses their normal actions in their next turn."
+    },
+    "+2 DC on Sneak Attacks": {
+      "name": "+2 DC on Sneak Attacks",
+      "description": "When making a sneak attack with this weapon, the attack deals +2 DC additional damage."
+    },
+    "Gain Piercing 1": {
+      "name": "Gain Piercing 1",
+      "description": "The weapon gains the Piercing 1 damage effect. Ignore 1 point of the target's damage reduction for each Effect rolled."
+    },
+    "+X DC": {
+      "name": "+X DC",
+      "description": "Increases the weapon's damage rating by X DC."
+    }
+  },
+  "damageTypes": {
+    "Physical": {
+      "name": "Physical",
+      "description": "Damage inflicted by unarmed strikes, blunt or sharp objects, bullets, and the concussive force and shrapnel of explosions. Reduced by Physical Damage Resistance."
+    },
+    "Energy": {
+      "name": "Energy",
+      "description": "Damage commonly inflicted by fire, lasers, and plasma. Reduced by Energy Damage Resistance."
+    },
+    "Radiation": {
+      "name": "Radiation",
+      "description": "Damage that comes from exposure to radiation, such as from nuclear or irradiated weaponry. Reduced by Radiation Damage Resistance. Radiation damage also adds to the character's total radiation count."
+    },
+    "Poison": {
+      "name": "Poison",
+      "description": "Damage that comes from toxic substances and animal venoms. Reduced by Poison Damage Resistance."
+    },
+    "Physical/Energy": {
+      "name": "Physical/Energy",
+      "description": "Damage that can be either Physical or Energy, whichever results in lower damage after applying the target's Damage Resistance. The attacker chooses which type to apply."
+    }
+  },
+  "ranges": {
+    "close": {
+      "name": "Close",
+      "abbreviation": "C",
+      "description": "The weapon is most effective against targets within the same zone. Attacks at Close range against targets in the same zone have no range difficulty adjustment."
+    },
+    "medium": {
+      "name": "Medium",
+      "abbreviation": "M",
+      "description": "The weapon is most effective against targets in an adjacent zone. Attacks at Medium range against targets one zone away have no range difficulty adjustment."
+    },
+    "long": {
+      "name": "Long",
+      "abbreviation": "L",
+      "description": "The weapon is most effective against targets two zones away. Attacks at Long range against targets two zones away have no range difficulty adjustment."
+    },
+    "extreme": {
+      "name": "Extreme",
+      "abbreviation": "X",
+      "description": "The weapon is most effective against targets three or more zones away. Attacks at Extreme range against targets three or more zones away have no range difficulty adjustment."
+    }
+  },
+  "bodyLocations": {
+    "head": {
+      "name": "Head",
+      "description": "The head location. Protected by helmets and headgear. Critical hits to the head can cause severe injuries."
+    },
+    "torso": {
+      "name": "Torso",
+      "description": "The torso location. Protected by chest pieces. The most commonly targeted location in combat."
+    },
+    "arm": {
+      "name": "Arm",
+      "description": "An arm location (left or right). Protected by arm pieces. In the rules, 'Arm' can be worn on either the left or right arm as the player sees fit."
+    },
+    "leg": {
+      "name": "Leg",
+      "description": "A leg location (left or right). Protected by leg pieces. In the rules, 'Leg' can be worn on either the left or right leg as the player sees fit."
+    },
+    "arms": {
+      "name": "Arms",
+      "description": "Both arms. Covered by full-body clothing and outfits."
+    },
+    "legs": {
+      "name": "Legs",
+      "description": "Both legs. Covered by full-body clothing and outfits."
+    }
+  },
+  "chemDurations": {
+    "Instant": {
+      "name": "Instant",
+      "description": "The effect happens immediately and is over. No ongoing duration."
+    },
+    "Brief": {
+      "name": "Brief",
+      "description": "The effect lasts for a short period, typically until the end of the current combat encounter or a few turns."
+    },
+    "Lasting": {
+      "name": "Lasting",
+      "description": "The effect lasts for an extended period, typically several hours or the duration of a scene."
+    }
+  },
+  "chemAddiction": {
+    "addictionNum": {
+      "name": "Addiction Number",
+      "description": "When the chem's duration ends, roll this many DC. If any Effects are rolled, the character becomes addicted to the chem. Addicted characters suffer penalties until they take the chem again or successfully withdraw."
+    }
+  }
+}
