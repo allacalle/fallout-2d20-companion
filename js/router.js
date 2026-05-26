@@ -60,8 +60,13 @@ const Router = {
   },
 
   updateNav(activeRoute) {
+    const parentNav = {
+      'mods': 'weapons', 'calibers': 'weapons',
+      'armor-sets': 'armor', 'armor-mods': 'armor', 'clothing': 'armor', 'outfits': 'armor'
+    };
+    const navKey = parentNav[activeRoute] || activeRoute;
     document.querySelectorAll('#nav-list a').forEach(link => {
-      link.classList.toggle('active', link.dataset.nav === activeRoute);
+      link.classList.toggle('active', link.dataset.nav === navKey);
     });
   },
 

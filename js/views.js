@@ -31,76 +31,44 @@ const Views = {
   },
 
   home() {
-    const total = [
-      DataManager.getAll('weapons').length,
-      DataManager.getAll('mods').length,
-      DataManager.getAll('armor').length,
-      DataManager.getAll('armor-sets').length,
-      DataManager.getAll('armor-mods').length,
-      DataManager.getAll('clothing').length,
-      DataManager.getAll('outfits').length,
-      DataManager.getAll('consumables').length,
-      DataManager.getAll('perks').length,
-      DataManager.getAll('skills').length,
-      DataManager.getAll('calibers').length,
-    ].reduce((a, b) => a + b, 0);
-
-    const wCount = DataManager.getAll('weapons').length;
-    const mCount = DataManager.getAll('mods').length;
-    const aCount = DataManager.getAll('armor').length;
-    const asCount = DataManager.getAll('armor-sets').length;
-    const amCount = DataManager.getAll('armor-mods').length;
-    const cCount = DataManager.getAll('clothing').length;
-    const oCount = DataManager.getAll('outfits').length;
-    const coCount = DataManager.getAll('consumables').length;
-    const pCount = DataManager.getAll('perks').length;
-    const sCount = DataManager.getAll('skills').length;
-    const caCount = DataManager.getAll('calibers').length;
+    const count = (c) => DataManager.getAll(c).length;
+    const total = count('weapons') + count('mods') + count('armor') + count('armor-sets') +
+      count('armor-mods') + count('clothing') + count('outfits') + count('consumables') +
+      count('perks') + count('skills') + count('calibers');
 
     const effectCount = Object.values(DataManager.data.effects || {}).reduce((sum, cat) => {
       if (typeof cat === 'object' && !Array.isArray(cat)) return sum + Object.keys(cat).length;
       return sum;
     }, 0);
-    const craftingTotal = (DataManager.getAll('workbenches')?.length || 0) +
-      (DataManager.getAll('chem-recipes')?.length || 0) +
-      (DataManager.getAll('cooking-recipes')?.length || 0) +
-      (DataManager.getAll('power-armor-recipes')?.length || 0);
+    const craftingTotal = count('workbenches') + count('chem-recipes') + count('cooking-recipes') + count('power-armor-recipes');
+    const weaponsTotal = count('weapons') + count('mods');
 
     const sections = [
       {
-        label: 'Combat',
+        label: 'Equipment Registry',
         cards: [
-          { name: 'Weapons', count: wCount, route: 'weapons', desc: 'Firearms, melee, energy & explosives' },
-          { name: 'Weapon Mods', count: mCount, route: 'mods', desc: 'Barrels, grips, scopes & receivers' },
-          { name: 'Calibers', count: caCount, route: 'calibers', desc: 'Ammunition types with rarity & cost' },
+          { name: 'Weapons', count: count('weapons'), route: 'weapons', desc: 'Firearms, melee, energy & explosives with modular modifications', stamp: 'restricted' },
+          { name: 'Armor', count: count('armor'), route: 'armor', desc: 'Raider, metal, combat & synth pieces with full set configurations', stamp: 'approved' },
+          { name: 'Consumables', count: count('consumables'), route: 'consumables', desc: 'Chems, foods & drinks — experimental compounds under observation', stamp: 'experimental' },
         ]
       },
       {
-        label: 'Protection',
+        label: 'Personnel File',
         cards: [
-          { name: 'Armor', count: aCount, route: 'armor', desc: 'Raider, metal, combat & synth pieces' },
-          { name: 'Armor Sets', count: asCount, route: 'armor-sets', desc: 'Complete configured armor sets' },
-          { name: 'Armor Mods', count: amCount, route: 'armor-mods', desc: 'Ballistic weave, plating & utility' },
-          { name: 'Clothing', count: cCount, route: 'clothing', desc: 'Base garments for under-armor wear' },
-          { name: 'Outfits', count: oCount, route: 'outfits', desc: 'All-in-one outfits for any occasion' },
-        ]
-      },
-      {
-        label: 'Resources',
-        cards: [
-          { name: 'Consumables', count: coCount, route: 'consumables', desc: 'Chems, foods & drinks with effects' },
-          { name: 'Perks', count: pCount, route: 'perks', desc: 'Perks with ranks, requirements & effects' },
-          { name: 'Skills', count: sCount, route: 'skills', desc: 'Skills with associated attributes' },
+          { name: 'Perks', count: count('perks'), route: 'perks', desc: 'Character perks with ranks, attribute requirements & full effect descriptions', stamp: 'approved' },
+          { name: 'Skills', count: count('skills'), route: 'skills', desc: 'Core skills organized by governing SPECIAL attribute', stamp: 'approved' },
         ]
       },
       {
         label: 'Workshop',
         cards: [
-          { name: 'Crafting', count: craftingTotal, route: 'crafting', desc: 'Workbenches, recipes & material costs' },
-          { name: 'Effects', count: effectCount, route: 'effects', desc: 'Damage types, qualities, chem effects' },
+          { name: 'Crafting', count: craftingTotal, route: 'crafting', desc: 'Workbenches, chem/cooking/PA recipes with material costs & complexity', stamp: 'pending' },
+          { name: 'Effects', count: effectCount, route: 'effects', desc: 'Damage types, weapon qualities, chem effects & conditions glossary', stamp: 'restricted' },
         ]
       }
     ];
+
+    const stampHtml = (s) => s ? `<span class="vt-stamp vt-stamp--${s}">${s}</span>` : '';
 
     const sectionsHtml = sections.map(s => `
       <div class="home-section">
@@ -110,6 +78,7 @@ const Views = {
             <a href="#${c.route}" class="home-card">
               <div class="home-card-top">
                 <span class="home-card-count">${c.count}</span>
+                ${stampHtml(c.stamp)}
               </div>
               <div class="home-card-name">${c.name}</div>
               <div class="home-card-desc">${c.desc}</div>
@@ -123,20 +92,27 @@ const Views = {
       <div class="home-page">
         <div class="home-hero">
           <div class="home-badge">
-            <span class="home-badge-line">—</span>
+            <span class="home-badge-line"></span>
             VAULT-TEC® INDUSTRIES
-            <span class="home-badge-line">—</span>
+            <span class="home-badge-line"></span>
           </div>
-          <h1 class="home-title">Wasteland<br>Reference Terminal</h1>
-          <p class="home-subtitle">Fallout 2d20 RPG — ${total} indexed items across 12 databases</p>
-          <div class="home-specs">
-            <div class="home-spec"><span class="home-spec-val">${total}</span><span class="home-spec-lbl">Entries</span></div>
-            <div class="home-spec"><span class="home-spec-val">12</span><span class="home-spec-lbl">Categories</span></div>
-            <div class="home-spec"><span class="home-spec-val">${DataManager.getAll('weapons').length + DataManager.getAll('mods').length}</span><span class="home-spec-lbl">Weapons</span></div>
-            <div class="home-spec"><span class="home-spec-val">${DataManager.getAll('consumables').length}</span><span class="home-spec-lbl">Consumables</span></div>
-          </div>
+          <h1 class="home-title">Database Terminal</h1>
+          <p class="home-subtitle">${total} items · 12 databases · ${weaponsTotal} weapons · ${craftingTotal} recipes</p>
         </div>
         ${sectionsHtml}
+      </div>
+    `;
+  },
+
+  tabs(active, items) {
+    return `
+      <div class="vt-tabs">
+        ${items.map(t => `
+          <a href="#${t.route}" class="vt-tab ${t.route === active ? 'active' : ''}">
+            ${t.label}
+            ${t.count !== undefined ? `<span class="vt-tab-count">${t.count}</span>` : ''}
+          </a>
+        `).join('')}
       </div>
     `;
   },
@@ -159,10 +135,10 @@ const Views = {
         html += `
           <table>
             <tr class="category-header" onclick="this.classList.toggle('open'); this.nextElementSibling.classList.toggle('hidden');">
-              <th colspan="${columns.length}">${group} (${groupItems.length})</th>
-            </tr>
-            <tr class="category-rows">
-              <td colspan="${columns.length}">
+          <th colspan="${columns.length}"><span class="cat-arrow">▶</span> ${group} (${groupItems.length})</th>
+        </tr>
+        <tr class="category-rows hidden">
+          <td colspan="${columns.length}">
                 <table>
                   <thead><tr>${columns.map(c => `<th>${c.label}</th>`).join('')}</tr></thead>
                   <tbody>
@@ -207,10 +183,10 @@ const Views = {
       html += `
         <table>
           <tr class="category-header" onclick="this.classList.toggle('open'); this.nextElementSibling.classList.toggle('hidden');">
-            <th colspan="${columns.length}">${group} (${groupItems.length})</th>
-          </tr>
-          <tr class="category-rows">
-            <td colspan="${columns.length}">
+          <th colspan="${columns.length}"><span class="cat-arrow">▶</span> ${group} (${groupItems.length})</th>
+        </tr>
+        <tr class="category-rows hidden">
+          <td colspan="${columns.length}">
               <table>
                 <thead><tr>${columns.map(c => `<th>${c.label}</th>`).join('')}</tr></thead>
                 <tbody>
@@ -257,10 +233,10 @@ const Views = {
       html += `
         <table>
           <tr class="category-header" onclick="this.classList.toggle('open'); this.nextElementSibling.classList.toggle('hidden');">
-            <th colspan="2">${category} (${Object.keys(items).length})</th>
-          </tr>
-          <tr class="category-rows">
-            <td colspan="2">
+          <th colspan="2"><span class="cat-arrow">▶</span> ${category} (${Object.keys(items).length})</th>
+        </tr>
+        <tr class="category-rows hidden">
+          <td colspan="2">
               <table>
                 <thead><tr><th>Name</th><th>Description</th></tr></thead>
                 <tbody>

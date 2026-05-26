@@ -13,7 +13,7 @@ const App = {
     this.setupRoutes();
     this.setupSearch();
     this.setupMenu();
-    this.setupScrollTop();
+    this.setupHomeBtn();
     Router.init();
   },
 
@@ -128,12 +128,38 @@ const App = {
     return labels[r] || r;
   },
 
+  repairMaterials(rarity) {
+    const table = DataManager.data.components?.repairTable || [];
+    const r = Number(rarity);
+    const entry = table.find(e => {
+      const v = e.rarity;
+      if (v.endsWith('+')) return r >= Number(v);
+      if (v.includes('-')) { const [lo, hi] = v.split('-'); return r >= Number(lo) && r <= Number(hi); }
+      return String(r) === v;
+    });
+    return entry ? entry.materials : '—';
+  },
+
   setupRoutes() {
     Router.register('home', () => {
       Views.render(Views.home());
     });
 
     // ===== WEAPONS =====
+    const weaponTabs = () => Views.tabs(Router.currentRoute?.route || 'weapons', [
+      { label: 'Weapons', route: 'weapons', count: DataManager.getAll('weapons').length },
+      { label: 'Mods', route: 'mods', count: DataManager.getAll('mods').length },
+      { label: 'Calibers', route: 'calibers', count: DataManager.getAll('calibers').length },
+    ]);
+
+    const armorTabs = () => Views.tabs(Router.currentRoute?.route || 'armor', [
+      { label: 'Armor', route: 'armor', count: DataManager.getAll('armor').length },
+      { label: 'Sets', route: 'armor-sets', count: DataManager.getAll('armor-sets').length },
+      { label: 'Mods', route: 'armor-mods', count: DataManager.getAll('armor-mods').length },
+      { label: 'Clothing', route: 'clothing', count: DataManager.getAll('clothing').length },
+      { label: 'Outfits', route: 'outfits', count: DataManager.getAll('outfits').length },
+    ]);
+
     Router.register('weapons', (id, params) => {
       if (id) {
         const w = DataManager.getById('weapons', id);
@@ -141,6 +167,7 @@ const App = {
 
         Views.render(`
           ${Views.backLink('weapons', params)}
+          ${weaponTabs()}
           <div class="detail-view">
             <h2>${w.name}</h2>
             <div class="field"><span class="label">Type:</span> <span class="value">${w.weaponType}</span></div>
@@ -179,6 +206,7 @@ const App = {
         weaponFilterConfig[0].options = typeOptions;
         App.saveListState('weapons', params);
         Views.render(`
+          ${weaponTabs()}
           ${Views.filterBar(weaponFilterConfig, params, 'weapons')}
           ${Views.groupedTable(sorted, 'Weapons', [
             { label: 'Name', key: 'name', render: (v, i) => Views.link('weapons', i.id, v) },
@@ -217,6 +245,7 @@ const App = {
             <div class="field"><span class="label">Skill:</span> <span class="value">${m.skill ? Views.link('skills', m.skill, m.skill) : '—'}</span></div>
             <div class="field"><span class="label">Complexity:</span> <span class="value">${m.complexity}</span></div>
             <div class="field"><span class="label">Rarity:</span> <span class="value">${m.rarity}</span></div>
+            <div class="field"><span class="label">Repair Materials:</span> <span class="value">${this.repairMaterials(m.rarity)}</span></div>
             <div class="field"><span class="label">Required Perks:</span> <span class="value">${perks || '—'}</span></div>
             <div class="field"><span class="label">Compatible Weapons:</span> <span class="value">${compatibleWeapons.length ? compatibleWeapons.map(w => Views.link('weapons', w.id, w.name)).join(', ') : 'Check weapon parts'}</span></div>
           </div>
@@ -238,6 +267,7 @@ const App = {
         modFilterConfig[0].options = Views.uniqueOptions(all, 'partType');
         App.saveListState('mods', params);
         Views.render(`
+          ${weaponTabs()}
           ${Views.filterBar(modFilterConfig, params, 'mods')}
           ${Views.groupedTable(sorted, 'Weapon Mods', [
             { label: 'Name', key: 'name', render: (v, i) => Views.link('mods', i.id, v) },
@@ -304,6 +334,7 @@ const App = {
         armorFilterConfig[2].options = Views.uniqueOptions(all, 'variant');
         App.saveListState('armor', params);
         Views.render(`
+          ${armorTabs()}
           ${Views.filterBar(armorFilterConfig, params, 'armor')}
           ${Views.groupedTable(sorted, 'Armor Pieces', [
             { label: 'Name', key: 'name', render: (v, i) => Views.link('armor', i.id, v) },
@@ -352,6 +383,7 @@ const App = {
         asFilterConfig[0].options = Views.uniqueOptions(all, 'armorClass');
         App.saveListState('armor-sets', params);
         Views.render(`
+          ${armorTabs()}
           ${Views.filterBar(asFilterConfig, params, 'armor-sets')}
           ${Views.groupedTable(sorted, 'Armor Sets', [
             { label: 'Name', key: 'name', render: (v, i) => Views.link('armor-sets', i.id, v) },
@@ -383,6 +415,7 @@ const App = {
             <div class="field"><span class="label">Skill:</span> <span class="value">${m.skill ? Views.link('skills', m.skill, m.skill) : '—'}</span></div>
             <div class="field"><span class="label">Complexity:</span> <span class="value">${m.complexity}</span></div>
             <div class="field"><span class="label">Rarity:</span> <span class="value">${m.rarity}</span></div>
+            <div class="field"><span class="label">Repair Materials:</span> <span class="value">${this.repairMaterials(m.rarity)}</span></div>
             <div class="field"><span class="label">Required Perks:</span> <span class="value">${perks || '—'}</span></div>
             ${m.locationRestriction ? `<div class="field"><span class="label">Location:</span> <span class="value">${m.locationRestriction} only</span></div>` : ''}
           </div>
@@ -404,6 +437,7 @@ const App = {
         amFilterConfig[0].options = Views.uniqueOptions(all, 'type');
         App.saveListState('armor-mods', params);
         Views.render(`
+          ${armorTabs()}
           ${Views.filterBar(amFilterConfig, params, 'armor-mods')}
           ${Views.groupedTable(sorted, 'Armor Mods', [
             { label: 'Name', key: 'name', render: (v, i) => Views.link('armor-mods', i.id, v) },
@@ -459,6 +493,7 @@ const App = {
         const sorted = Views.applySort(filtered, params.sort, params.order);
         App.saveListState('clothing', params);
         Views.render(`
+          ${armorTabs()}
           ${Views.filterBar(clothingFilterConfig, params, 'clothing')}
           ${Views.groupedTable(sorted, 'Clothing', [
             { label: 'Name', key: 'name', render: (v, i) => Views.link('clothing', i.id, v) },
@@ -513,6 +548,7 @@ const App = {
         const sorted = Views.applySort(filtered, params.sort, params.order);
         App.saveListState('outfits', params);
         Views.render(`
+          ${armorTabs()}
           ${Views.filterBar(outfitsFilterConfig, params, 'outfits')}
           ${Views.groupedTable(sorted, 'Outfits', [
             { label: 'Name', key: 'name', render: (v, i) => Views.link('outfits', i.id, v) },
@@ -533,6 +569,10 @@ const App = {
         const c = DataManager.getById('consumables', id);
         if (!c) { Views.render(`<h2>Not Found</h2>`); return; }
 
+        const recipeInfo = DataManager.getRecipeForItem(c.name);
+        const usedIn = DataManager.getRecipesByIngredient(c.name);
+        const routeForRecipe = (col) => col === 'chem-recipes' ? 'crafting/chem-recipes' : 'crafting/cooking-recipes';
+
         Views.render(`
           ${Views.backLink('consumables', params)}
           <div class="detail-view">
@@ -545,6 +585,18 @@ const App = {
             <div class="field"><span class="label">Cost:</span> <span class="value">${c.cost} caps</span></div>
             <div class="field"><span class="label">Rarity:</span> <span class="value">${c.rarity}</span></div>
           </div>
+          ${recipeInfo ? `<h3>Crafting Recipe</h3>${this.renderRecipeInline(recipeInfo.recipe, recipeInfo.collection)}` : ''}
+          ${usedIn.length ? `
+            <h3>Used in Recipes</h3>
+            <div class="used-in-grid">
+              ${usedIn.map(u => `
+                <div class="used-in-card">
+                  <a class="clickable" href="#${routeForRecipe(u.collection)}/${u.recipe.id}">${u.recipe.name}</a>
+                  <span class="used-in-type">${u.collection === 'chem-recipes' ? 'Chemistry' : 'Cooking'}</span>
+                </div>
+              `).join('')}
+            </div>
+          ` : ''}
         `);
       } else {
         const all = DataManager.getAll('consumables');
@@ -575,6 +627,12 @@ const App = {
             { label: 'Name', key: 'name', render: (v, i) => Views.link('consumables', i.id, v) },
             { label: 'Effects', key: 'effects' },
             { label: 'Duration', key: 'duration' },
+            { label: 'Recipe', key: 'name', render: (v, i) => {
+              const ri = DataManager.getRecipeForItem(i.name);
+              if (!ri) return '—';
+              const route = ri.collection === 'chem-recipes' ? 'crafting/chem-recipes' : 'crafting/cooking-recipes';
+              return Views.link(route, ri.recipe.id, 'View Recipe');
+            }},
             { label: 'Addictive', key: 'addictive', render: (v, i) => v ? `Yes (DC ${i.addictionNum})` : 'No' },
             { label: 'Weight', key: 'weight' },
             { label: 'Cost', key: 'cost' },
@@ -613,17 +671,53 @@ const App = {
         const filtered = Views.applyFilters(all, params, perksFilterConfig);
         const sorted = Views.applySort(filtered, params.sort, params.order);
         App.saveListState('perks', params);
+
+        const groups = {};
+        sorted.forEach(perk => {
+          const attrs = Object.keys(perk.requirements || {});
+          if (!attrs.length) {
+            if (!groups['None']) groups['None'] = [];
+            groups['None'].push(perk);
+            return;
+          }
+          attrs.forEach(attr => {
+            if (!groups[attr]) groups[attr] = [];
+            groups[attr].push(perk);
+          });
+        });
+
+        const columns = [
+          { label: 'Name', key: 'name', render: (v, i) => Views.link('perks', i.id, v) },
+          { label: 'Ranks', key: 'ranks' },
+          { label: 'Requirements', key: 'requirements', render: (v) => v ? Object.entries(v).map(([a, b]) => `${a} ${b}`).join(', ') : '—' },
+          { label: 'Rank 1 Effect', key: 'effects', render: (v) => v ? (v['1'] || v[1] || '').substring(0, 100) : '—' },
+        ];
+
+        let perksHtml = `<h2>Perks (${sorted.length})</h2>`;
+        Object.keys(groups).sort().forEach(group => {
+          const groupItems = groups[group];
+          perksHtml += `
+            <table>
+              <tr class="category-header" onclick="this.classList.toggle('open'); this.nextElementSibling.classList.toggle('hidden');">
+              <th colspan="${columns.length}"><span class="cat-arrow">▶</span> ${group} (${groupItems.length})</th>
+            </tr>
+            <tr class="category-rows hidden">
+              <td colspan="${columns.length}">
+                  <table>
+                    <thead><tr>${columns.map(c => `<th>${c.label}</th>`).join('')}</tr></thead>
+                    <tbody>
+                      ${groupItems.map(item => `<tr>${columns.map(c => `<td>${c.render ? c.render(item[c.key] !== undefined ? item[c.key] : item, item) : Views.fmt(item[c.key])}</td>`).join('')}</tr>`).join('')}
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          `;
+        });
+
         Views.render(`
           ${Views.filterBar(perksFilterConfig, params, 'perks')}
-          ${Views.groupedTable(sorted, 'Perks', [
-            { label: 'Name', key: 'name', render: (v, i) => Views.link('perks', i.id, v) },
-            { label: 'Ranks', key: 'ranks' },
-            { label: 'Requirements', key: 'requirements', render: (v) => v ? Object.entries(v).map(([a, b]) => `${a} ${b}`).join(', ') : '—' },
-            { label: 'Rank 1 Effect', key: 'effects', render: (v) => v ? (v['1'] || v[1] || '').substring(0, 100) : '—' },
-          ], item => {
-            const keys = Object.keys(item.requirements || {}).sort();
-            return keys.length ? keys.join('+') : 'None';
-          })}
+          ${perksHtml}
         `);
       }
     });
@@ -698,6 +792,7 @@ const App = {
         const sorted = Views.applySort(filtered, params.sort, params.order);
         App.saveListState('calibers', params);
         Views.render(`
+          ${weaponTabs()}
           ${Views.filterBar(calibersFilterConfig, params, 'calibers')}
           <h2>Calibers (${sorted.length})</h2>
           <table>
@@ -807,7 +902,7 @@ Views.render(this.workbenchDetail());
   },
 
   materialsReference() {
-    const components = DataManager.getAll('components') || [];
+    const components = DataManager.data.components?.tiers || [];
     const complexityTable = DataManager.data.components?.complexityTable || [];
     const repairTable = DataManager.data.components?.repairTable || [];
 
@@ -851,17 +946,70 @@ Views.render(this.workbenchDetail());
     return html;
   },
 
+  renderRecipeInline(recipe, collection) {
+    const linkIngredient = (ing) => {
+      const parsed = DataManager.parseIngredient(ing);
+      if (parsed) {
+        const item = DataManager.findConsumableByName(parsed.name);
+        if (item) {
+          return `<a class="clickable" href="#consumables/${item.id}">${parsed.name}</a> ×${parsed.quantity}`;
+        }
+        const component = DataManager.findComponentByName(parsed.name);
+        if (component) {
+          return `<a class="clickable" href="#crafting/materials">${parsed.name}</a> ×${parsed.quantity}`;
+        }
+      }
+      return ing;
+    };
+
+    const group = collection === 'chem-recipes' ? 'crafting/chem-recipes' :
+                  collection === 'cooking-recipes' ? 'crafting/cooking-recipes' : 'crafting/power-armor-recipes';
+
+    return `
+      <div class="recipe-inline">
+        <div class="field"><span class="label">Recipe:</span> <span class="value"><a class="clickable" href="#${group}/${recipe.id}">${recipe.name}</a></span></div>
+        ${recipe.ingredients ? `<div class="field"><span class="label">Ingredients:</span> <span class="value">${recipe.ingredients.map(linkIngredient).join(', ')}</span></div>` : ''}
+        <div class="field"><span class="label">Complexity:</span> <span class="value">${recipe.complexity || '—'}</span></div>
+        <div class="field"><span class="label">Skill:</span> <span class="value">${recipe.skill || '—'}</span></div>
+        <div class="field"><span class="label">Perks:</span> <span class="value">${(recipe.perks || []).join(', ') || '—'}</span></div>
+        ${recipe.workbench ? `<div class="field"><span class="label">Workbench:</span> <span class="value">${recipe.workbench}</span></div>` : ''}
+      </div>
+    `;
+  },
+
   recipeDetail(collection, id) {
     const r = DataManager.getById(collection, id);
     if (!r) return `<h2>Not Found</h2>`;
     const group = collection === 'chem-recipes' ? 'crafting/chem-recipes' :
                   collection === 'cooking-recipes' ? 'crafting/cooking-recipes' : 'crafting/power-armor-recipes';
+
+    const producedItem = DataManager.findConsumableByName(r.name);
+    const producedItemHtml = producedItem
+      ? `<div class="field"><span class="label">Crafted Item:</span> <span class="value">${Views.link('consumables', producedItem.id, producedItem.name)}</span></div>`
+      : '';
+
+    const linkIngredient = (ing) => {
+      const parsed = DataManager.parseIngredient(ing);
+      if (parsed) {
+        const item = DataManager.findConsumableByName(parsed.name);
+        if (item) {
+          return `<a class="clickable" href="#consumables/${item.id}">${parsed.name}</a> ×${parsed.quantity}`;
+        }
+        const component = DataManager.findComponentByName(parsed.name);
+        if (component) {
+          return `<a class="clickable" href="#crafting/materials">${parsed.name}</a> ×${parsed.quantity}`;
+        }
+      }
+      return ing;
+    };
+
     return `
       ${Views.backLink(group)}
       <div class="detail-view">
         <h2>${r.name}</h2>
+        ${producedItemHtml}
         <div class="field"><span class="label">Type:</span> <span class="value">${r.recipeType || '—'}</span></div>
-        <div class="field"><span class="label">Ingredients:</span> <span class="value">${(r.ingredients || []).join(', ')}</span></div>
+        <div class="field"><span class="label">Ingredients:</span> <span class="value">${(r.ingredients || []).map(linkIngredient).join(', ')}</span></div>
         <div class="field"><span class="label">Complexity:</span> <span class="value">${r.complexity || '—'}</span></div>
         <div class="field"><span class="label">Skill:</span> <span class="value">${r.skill || '—'}</span></div>
         <div class="field"><span class="label">Perks:</span> <span class="value">${(r.perks || []).join(', ') || '—'}</span></div>
@@ -880,14 +1028,18 @@ Views.render(this.workbenchDetail());
       ${Views.backLink('crafting')}
       <h2>Chemistry Station Recipes (${recipes.length})</h2>
       <table>
-        <thead><tr><th>Name</th><th>Type</th><th>Ingredients</th><th>Workbench</th></tr></thead>
+        <thead><tr><th>Name</th><th>Produces</th><th>Type</th><th>Ingredients</th><th>Workbench</th></tr></thead>
         <tbody>
-          ${recipes.map(r => `<tr>
-            <td><a class="clickable" href="#crafting/chem-recipes/${r.id}">${r.name}</a></td>
-            <td>${r.recipeType || 'chem'}</td>
-            <td>${(r.ingredients || []).join(', ')}</td>
-            <td>${r.workbench || 'Chemistry Station'}</td>
-          </tr>`).join('')}
+          ${recipes.map(r => {
+            const item = DataManager.findConsumableByName(r.name);
+            return `<tr>
+              <td><a class="clickable" href="#crafting/chem-recipes/${r.id}">${r.name}</a></td>
+              <td>${item ? Views.link('consumables', item.id, item.name) : '—'}</td>
+              <td>${r.recipeType || 'chem'}</td>
+              <td>${(r.ingredients || []).join(', ')}</td>
+              <td>${r.workbench || 'Chemistry Station'}</td>
+            </tr>`;
+          }).join('')}
         </tbody>
       </table>
     `;
@@ -900,14 +1052,18 @@ Views.render(this.workbenchDetail());
       ${Views.backLink('crafting')}
       <h2>Cooking Station Recipes (${recipes.length})</h2>
       <table>
-        <thead><tr><th>Name</th><th>Type</th><th>Ingredients</th><th>Description</th></tr></thead>
+        <thead><tr><th>Name</th><th>Produces</th><th>Type</th><th>Ingredients</th><th>Description</th></tr></thead>
         <tbody>
-          ${recipes.map(r => `<tr>
-            <td><a class="clickable" href="#crafting/cooking-recipes/${r.id}">${r.name}</a></td>
-            <td>${r.recipeType || 'food'}</td>
-            <td>${(r.ingredients || []).join(', ')}</td>
-            <td>${(r.description || '').substring(0, 100)}</td>
-          </tr>`).join('')}
+          ${recipes.map(r => {
+            const item = DataManager.findConsumableByName(r.name);
+            return `<tr>
+              <td><a class="clickable" href="#crafting/cooking-recipes/${r.id}">${r.name}</a></td>
+              <td>${item ? Views.link('consumables', item.id, item.name) : '—'}</td>
+              <td>${r.recipeType || 'food'}</td>
+              <td>${(r.ingredients || []).join(', ')}</td>
+              <td>${(r.description || '').substring(0, 100)}</td>
+            </tr>`;
+          }).join('')}
         </tbody>
       </table>
     `;
@@ -995,20 +1151,19 @@ Views.render(this.workbenchDetail());
     });
   },
 
-  setupScrollTop() {
-    const btn = document.getElementById('scroll-top');
-    const content = document.getElementById('content');
+  setupHomeBtn() {
+    const btn = document.getElementById('home-btn');
+    if (!btn) return;
 
-    content.addEventListener('scroll', () => {
-      btn.classList.toggle('visible', content.scrollTop > 300);
-    });
-    window.addEventListener('scroll', () => {
-      btn.classList.toggle('visible', window.scrollY > 300);
-    });
-    btn.addEventListener('click', () => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-      content.scrollTo({ top: 0, behavior: 'smooth' });
-    });
+    const check = () => {
+      const route = Router.currentRoute?.route || window.location.hash.slice(1) || 'home';
+      btn.classList.toggle('visible', route !== 'home');
+    };
+
+    window.addEventListener('hashchange', check);
+    document.getElementById('content').addEventListener('scroll', check);
+    window.addEventListener('scroll', check);
+    check();
   }
 };
 

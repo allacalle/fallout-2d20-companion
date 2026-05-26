@@ -31,6 +31,7 @@ const DataManager = {
 
     await Promise.all([...promises, ...craftingPromises]);
     this.buildLookups();
+    this.buildRecipeLookups();
     this.loaded = true;
   },
 
@@ -49,6 +50,64 @@ const DataManager = {
     });
 
     this.lookups.effects = this.data.effects || {};
+  },
+
+  buildRecipeLookups() {
+    this.recipeByProducedName = {};
+    this.consumableByName = {};
+
+    ['chem-recipes', 'cooking-recipes'].forEach(collection => {
+      (this.data[collection] || []).forEach(recipe => {
+        const key = recipe.name.toLowerCase();
+        if (!this.recipeByProducedName[key]) {
+          this.recipeByProducedName[key] = [];
+        }
+        this.recipeByProducedName[key].push({ recipe, collection });
+      });
+    });
+
+    (this.data.consumables || []).forEach(item => {
+      this.consumableByName[item.name.toLowerCase()] = item;
+    });
+  },
+
+  getRecipeForItem(itemName) {
+    const key = itemName.toLowerCase();
+    const matches = this.recipeByProducedName[key];
+    return matches && matches.length ? matches[0] : null;
+  },
+
+  findConsumableByName(name) {
+    return this.consumableByName[name.toLowerCase()] || null;
+  },
+
+  findComponentByName(name) {
+    const tiers = this.data.components?.tiers || [];
+    return tiers.find(c => c.name.toLowerCase() === name.toLowerCase()) || null;
+  },
+
+  getRecipesByIngredient(itemName) {
+    const results = [];
+    const seen = new Set();
+    const q = itemName.toLowerCase();
+    ['chem-recipes', 'cooking-recipes'].forEach(collection => {
+      (this.data[collection] || []).forEach(recipe => {
+        (recipe.ingredients || []).forEach(ing => {
+          const parsed = this.parseIngredient(ing);
+          if (parsed && parsed.name.toLowerCase() === q && !seen.has(recipe.id)) {
+            seen.add(recipe.id);
+            results.push({ recipe, collection });
+          }
+        });
+      });
+    });
+    return results;
+  },
+
+  parseIngredient(ingredientStr) {
+    const m = ingredientStr.match(/^(.+?)\s*[×x]\s*(.+)$/);
+    if (m) return { name: m[1].trim(), quantity: m[2].trim() };
+    return null;
   },
 
   getById(collection, id) {
