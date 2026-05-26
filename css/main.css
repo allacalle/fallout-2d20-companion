@@ -1002,14 +1002,24 @@ tbody tr:last-child td { border-bottom: none; }
   #logo { font-size: 0.9rem; }
   #logo::before { width: 18px; height: 18px; }
   #search-container { max-width: 100%; }
-  table { font-size: 0.75rem; }
-  th, td { padding: 0.3rem 0.4rem; }
+
+  table { font-size: 0.75rem; display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; white-space: nowrap; }
+  th, td { padding: 0.3rem 0.4rem; white-space: normal; }
   th { white-space: normal; }
+
   .mod-grid { grid-template-columns: 1fr; }
   .detail-view .label { min-width: 80px; }
-  #nav-list li a { padding: 0.6rem 1rem; font-size: var(--vt-text-base); }
-  .filter-select { font-size: var(--vt-text-base); padding: 0.4rem 0.5rem; }
-  .back-btn { font-size: var(--vt-text-base); padding: 0.4rem 0.75rem; }
+  .detail-view .value { word-break: break-word; }
+
+  #nav-list li a { padding: 0.75rem 1rem; font-size: var(--vt-text-base); min-height: 44px; display: flex; align-items: center; }
+
+  .filter-select { font-size: var(--vt-text-base); padding: 0.6rem 0.5rem; min-height: 44px; }
+
+  .back-btn { font-size: var(--vt-text-base); padding: 0.6rem 0.75rem; min-height: 44px; display: inline-flex; align-items: center; }
+
+  .home-card { padding: 0.75rem; }
+  .home-card-name { font-size: 0.85rem; }
+  .home-card-count { font-size: var(--vt-text-xl); }
 }
 
 /* ===== PHASE 2: GRID PATTERNS ===== */
@@ -1279,4 +1289,10 @@ tbody tr:last-child td { border-bottom: none; }
   .vt-dossier__title { font-size: var(--vt-text-2xl); }
   .vt-dossier__header { padding: var(--vt-space-4); }
   .vt-dossier__body { padding: var(--vt-space-4); }
+}
+
+/* Bottom spacing for home button */
+#content { padding-bottom: 5rem; }
+@media (max-width: 768px) {
+  #content { padding-bottom: 5rem; }
 }
