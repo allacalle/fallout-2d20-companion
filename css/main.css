@@ -819,13 +819,9 @@ tbody tr:last-child td { border-bottom: none; }
   margin-bottom: 0.75rem;
 }
 
-.home-card-count {
-  font-family: var(--vt-font-mono);
-  font-size: var(--vt-text-2xl);
-  font-weight: 700;
-  color: var(--vt-green-400);
+.home-card-icon {
+  font-size: 2.5rem;
   line-height: 1;
-  text-shadow: 0 0 10px rgba(74, 222, 128, 0.1);
 }
 
 .home-card-name {
@@ -1019,7 +1015,7 @@ tbody tr:last-child td { border-bottom: none; }
 
   .home-card { padding: 0.75rem; }
   .home-card-name { font-size: 0.85rem; }
-  .home-card-count { font-size: var(--vt-text-xl); }
+
 }
 
 /* ===== PHASE 2: GRID PATTERNS ===== */

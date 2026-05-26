@@ -47,23 +47,23 @@ const Views = {
       {
         label: 'Equipment Registry',
         cards: [
-          { name: 'Weapons', count: count('weapons'), route: 'weapons', desc: 'Firearms, melee, energy & explosives with modular modifications', stamp: 'restricted' },
-          { name: 'Armor', count: count('armor'), route: 'armor', desc: 'Raider, metal, combat & synth pieces with full set configurations', stamp: 'approved' },
-          { name: 'Consumables', count: count('consumables'), route: 'consumables', desc: 'Chems, foods & drinks — experimental compounds under observation', stamp: 'experimental' },
+          { name: 'Weapons', icon: '⚔️', route: 'weapons', desc: 'Firearms, melee, energy & explosives with modular modifications', stamp: 'restricted' },
+          { name: 'Armor', icon: '🛡️', route: 'armor', desc: 'Raider, metal, combat & synth pieces with full set configurations', stamp: 'approved' },
+          { name: 'Consumables', icon: '💊', route: 'consumables', desc: 'Chems, foods & drinks — experimental compounds under observation', stamp: 'experimental' },
         ]
       },
       {
         label: 'Personnel File',
         cards: [
-          { name: 'Perks', count: count('perks'), route: 'perks', desc: 'Character perks with ranks, attribute requirements & full effect descriptions', stamp: 'approved' },
-          { name: 'Skills', count: count('skills'), route: 'skills', desc: 'Core skills organized by governing SPECIAL attribute', stamp: 'approved' },
+          { name: 'Perks', icon: '⭐', route: 'perks', desc: 'Character perks with ranks, attribute requirements & full effect descriptions', stamp: 'approved' },
+          { name: 'Skills', icon: '🎯', route: 'skills', desc: 'Core skills organized by governing SPECIAL attribute', stamp: 'approved' },
         ]
       },
       {
         label: 'Workshop',
         cards: [
-          { name: 'Crafting', count: craftingTotal, route: 'crafting', desc: 'Workbenches, chem/cooking/PA recipes with material costs & complexity', stamp: 'pending' },
-          { name: 'Effects', count: effectCount, route: 'effects', desc: 'Damage types, weapon qualities, chem effects & conditions glossary', stamp: 'restricted' },
+          { name: 'Crafting', icon: '🔧', route: 'crafting', desc: 'Workbenches, chem/cooking/PA recipes with material costs & complexity', stamp: 'pending' },
+          { name: 'Effects', icon: '☢️', route: 'effects', desc: 'Damage types, weapon qualities, chem effects & conditions glossary', stamp: 'restricted' },
         ]
       }
     ];
@@ -77,7 +77,7 @@ const Views = {
           ${s.cards.map(c => `
             <a href="#${c.route}" class="home-card">
               <div class="home-card-top">
-                <span class="home-card-count">${c.count}</span>
+                <span class="home-card-icon">${c.icon}</span>
                 ${stampHtml(c.stamp)}
               </div>
               <div class="home-card-name">${c.name}</div>
