@@ -1,0 +1,6 @@
+[
+  {"id":"dog_helmet","name":"Dog Helmet","covers":["head"],"physicalDR":2,"energyDR":1,"radiationDR":0,"weight":1,"cost":7,"rarity":2},
+  {"id":"light_dog_armor","name":"Light Dog Armor","covers":["torso","legs"],"physicalDR":1,"energyDR":1,"radiationDR":0,"weight":1,"cost":10,"rarity":1},
+  {"id":"medium_dog_armor","name":"Medium Dog Armor","covers":["torso","legs"],"physicalDR":2,"energyDR":2,"radiationDR":0,"weight":2,"cost":15,"rarity":2},
+  {"id":"heavy_dog_armor","name":"Heavy Dog Armor","covers":["torso","legs"],"physicalDR":3,"energyDR":3,"radiationDR":0,"weight":2,"cost":20,"rarity":3}
+]

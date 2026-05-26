@@ -1,0 +1,577 @@
+[
+  {
+    "id": "la_fantoma",
+    "name": "¡La Fantoma!",
+    "description": "An issue of a pre-War comic book, detailing the adventures of ¡La Fantoma!, a master of stealth and infiltration.",
+    "perk": "When you succeed at a Sneak test to avoid notice, you may spend 1 AP to create a distraction somewhere within Medium range; the character who failed the opposed test to detect you heads towards the distraction you created. If you learn this perk, you may use it once per scene."
+  },
+  {
+    "id": "astoundingly_awesome_tales",
+    "name": "Astoundingly Awesome Tales",
+    "description": "A magazine containing thrilling short stories of daring adventure!",
+    "perk": "Depending on the individual issue found, you receive a different perk, granting bonus damage or bonus damage resistance against a single foe or type of attack. This lasts only for a single attack (made or received, respectively), unless the perk is learned, in which case it applies to all attacks.",
+    "issues": [
+      {
+        "d20": "1-2",
+        "issue": "Attack of the Fishmen!",
+        "effect": "+1 CD on attacks vs mirelurk"
+      },
+      {
+        "d20": "3-4",
+        "issue": "Rise of the Mutants!",
+        "effect": "+1 CD on attacks vs super mutants"
+      },
+      {
+        "d20": "5-6",
+        "issue": "Attack of the Metal Men!",
+        "effect": "+2 to Physical and Energy damage resistances vs Robots"
+      },
+      {
+        "d20": "7-8",
+        "issue": "The Mad Russian's Revenge!",
+        "effect": "+2 to Poison damage resistance"
+      },
+      {
+        "d20": "9-10",
+        "issue": "The Starlet Sniper!",
+        "effect": "+1 CD on attacks with Accurate weapons"
+      },
+      {
+        "d20": "11-12",
+        "issue": "Curse of the Burned!",
+        "effect": "+1 CD on attacks vs Ghouls"
+      },
+      {
+        "d20": "13-14",
+        "issue": "Giant Insects Invade!",
+        "effect": "+2 to Radiation damage resistance"
+      },
+      {
+        "d20": "15-16",
+        "issue": "Deadly Lasers!",
+        "effect": "+1 CD on attacks with Energy weapons"
+      },
+      {
+        "d20": "17-18",
+        "issue": "Science Gone Mad!",
+        "effect": "+2 to Energy damage resistance"
+      },
+      {
+        "d20": "19-20",
+        "issue": "Surrounded by the Dead!",
+        "effect": "+1 CD on attacks where you spend one or more Ammunition for bonus damage"
+      }
+    ]
+  },
+  {
+    "id": "backwoodsman",
+    "name": "Backwoodsman",
+    "description": "Thrilling, true stories for rugged men! Backwoodsman is a magazine series containing articles and stories about outdoor survival.",
+    "perk": "Depending on the individual issue found, you receive a different perk, which you may benefit from once. If you later learn the perk, you may use that benefit once per scene.",
+    "issues": [
+      {
+        "d20": "1-2",
+        "issue": "Get Off My Lawn",
+        "effect": "Find twice as much meat from a butchered creature"
+      },
+      {
+        "d20": "3-4",
+        "issue": "Down Home Cookin'",
+        "effect": "Add +2 CD damage to a Thrown weapon attack (other than an Explosive)"
+      },
+      {
+        "d20": "5-6",
+        "issue": "Homesteading Horror",
+        "effect": "Reduce the difficulty of crafting a weapon by 1 (min. of 0)"
+      },
+      {
+        "d20": "7-8",
+        "issue": "Hardy as a Sasquatch",
+        "effect": "When scavenging from plants, gain twice as much"
+      },
+      {
+        "d20": "9-10",
+        "issue": "Carnivorous Rabbits of Appalachia",
+        "effect": "Add +2 CD damage to an attack against a Mammal or Lizard"
+      },
+      {
+        "d20": "11-12",
+        "issue": "The Appalachia Squirrel Massacre",
+        "effect": "One item of cooked food you make and eat heals +3 HP"
+      },
+      {
+        "d20": "13-14",
+        "issue": "Art of the Tomahawk",
+        "effect": "Reduce difficulty of a test to resist catching a disease by 1 (min. of 0)"
+      },
+      {
+        "d20": "15-16",
+        "issue": "The Gunsmith of Harper's Ferry",
+        "effect": "When you find ammo, you find +2 CD more shots"
+      },
+      {
+        "d20": "17-18",
+        "issue": "The Ohio River Hermit",
+        "effect": "Reduce the difficulty of repairing a damaged item by 1 (min. 0)"
+      },
+      {
+        "d20": "19-20",
+        "issue": "Nightmare in the Garden",
+        "effect": "Heal +2 HP when you consume an Alcoholic drink"
+      }
+    ]
+  },
+  {
+    "id": "boxing_times",
+    "name": "Boxing Times",
+    "description": "A pre-War magazine aimed at fans of boxing, often containing features on noteworthy or up-and-coming boxers, discussions of technique and equipment, and in-depth reporting on the sport.",
+    "perk": "Once, when you succeed at an Unarmed attack, if you spend any AP to increase the damage you dealt, you may add the Stun damage effect to your attack. If you later learn this perk, you may use this on any successful Unarmed attack."
+  },
+  {
+    "id": "duck_and_cover",
+    "name": "Duck and Cover!",
+    "description": "A pre-War book about the manufacture, use, and disarming of explosives.",
+    "perk": "Once, when you are affected by a Blast weapon, you may choose to fall prone. If you do so, you add +3 to all damage resistances against the damage caused by that Blast. If you later learn this perk, you may use whenever you are affected by a Blast weapon by spending 1 AP."
+  },
+  {
+    "id": "fixin_things",
+    "name": "Fixin' Things",
+    "description": "A magazine for those dedicated to fixing things themselves, each issue contains a wealth of information on how to mend and repair a variety of objects and materials.",
+    "perk": "Once, when you attempt to repair an item, halve the amounts of the materials needed to complete the repair (round up). If you later learn this perk, you may use this whenever you attempt repairs."
+  },
+  {
+    "id": "future_weapons_today",
+    "name": "Future Weapons Today",
+    "description": "A magazine for enthusiasts of energy weaponry, featuring articles on new technologies, reviews of new weapons, and true stories about energy weapons in action.",
+    "perk": "Once, when you make an attack with an Energy Weapon, you may overcharge it. Increase the damage by +2 CD for that attack. The weapon cannot be used to make an attack in the turn after an overcharged attack as it cools down. If you later learn this perk, you may overcharge an Energy Weapon once per scene."
+  },
+  {
+    "id": "grognak_the_barbarian",
+    "name": "Grognak the Barbarian",
+    "description": "A series of comic books published by Hubris Comics before the Great War. The comics depict the action-packed adventures of the title character in a prehistoric world.",
+    "perk": "Depending on the individual issue found, you receive a different perk, which you may benefit from once. If you later learn the perk, you may use that benefit once per scene.",
+    "issues": [
+      {
+        "d20": "1-2",
+        "issue": "Blood on the Harp",
+        "effect": "One successful melee attack you make inflicts +2 CD damage"
+      },
+      {
+        "d20": "3-4",
+        "issue": "Cometh the Trickster",
+        "effect": "Add +1 to the difficulty of another character's skill test to detect you"
+      },
+      {
+        "d20": "5-6",
+        "issue": "Jungle of the Bat-Babies",
+        "effect": "When you suffer Poison damage, gain +3 Poison damage resistance"
+      },
+      {
+        "d20": "7-8",
+        "issue": "In the Bosom of the Corsair Queen",
+        "effect": "One successful melee attack you make automatically inflicts a Critical Hit"
+      },
+      {
+        "d20": "9-10",
+        "issue": "Demon Slaves, Demon Sands",
+        "effect": "One attack against Ghouls inflicts +2 CD damage"
+      },
+      {
+        "d20": "11-12",
+        "issue": "Enter Maula: War Maiden of Mars",
+        "effect": "When you make a melee attack with a Two-Handed melee weapon, gain the Piercing 1 damage effect (or +1 to any existing Piercing effect)"
+      },
+      {
+        "d20": "13-14",
+        "issue": "Fatherless Cur!",
+        "effect": "Ignore one complication on a melee attack"
+      },
+      {
+        "d20": "15-16",
+        "issue": "Lost in the Snows of Lust",
+        "effect": "Gain +2 Physical damage resistance against one attack"
+      },
+      {
+        "d20": "17-18",
+        "issue": "The Lair of the Virgin Eaters",
+        "effect": "Gain +10 Carry weight for one scene"
+      },
+      {
+        "d20": "19-20",
+        "issue": "What Sorcery is This?",
+        "effect": "Gain +2 Energy damage resistance against one attack"
+      }
+    ]
+  },
+  {
+    "id": "guns_and_bullets",
+    "name": "Guns and Bullets",
+    "description": "A magazine series catering to weapons enthusiasts, with articles dedicated to hunting, weapons, gun law, and the portrayal of practical use of firearms.",
+    "perk": "Depending on the individual issue found, you receive a different perk, which you may benefit from once. If you later learn the perk, you may use that benefit once per scene.",
+    "issues": [
+      {
+        "d20": "1-2",
+        "issue": "The Future of Hunting?",
+        "effect": "One attack against Robots inflicts +2 CD damage"
+      },
+      {
+        "d20": "3-4",
+        "issue": "Lasers & Hunting: Acceptable Overkill",
+        "effect": "One attack with a Laser weapon gains the Vicious damage effect if it didn't already have it"
+      },
+      {
+        "d20": "5-6",
+        "issue": "Little Guns for Little Ladies",
+        "effect": "One attack with a Small Guns weapon gains the Vicious damage effect if it didn't have it already"
+      },
+      {
+        "d20": "7-8",
+        "issue": "Street Guns of Detroit",
+        "effect": "Gain an extra 2 AP after one successful attack. This AP must be spent immediately"
+      },
+      {
+        "d20": "9-10",
+        "issue": "Avoid Those Pesky Gun Laws!",
+        "effect": "When you salvage a weapon, gain 2 AP which may only be spent to salvage additional units of materials"
+      },
+      {
+        "d20": "11-12",
+        "issue": "The Moon: A Communist Doomsday Device?!",
+        "effect": "Gain +2 to Physical or Energy damage resistance against one attack at night"
+      },
+      {
+        "d20": "13-14",
+        "issue": "Take Aim, Army Style",
+        "effect": "One aimed attack made with a weapon which lacks the Accurate quality inflicts +2 CD damage"
+      },
+      {
+        "d20": "15-16",
+        "issue": "Bear-Proofing your Campsite",
+        "effect": "One attack against Yao Guai inflicts +3 CD damage"
+      },
+      {
+        "d20": "17-18",
+        "issue": "Plasma: The Weapon of Tomorrow",
+        "effect": "One attack with a Plasma weapon gains the Vicious damage effect if it didn't already have it"
+      },
+      {
+        "d20": "19-20",
+        "issue": "Guide to Hunting Commies!",
+        "effect": "One attack against an enemy with a lower level than you inflicts +2 CD damage"
+      }
+    ]
+  },
+  {
+    "id": "live_and_love",
+    "name": "Live & Love",
+    "description": "A pre-War magazine series dedicated to lifestyle and relationships, often covering cultural events, health advice, diet tips, relationship advice, and more.",
+    "perk": "Depending on the individual issue found, you receive a different perk, which you may benefit from for a single scene. If you later learn the perk, you may use that benefit constantly.",
+    "issues": [
+      {
+        "d20": "1-2",
+        "issue": "Life Long Best Friends!",
+        "effect": "+1 Maximum Health Points to all party members for one scene"
+      },
+      {
+        "d20": "3-4",
+        "issue": "Nuke-the-Man!",
+        "effect": "+1 CD damage to attacks from all party members for one scene"
+      },
+      {
+        "d20": "5-6",
+        "issue": "Trim the Fat!",
+        "effect": "Regain twice as many HP from fruit or vegetables eaten in one scene"
+      },
+      {
+        "d20": "7-8",
+        "issue": "The Secretary Charmer",
+        "effect": "At the start of one scene, add +1 AP to the group pool"
+      },
+      {
+        "d20": "9-10",
+        "issue": "Talk Yourself Sober",
+        "effect": "Gain 1 Luck point (lost at the end of the scene if not used) when you consume an Alcoholic drink"
+      },
+      {
+        "d20": "11-12",
+        "issue": "Advice from Married Men",
+        "effect": "+1 Physical damage resistance to all party members for one scene"
+      },
+      {
+        "d20": "13-14",
+        "issue": "Beware the Man Handler",
+        "effect": "The group AP pool may contain 1 AP more than normal for one scene"
+      },
+      {
+        "d20": "15-16",
+        "issue": "An Experience to Remember",
+        "effect": "Choose one other Magazine perk you have previously used but not learned; that now takes effect"
+      },
+      {
+        "d20": "17-18",
+        "issue": "I Married a Robot",
+        "effect": "+2 to all damage resistances against Robots for one scene"
+      },
+      {
+        "d20": "19-20",
+        "issue": "Re-roll result",
+        "effect": "Roll again on this table"
+      }
+    ]
+  },
+  {
+    "id": "massachusetts_surgical_journal",
+    "name": "Massachusetts Surgical Journal",
+    "description": "A periodical medical journal originating from pre-War Massachusetts. It contains detailed discussions of advances in medical science and technology, published studies on unusual diseases, and a host of other useful medical knowledge.",
+    "perk": "Once, when you provide medical attention to another character and assist their END + Survival test to heal Injuries, you may treat your assistance die as if it had rolled a 1. If you learn this perk, you may do this once per session."
+  },
+  {
+    "id": "meeting_people",
+    "name": "Meeting People",
+    "description": "A magazine aimed at those who lack social grace. Meeting People magazine advertises itself as a primer for social interaction.",
+    "perk": "Once, when you roll one or more complications on a Speech test, you may ignore those complications. If you learn this perk, you may do this once per scene."
+  },
+  {
+    "id": "programmers_digest",
+    "name": "Programmer's Digest",
+    "description": "A magazine aimed at computer afficionados, discussing programming languages, encryption and decryption techniques, and the latest software.",
+    "perk": "Once, when you fail a Science test to hack into a computer terminal and would be locked out, you may choose not to be locked out, allowing you to make another attempt. If you learn this Perk, you may do this whenever you are locked out of a computer."
+  },
+  {
+    "id": "tales_of_a_junktown_jerky_vendor",
+    "name": "Tales of a Junktown Jerky Vendor",
+    "description": "One example of a post-War magazine, Tales of a Junktown Jerky Vendor is a collection of short, hand-made books written by an unknown vendor of jerky from Junktown.",
+    "perk": "Once, when you succeed or fail at a Barter test to haggle on the price of a trade, you may spend 1 Luck point to shift the price 10% in your favor. If you learn this Perk, you may do this on any Barter test to haggle, though you must spend one additional Luck point each extra time you use it during a session (1 for the first time, 2 for the second, 3 for the third, etc.)."
+  },
+  {
+    "id": "tesla_science_magazine",
+    "name": "Tesla Science Magazine",
+    "description": "An informational magazine covering topics such as rocket science, robotics, laser technology, and other cutting-edge fields of science and technology.",
+    "perk": "Depending on the individual issue found, you receive a different perk, which you may benefit from once. If you later learn the perk, you may use that benefit once per scene.",
+    "issues": [
+      {
+        "d20": "1-2",
+        "issue": "Will Robots Rule the World?",
+        "effect": "+2 to Physical and Energy damage resistances vs Robots"
+      },
+      {
+        "d20": "3-4",
+        "issue": "What is Plasma, anyway?",
+        "effect": "+2 to Physical and Energy damage resistances vs Plasma weapons"
+      },
+      {
+        "d20": "5-6",
+        "issue": "Rocket Science for Toddlers",
+        "effect": "+2 CD damage inflicted by one attack with a Blast weapon"
+      },
+      {
+        "d20": "7-8",
+        "issue": "Tomorrow's Technology for Today's Super Soldiers",
+        "effect": "After spending a fusion core charge, you may spend 1 Luck point: if you do so the charge is not spent"
+      },
+      {
+        "d20": "9-10",
+        "issue": "Giant Super Weapons!",
+        "effect": "Once, when you fire a Gatling weapon, you consume ammunition at 8x the rate, rather than 10x the rate"
+      },
+      {
+        "d20": "11-12",
+        "issue": "Geckos and Gamma Radiation",
+        "effect": "+2 CD damage inflicted on one attack against a Mutated creature"
+      },
+      {
+        "d20": "13-14",
+        "issue": "U.S. Army Goes to Space",
+        "effect": "On a single attack with an Energy weapon, you inflict a Critical Hit if you inflict 3 or more damage after damage resistance"
+      },
+      {
+        "d20": "15-16",
+        "issue": "10 Number 1 Hits!!! Rock-o-bot Takes the Nation by Storm!!",
+        "effect": "Once, when you inflict a Critical Hit, increase the total damage inflicted by +2"
+      },
+      {
+        "d20": "17-18",
+        "issue": "Future of Warfare?",
+        "effect": "On a single attack with a Big Gun, you inflict a Critical Hit if you inflict 3 or more damage after damage resistance"
+      },
+      {
+        "d20": "19-20",
+        "issue": "Re-roll result",
+        "effect": "Roll again on this table"
+      }
+    ]
+  },
+  {
+    "id": "true_police_stories",
+    "name": "True Police Stories",
+    "description": "True Police Stories was a pre-War pulp magazine boasting '20 pages—a single issue' that was dedicated to editorialized stories on famous criminal investigations and busts of the time.",
+    "perk": "Once, when you roll the damage of an attack, you may spend a Luck point to turn up to three CD to any face, rather than rolling them. If you learn this perk, you may do this once per scene."
+  },
+  {
+    "id": "tumblers_today",
+    "name": "Tumblers Today",
+    "description": "Tumblers Today is a pre-War magazine containing information about the clandestine art of lockpicking and the latest in mechanical locks found in safes, footlockers, and doors.",
+    "perk": "Depending on the individual issue found, you receive a different perk, which you may benefit from once. If you later learn the perk, you may use that benefit once per scene.",
+    "issues": [
+      {
+        "d20": "1-4",
+        "issue": "Mysteries of the Master Key Exposed!",
+        "effect": "You may re-roll 1d20 on a single Lockpicking test"
+      },
+      {
+        "d20": "5-8",
+        "issue": "Bobby Pins: More Effective Than Lockpicks?",
+        "effect": "When using a Bobby Pin, reduce the difficulty of a Lockpicking test by a further 1 (minimum 0)"
+      },
+      {
+        "d20": "9-12",
+        "issue": "Confessions of a Housebreaker",
+        "effect": "When scavenging or looting, spend 1 Luck to find 2+2 CD Bobby Pins"
+      },
+      {
+        "d20": "13-16",
+        "issue": "Open Any Lock in 5 Seconds Flat",
+        "effect": "When you successfully pick a lock, you may use the Reduce Time AP option without spending AP"
+      },
+      {
+        "d20": "17-20",
+        "issue": "Locksmith Certification Special—Pass with Flying Colors",
+        "effect": "When you suffer one or more complications on a Lockpicking test, spend 1 Luck point to ignore those complications"
+      }
+    ]
+  },
+  {
+    "id": "unstoppables",
+    "name": "Unstoppables",
+    "description": "Unstoppables is a comic book published by Hubris Comics prior to the Great War. The series follows an ensemble cast of characters including the Silver Shroud, Mistress of Mystery, The Inspector, Manta Man and Grognak the Barbarian.",
+    "perk": "Depending on the individual issue found, you receive a different perk, allowing you to spend Luck points to avoid a single instance of damage, which you may benefit from once. If you later learn the perk, you may use that benefit as often as you have Luck points to spend on it.",
+    "issues": [
+      {
+        "d20": "1-4",
+        "issue": "Dr. Brainwash and His Army of De-Capitalists!",
+        "effect": "Spend 3 Luck points to avoid all damage from a single attack or hazard"
+      },
+      {
+        "d20": "5-8",
+        "issue": "Who Can Stop the Unstoppable Grog-Na-Rok?!",
+        "effect": "Spend 2 Luck points to avoid all damage from an attack from a Mutated Human (including Ghouls and super mutants)"
+      },
+      {
+        "d20": "9-12",
+        "issue": "Commie-Kazi vs. Manta Man",
+        "effect": "Spend 1 Luck point to avoid all damage from a Blast weapon"
+      },
+      {
+        "d20": "13-16",
+        "issue": "Trapped in the Dimension of the Pterror-dactyls!",
+        "effect": "Spend 1 Luck point to avoid all damage from a single melee attack"
+      },
+      {
+        "d20": "17-20",
+        "issue": "Visit the Ux-Ron Galaxy!",
+        "effect": "Spend 1 Luck point to avoid all Energy damage from a single attack"
+      }
+    ]
+  },
+  {
+    "id": "us_covert_operations_manual",
+    "name": "U.S. Covert Operations Manual",
+    "description": "The U.S. Covert Operations Manual is a training handbook produced by the Department of the Army to train its personnel in the art of subterfuge.",
+    "perk": "Depending on the individual issue found, you receive a different perk, which you may benefit from once. If you later learn the perk, you may use that benefit once per scene.",
+    "issues": [
+      {
+        "d20": "1-2",
+        "issue": "FH 5-01 Whistling in the Dark",
+        "effect": "If you are detected while sneaking, you add +2 to Physical damage resistance against the first attack you receive after being detected"
+      },
+      {
+        "d20": "3-4",
+        "issue": "FH 5-02 Urban Camouflage",
+        "effect": "Enemies suffer +1 difficulty on tests to detect you; this does not stack with any difficulty increases for poor light or darkness"
+      },
+      {
+        "d20": "5-6",
+        "issue": "FH 5-03 Facepaint Fundamentals",
+        "effect": "+1 to all damage resistances against attacks from Character NPCs"
+      },
+      {
+        "d20": "7-8",
+        "issue": "FH 5-04 Not the Soldiers You're Looking For",
+        "effect": "+1 CD damage inflicted by attacks against Character NPCs"
+      },
+      {
+        "d20": "9-10",
+        "issue": "FH 5-05 Who Goes There?",
+        "effect": "When you spend a Luck point to re-roll a d20 on a PER test, instead count that die as if it had rolled a 1"
+      },
+      {
+        "d20": "11-12",
+        "issue": "FH 5-06 Squeaky Floorboard, Sudden Death",
+        "effect": "Once, when you suffer one or more Complications on a Sneak test, ignore the complications"
+      },
+      {
+        "d20": "13-14",
+        "issue": "FH 5-07 Getting the Drop on the Communists",
+        "effect": "Once, when an enemy aims before making an attack against you, you may cause them to lose the benefits of aiming"
+      },
+      {
+        "d20": "15-16",
+        "issue": "FH 5-08 Bushes, Boxes, and Beehives: Camouflage Special",
+        "effect": "+2 CD damage inflicted by an unarmed attack or an attack made with a knife"
+      },
+      {
+        "d20": "17-18",
+        "issue": "FH 5-09 Look Better in Black",
+        "effect": "Once, when using a Stealth Boy, it lasts for one additional turn"
+      },
+      {
+        "d20": "19-20",
+        "issue": "FH 5-10 Tiptoe Through the Tulips",
+        "effect": "When you spend a Luck point to re-roll a d20 on an AGI test, instead count that die as if it had rolled a 1"
+      }
+    ]
+  },
+  {
+    "id": "wasteland_survival_guide",
+    "name": "Wasteland Survival Guide",
+    "description": "The Wasteland Survival Guide is another post-War series of instructional magazines, written and illustrated with crude pen drawings.",
+    "perk": "Depending on the individual issue found, you receive a different perk, which you may benefit from once. If you later learn the perk, you may use that benefit once per scene.",
+    "issues": [
+      {
+        "d20": "1-3",
+        "issue": "Farming the Wastes",
+        "effect": "Consuming a fruit or vegetable food item heals twice as many HP"
+      },
+      {
+        "d20": "4-6",
+        "issue": "Insect Repellent Special",
+        "effect": "Increase all damage resistances by +2 vs an attack from an Insect"
+      },
+      {
+        "d20": "7-9",
+        "issue": "The Bright Side of Radiation Poisoning",
+        "effect": "When you consume irradiated food or drink, heal additional HP equal to the roll on the CD"
+      },
+      {
+        "d20": "10-12",
+        "issue": "Coupon Spectacular",
+        "effect": "When buying food or drink items, the price is shifted an additional 10% in your favor"
+      },
+      {
+        "d20": "13-15",
+        "issue": "Water Aerobics for Ghouls",
+        "effect": "Reduce the difficulty of an Athletics test to swim by 1 (min. 0)"
+      },
+      {
+        "d20": "16-18",
+        "issue": "Self Defense Secrets",
+        "effect": "Gain +1 defense against a melee attack"
+      },
+      {
+        "d20": "19-20",
+        "issue": "Hunting in the Wastes",
+        "effect": "When you butcher an animal you've killed and the amount of meat found can be increased by spending AP, you gain 1 bonus AP for that purpose"
+      }
+    ]
+  }
+]

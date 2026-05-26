@@ -158,6 +158,8 @@ const App = {
       { label: 'Mods', route: 'armor-mods', count: DataManager.getAll('armor-mods').length },
       { label: 'Clothing', route: 'clothing', count: DataManager.getAll('clothing').length },
       { label: 'Outfits', route: 'outfits', count: DataManager.getAll('outfits').length },
+      { label: 'Headgear', route: 'headgear', count: DataManager.getAll('headgear').length },
+      { label: 'Dog Armor', route: 'dog-armor', count: DataManager.getAll('dog-armor').length },
     ]);
 
     Router.register('weapons', (id, params) => {
@@ -559,6 +561,319 @@ const App = {
             { label: 'Weight', key: 'weight' },
             { label: 'Cost', key: 'cost' },
           ], item => item.underArmor ? 'Under Armor' : 'Outerwear')}
+        `);
+      }
+    });
+
+    // ===== HEADGEAR =====
+    Router.register('headgear', (id, params) => {
+      if (id) {
+        const h = DataManager.getById('headgear', id);
+        if (!h) { Views.render(`<h2>Not Found</h2>`); return; }
+
+        Views.render(`
+          ${Views.backLink('headgear', params)}
+          ${armorTabs()}
+          <div class="detail-view">
+            <h2>${h.name}</h2>
+            <div class="field"><span class="label">Covers:</span> <span class="value">${(h.covers || []).join(', ')}</span></div>
+            <div class="field"><span class="label">Physical DR:</span> <span class="value">${h.physicalDR}</span></div>
+            <div class="field"><span class="label">Energy DR:</span> <span class="value">${h.energyDR}</span></div>
+            <div class="field"><span class="label">Radiation DR:</span> <span class="value">${h.radiationDR}</span></div>
+            <div class="field"><span class="label">Weight:</span> <span class="value">${h.weight} lbs</span></div>
+            <div class="field"><span class="label">Cost:</span> <span class="value">${h.cost} caps</span></div>
+            <div class="field"><span class="label">Rarity:</span> <span class="value">${h.rarity}</span></div>
+          </div>
+        `);
+      } else {
+        const all = DataManager.getAll('headgear');
+        const headgearFilterConfig = [
+          { key: 'rarity', label: 'Rarity', options: [0,1,2,3,4,5].map(v => ({ value: v.toString(), label: App.rarityLabel(v) })), filter: (item, val) => String(item.rarity) === val },
+          { key: '_sort', label: 'Sort', options: [
+            { value: 'name', label: 'Name' },
+            { value: 'cost', label: 'Cost' },
+            { value: 'weight', label: 'Weight' },
+            { value: 'physicalDR', label: 'Phys DR' },
+            { value: 'energyDR', label: 'Energy DR' },
+          ]},
+        ];
+        const filtered = Views.applyFilters(all, params, headgearFilterConfig);
+        const sorted = Views.applySort(filtered, params.sort, params.order);
+        App.saveListState('headgear', params);
+        Views.render(`
+          ${armorTabs()}
+          ${Views.filterBar(headgearFilterConfig, params, 'headgear')}
+          ${Views.groupedTable(sorted, 'Headgear', [
+            { label: 'Name', key: 'name', render: (v, i) => Views.link('headgear', i.id, v) },
+            { label: 'Phys', key: 'physicalDR' },
+            { label: 'Energy', key: 'energyDR' },
+            { label: 'Rad', key: 'radiationDR' },
+            { label: 'Weight', key: 'weight' },
+            { label: 'Cost', key: 'cost' },
+          ], item => 'Headgear')}
+        `);
+      }
+    });
+
+    // ===== DOG ARMOR =====
+    Router.register('dog-armor', (id, params) => {
+      if (id) {
+        const d = DataManager.getById('dog-armor', id);
+        if (!d) { Views.render(`<h2>Not Found</h2>`); return; }
+
+        Views.render(`
+          ${Views.backLink('dog-armor', params)}
+          ${armorTabs()}
+          <div class="detail-view">
+            <h2>${d.name}</h2>
+            <div class="field"><span class="label">Covers:</span> <span class="value">${(d.covers || []).join(', ')}</span></div>
+            <div class="field"><span class="label">Physical DR:</span> <span class="value">${d.physicalDR}</span></div>
+            <div class="field"><span class="label">Energy DR:</span> <span class="value">${d.energyDR}</span></div>
+            <div class="field"><span class="label">Radiation DR:</span> <span class="value">${d.radiationDR}</span></div>
+            <div class="field"><span class="label">Weight:</span> <span class="value">${d.weight} lbs</span></div>
+            <div class="field"><span class="label">Cost:</span> <span class="value">${d.cost} caps</span></div>
+            <div class="field"><span class="label">Rarity:</span> <span class="value">${d.rarity}</span></div>
+          </div>
+        `);
+      } else {
+        const all = DataManager.getAll('dog-armor');
+        const dogArmorFilterConfig = [
+          { key: 'rarity', label: 'Rarity', options: [0,1,2,3,4,5].map(v => ({ value: v.toString(), label: App.rarityLabel(v) })), filter: (item, val) => String(item.rarity) === val },
+          { key: '_sort', label: 'Sort', options: [
+            { value: 'name', label: 'Name' },
+            { value: 'cost', label: 'Cost' },
+            { value: 'weight', label: 'Weight' },
+            { value: 'physicalDR', label: 'Phys DR' },
+            { value: 'energyDR', label: 'Energy DR' },
+          ]},
+        ];
+        const filtered = Views.applyFilters(all, params, dogArmorFilterConfig);
+        const sorted = Views.applySort(filtered, params.sort, params.order);
+        App.saveListState('dog-armor', params);
+        Views.render(`
+          ${armorTabs()}
+          ${Views.filterBar(dogArmorFilterConfig, params, 'dog-armor')}
+          ${Views.groupedTable(sorted, 'Dog Armor', [
+            { label: 'Name', key: 'name', render: (v, i) => Views.link('dog-armor', i.id, v) },
+            { label: 'Covers', key: 'covers' },
+            { label: 'Phys', key: 'physicalDR' },
+            { label: 'Energy', key: 'energyDR' },
+            { label: 'Rad', key: 'radiationDR' },
+            { label: 'Weight', key: 'weight' },
+            { label: 'Cost', key: 'cost' },
+          ], item => 'Dog Armor')}
+        `);
+      }
+    });
+
+    // ===== MISCELLANY =====
+    Router.register('misc', (id, params) => {
+      if (id) {
+        const m = DataManager.getById('misc', id);
+        if (!m) { Views.render(`<h2>Not Found</h2>`); return; }
+
+        Views.render(`
+          ${Views.backLink('misc', params)}
+          <div class="detail-view">
+            <h2>${m.name}</h2>
+            <div class="field"><span class="label">Effects:</span> <span class="value">${m.effects}</span></div>
+            <div class="field"><span class="label">Weight:</span> <span class="value">${m.weight} lbs</span></div>
+            <div class="field"><span class="label">Cost:</span> <span class="value">${m.cost} caps</span></div>
+            <div class="field"><span class="label">Rarity:</span> <span class="value">${m.rarity}</span></div>
+          </div>
+        `);
+      } else {
+        const all = DataManager.getAll('misc');
+        const miscFilterConfig = [
+          { key: 'rarity', label: 'Rarity', options: [
+            { value: '0', label: 'Common' },
+            { value: '1', label: 'Uncommon' },
+            { value: '2', label: 'Rare' },
+            { value: '3', label: 'Very Rare' },
+          ], filter: (item, val) => String(item.rarity) === val },
+          { key: '_sort', label: 'Sort', options: [
+            { value: 'name', label: 'Name' },
+            { value: 'cost', label: 'Cost' },
+            { value: 'weight', label: 'Weight' },
+            { value: 'rarity', label: 'Rarity' },
+          ]},
+        ];
+        const filtered = Views.applyFilters(all, params, miscFilterConfig);
+        const sorted = Views.applySort(filtered, params.sort, params.order);
+        App.saveListState('misc', params);
+        Views.render(`
+          ${Views.filterBar(miscFilterConfig, params, 'misc')}
+          <h2>Miscellany (${sorted.length})</h2>
+          <table>
+            <thead><tr><th>Name</th><th>Effects</th><th>Weight</th><th>Cost</th><th>Rarity</th></tr></thead>
+            <tbody>
+              ${sorted.map(m => `<tr>
+                <td>${Views.link('misc', m.id, m.name)}</td>
+                <td>${m.effects}</td>
+                <td>${m.weight}</td>
+                <td>${m.cost}</td>
+                <td>${m.rarity}</td>
+              </tr>`).join('')}
+            </tbody>
+          </table>
+        `);
+      }
+    });
+
+    // ===== ROBOT MODS =====
+    Router.register('robot-mods', (id, params) => {
+      if (id) {
+        const rm = DataManager.getById('robot-mods', id);
+        if (!rm) { Views.render(`<h2>Not Found</h2>`); return; }
+        const perks = (rm.perksRequired || []).map(p => Views.link('perks', p.perkId, `${p.perkId} R${p.rank}`)).join(', ') || '—';
+        const weight = rm.weightChange !== null ? `${rm.weightChange} lbs` : '—';
+
+        Views.render(`
+          ${Views.backLink('robot-mods', params)}
+          <div class="detail-view">
+            <h2>${rm.name}</h2>
+            <div class="field"><span class="label">Effects:</span> <span class="value">${rm.effects}</span></div>
+            <div class="field"><span class="label">Weight Change:</span> <span class="value">${weight}</span></div>
+            <div class="field"><span class="label">Cost:</span> <span class="value">${rm.cost} caps</span></div>
+            <div class="field"><span class="label">Rarity:</span> <span class="value">${rm.rarity}</span></div>
+            <div class="field"><span class="label">Required Perks:</span> <span class="value">${perks}</span></div>
+          </div>
+        `);
+      } else {
+        const all = DataManager.getAll('robot-mods');
+        const rmFilterConfig = [
+          { key: 'rarity', label: 'Rarity', options: [0,1,2,3,4,5].map(v => ({ value: v.toString(), label: App.rarityLabel(v) })), filter: (item, val) => String(item.rarity) === val },
+          { key: '_sort', label: 'Sort', options: [
+            { value: 'name', label: 'Name' },
+            { value: 'cost', label: 'Cost' },
+            { value: 'rarity', label: 'Rarity' },
+          ]},
+        ];
+        const filtered = Views.applyFilters(all, params, rmFilterConfig);
+        const sorted = Views.applySort(filtered, params.sort, params.order);
+        App.saveListState('robot-mods', params);
+        Views.render(`
+          ${Views.filterBar(rmFilterConfig, params, 'robot-mods')}
+          <h2>Robot Mods (${sorted.length})</h2>
+          <table>
+            <thead><tr><th>Name</th><th>Effects</th><th>Weight</th><th>Cost</th><th>Rarity</th></tr></thead>
+            <tbody>
+              ${sorted.map(m => `<tr>
+                <td>${Views.link('robot-mods', m.id, m.name)}</td>
+                <td>${m.effects}</td>
+                <td>${m.weightChange !== null ? m.weightChange : '—'}</td>
+                <td>${m.cost}</td>
+                <td>${m.rarity}</td>
+              </tr>`).join('')}
+            </tbody>
+          </table>
+        `);
+      }
+    });
+
+    // ===== ROBOT ARMOR =====
+    Router.register('robot-armor', (id, params) => {
+      if (id) {
+        const ra = DataManager.getById('robot-armor', id);
+        if (!ra) { Views.render(`<h2>Not Found</h2>`); return; }
+        const perks = (ra.perksRequired || []).map(p => Views.link('perks', p.perkId, `${p.perkId} R${p.rank}`)).join(', ') || '—';
+        const cw = ra.carryWeight > 0 ? `+${ra.carryWeight}` : ra.carryWeight < 0 ? ra.carryWeight : '—';
+
+        Views.render(`
+          ${Views.backLink('robot-armor', params)}
+          <div class="detail-view">
+            <h2>${ra.name}</h2>
+            <div class="field"><span class="label">Location:</span> <span class="value">${ra.location}</span></div>
+            <div class="field"><span class="label">Physical DR:</span> <span class="value">${ra.physicalDR}</span></div>
+            <div class="field"><span class="label">Energy DR:</span> <span class="value">${ra.energyDR}</span></div>
+            <div class="field"><span class="label">Carry Weight:</span> <span class="value">${cw} lbs</span></div>
+            <div class="field"><span class="label">Cost:</span> <span class="value">${ra.cost} caps</span></div>
+            <div class="field"><span class="label">Rarity:</span> <span class="value">${ra.rarity}</span></div>
+            <div class="field"><span class="label">Required Perks:</span> <span class="value">${perks}</span></div>
+          </div>
+        `);
+      } else {
+        const all = DataManager.getAll('robot-armor');
+        const raFilterConfig = [
+          { key: 'location', label: 'Location' },
+          { key: 'rarity', label: 'Rarity', options: [0,1,2,3,4,5].map(v => ({ value: v.toString(), label: App.rarityLabel(v) })), filter: (item, val) => String(item.rarity) === val },
+          { key: '_sort', label: 'Sort', options: [
+            { value: 'name', label: 'Name' },
+            { value: 'cost', label: 'Cost' },
+            { value: 'rarity', label: 'Rarity' },
+          ]},
+        ];
+        const filtered = Views.applyFilters(all, params, raFilterConfig);
+        const sorted = Views.applySort(filtered, params.sort, params.order);
+        raFilterConfig[0].options = Views.uniqueOptions(all, 'location');
+        App.saveListState('robot-armor', params);
+        Views.render(`
+          ${Views.filterBar(raFilterConfig, params, 'robot-armor')}
+          ${Views.groupedTable(sorted, 'Robot Armor', [
+            { label: 'Name', key: 'name', render: (v, i) => Views.link('robot-armor', i.id, v) },
+            { label: 'Location', key: 'location' },
+            { label: 'Phys', key: 'physicalDR' },
+            { label: 'Energy', key: 'energyDR' },
+            { label: 'Carry Wt', key: 'carryWeight', render: (v) => v > 0 ? `+${v}` : v < 0 ? v : '—' },
+            { label: 'Cost', key: 'cost' },
+          ], item => item.location)}
+        `);
+      }
+    });
+
+    // ===== BOOKS & MAGAZINES =====
+    Router.register('books', (id, params) => {
+      if (id) {
+        const b = DataManager.getById('books', id);
+        if (!b) { Views.render(`<h2>Not Found</h2>`); return; }
+
+        let issuesHtml = '';
+        if (b.issues && b.issues.length) {
+          issuesHtml = `
+            <h3>Issue Table</h3>
+            <p>When you discover this magazine, roll to determine which issue you find:</p>
+            <table>
+              <thead><tr><th>D20 Roll</th><th>Issue</th><th>Effect</th></tr></thead>
+              <tbody>
+                ${b.issues.map(i => `<tr><td>${i.d20}</td><td>${i.issue}</td><td>${i.effect}</td></tr>`).join('')}
+              </tbody>
+            </table>
+          `;
+        }
+
+        Views.render(`
+          ${Views.backLink('books', params)}
+          <div class="detail-view">
+            <h2>${b.name}</h2>
+            <div class="field"><span class="label">Description:</span> <span class="value">${b.description}</span></div>
+            <div class="field"><span class="label">Perk:</span> <span class="value">${b.perk}</span></div>
+          </div>
+          ${issuesHtml}
+        `);
+      } else {
+        const all = DataManager.getAll('books');
+        const booksFilterConfig = [
+          { key: '_sort', label: 'Sort', options: [
+            { value: 'name', label: 'Name' },
+          ]},
+        ];
+        const sorted = Views.applySort(all, params.sort, params.order);
+        App.saveListState('books', params);
+        Views.render(`
+          ${Views.filterBar(booksFilterConfig, params, 'books')}
+          <h2>Books & Magazines (${sorted.length})</h2>
+          <p>All books and magazines have a weight of &lt;1, a cost of 100 caps, and a rarity of 3.</p>
+          <table>
+            <thead><tr><th>D20</th><th>Publication</th><th>Description</th><th>Issues</th></tr></thead>
+            <tbody>
+              ${sorted.map((b, i) => `<tr>
+                <td>${i + 1}</td>
+                <td>${Views.link('books', b.id, b.name)}</td>
+                <td>${b.description.substring(0, 120)}${b.description.length > 120 ? '…' : ''}</td>
+                <td>${b.issues ? `${b.issues.length} issues` : '—'}</td>
+              </tr>`).join('')}
+            </tbody>
+          </table>
         `);
       }
     });

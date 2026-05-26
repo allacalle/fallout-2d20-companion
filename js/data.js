@@ -6,7 +6,8 @@ const DataManager = {
     const files = [
       'weapons', 'mods', 'armor', 'armor-sets', 'armor-mods',
       'clothing', 'outfits', 'consumables', 'perks', 'skills',
-      'calibers', 'effects', 'components'
+      'calibers', 'effects', 'components',
+      'headgear', 'dog-armor', 'robot-mods', 'robot-armor', 'books', 'misc'
     ];
 
     const craftingFiles = [
@@ -138,6 +139,12 @@ const DataManager = {
       { key: 'armor-mods', label: 'Armor Mod', nameKey: 'name' },
       { key: 'clothing', label: 'Clothing', nameKey: 'name' },
       { key: 'outfits', label: 'Outfit', nameKey: 'name' },
+      { key: 'headgear', label: 'Headgear', nameKey: 'name' },
+      { key: 'dog-armor', label: 'Dog Armor', nameKey: 'name' },
+      { key: 'robot-mods', label: 'Robot Mod', nameKey: 'name' },
+      { key: 'robot-armor', label: 'Robot Armor', nameKey: 'name' },
+      { key: 'books', label: 'Publication', nameKey: 'name' },
+      { key: 'misc', label: 'Miscellany', nameKey: 'name' },
       { key: 'consumables', label: 'Consumable', nameKey: 'name' },
       { key: 'perks', label: 'Perk', nameKey: 'name' },
       { key: 'skills', label: 'Skill', nameKey: 'name' },

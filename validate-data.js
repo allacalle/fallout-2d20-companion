@@ -60,6 +60,12 @@ const files = {
   clothing: loadJSON('clothing.json'),
   outfits: loadJSON('outfits.json'),
   consumables: loadJSON('consumables.json'),
+  headgear: loadJSON('headgear.json'),
+  dogArmor: loadJSON('dog-armor.json'),
+  misc: loadJSON('misc.json'),
+  robotMods: loadJSON('robot-mods.json'),
+  books: loadJSON('books.json'),
+  robotArmor: loadJSON('robot-armor.json'),
   components: loadJSON('components.json'),
   effects: loadJSON('effects.json'),
   workbenches: loadJSON('crafting/workbenches.json'),
@@ -97,6 +103,12 @@ const idMaps = {
   clothing: buildIdMap(files.clothing, 'clothing.json'),
   outfits: buildIdMap(files.outfits, 'outfits.json'),
   consumables: buildIdMap(files.consumables, 'consumables.json'),
+  headgear: buildIdMap(files.headgear, 'headgear.json'),
+  dogArmor: buildIdMap(files.dogArmor, 'dog-armor.json'),
+  misc: buildIdMap(files.misc, 'misc.json'),
+  robotMods: buildIdMap(files.robotMods, 'robot-mods.json'),
+  books: buildIdMap(files.books, 'books.json'),
+  robotArmor: buildIdMap(files.robotArmor, 'robot-armor.json'),
   components: files.components?.tiers ? buildIdMap(files.components.tiers, 'components.json') : new Map(),
   workbenches: buildIdMap(files.workbenches, 'workbenches.json'),
   chemRecipes: buildIdMap(files.chemRecipes, 'chem-recipes.json'),
@@ -216,6 +228,37 @@ if (files.effects) {
     if (weapon.range && !knownRanges.has(weapon.range)) {
       warn(`weapons.json: "${weapon.id}" has unknown range "${weapon.range}"`);
     }
+  }
+}
+
+// Validate robot armor
+info('Validating robot-armor.json...');
+checkRequiredFields(files.robotArmor, 'robot-armor.json', ['id', 'name', 'physicalDR', 'energyDR', 'location', 'cost', 'rarity']);
+for (const ra of files.robotArmor || []) {
+  for (const perkRef of ra.perksRequired || []) {
+    checkRef(perkRef.perkId, idMaps.perks, 'robot-armor.json', ra.id, `perksRequired[${perkRef.perkId}]`);
+  }
+}
+
+// Validate books
+info('Validating books.json...');
+checkRequiredFields(files.books, 'books.json', ['id', 'name', 'description', 'perk']);
+for (const b of files.books || []) {
+  if (b.issues) {
+    for (const issue of b.issues) {
+      if (!issue.d20 || !issue.issue || !issue.effect) {
+        error(`books.json: "${b.id}" issue missing required field (d20, issue, effect)`);
+      }
+    }
+  }
+}
+
+// Validate robot mods
+info('Validating robot-mods.json...');
+checkRequiredFields(files.robotMods, 'robot-mods.json', ['id', 'name', 'effects', 'cost', 'rarity']);
+for (const rm of files.robotMods || []) {
+  for (const perkRef of rm.perksRequired || []) {
+    checkRef(perkRef.perkId, idMaps.perks, 'robot-mods.json', rm.id, `perksRequired[${perkRef.perkId}]`);
   }
 }
 

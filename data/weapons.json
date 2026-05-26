@@ -1325,7 +1325,7 @@
     "qualities": ["Blast", "Mine"],
     "ammo": null,
     "weight": 1,
-    "cost": 200,
+    "cost": 100,
     "rarity": 4,
     "description": "A Nuka-grenade with a mine trigger attached. Extremely dangerous, but devastatingly effective."
   },
@@ -1342,7 +1342,7 @@
     "qualities": ["Blast", "Mine"],
     "ammo": null,
     "weight": 0.5,
-    "cost": 150,
+    "cost": 135,
     "rarity": 3,
     "description": "A plasma grenade with a mine trigger attached."
   },
@@ -1359,7 +1359,7 @@
     "qualities": ["Blast", "Mine"],
     "ammo": null,
     "weight": 0.5,
-    "cost": 120,
+    "cost": 100,
     "rarity": 3,
     "description": "A pulse grenade with a mine trigger attached."
   }
