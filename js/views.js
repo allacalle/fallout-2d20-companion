@@ -33,8 +33,10 @@ const Views = {
   home() {
     const count = (c) => DataManager.getAll(c).length;
     const total = count('weapons') + count('mods') + count('armor') + count('armor-sets') +
-      count('armor-mods') + count('clothing') + count('outfits') + count('consumables') +
-      count('perks') + count('skills') + count('calibers');
+      count('armor-mods') + count('clothing') + count('outfits') + count('headgear') +
+      count('dog-armor') + count('consumables') + count('perks') + count('skills') +
+      count('calibers') + count('robot-mods') + count('robot-armor') + count('misc') +
+      count('books');
 
     const effectCount = Object.values(DataManager.data.effects || {}).reduce((sum, cat) => {
       if (typeof cat === 'object' && !Array.isArray(cat)) return sum + Object.keys(cat).length;
@@ -49,6 +51,11 @@ const Views = {
         cards: [
           { name: 'Weapons', icon: '⚔️', route: 'weapons', desc: 'Firearms, melee, energy & explosives with modular modifications', stamp: 'restricted' },
           { name: 'Armor', icon: '🛡️', route: 'armor', desc: 'Raider, metal, combat & synth pieces with full set configurations', stamp: 'approved' },
+          { name: 'Headgear', icon: '🎩', route: 'headgear', desc: 'Hats, masks & visors for head protection', stamp: 'approved' },
+          { name: 'Dog Armor', icon: '🐕', route: 'dog-armor', desc: 'Protective gear for canine companions', stamp: 'approved' },
+          { name: 'Robot Mods', icon: '⚡', route: 'robot-mods', desc: 'Upgrade modules for Mister Handy robots', stamp: 'restricted' },
+          { name: 'Robot Armor', icon: '⚙️', route: 'robot-armor', desc: 'Plating & frames for robot chassis', stamp: 'restricted' },
+          { name: 'Miscellany', icon: '🧰', route: 'misc', desc: 'Tools, backpacks & utility items for the wasteland', stamp: 'common' },
           { name: 'Consumables', icon: '💊', route: 'consumables', desc: 'Chems, foods & drinks — experimental compounds under observation', stamp: 'experimental' },
         ]
       },
@@ -64,6 +71,12 @@ const Views = {
         cards: [
           { name: 'Crafting', icon: '🔧', route: 'crafting', desc: 'Workbenches, chem/cooking/PA recipes with material costs & complexity', stamp: 'pending' },
           { name: 'Effects', icon: '☢️', route: 'effects', desc: 'Damage types, weapon qualities, chem effects & conditions glossary', stamp: 'restricted' },
+        ]
+      },
+      {
+        label: 'Archive',
+        cards: [
+          { name: 'Books & Magazines', icon: '📚', route: 'books', desc: '20 pre-War publications with issue tables & perks', stamp: 'common' },
         ]
       }
     ];
