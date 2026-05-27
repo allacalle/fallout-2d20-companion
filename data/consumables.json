@@ -607,22 +607,22 @@
     "id": "food_tarberry_juice",
     "name": "Tarberry Juice",
     "type": "drink",
-    "effects": "Heals 1 HP",
+    "effects": "Heals 3 HP. Immediately gain +6 AP",
     "duration": "Instant",
-    "weight": 1,
+    "weight": "<1",
     "cost": 5,
-    "rarity": 0,
+    "rarity": 4,
     "description": "Juice made from pressing tarberries. Drinking Tarberry juice has a potent stimulant effect, making the drinker energetic and ready for action."
   },
   {
     "id": "food_tato_juice",
     "name": "Tato Juice",
     "type": "drink",
-    "effects": "Heals 1 HP",
+    "effects": "Heals 3 HP. Group AP pool can hold 1 AP more than normal",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 5,
-    "rarity": 0,
+    "weight": "<1",
+    "cost": 7,
+    "rarity": 3,
     "description": "Juice made from pressing Tatos. Despite the unpleasant taste, Tato juice allows the drinker to dig more deeply into reserves of stamina and push themselves further."
   },
   {
@@ -852,8 +852,8 @@
     "effects": "Heals 6 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
     "weight": "<1",
-    "cost": 22,
-    "rarity": 2,
+    "cost": 18,
+    "rarity": 1,
     "description": "Meat taken from inside the carapace of a mirelurk. Difficult to extract but delicious and nutritious."
   },
   {
@@ -951,8 +951,8 @@
     "effects": "Heals 9 HP. Cure all addictions",
     "duration": "Instant",
     "weight": "<1",
-    "cost": 65,
-    "rarity": 4,
+    "cost": 48,
+    "rarity": 3,
     "description": "Made from a radscorpion egg, these omelettes are highly prized by those who make considerable use of combat drugs, as something about the food cleanses the body to remove chemical dependencies and addictions."
   },
   {
@@ -1102,33 +1102,33 @@
     "id": "food_yao_guai_ribs",
     "name": "Yao Guai Ribs",
     "type": "food",
-    "effects": "Heals 1 HP",
+    "effects": "Heals 13 HP. +2 Physical damage resistance until end of next scene",
     "duration": "Instant",
     "weight": 1,
-    "cost": 5,
-    "rarity": 0,
+    "cost": 90,
+    "rarity": 4,
     "description": "A rack of ribs made with Yao Guai meat. Both a satisfying meal and inspire a sense of invincibility, while also boosting your tolerance for pain for a short while."
   },
   {
     "id": "food_yao_guai_roast",
     "name": "Yao Guai Roast",
     "type": "food",
-    "effects": "Heals 3 HP, Reduce difficulty of STR/END tests by 1",
+    "effects": "Heals 14 HP. +2 CD to melee attacks until end of next scene",
     "duration": "Instant",
     "weight": 1,
-    "cost": 15,
-    "rarity": 2,
+    "cost": 110,
+    "rarity": 4,
     "description": "A roasted piece of Yao Guai meat cooked with carrot and tato. An extremely filling and satisfying meal, and many have claimed that it heightens their killer instinct."
   },
   {
     "id": "food_yum_yum",
     "name": "Yum-Yum Deviled Eggs",
     "type": "food",
-    "effects": "Heals 1 HP",
+    "effects": "Heals 4 HP",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 8,
-    "rarity": 1,
+    "weight": "<1",
+    "cost": 20,
+    "rarity": 0,
     "description": "Hard-boiled eggs stuffed with a spicy filling, which were preserved and sealed for freshness before the Great War."
   },
   {
@@ -1478,5 +1478,16 @@
     "cost": 50,
     "rarity": 2,
     "description": "A blood bag filled with discolored—often green—blood-like fluid. About as useful as a normal blood pack, but highly irradiated."
+  },
+  {
+    "id": "drink_glowing_blood_pack",
+    "name": "Glowing Blood Pack",
+    "type": "drink",
+    "effects": "Heals 4 HP. +5 to Radiation damage resistance",
+    "duration": "Instant",
+    "weight": "<1",
+    "cost": 30,
+    "rarity": 3,
+    "description": "A blood bag filled with a luminescent green fluid. If you can stomach the acrid, metallic taste, they have potent restorative properties and help protect the body against radiation poisoning for a short while."
   }
 ]
