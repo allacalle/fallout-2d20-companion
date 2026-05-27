@@ -1951,7 +1951,7 @@
     ],
     "physicalDR": 2,
     "energyDR": 0,
-    "radiationDR": 0,
+    "radiationDR": 2,
     "weight": 8,
     "cost": 16,
     "rarity": 1,

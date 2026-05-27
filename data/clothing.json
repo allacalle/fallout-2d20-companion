@@ -1,9 +1,9 @@
 [
-  {"id":"clothing_brotherhood_uniform","name":"Brotherhood of Steel Uniform","covers":["arms","legs","torso"],"physicalDR":1,"energyDR":1,"radiationDR":1,"weight":3,"cost":10,"rarity":1,"underArmor":true,"compatibleMods":["armor_mod_ballistic_weave"]},
-  {"id":"clothing_casual","name":"Casual Clothing","covers":["arms","legs","torso"],"physicalDR":0,"energyDR":0,"radiationDR":0,"weight":1,"cost":5,"rarity":0,"underArmor":true,"compatibleMods":["armor_mod_ballistic_weave"]},
-  {"id":"clothing_harness","name":"Harness","covers":["torso"],"physicalDR":0,"energyDR":0,"radiationDR":0,"weight":2,"cost":8,"rarity":0,"underArmor":true,"compatibleMods":["armor_mod_ballistic_weave"]},
-  {"id":"clothing_military_fatigues","name":"Military Fatigues","covers":["arms","legs","torso"],"physicalDR":1,"energyDR":0,"radiationDR":0,"weight":3,"cost":8,"rarity":1,"underArmor":true,"compatibleMods":["armor_mod_ballistic_weave"]},
-  {"id":"clothing_road_leathers","name":"Road Leathers","covers":["arms","legs","torso"],"physicalDR":1,"energyDR":0,"radiationDR":0,"weight":5,"cost":10,"rarity":0,"underArmor":true,"compatibleMods":["armor_mod_ballistic_weave"]},
-  {"id":"clothing_tough","name":"Tough Clothing","covers":["arms","legs","torso"],"physicalDR":1,"energyDR":0,"radiationDR":0,"weight":2,"cost":3,"rarity":0,"underArmor":true,"compatibleMods":["armor_mod_ballistic_weave"]},
+  {"id":"clothing_brotherhood_uniform","name":"Brotherhood of Steel Uniform","covers":["arms","legs","torso"],"physicalDR":1,"energyDR":1,"radiationDR":1,"weight":2,"cost":20,"rarity":2,"underArmor":true,"compatibleMods":["armor_mod_ballistic_weave"]},
+  {"id":"clothing_casual","name":"Casual Clothing","covers":["arms","legs","torso"],"physicalDR":0,"energyDR":0,"radiationDR":0,"weight":2,"cost":20,"rarity":1,"underArmor":true,"compatibleMods":["armor_mod_ballistic_weave"]},
+  {"id":"clothing_harness","name":"Harness","covers":["arms","legs","torso"],"physicalDR":0,"energyDR":0,"radiationDR":0,"weight":1,"cost":5,"rarity":0,"underArmor":true,"compatibleMods":["armor_mod_ballistic_weave"]},
+  {"id":"clothing_military_fatigues","name":"Military Fatigues","covers":["arms","legs","torso"],"physicalDR":0,"energyDR":1,"radiationDR":0,"weight":3,"cost":12,"rarity":1,"underArmor":true,"compatibleMods":["armor_mod_ballistic_weave"]},
+  {"id":"clothing_road_leathers","name":"Road Leathers","covers":["arms","legs","torso"],"physicalDR":1,"energyDR":1,"radiationDR":0,"weight":1,"cost":5,"rarity":1,"underArmor":true,"compatibleMods":["armor_mod_ballistic_weave"]},
+  {"id":"clothing_tough","name":"Tough Clothing","covers":["arms","legs","torso"],"physicalDR":1,"energyDR":1,"radiationDR":0,"weight":3,"cost":20,"rarity":1,"underArmor":true,"compatibleMods":["armor_mod_ballistic_weave"]},
   {"id":"clothing_vault_jumpsuit","name":"Vault Jumpsuit","covers":["arms","legs","torso"],"physicalDR":0,"energyDR":1,"radiationDR":2,"weight":1,"cost":20,"rarity":2,"underArmor":true,"compatibleMods":["armor_mod_insulated_lining","armor_mod_treated_lining","armor_mod_resistant_lining","armor_mod_protective_lining","armor_mod_shielded_lining"]}
 ]
