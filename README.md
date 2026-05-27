@@ -22,7 +22,14 @@ Compendio web de consulta rápida para el juego de mesa **Fallout 2d20** (public
 
 ## Cómo usar
 
-Abrir `index.html` en cualquier navegador moderno. No requiere servidor ni conexión a internet.
+- **Online**: https://allacalle.github.io/fallout-2d20-companion/
+- **Local**: Necesitas un servidor HTTP (el navegador bloquea `fetch()` con `file://`):
+
+  ```bash
+  python3 -m http.server 8000
+  ```
+
+  Luego abre `http://localhost:8000` en el navegador.
 
 ## Tecnología
 
