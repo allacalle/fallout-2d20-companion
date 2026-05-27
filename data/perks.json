@@ -14,7 +14,7 @@
       "4": "Unlocks rank 4 armor mods"
     },
     "description": "You can modify armor with armor mods. Each rank in this perk unlocks an additional rank of mods.",
-    "longDescription": "You can modify armor with armor mods. Each rank in this perk unlocks an additional rank of mods."
+    "longDescription": "You can modify armor with armor mods. Each rank in this perk unlocks an additional rank of mods: rank 1 unlocks rank 1 mods, rank 2 unlocks rank 2 mods, etc. Each time you take this perk, the level requirement increases by 4."
   },
   {
     "id": "awareness",
@@ -27,7 +27,7 @@
       "1": "When you take the Aim minor action at a target within Close range, the next attack against that target gains Piercing 1, or improves existing Piercing X by 1."
     },
     "description": "When you take the Aim minor action at a target within Close range, you spot their weaknesses and can attack more efficiently.",
-    "longDescription": "When you take the Aim minor action at a target within Close range, you spot their weaknesses and can attack more efficiently."
+    "longDescription": "When you take the Aim minor action at a target within Close range, you spot their weaknesses and can attack more efficiently. The next attack you make against that target gains the Piercing 1 damage effect, or improves the rating of any existing Piercing X damage effect by 1."
   },
   {
     "id": "barbarian",
@@ -42,7 +42,7 @@
       "1": "Physical DR increases on all hit locations based on STR: STR 7-8: +1 DR, STR 9-10: +2 DR, STR 11+: +3 DR. Does not work while wearing Power Armor."
     },
     "description": "Your physical Damage Resistance increases on all hit locations based on your STR. You do not gain this benefit while wearing Power Armor.",
-    "longDescription": "Your physical Damage Resistance increases on all hit locations based on your STR. You do not gain this benefit while wearing Power Armor."
+    "longDescription": "Your physical Damage Resistance increases on all hit locations based on your STR. You do not gain this benefit while wearing Power Armor.  STR 7-8: +1 physical DR  STR 9-10: +2 physical DR  STR 11+: +3 physical DR"
   },
   {
     "id": "basher",
@@ -55,7 +55,7 @@
       "1": "When you make a melee attack by bashing with your gun, your attack gains the Vicious damage effect."
     },
     "description": "When you make a melee attack by bashing with your gun, your attack gains the Vicious damage effect.",
-    "longDescription": "When you make a melee attack by bashing with your gun, your attack gains the Vicious damage effect."
+    "longDescription": "When you make a melee attack by bashing with your gun , your attack gains the Vicious damage effect."
   },
   {
     "id": "better_criticals",
@@ -94,7 +94,7 @@
       "1": "When you attempt a CHA-based skill test to influence a character of the chosen gender, you may re-roll 1d20. Your attacks inflict +1DC additional damage against characters of the chosen gender."
     },
     "description": "When you attempt a CHA based skill test to influence a character of the chosen gender, you may re-roll 1d20. Your attacks inflict +1 additional damage against characters of the chosen gender.",
-    "longDescription": "When you attempt a CHA based skill test to influence a character of the chosen gender, you may re-roll 1d20. Your attacks inflict +1 additional damage against characters of the chosen gender."
+    "longDescription": "The Black Widow perk affects men and masculine characters, while the Lady Killer perk affects women and feminine characters—they are otherwise identical. When you attempt a CHA based skill test to influence a character of the chosen gender, you may re-roll 1d20. In addition, your attacks inflict +1DCD additional damage against characters of the chosen gender."
   },
   {
     "id": "blacksmith",
@@ -110,7 +110,7 @@
       "3": "Unlocks rank 3 melee weapon mods"
     },
     "description": "You can modify melee weapons with weapon mods. Each rank in this perk unlocks an additional rank of melee weapon mods.",
-    "longDescription": "You can modify melee weapons with weapon mods. Each rank in this perk unlocks an additional rank of melee weapon mods."
+    "longDescription": "You can modify melee weapons with weapon mods. Each rank in this perk unlocks an additional rank of melee weapon mods: rank 1 unlocks rank 1 mods, rank 2 unlocks rank 2 mods, and rank 3 unlocks rank 3 mods. Each time you take this perk, the level requirement increases by 4."
   },
   {
     "id": "blitz",
@@ -125,7 +125,7 @@
       "2": "Also inflict +1DC damage with that attack."
     },
     "description": "When you move into reach of an opponent and make a melee attack against them in one turn, you may re-roll one d20 on your attack.",
-    "longDescription": "When you move into reach of an opponent and make a melee attack against them in one turn, you may re-roll one d20 on your attack."
+    "longDescription": "When you move into reach of an opponent and make a melee attack against them in one turn, you may re-roll one d20 on your attack. At rank 2, you also inflict +1CD damage with that attack. Each time you take this perk, the level requirement increases by 3."
   },
   {
     "id": "bloody_mess",
@@ -138,7 +138,7 @@
       "1": "When you inflict a critical hit, roll 1DC; if you roll an Effect, you inflict one additional injury to a random location."
     },
     "description": "When you inflict a critical hit, roll 1 CD; if you roll an Effect, you inflict one additional injury to a random location.",
-    "longDescription": "When you inflict a critical hit, roll 1 CD; if you roll an Effect, you inflict one additional injury to a random location."
+    "longDescription": "When you inflict a critical hit, roll 1DCD ; if you roll an Effect, you inflict one additional injury to a random location."
   },
   {
     "id": "can_do",
@@ -177,7 +177,7 @@
       "1": "Whenever you attempt a skill test and buy one or more d20s by spending Action Points, you may re-roll 1d20 on that test. Cannot have Daring Nature."
     },
     "description": "Whenever you attempt a skill test, and you buy one or more d20s by spending Action Points, you may re-roll 1d20 on that test.",
-    "longDescription": "Whenever you attempt a skill test, and you buy one or more d20s by spending Action Points, you may re-roll 1d20 on that test."
+    "longDescription": "Whenever you attempt a skill test, and you buy one or more d20s by spending Action Points, you may re-roll 1d20 on that test. You may not purchase this perk if you have Daring Nature."
   },
   {
     "id": "center_mass",
@@ -190,7 +190,7 @@
       "1": "When you make a ranged attack, you may choose to strike your target's Torso without increasing difficulty. You may also re-roll 1d20 when making the attack test."
     },
     "description": "When you make a ranged attack, you may choose to strike your target's Torso location without increasing the difficulty of the attack.",
-    "longDescription": "When you make a ranged attack, you may choose to strike your target's Torso location without increasing the difficulty of the attack."
+    "longDescription": "When you make a ranged attack, you may choose to strike your target's Torso location (or equivalent, for creatures that use a different location table) without increasing the difficulty of the attack. In addition, you may re-roll 1d20 when making the test for your attack."
   },
   {
     "id": "chem_resistant",
@@ -205,7 +205,7 @@
       "2": "Cannot become addicted to chems."
     },
     "description": "At rank 1, roll one fewer CD when determining if you become addicted to chems. At rank 2, you cannot become addicted to chems.",
-    "longDescription": "At rank 1, roll one fewer CD when determining if you become addicted to chems. At rank 2, you cannot become addicted to chems."
+    "longDescription": "At rank 1, roll one fewer CD when determining if you become addicted to chems, to a minimum of 0. At rank 2, you cannot become addicted to chems. Each time you take this perk, the level requirement increases by 4."
   },
   {
     "id": "chemist",
@@ -218,7 +218,7 @@
       "1": "Chems you create last twice as long as normal. Unlocks chem recipes that have this perk as a requirement."
     },
     "description": "Chems you create last twice as long as normal. You unlock chems recipes that have this perk as a requirement.",
-    "longDescription": "Chems you create last twice as long as normal. You unlock chems recipes that have this perk as a requirement."
+    "longDescription": "Chems you create last twice as long as normal . In addition, you unlock chems recipes that have this perk as a requirement."
   },
   {
     "id": "commando",
@@ -233,7 +233,7 @@
       "2": "Add +2DC to damage."
     },
     "description": "When you make a ranged attack with any weapon with a Fire Rate of 3 or higher, you add +1 CD per rank to the weapon's damage.",
-    "longDescription": "When you make a ranged attack with any weapon with a Fire Rate of 3 or higher, you add +1 CD per rank to the weapon's damage."
+    "longDescription": "When you make a ranged attack with any weapon with a Fire Rate of 3 or higher (except heavy weapons), you add +1DCD per rank to the weapon's damage. Each time you take this perk, the level requirement increases by 3."
   },
   {
     "id": "comprehension",
@@ -246,7 +246,7 @@
       "1": "After using a magazine bonus, roll 1DC. If you roll an Effect, you may use that bonus one additional time."
     },
     "description": "After you use the bonus gained from reading a magazine, roll 1 CD. If you roll an Effect, you may use that bonus one additional time.",
-    "longDescription": "After you use the bonus gained from reading a magazine, roll 1 CD. If you roll an Effect, you may use that bonus one additional time."
+    "longDescription": "After you use the bonus gained from reading a magazine, roll 1CD . If you roll an Effect, you may use that bonus one additional time."
   },
   {
     "id": "concentrated_fire",
@@ -260,7 +260,7 @@
       "1": "When you make a ranged attack and spend ammunition to increase damage, you may re-roll up to 3DC for your damage roll."
     },
     "description": "When you make a ranged attack and spend ammunition to increase the damage, you may re-roll up to 3 CD for your damage roll.",
-    "longDescription": "When you make a ranged attack and spend ammunition to increase the damage, you may re-roll up to 3 CD for your damage roll."
+    "longDescription": "When you make a ranged attack and spend ammunition to increase the damage, you may re-roll up to 3CD for your damage roll."
   },
   {
     "id": "daring_nature",
@@ -273,7 +273,7 @@
       "1": "Whenever you attempt a skill test and buy d20s by giving the GM Action Points, you may re-roll 1d20. Cannot have Cautious Nature."
     },
     "description": "Whenever you attempt a skill test, and you buy one or more d20s by giving the gamemaster Action Points, you may re-roll 1d20 on that test.",
-    "longDescription": "Whenever you attempt a skill test, and you buy one or more d20s by giving the gamemaster Action Points, you may re-roll 1d20 on that test."
+    "longDescription": "Whenever you attempt a skill test, and you buy one or more d20s by giving the gamemaster Action Points, you may re-roll 1d20 on that test. You may not purchase this perk if you have Cautious Nature."
   },
   {
     "id": "demolition_expert",
@@ -287,7 +287,7 @@
       "1": "Attacks using weapons with Blast quality gain Vicious damage effect. Unlocks explosives recipes that have this perk as a requirement."
     },
     "description": "When you make an attack using a weapon with the Blast quality, the attack gains the Vicious damage effect.",
-    "longDescription": "When you make an attack using a weapon with the Blast quality, the attack gains the Vicious damage effect."
+    "longDescription": "When you make an attack using a weapon with the Blast quality, the attack gains the Vicious damage effect. In addition, you unlock explosives recipes which have this perk as a requirement."
   },
   {
     "id": "dodger",
@@ -302,7 +302,7 @@
       "2": "AP cost to further increase Defense reduced to 1 AP."
     },
     "description": "At rank 1, when you take the Defend major action, you reduce the difficulty of the skill test by 1. At rank 2, the AP cost to increase Defense is reduced to 1 AP.",
-    "longDescription": "At rank 1, when you take the Defend major action, you reduce the difficulty of the skill test by 1. At rank 2, the AP cost to increase Defense is reduced to 1 AP."
+    "longDescription": "At rank 1, when you take the Defend major action, you reduce the difficulty of the skill test by 1. At rank 2, the AP cost to further increase your Defense is reduced to 1 AP. Each time you take this perk, the level requirement increases by 6."
   },
   {
     "id": "dogmeat",
@@ -315,7 +315,7 @@
       "1": "You have a pet dog companion (allied NPC). Dog levels with you, increases Body or Mind at odd levels, HP +1 per level, bite damage +1DC at 5th level and every 5 beyond."
     },
     "description": "You aren't alone in the wilderness. You have a pet dog that serves as a friend and ally in dangerous times.",
-    "longDescription": "You aren't alone in the wilderness. You have a pet dog that serves as a friend and ally in dangerous times."
+    "longDescription": "You aren't alone in the wilderness. You have a pet dog that serves as a friend and ally in dangerous times. The dog has the profile shown to the side and is treated as an allied NPC creature under your command . If you need to forage for food and water, your dog looks after themselves. If your dog is slain, then you either find a new dog before the next adventure, or you may trade this perk for a different one after this adventure."
   },
   {
     "id": "entomologist",
@@ -328,7 +328,7 @@
       "1": "Attacks against NPCs with Insect keyword gain Piercing 1, or improve existing Piercing X by +1."
     },
     "description": "When you make an attack against an NPC with the Insect keyword, your attack gains the Piercing 1 damage effect.",
-    "longDescription": "When you make an attack against an NPC with the Insect keyword, your attack gains the Piercing 1 damage effect."
+    "longDescription": "When you make an attack against an NPC with the Insect keyword, your attack gains the Piercing 1 damage effect, or improves the rating of any Piercing X effect the weapon has by +1."
   },
   {
     "id": "fast_metabolism",
@@ -345,7 +345,7 @@
       "3": "Increase by +3."
     },
     "description": "When you regain one or more HP from any source other than rest, increase the total HP regained by +1 per rank in this perk.",
-    "longDescription": "When you regain one or more HP from any source other than rest, increase the total HP regained by +1 per rank in this perk."
+    "longDescription": "When you regain one or more HP from any source other than rest, increase the total HP regained by +1 per rank in this perk. Each time you take this perk, the level requirement increases by 3."
   },
   {
     "id": "faster_healing",
@@ -359,7 +359,7 @@
       "1": "When making an END + Survival test to heal your own injuries, the first additional d20 you buy is free (max 5d20 still applies)."
     },
     "description": "When you make an END + Survival test to heal your own injuries, the first additional d20 you buy is free.",
-    "longDescription": "When you make an END + Survival test to heal your own injuries, the first additional d20 you buy is free."
+    "longDescription": "When you make an END + Survival test to heal your own injuries, the first additional d20 you buy is free. The normal maximum of 5d20 still applies."
   },
   {
     "id": "finesse",
@@ -372,7 +372,7 @@
       "1": "Once per combat encounter, re-roll all DC on a single damage roll without spending any Luck points."
     },
     "description": "Once per combat encounter, you may re-roll all the CD on a single damage roll without spending any Luck points.",
-    "longDescription": "Once per combat encounter, you may re-roll all the CD on a single damage roll without spending any Luck points."
+    "longDescription": "Once per combat encounter, you may re-roll all the DCD on a single damage roll without spending any Luck points."
   },
   {
     "id": "fortune_finder",
@@ -388,7 +388,7 @@
       "3": "+10DC caps."
     },
     "description": "Whenever you roll to determine how much money you find, you find more caps.",
-    "longDescription": "Whenever you roll to determine how much money you find, you find more caps."
+    "longDescription": "Whenever you roll to determine how much money you find, you find more. At rank 1, you find +3DCD additional caps. At rank 2, you find +6DCD additional caps. At rank 3, you find +10CD additional caps. Each time you take this perk, the level requirement increases by 4."
   },
   {
     "id": "ghost",
@@ -402,7 +402,7 @@
       "1": "When attempting an AGI + Sneak test in shadows or darkness, the first additional d20 you buy is free (max 5d20 still applies)."
     },
     "description": "Whenever you attempt an AGI + Sneak test in shadows or darkness, the first additional d20 you buy is free.",
-    "longDescription": "Whenever you attempt an AGI + Sneak test in shadows or darkness, the first additional d20 you buy is free."
+    "longDescription": "Whenever you attempt an AGI + Sneak test in shadows or darkness, the first additional d20 you buy is free. The normal maximum of 5d20 still applies."
   },
   {
     "id": "grim_reapers_sprint",
@@ -415,7 +415,7 @@
       "1": "When you make an attack that kills one or more enemies, roll 1DC. If you roll an Effect, add 2 AP to the group's pool."
     },
     "description": "When you make an attack which kills one or more enemies, roll 1 CD. If you roll an Effect, add 2 AP to the group's pool.",
-    "longDescription": "When you make an attack which kills one or more enemies, roll 1 CD. If you roll an Effect, add 2 AP to the group's pool."
+    "longDescription": "When you make an attack which kills one or more enemies, roll 1DCD . If you roll an Effect, add 2 AP to the group's pool."
   },
   {
     "id": "gun_fu",
@@ -431,7 +431,7 @@
       "3": "Spend 3 AP + 3 ammo for three additional targets."
     },
     "description": "When you succeed at a ranged attack, you may spend AP and ammo to hit additional targets within Close range of your initial target.",
-    "longDescription": "When you succeed at a ranged attack, you may spend AP and ammo to hit additional targets within Close range of your initial target."
+    "longDescription": "When you succeed at a ranged attack, you may spend 1 AP and 1 ammo to hit a second target within Close range of your initial target. The second target takes the same damage as the initial target. At rank 2, you may spend 2 AP and 2 ammo to hit two additional targets. At rank 3, you may spend 3 AP and 3 ammo to hit three additional targets. Each time you take this perk, the level requirement increases by 5."
   },
   {
     "id": "gun_nut",
@@ -448,7 +448,7 @@
       "4": "Unlocks rank 4 small gun and heavy weapon mods"
     },
     "description": "You can modify small guns and heavy weapons with weapon mods. Each rank unlocks an additional rank of weapon mods.",
-    "longDescription": "You can modify small guns and heavy weapons with weapon mods. Each rank unlocks an additional rank of weapon mods."
+    "longDescription": "You can modify small guns and heavy weapons with weapon mods. Each rank in this perk unlocks an additional rank of weapon mods: rank 1 unlocks rank 1 mods, rank 2 unlocks rank 2 mods, etc. Each time you take this perk, the level requirement increases by 4."
   },
   {
     "id": "gunslinger",
@@ -463,7 +463,7 @@
       "2": "Increase damage by +2DC."
     },
     "description": "When you make an attack with a one-handed ranged weapon with a Fire Rate of 2 or lower, you increase the weapon's damage by +1 CD per rank.",
-    "longDescription": "When you make an attack with a one-handed ranged weapon with a Fire Rate of 2 or lower, you increase the weapon's damage by +1 CD per rank."
+    "longDescription": "When you make an attack with a onehanded ranged weapon with a Fire Rate of 2 or lower, you increase the weapon's damage by +1CD per rank. In addition, you may re-roll the hit location die. Each time you take this perk, the level requirement increases by 4."
   },
   {
     "id": "hacker",
@@ -492,7 +492,7 @@
       "3": "Increase by +3."
     },
     "description": "When you heal a patient's HP using the First Aid action, increase the amount of HP healed by +1 per rank in this perk.",
-    "longDescription": "When you heal a patient's HP using the First Aid action, increase the amount of HP healed by +1 per rank in this perk."
+    "longDescription": "When you heal a patient's HP using the First Aid action, increase the amount of HP healed by +1 per rank in this perk. Each time you take this perk, the level requirement increases by 5."
   },
   {
     "id": "heave_ho",
@@ -505,7 +505,7 @@
       "1": "When making a thrown weapon attack, spend 1 AP to increase weapon Range by one step (Close to Medium, or Medium to Long)."
     },
     "description": "When you make a thrown weapon attack, you may spend 1 AP to increase the Range of the weapon by one step.",
-    "longDescription": "When you make a thrown weapon attack, you may spend 1 AP to increase the Range of the weapon by one step."
+    "longDescription": "When you make a thrown weapon attack, you may spend 1 AP to increase the Range of the weapon by one step—from Close to Medium, or from Medium to Long."
   },
   {
     "id": "hunter",
@@ -518,7 +518,7 @@
       "1": "When attacking an NPC with Mammal, Lizard, or Insect keyword and Mutated keyword, your attack gains Vicious damage effect if it didn't already have it."
     },
     "description": "When you make an attack against an NPC with the Mammal, Lizard, or Insect keywords and the Mutated keyword, your attack gains the Vicious damage effect.",
-    "longDescription": "When you make an attack against an NPC with the Mammal, Lizard, or Insect keywords and the Mutated keyword, your attack gains the Vicious damage effect."
+    "longDescription": "When you make an attack against an NPC with one of the Mammal, Lizard, or Insect keywords and the Mutated keyword, your attack gains the Vicious damage effect, if it did not already have that effect."
   },
   {
     "id": "infiltrator",
@@ -566,7 +566,7 @@
       "10": "Increase any one S.P.E.C.I.A.L. attribute by 1 (max 10)."
     },
     "description": "Increase any one S.P.E.C.I.A.L attribute by 1 rank. Attributes cannot be increased beyond 10 using this method.",
-    "longDescription": "Increase any one S.P.E.C.I.A.L attribute by 1 rank. Attributes cannot be increased beyond 10 using this method."
+    "longDescription": "Increase any one S.P.E.C.I.A.L attribute by 1 rank. As usual, your S.P.E.C.I.A.L attributes cannot be increased beyond 10 using this method. Each time you take this perk, the level requirement increases by 2."
   },
   {
     "id": "iron_fist",
@@ -581,7 +581,7 @@
       "2": "Unarmed attacks also gain Vicious damage effect."
     },
     "description": "At rank 1, your unarmed attacks inflict +1 CD damage. At rank 2, your unarmed attacks also gain the Vicious damage effect.",
-    "longDescription": "At rank 1, your unarmed attacks inflict +1 CD damage. At rank 2, your unarmed attacks also gain the Vicious damage effect."
+    "longDescription": "At rank 1, your unarmed attacks inflict +1DCD damage. At rank 2, your unarmed attacks also gain the Vicious damage effect. Each time you take this perk, the level requirement increases by 5."
   },
   {
     "id": "junktown_jerky_vendor",
@@ -605,7 +605,7 @@
       "1": "You can repair an item without expending components. Repair is temporary; item breaks on next complication while using it. Complication range increases by 1 (19-20)."
     },
     "description": "You can repair an item without needing to expend any components. However, the repair is temporary.",
-    "longDescription": "You can repair an item without needing to expend any components. However, the repair is temporary."
+    "longDescription": "You can repair an item without needing to expend any components. However, the repair is temporary, and the item will break again on the next complication you suffer while using it. The complication range of all skill tests to use the item increases by 1, to the roll of a 19-20."
   },
   {
     "id": "laser_commander",
@@ -620,7 +620,7 @@
       "2": "Damage increased by +2DC."
     },
     "description": "When you make an attack with a ranged energy weapon, the damage is increased by +1 CD per rank in this perk.",
-    "longDescription": "When you make an attack with a ranged energy weapon, the damage is increased by +1 CD per rank in this perk."
+    "longDescription": "When you make an attack with a ranged energy weapon, the damage is increased by +1DCD per rank in this perk. Each time you take this perk, the level requirement increases by 4."
   },
   {
     "id": "lead_belly",
@@ -635,7 +635,7 @@
       "2": "Immune to radiation from irradiated food/drink."
     },
     "description": "At rank 1, you may re-roll the CD to determine if you suffer radiation damage from irradiated food or drink. At rank 2, you are immune.",
-    "longDescription": "At rank 1, you may re-roll the CD to determine if you suffer radiation damage from irradiated food or drink. At rank 2, you are immune."
+    "longDescription": "At rank 1, you may re-roll the CD to determine if you suffer radiation damage from irradiated food or drink. At rank 2, you are immune to radiation damage from consuming irradiated food or drink. Each time you take this perk, the level requirement increases by 4."
   },
   {
     "id": "life_giver",
@@ -652,7 +652,7 @@
       "5": "Increase maximum HP by your Endurance rank."
     },
     "description": "Increase your maximum health points by your Endurance rank.",
-    "longDescription": "Increase your maximum health points by your Endurance rank."
+    "longDescription": "Increase your maximum health points by your Endurance rank. Each time you take this perk, the level requirement increases by 5."
   },
   {
     "id": "light_step",
@@ -663,7 +663,7 @@
       "1": "When rolling complications on an Agility-based skill test, ignore one complication per 1 AP spent. Re-roll 1d20 on AGI + Athletics tests to avoid traps."
     },
     "description": "When you roll to generate any complications on an Agility-based skill test, you may ignore one complication for every 1 AP spent.",
-    "longDescription": "When you roll to generate any complications on an Agility-based skill test, you may ignore one complication for every 1 AP spent."
+    "longDescription": "When you roll to generate any complications on an Agility-based skill test, you may ignore one complication for every 1 AP spent. In addition, you may re-roll 1d20 on any AGI + Athletics test to avoid traps triggered by pressure plates or similar mechanisms."
   },
   {
     "id": "master_thief",
@@ -703,7 +703,7 @@
       "1": "When you kill an enemy with an energy weapon, they explode. Roll DC equal to half the weapon's damage (round down). For each Effect rolled, one creature within Close range suffers energy damage equal to the total rolled."
     },
     "description": "When you kill an enemy with an energy weapon, they explode. Creatures within Close range may suffer energy damage.",
-    "longDescription": "When you kill an enemy with an energy weapon, they explode. Creatures within Close range may suffer energy damage."
+    "longDescription": "When you kill an enemy with an energy weapon, they explode. Roll a number of DCD equal to half the weapon's damage rating (round down). For each Effect rolled, one creature within Close range of the exploding enemy (starting with the closest) suffers energy damage equal to the total rolled on the DCD ."
   },
   {
     "id": "mister_sandman",
@@ -716,7 +716,7 @@
       "1": "When making a sneak attack with a silenced/suppressed weapon, damage increased by +2DC. Cannot gain benefit while in Power Armor."
     },
     "description": "When you make a sneak attack with a silenced or suppressed weapon, the damage is increased by +2 CD.",
-    "longDescription": "When you make a sneak attack with a silenced or suppressed weapon, the damage is increased by +2 CD."
+    "longDescription": "When you make a sneak attack with a silenced or suppressed weapon, the damage is increased by +2CD . You cannot gain this benefit while in Power Armor."
   },
   {
     "id": "moving_target",
@@ -742,7 +742,7 @@
       "1": "At start of combat, spend 1 Luck point. Mysterious Stranger may appear during scene, make a single ranged attack (.44 Magnum inflicts 8DC Piercing 1, Vicious physical damage), then vanish. If Stranger doesn't appear, Luck point refunded."
     },
     "description": "From time to time, a Mysterious Stranger comes to your aid, with lethal results. Spend 1 Luck point at the start of combat.",
-    "longDescription": "From time to time, a Mysterious Stranger comes to your aid, with lethal results. Spend 1 Luck point at the start of combat."
+    "longDescription": "From time to time, a Mysterious Stranger comes to your aid, with lethal results. At the start of a combat encounter, you may spend 1 Luck point. If you do so, then at any point during the scene, the GM may have the Mysterious Stranger appear, make a single ranged attack against an enemy you attacked, or who just attacked you, and then vanish. If you spend a Luck point and the Mysterious Stranger does not appear, the GM must refund the Luck point you spent. The stranger has an AGI of 10, a Small Guns skill of 6, and counts Small Guns as a Tag skill. They always roll 3d20 for attacks, rather than 2d20, and their attack—using a custom .44 Magnum revolver—inflicts 8CD Piercing 1, Vicious physical damage. They always appear within their weapon's ideal range. Any attempt to find where the Stranger went after their attack fails."
   },
   {
     "id": "nerd_rage",
@@ -758,7 +758,7 @@
       "3": "+3 DR, +3DC damage."
     },
     "description": "While your health is reduced to less than 1/4 of your maximum, you add +1 to your physical DR, energy DR, and attack damage per rank.",
-    "longDescription": "While your health is reduced to less than 1/4 of your maximum, you add +1 to your physical DR, energy DR, and attack damage per rank."
+    "longDescription": "While your health is reduced to less than ¼ of your maximum, you add +1 to your physical DR, +1 to your energy DR, and +1CD to the damage of all your attacks. At rank 2, this increases to +2 DR, and +2CD damage. At rank 3, this increases to +3 DR and +3CD damage. Each time you take this perk, the level requirement increases by 5."
   },
   {
     "id": "night_person",
@@ -784,7 +784,7 @@
       "1": "When making a sneak attack with a melee weapon or unarmed attack, damage increased by +2DC. Cannot gain benefit while in Power Armor."
     },
     "description": "When you make a sneak attack with a melee weapon or unarmed attack, the damage is increased by +2 CD.",
-    "longDescription": "When you make a sneak attack with a melee weapon or unarmed attack, the damage is increased by +2 CD."
+    "longDescription": "When you make a sneak attack with a melee weapon or unarmed attack, the damage is increased by +2CD . You cannot gain this benefit while in Power Armor."
   },
   {
     "id": "nuclear_physicist",
@@ -797,7 +797,7 @@
       "1": "When using weapons that inflict radiation damage or have Radioactive effect, each Effect rolled inflicts one additional point of radiation damage. Fusion cores have 3 additional charges."
     },
     "description": "Whenever you use a weapon that inflicts radiation damage, each Effect you roll inflicts one additional point of radiation damage.",
-    "longDescription": "Whenever you use a weapon that inflicts radiation damage, each Effect you roll inflicts one additional point of radiation damage."
+    "longDescription": "Whenever you use a weapon that inflicts radiation damage, or has the Radioactive damage effect, each Effect you roll inflicts one additional point of radiation damage. In addition, fusion cores you use have 3 additional charges."
   },
   {
     "id": "pain_train",
@@ -813,7 +813,7 @@
       "2": "+1DC and Stun effect."
     },
     "description": "You may Charge as a major action if you are wearing Power Armor or are a super mutant.",
-    "longDescription": "You may Charge as a major action if you are wearing Power Armor or are a super mutant."
+    "longDescription": "You may Charge as a major action if you are wearing Power Armor or are a super mutant. This is a movement action, and you may not Move or Sprint in the same turn. When you take this action, you move into reach of an enemy within Medium range (1 zone) and make a STR + Athletics test with a difficulty of 2. If you succeed, the enemy suffers damage equal to your normal unarmed damage, and is knocked prone. At rank 2, you add +1DCD and the Stun damage effect to the damage inflicted. At the GM's discretion, especially large or sturdy creatures cannot be knocked prone by this action. Each time you take this perk, the level requirement increases by 5."
   },
   {
     "id": "paralyzing_palm",
@@ -826,7 +826,7 @@
       "1": "When making an unarmed attack and choosing to strike a specific location, your attack gains the Stun damage effect."
     },
     "description": "When you make an unarmed attack and choose to strike a specific location, your attack gains the Stun damage effect.",
-    "longDescription": "When you make an unarmed attack and choose to strike a specific location, your attack gains the Stun damage effect."
+    "longDescription": "When you make an unarmed attack, and choose to strike a specific location, your attack gains the Stun damage effect."
   },
   {
     "id": "party_boy_party_girl",
@@ -854,7 +854,7 @@
       "1": "When traveling long distances through wilderness, a successful PER + Survival test reduces travel time by half."
     },
     "description": "When travelling over long distances through the wilderness, a successful PER + Survival test reduces the travel time by half.",
-    "longDescription": "When travelling over long distances through the wilderness, a successful PER + Survival test reduces the travel time by half."
+    "longDescription": "When travelling over long distances through the wilderness, a successful PER + Survival test (with a difficulty determined by the GM, based on the terrain) reduces the travel time by half."
   },
   {
     "id": "pharma_farma",
@@ -867,7 +867,7 @@
       "1": "When scavenging a location that contains medicine or chems, find one additional item randomly without spending AP."
     },
     "description": "When you are scavenging a location that contains medicine or chems, you find one additional item without spending AP.",
-    "longDescription": "When you are scavenging a location that contains medicine or chems, you find one additional item without spending AP."
+    "longDescription": "When you are scavenging a location that contains medicine or chems, you find one additional item, randomly determined, without spending AP."
   },
   {
     "id": "pickpocket",
@@ -884,7 +884,7 @@
       "3": "Reduce difficulty of pickpocketing by 1."
     },
     "description": "At rank 1, you can ignore the first complication on an AGI + Sneak test to steal or plant items. Higher ranks improve your pickpocketing abilities.",
-    "longDescription": "At rank 1, you can ignore the first complication on an AGI + Sneak test to steal or plant items. Higher ranks improve your pickpocketing abilities."
+    "longDescription": "At rank 1, you can ignore the first complication you roll when you make an AGI + Sneak test to steal an object from someone else's person or to plant something on them. At rank 2, you can re-roll 1d20 in your dice pool when attempting to pick someone's pocket. At rank 3, you reduce the difficulty of attempts to pick someone's pocket by 1. Each time you take this perk, the level requirement increases by 3."
   },
   {
     "id": "piercing_strike",
@@ -897,7 +897,7 @@
       "1": "Unarmed attacks and bladed melee weapons gain Piercing 1, or add +1 to existing Piercing X damage effect."
     },
     "description": "Your attacks using unarmed attacks and bladed melee weapons gain the Piercing 1 damage effect.",
-    "longDescription": "Your attacks using unarmed attacks and bladed melee weapons gain the Piercing 1 damage effect."
+    "longDescription": "Your attacks using unarmed attacks and bladed melee weapons gain the Piercing 1 damage effect, or add +1 to the rating of any Piercing X damage effect they already had."
   },
   {
     "id": "pyromaniac",
@@ -913,7 +913,7 @@
       "3": "+3DC."
     },
     "description": "The damage you deal using fire-based weapons increases by +1 CD per rank.",
-    "longDescription": "The damage you deal using fire-based weapons increases by +1 CD per rank."
+    "longDescription": "The damage you deal using firebased weapons increases by +1CD per rank. Each time you take this perk, the level requirement increases by 4."
   },
   {
     "id": "quick_draw",
@@ -926,7 +926,7 @@
       "1": "Each turn, draw a single weapon or item carried on your person without using a minor action."
     },
     "description": "Each turn, you may draw a single weapon or item without using a minor action.",
-    "longDescription": "Each turn, you may draw a single weapon or item without using a minor action."
+    "longDescription": "Each turn, you may draw a single weapon or item carried on your person without using a minor action."
   },
   {
     "id": "quick_hands",
@@ -939,7 +939,7 @@
       "1": "When making a ranged attack, spend 2 AP to increase Fire Rate of your gun by +2 for that attack."
     },
     "description": "You can reload firearms faster. When you make a ranged attack, you may spend 2 AP to increase the Fire Rate by +2 for that attack.",
-    "longDescription": "You can reload firearms faster. When you make a ranged attack, you may spend 2 AP to increase the Fire Rate by +2 for that attack."
+    "longDescription": "You can reload firearms faster. When you make a ranged attack, you may spend 2 AP to increase the Fire Rate of your gun by +2 for that attack."
   },
   {
     "id": "rad_resistance",
@@ -954,7 +954,7 @@
       "2": "Radiation DR increases by +2."
     },
     "description": "Your radiation Damage Resistance to all hit locations increases by +1 per rank in this perk.",
-    "longDescription": "Your radiation Damage Resistance to all hit locations increases by +1 per rank in this perk."
+    "longDescription": "Your radiation Damage Resistance, to all hit locations, increases by +1 per rank in this perk. Each time you take this perk, the level requirement increases by 4."
   },
   {
     "id": "refractor",
@@ -970,7 +970,7 @@
       "2": "Energy DR increases by +2."
     },
     "description": "Your energy Damage Resistance to all hit locations increases by +1 per rank in this perk.",
-    "longDescription": "Your energy Damage Resistance to all hit locations increases by +1 per rank in this perk."
+    "longDescription": "Your energy Damage Resistance to all hit locations increases by +1 per rank in this perk. Each time you take this perk, the level requirement increases by 4."
   },
   {
     "id": "ricochet",
@@ -984,7 +984,7 @@
       "1": "If an enemy makes a ranged attack against you and rolls a complication, spend 1 Luck point to have their ricochet hit them. Resolve damage against attacking enemy instead."
     },
     "description": "If an enemy makes a ranged attack against you and rolls a complication, you may spend 1 Luck point to have their ricochet hit them.",
-    "longDescription": "If an enemy makes a ranged attack against you and rolls a complication, you may spend 1 Luck point to have their ricochet hit them."
+    "longDescription": "If an enemy makes a ranged attack against you and rolls a complication, you may spend one Luck point to have their ricochet hit them. Resolve the damage roll against the attacking enemy instead."
   },
   {
     "id": "rifleman",
@@ -999,7 +999,7 @@
       "2": "Add +2DC. Also add Piercing 1 or +1 to existing Piercing X."
     },
     "description": "When you make a ranged attack with a two-handed weapon with a Fire Rate of 2 or lower, you add +1 CD to damage per rank.",
-    "longDescription": "When you make a ranged attack with a two-handed weapon with a Fire Rate of 2 or lower, you add +1 CD to damage per rank."
+    "longDescription": "When you make a ranged attack with any two-handed weapon with a Fire Rate of 2 or lower (except heavy weapons), you add +1 CD to the weapon's damage per rank. At rank 2, you also add the Piercing 1 damage effect, or add +1 to the rating of any Piercing X damage effect the weapon already had. Each time you take this perk, the level requirement increases by 4."
   },
   {
     "id": "robotics_expert",
@@ -1015,7 +1015,7 @@
       "3": "Access rank 3 mods, reprogram robots."
     },
     "description": "You can modify robot armor, weapon mounts, and modules. Each rank unlocks an additional rank of robot mods.",
-    "longDescription": "You can modify robot armor, weapon mounts, and modules. Each rank unlocks an additional rank of robot mods."
+    "longDescription": "At rank 1, you can modify robot armor, weapon mounts, and modules with rank 1 mods. At rank 2 you gain access to rank 2 mods, and the difficulty of tests to repair robots is permanently reduced by 1. At rank 3 you gain access to rank 3 mods, and you can reprogram robots to fulfil a different function or alter their behavior at the discretion of the GM. Each time you take this perk, the level requirement increases by 4."
   },
   {
     "id": "science",
@@ -1031,7 +1031,7 @@
       "3": "Unlocks rank 3 mods."
     },
     "description": "You can modify energy weapons with weapon mods and craft certain advanced armor mods. Each rank unlocks more mods.",
-    "longDescription": "You can modify energy weapons with weapon mods and craft certain advanced armor mods. Each rank unlocks more mods."
+    "longDescription": "You can modify energy weapons with weapon mods, and you can also craft certain advanced armor mods. Each rank in this perk unlocks an additional rank of mods: rank 1 unlocks rank 1 mods, rank 2 unlocks rank 2 mods, etc. Each time you take this perk, the level requirement increases by 4."
   },
   {
     "id": "scoundrel",
@@ -1058,7 +1058,7 @@
       "2": "Also salvage rare materials."
     },
     "description": "When you scrap an item, you can salvage uncommon component materials as well as common ones.",
-    "longDescription": "When you scrap an item, you can salvage uncommon component materials as well as common ones."
+    "longDescription": "When you scrap an item, you can salvage uncommon component materials as well as common ones . At rank 2, you can also salvage rare materials. Each time you take this perk, the level requirement increases by 5."
   },
   {
     "id": "scrounger",
@@ -1074,7 +1074,7 @@
       "3": "+10DC shots."
     },
     "description": "Whenever you roll to determine how much ammunition you find, you find more shots.",
-    "longDescription": "Whenever you roll to determine how much ammunition you find, you find more shots."
+    "longDescription": "Whenever you roll to determine how much ammunition you find, you find more. At rank 1, you find +3CD additional shots. At rank 2, you find +6CCD additional shots. At rank 3, you find +10 CD additional shots. The additional ammo you find is the same as initially found, for example, if you find 10mm ammunition, this perk increases how much 10mm ammo you find. If you find multiple types of ammunition, Scrounger applies to the ammunition with the lowest rarity (GM's choice if there is a tie). Each time you take this perk, the level requirement increases by 5."
   },
   {
     "id": "shotgun_surgeon",
@@ -1088,7 +1088,7 @@
       "1": "Ranged attacks using shotguns gain Piercing 1, or add +1 to existing Piercing X damage effect."
     },
     "description": "Your ranged attacks using shotguns gain the Piercing 1 damage effect.",
-    "longDescription": "Your ranged attacks using shotguns gain the Piercing 1 damage effect."
+    "longDescription": "Your ranged attacks using shotguns gain the Piercing 1 damage effect, or add +1 to any Piercing X damage effect the weapon already had."
   },
   {
     "id": "skilled",
@@ -1110,7 +1110,7 @@
       "10": "Add +1 rank to two skills or +2 ranks to one skill (max 6 ranks per skill)."
     },
     "description": "Add +1 rank to two skills or add +2 ranks to one skill. No skill may have more than 6 ranks.",
-    "longDescription": "Add +1 rank to two skills or add +2 ranks to one skill. No skill may have more than 6 ranks."
+    "longDescription": "Add +1 rank to two skills or add +2 ranks to one skill. No skill may have more than 6 ranks. Each time you take this perk, the level requirement increases by 3. GUNS"
   },
   {
     "id": "size_matters",
@@ -1126,7 +1126,7 @@
       "3": "+3DC."
     },
     "description": "When you make a ranged attack with any heavy weapon, you add +1 CD to the weapon's damage per rank.",
-    "longDescription": "When you make a ranged attack with any heavy weapon, you add +1 CD to the weapon's damage per rank."
+    "longDescription": "When you make a ranged attack with any heavy weapon, you add +1CD to the weapon's damage, per rank. Each time you take this perk, the level requirement increases by 4."
   },
   {
     "id": "slayer",
@@ -1139,7 +1139,7 @@
       "1": "When inflicting damage with unarmed attack or melee weapon, spend 1 Luck point to immediately inflict a critical hit (and injury) on the location hit."
     },
     "description": "When you inflict any damage with an unarmed attack or melee weapon, you may spend 1 Luck point to inflict a critical hit.",
-    "longDescription": "When you inflict any damage with an unarmed attack or melee weapon, you may spend 1 Luck point to inflict a critical hit."
+    "longDescription": "When you inflict any damage with an unarmed attack or melee weapon, you may spend 1 Luck point to immediately inflict a critical hit—and therefore an injury—on the location hit."
   },
   {
     "id": "smooth_talker",
@@ -1179,7 +1179,7 @@
       "1": "When you take Aim minor action, then make a ranged attack with a two-handed weapon with Accurate quality, specify a hit location without increasing difficulty."
     },
     "description": "When you take the Aim minor action and make a ranged attack with an Accurate two-handed weapon, you can target a hit location without difficulty increase.",
-    "longDescription": "When you take the Aim minor action and make a ranged attack with an Accurate two-handed weapon, you can target a hit location without difficulty increase."
+    "longDescription": "When you take the Aim minor action, and then make a ranged attack with a two-handed weapon with the Accurate quality, you can specify a hit location to target without increasing the difficulty of the attack."
   },
   {
     "id": "solar_powered",
@@ -1206,7 +1206,7 @@
       "1": "When taking Aim minor action, either re-roll 2d20 on first attack this turn, or re-roll 1d20 on all attacks this turn."
     },
     "description": "When you take the Aim minor action, you may re-roll 2d20 on the first attack or re-roll 1d20 on all attacks this turn.",
-    "longDescription": "When you take the Aim minor action, you may re-roll 2d20 on the first attack or re-roll 1d20 on all attacks this turn."
+    "longDescription": "When you take the Aim minor action, you may either re-roll 2d20 on the first attack you make this turn, or re-roll 1d20 on all attacks you make this turn."
   },
   {
     "id": "strong_back",
@@ -1222,7 +1222,7 @@
       "3": "Maximum carry weight increased by +75 lbs."
     },
     "description": "Your maximum carry weight is increased by +25 lbs. per rank.",
-    "longDescription": "Your maximum carry weight is increased by +25 lbs. per rank."
+    "longDescription": "Your maximum carry weight is increased by +25 lbs., per rank. Each time you take this perk, the level requirement increases by 2."
   },
   {
     "id": "tag",
@@ -1235,7 +1235,7 @@
       "1": "Select one additional Tag skill. Increase skill rank by 2 (max 6), mark as Tag skill allowing critical success on d20 result equal or under skill rank."
     },
     "description": "You may select one additional Tag skill. Increase the skill's rank by 2, to a maximum of 6.",
-    "longDescription": "You may select one additional Tag skill. Increase the skill's rank by 2, to a maximum of 6."
+    "longDescription": "You may select one additional Tag skill. Increase the skill's rank by 2, to a maximum of 6, and mark it as a Tag skill, allowing you to roll a critical success with a d20 result equal or under the skill's rank."
   },
   {
     "id": "terrifying_presence",
@@ -1251,7 +1251,7 @@
       "2": "Use major action in combat to threaten enemy within Medium range (STR + Speech, diff 2). On success, enemy must move away next turn."
     },
     "description": "When you make a Speech test to threaten or scare someone, you may re-roll 1d20.",
-    "longDescription": "When you make a Speech test to threaten or scare someone, you may re-roll 1d20."
+    "longDescription": "When you make a Speech test to threaten or scare someone, you may re-roll 1d20. At rank 2, you may use a major action in combat to threaten an enemy within Medium range, using a STR + Speech test with a difficulty of 2. If you succeed, that enemy must move away from you during their next turn (though they can take any other actions they wish). Each time you take this perk, the level requirement increases by 5."
   },
   {
     "id": "toughness",
@@ -1267,6 +1267,6 @@
       "2": "Physical DR increases by +2."
     },
     "description": "Your physical Damage Resistance to all hit locations increases by +1 per rank in this perk.",
-    "longDescription": "Your physical Damage Resistance to all hit locations increases by +1 per rank in this perk."
+    "longDescription": "Your physical Damage Resistance to all hit locations increases by +1 per rank in this perk. Each time you take this perk, the level requirement increases by 4."
   }
 ]

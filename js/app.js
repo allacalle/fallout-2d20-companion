@@ -184,7 +184,7 @@ const App = {
             <div class="field"><span class="label">Weight:</span> <span class="value">${w.weight} lbs</span></div>
             <div class="field"><span class="label">Cost:</span> <span class="value">${w.cost} caps</span></div>
             <div class="field"><span class="label">Rarity:</span> <span class="value">${w.rarity}</span></div>
-            <div class="field"><span class="label">Description:</span> <span class="value">${w.description || '—'}</span></div>
+            <div class="field"><span class="label">Description:</span> <span class="value">${w.longDescription || w.description || '—'}</span></div>
           </div>
           <h3>Compatible Mods</h3>
           ${this.weaponModsInline(w)}
@@ -250,6 +250,7 @@ const App = {
             <div class="field"><span class="label">Repair Materials:</span> <span class="value">${this.repairMaterials(m.rarity)}</span></div>
             <div class="field"><span class="label">Required Perks:</span> <span class="value">${perks || '—'}</span></div>
             <div class="field"><span class="label">Compatible Weapons:</span> <span class="value">${compatibleWeapons.length ? compatibleWeapons.map(w => Views.link('weapons', w.id, w.name)).join(', ') : 'Check weapon parts'}</span></div>
+            <div class="field"><span class="label">Description:</span> <span class="value">${m.longDescription || m.description || '—'}</span></div>
           </div>
         `);
       } else {
@@ -305,6 +306,7 @@ const App = {
             <div class="field"><span class="label">Cost:</span> <span class="value">${a.cost} caps</span></div>
             <div class="field"><span class="label">Rarity:</span> <span class="value">${a.rarity}</span></div>
             <div class="field"><span class="label">Under Armor:</span> <span class="value">${a.underArmor ? 'Yes' : 'No'}</span></div>
+            <div class="field"><span class="label">Description:</span> <span class="value">${a.longDescription || a.description || '—'}</span></div>
           </div>
           <h3>Compatible Mods</h3>
           ${this.armorModsInline(a)}
@@ -368,6 +370,7 @@ const App = {
             <div class="field"><span class="label">Pieces:</span> <span class="value">${(s.pieces || []).map(p => Views.link('armor', p, p)).join(', ')}</span></div>
             <div class="field"><span class="label">Total Weight:</span> <span class="value">${s.totalWeight} lbs</span></div>
             <div class="field"><span class="label">Total Cost:</span> <span class="value">${s.totalCost} caps</span></div>
+            <div class="field"><span class="label">Description:</span> <span class="value">${s.longDescription || s.description || '—'}</span></div>
           </div>
         `);
       } else {
@@ -420,6 +423,7 @@ const App = {
             <div class="field"><span class="label">Repair Materials:</span> <span class="value">${this.repairMaterials(m.rarity)}</span></div>
             <div class="field"><span class="label">Required Perks:</span> <span class="value">${perks || '—'}</span></div>
             ${m.locationRestriction ? `<div class="field"><span class="label">Location:</span> <span class="value">${m.locationRestriction} only</span></div>` : ''}
+            <div class="field"><span class="label">Description:</span> <span class="value">${m.longDescription || m.description || '—'}</span></div>
           </div>
         `);
       } else {
@@ -473,6 +477,7 @@ const App = {
             <div class="field"><span class="label">Rarity:</span> <span class="value">${c.rarity}</span></div>
             <div class="field"><span class="label">Under Armor:</span> <span class="value">${c.underArmor ? 'Yes' : 'No'}</span></div>
             <div class="field"><span class="label">Compatible Mods:</span> <span class="value">${(c.compatibleMods || []).map(m => Views.link('armor-mods', m, m)).join(', ') || '—'}</span></div>
+            <div class="field"><span class="label">Description:</span> <span class="value">${c.longDescription || c.description || '—'}</span></div>
           </div>
         `);
       } else {
@@ -528,6 +533,7 @@ const App = {
             <div class="field"><span class="label">Cost:</span> <span class="value">${o.cost} caps</span></div>
             <div class="field"><span class="label">Rarity:</span> <span class="value">${o.rarity}</span></div>
             <div class="field"><span class="label">Under Armor:</span> <span class="value">${o.underArmor ? 'Yes' : 'No'}</span></div>
+            <div class="field"><span class="label">Description:</span> <span class="value">${o.longDescription || o.description || '—'}</span></div>
           </div>
         `);
       } else {
@@ -583,6 +589,7 @@ const App = {
             <div class="field"><span class="label">Weight:</span> <span class="value">${h.weight} lbs</span></div>
             <div class="field"><span class="label">Cost:</span> <span class="value">${h.cost} caps</span></div>
             <div class="field"><span class="label">Rarity:</span> <span class="value">${h.rarity}</span></div>
+            <div class="field"><span class="label">Description:</span> <span class="value">${h.longDescription || h.description || '—'}</span></div>
           </div>
         `);
       } else {
@@ -633,6 +640,7 @@ const App = {
             <div class="field"><span class="label">Weight:</span> <span class="value">${d.weight} lbs</span></div>
             <div class="field"><span class="label">Cost:</span> <span class="value">${d.cost} caps</span></div>
             <div class="field"><span class="label">Rarity:</span> <span class="value">${d.rarity}</span></div>
+            <div class="field"><span class="label">Description:</span> <span class="value">${d.longDescription || d.description || '—'}</span></div>
           </div>
         `);
       } else {
@@ -680,6 +688,7 @@ const App = {
             <div class="field"><span class="label">Weight:</span> <span class="value">${m.weight} lbs</span></div>
             <div class="field"><span class="label">Cost:</span> <span class="value">${m.cost} caps</span></div>
             <div class="field"><span class="label">Rarity:</span> <span class="value">${m.rarity}</span></div>
+            <div class="field"><span class="label">Description:</span> <span class="value">${m.longDescription || m.description || '—'}</span></div>
           </div>
         `);
       } else {
@@ -737,6 +746,7 @@ const App = {
             <div class="field"><span class="label">Cost:</span> <span class="value">${rm.cost} caps</span></div>
             <div class="field"><span class="label">Rarity:</span> <span class="value">${rm.rarity}</span></div>
             <div class="field"><span class="label">Required Perks:</span> <span class="value">${perks}</span></div>
+            <div class="field"><span class="label">Description:</span> <span class="value">${rm.longDescription || rm.description || '—'}</span></div>
           </div>
         `);
       } else {
@@ -790,6 +800,7 @@ const App = {
             <div class="field"><span class="label">Cost:</span> <span class="value">${ra.cost} caps</span></div>
             <div class="field"><span class="label">Rarity:</span> <span class="value">${ra.rarity}</span></div>
             <div class="field"><span class="label">Required Perks:</span> <span class="value">${perks}</span></div>
+            <div class="field"><span class="label">Description:</span> <span class="value">${ra.longDescription || ra.description || '—'}</span></div>
           </div>
         `);
       } else {
@@ -845,7 +856,7 @@ const App = {
           ${Views.backLink('books', params)}
           <div class="detail-view">
             <h2>${b.name}</h2>
-            <div class="field"><span class="label">Description:</span> <span class="value">${b.description}</span></div>
+            <div class="field"><span class="label">Description:</span> <span class="value">${b.longDescription || b.description}</span></div>
             <div class="field"><span class="label">Perk:</span> <span class="value">${b.perk}</span></div>
           </div>
           ${issuesHtml}
@@ -899,6 +910,7 @@ const App = {
             <div class="field"><span class="label">Weight:</span> <span class="value">${c.weight} lbs</span></div>
             <div class="field"><span class="label">Cost:</span> <span class="value">${c.cost} caps</span></div>
             <div class="field"><span class="label">Rarity:</span> <span class="value">${c.rarity}</span></div>
+            <div class="field"><span class="label">Description:</span> <span class="value">${c.longDescription || c.description || '—'}</span></div>
           </div>
           ${recipeInfo ? `<h3>Crafting Recipe</h3>${this.renderRecipeInline(recipeInfo.recipe, recipeInfo.collection)}` : ''}
           ${usedIn.length ? `
@@ -971,6 +983,7 @@ const App = {
             <div class="field"><span class="label">Ranks:</span> <span class="value">${p.ranks}</span></div>
             <div class="field"><span class="label">Requirements:</span> <span class="value">${reqs}</span></div>
             <div class="field"><span class="label">Effects:</span> <span class="value">${effects}</span></div>
+            <div class="field"><span class="label">Description:</span> <span class="value">${p.longDescription || p.description || '—'}</span></div>
           </div>
         `);
       } else {
@@ -1048,7 +1061,7 @@ const App = {
           <div class="detail-view">
             <h2>${s.name}</h2>
             <div class="field"><span class="label">Attribute:</span> <span class="value">${s.attribute}</span></div>
-            <div class="field"><span class="label">Description:</span> <span class="value">${s.description}</span></div>
+            <div class="field"><span class="label">Description:</span> <span class="value">${s.longDescription || s.description}</span></div>
           </div>
         `);
       } else {
@@ -1088,7 +1101,7 @@ const App = {
             <div class="field"><span class="label">Weight:</span> <span class="value">${c.weight} lbs</span></div>
             <div class="field"><span class="label">Cost:</span> <span class="value">${c.cost} caps</span></div>
             <div class="field"><span class="label">Rarity:</span> <span class="value">${c.rarity}</span></div>
-            <div class="field"><span class="label">Description:</span> <span class="value">${c.description}</span></div>
+            <div class="field"><span class="label">Description:</span> <span class="value">${c.longDescription || c.description || '—'}</span></div>
             <div class="field"><span class="label">Used By:</span> <span class="value">${weapons.length ? weapons.map(w => Views.link('weapons', w.id, w.name)).join(', ') : 'None'}</span></div>
           </div>
         `);
@@ -1332,7 +1345,7 @@ Views.render(this.workbenchDetail());
         ${r.workbench ? `<div class="field"><span class="label">Workbench:</span> <span class="value">${r.workbench}</span></div>` : ''}
         ${r.requirements ? `<div class="field"><span class="label">Requirements:</span> <span class="value">${r.requirements}</span></div>` : ''}
         ${r.effects ? `<div class="field"><span class="label">Effects:</span> <span class="value">${r.effects}</span></div>` : ''}
-        ${r.description ? `<div class="field"><span class="label">Description:</span> <span class="value">${r.description}</span></div>` : ''}
+        ${r.longDescription || r.description ? `<div class="field"><span class="label">Description:</span> <span class="value">${r.longDescription || r.description}</span></div>` : ''}
       </div>
     `;
   },
