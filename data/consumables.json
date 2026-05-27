@@ -8,7 +8,8 @@
     "addictive": false,
     "weight": "<1",
     "cost": 125,
-    "rarity": 3
+    "rarity": 3,
+    "description": "A powerful and effective pre-War medicine which cleanses the body of the effects of addiction and the withdrawal symptoms that accompany it."
   },
   {
     "id": "chem_antibiotics",
@@ -19,7 +20,8 @@
     "addictive": false,
     "weight": "<1",
     "cost": 75,
-    "rarity": 3
+    "rarity": 3,
+    "description": "A dose of potent, broad-spectrum antibiotics that'll help clear out pretty much any infection or disease."
   },
   {
     "id": "chem_berry_mentats",
@@ -31,7 +33,8 @@
     "addictionNum": 2,
     "weight": "<1",
     "cost": 60,
-    "rarity": 3
+    "rarity": 3,
+    "description": "A portion of Mentats reformulated to promote brain activity and memory."
   },
   {
     "id": "chem_buffjet",
@@ -43,7 +46,8 @@
     "addictionNum": 1,
     "weight": "<1",
     "cost": 75,
-    "rarity": 4
+    "rarity": 4,
+    "description": "A potent cocktail of Buffout and Jet, combining the strength-enhancing effects of steroids with the accelerated reflexes of Jet."
   },
   {
     "id": "chem_buffout",
@@ -55,7 +59,8 @@
     "addictionNum": 2,
     "weight": "<1",
     "cost": 45,
-    "rarity": 2
+    "rarity": 2,
+    "description": "A powerful and quick-acting steroid which gained popularity with athletes prior to the Great War. For a few minutes, it makes one stronger and tougher."
   },
   {
     "id": "chem_bufftats",
@@ -67,7 +72,8 @@
     "addictionNum": 1,
     "weight": "<1",
     "cost": 75,
-    "rarity": 4
+    "rarity": 4,
+    "description": "An addictive cocktail of Buffout steroids and Mentats, heightening both physical prowess and awareness."
   },
   {
     "id": "chem_calmex",
@@ -79,7 +85,8 @@
     "addictionNum": 1,
     "weight": "<1",
     "cost": 100,
-    "rarity": 4
+    "rarity": 4,
+    "description": "A light tranquilizer used to calm the nerves. It isn't potent enough to function as a painkiller, but a dose can quiet a troubled mind."
   },
   {
     "id": "chem_daddy_o",
@@ -91,7 +98,8 @@
     "addictionNum": 1,
     "weight": "<1",
     "cost": 50,
-    "rarity": 2
+    "rarity": 2,
+    "description": "A pre-War recreational drug that alters perception and heightens mental acuity, but can lead to confusion and paranoia."
   },
   {
     "id": "chem_day_tripper",
@@ -103,7 +111,8 @@
     "addictionNum": 1,
     "weight": "<1",
     "cost": 40,
-    "rarity": 3
+    "rarity": 3,
+    "description": "A mild pre-War relaxant and hallucinogen, Day Tripper was favored by Americans seeking a brief escape from reality. The resulting high made users more laid-back and relaxed."
   },
   {
     "id": "chem_fury",
@@ -115,7 +124,8 @@
     "addictionNum": 1,
     "weight": "<1",
     "cost": 30,
-    "rarity": 4
+    "rarity": 4,
+    "description": "An extremely powerful combat stimulant, Fury grants users a sense of invincibility, rendering them nearly immune to pain and recklessly dangerous in melee combat."
   },
   {
     "id": "chem_grape_mentats",
@@ -127,7 +137,8 @@
     "addictionNum": 2,
     "weight": "<1",
     "cost": 60,
-    "rarity": 3
+    "rarity": 3,
+    "description": "A variant of Mentats that enhances social grace and persuasiveness."
   },
   {
     "id": "chem_healing_salve",
@@ -138,7 +149,8 @@
     "addictive": false,
     "weight": "<1",
     "cost": 20,
-    "rarity": 1
+    "rarity": 1,
+    "description": "A salve or ointment which can be applied to reduce pain and speed recovery from injury, typically made from several natural herbal ingredients."
   },
   {
     "id": "chem_jet",
@@ -150,7 +162,8 @@
     "addictionNum": 2,
     "weight": "<1",
     "cost": 50,
-    "rarity": 2
+    "rarity": 2,
+    "description": "An inhaled stimulant which creates an altered state of consciousness where time appears to slow, heightening reflexes and allowing the user to act more quickly during a moment of crisis."
   },
   {
     "id": "chem_jet_fuel",
@@ -162,7 +175,8 @@
     "addictionNum": 1,
     "weight": "<1",
     "cost": 60,
-    "rarity": 3
+    "rarity": 3,
+    "description": "A volatile variant of Jet, Jet Fuel provides a massive burst of energy in the user, allowing them to act more swiftly and decisively."
   },
   {
     "id": "chem_med_x",
@@ -174,7 +188,8 @@
     "addictionNum": 2,
     "weight": "<1",
     "cost": 50,
-    "rarity": 2
+    "rarity": 2,
+    "description": "A potent opiate analgesic which significantly reduces both the perception of pain and the natural emotional response to pain. In short, it's a powerful painkiller."
   },
   {
     "id": "chem_mentats",
@@ -186,7 +201,8 @@
     "addictionNum": 3,
     "weight": "<1",
     "cost": 50,
-    "rarity": 2
+    "rarity": 2,
+    "description": "A popular recreational and performance-enhancing drug before the Great War, Mentats enhance memory and speed mental processes."
   },
   {
     "id": "chem_orange_mentats",
@@ -198,7 +214,8 @@
     "addictionNum": 2,
     "weight": "<1",
     "cost": 60,
-    "rarity": 3
+    "rarity": 3,
+    "description": "A variant of Mentats which heighten awareness and sensory acuity."
   },
   {
     "id": "chem_overdrive",
@@ -210,7 +227,8 @@
     "addictionNum": 1,
     "weight": "<1",
     "cost": 55,
-    "rarity": 3
+    "rarity": 3,
+    "description": "An enhanced form of Psycho which massively stimulates aggression, making the user more dangerous in combat."
   },
   {
     "id": "chem_psycho",
@@ -222,7 +240,8 @@
     "addictionNum": 2,
     "weight": "<1",
     "cost": 50,
-    "rarity": 2
+    "rarity": 2,
+    "description": "A potent combat stimulant created by the U.S. Army to enhance the effectiveness of soldiers in battle, inducing a state of heightened aggression and reduced pain sensitivity."
   },
   {
     "id": "chem_psycho_jet",
@@ -234,7 +253,8 @@
     "addictionNum": 1,
     "weight": "<1",
     "cost": 70,
-    "rarity": 4
+    "rarity": 4,
+    "description": "A powerful, addictive cocktail of Psycho and Jet, which enhances aggression, dulls pain, and augments a target's reflexes and energy levels."
   },
   {
     "id": "chem_psychobuff",
@@ -246,7 +266,8 @@
     "addictionNum": 1,
     "weight": "<1",
     "cost": 70,
-    "rarity": 4
+    "rarity": 4,
+    "description": "A highly addictive cocktail of Psycho and Buffout steroids, combining the effects of the two drugs to produce a period of extreme strength, durability, and aggression."
   },
   {
     "id": "chem_psychotats",
@@ -258,7 +279,8 @@
     "addictionNum": 1,
     "weight": "<1",
     "cost": 70,
-    "rarity": 4
+    "rarity": 4,
+    "description": "A combination of Psycho and Mentats, providing enhanced combat performance while maintaining mental clarity."
   },
   {
     "id": "chem_rad_x",
@@ -269,7 +291,8 @@
     "addictive": false,
     "weight": "<1",
     "cost": 40,
-    "rarity": 2
+    "rarity": 2,
+    "description": "A pre-War medication that temporarily fortifies the body against the effects of radiation poisoning."
   },
   {
     "id": "chem_rad_x_diluted",
@@ -280,7 +303,8 @@
     "addictive": false,
     "weight": "<1",
     "cost": 25,
-    "rarity": 1
+    "rarity": 1,
+    "description": "A diluted version of Rad-X, roughly half as effective but easier to find than the full-strength version."
   },
   {
     "id": "chem_radaway",
@@ -291,7 +315,8 @@
     "addictive": false,
     "weight": "<1",
     "cost": 80,
-    "rarity": 2
+    "rarity": 2,
+    "description": "An intravenous drug which purges radiation from the user's body, absorbing radiation as it circulates through the user's bloodstream."
   },
   {
     "id": "chem_radaway_diluted",
@@ -302,7 +327,8 @@
     "addictive": false,
     "weight": "<1",
     "cost": 50,
-    "rarity": 1
+    "rarity": 1,
+    "description": "A diluted version of RadAway, roughly half as effective but easier to find than the full-strength version."
   },
   {
     "id": "chem_skeeto_spit",
@@ -313,7 +339,8 @@
     "addictive": false,
     "weight": "<1",
     "cost": 40,
-    "rarity": 2
+    "rarity": 2,
+    "description": "A tribal remedy made from the saliva of mutated mosquitoes, known to temporarily bolster one's constitution."
   },
   {
     "id": "chem_stimpak",
@@ -324,7 +351,8 @@
     "addictive": false,
     "weight": "<1",
     "cost": 50,
-    "rarity": 2
+    "rarity": 2,
+    "description": "A wonder of pre-War science, a Stimpak is a single-use syringe filled with a variety of potent healing agents, stimulants, and painkillers."
   },
   {
     "id": "chem_stimpak_diluted",
@@ -335,7 +363,8 @@
     "addictive": false,
     "weight": "<1",
     "cost": 30,
-    "rarity": 1
+    "rarity": 1,
+    "description": "A diluted version of a Stimpak, roughly half as effective but easier to find than the full-strength version."
   },
   {
     "id": "chem_super_stimpak",
@@ -346,7 +375,8 @@
     "addictive": false,
     "weight": "<1",
     "cost": 90,
-    "rarity": 4
+    "rarity": 4,
+    "description": "An enhanced version of the standard Stimpak, delivering a more concentrated dose of healing agents for greater effect."
   },
   {
     "id": "chem_stimpak_diffuser",
@@ -357,7 +387,8 @@
     "addictive": false,
     "weight": "<1",
     "cost": 200,
-    "rarity": 5
+    "rarity": 5,
+    "description": "This delivery mechanism allows the contents of a Super Stimpak to be dispersed into an aerosol cloud, providing a burst of medicinal vapor over a small area."
   },
   {
     "id": "chem_ultra_jet",
@@ -369,7 +400,8 @@
     "addictionNum": 3,
     "weight": "<1",
     "cost": 67,
-    "rarity": 2
+    "rarity": 2,
+    "description": "An extremely concentrated form of Jet, it is significantly more potent and affects Ghouls as easily as it does humans."
   },
   {
     "id": "chem_x_cell",
@@ -381,177 +413,195 @@
     "addictionNum": 1,
     "weight": "<1",
     "cost": 60,
-    "rarity": 4
+    "rarity": 4,
+    "description": "A general-purpose performance enhancer still being developed before the Great War. Development was never finished, but prototype versions were distributed through the black market."
   },
   {
     "id": "drink_beer",
     "name": "Beer",
     "type": "drink",
-    "effects": "Heals 1 HP, Reduce difficulty of CHA tests by 1, +1 difficulty to INT/PER tests",
+    "effects": "Heals 0 HP. Alcoholic",
     "duration": "Instant",
     "weight": 1,
     "cost": 5,
-    "rarity": 0
+    "rarity": 1,
+    "description": "One of the oldest beverages created by humans, beer is a carbonated alcoholic drink made from fermented cereal grains, popular pre-War to relax after a hard day's work."
   },
   {
     "id": "drink_blood_pack",
     "name": "Blood Pack",
     "type": "drink",
-    "effects": "Heals 2 HP",
+    "effects": "Heals 3 HP",
     "duration": "Instant",
-    "weight": 1,
+    "weight": "<1",
     "cost": 10,
-    "rarity": 1
+    "rarity": 2,
+    "description": "A bag of pre-War blood, intended for medical transfusions. Some wastelanders drink it for its nutritional content, though it's hardly a pleasant beverage."
   },
   {
     "id": "drink_bourbon",
     "name": "Bourbon",
     "type": "drink",
-    "effects": "Heals 1 HP, Reduce difficulty of CHA tests by 1, +1 difficulty to INT/PER tests",
+    "effects": "Heals 0 HP. Alcoholic. Re-roll 1d20 on END tests",
     "duration": "Instant",
     "weight": 1,
-    "cost": 10,
-    "rarity": 1
+    "cost": 7,
+    "rarity": 2,
+    "description": "A distinctly American type of whiskey, bourbon is a barrel-aged, distilled spirit made mainly of corn. Pre-War, those who favored it tended to get a reputation as being tough or rugged."
   },
   {
     "id": "drink_brahmin_milk",
     "name": "Brahmin Milk",
     "type": "drink",
-    "effects": "Heals 1 HP",
+    "effects": "Heals 1 HP. Heals 2 Radiation damage",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 8,
-    "rarity": 0
+    "weight": "<1",
+    "cost": 15,
+    "rarity": 2,
+    "description": "Milk from a brahmin. This drink is a true lifesaver, as it has properties that cleanse radiation poisoning from the body."
   },
   {
     "id": "drink_dirty_water",
     "name": "Dirty Water",
     "type": "drink",
-    "effects": "Heals 1 HP, May cause disease (END test DC 8)",
+    "effects": "Heals 2 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 3,
-    "rarity": 0
+    "weight": "<1",
+    "cost": 5,
+    "rarity": 0,
+    "description": "Water collected from rivers, lakes, swimming pools, and any other unfiltered water source. It's not recommended to drink dirty water without filtering or purifying it first."
   },
   {
     "id": "drink_moonshine",
     "name": "Moonshine",
     "type": "drink",
-    "effects": "Heals 1 HP, Reduce difficulty of CHA tests by 1, +2 difficulty to INT/PER tests",
+    "effects": "Heals 0 HP. Alcoholic. +2 Max HP",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 12,
-    "rarity": 1
+    "weight": "<1",
+    "cost": 30,
+    "rarity": 3,
+    "description": "High-proof distilled spirits produced in an illicit or makeshift manner. Due to their unorthodox origins, moonshine can be dangerous to consume, often contaminated with dangerous chemicals."
   },
   {
     "id": "drink_nuka_cherry",
     "name": "Nuka-Cherry",
     "type": "drink",
-    "effects": "Heals 2 HP, Gain 1 AP",
+    "effects": "Heals 3 HP. Immediately gain +2 AP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
     "weight": 1,
-    "cost": 20,
-    "rarity": 1
+    "cost": 40,
+    "rarity": 3,
+    "description": "Produced by the Nuka-Cola Corporation after it bought the patent for a rival beverage, Nuka-Cherry is a blend of the typical Nuka-Cola recipe with a distinctive cherry flavoring and a bright red color."
   },
   {
     "id": "drink_nuka_cola",
     "name": "Nuka-Cola",
     "type": "drink",
-    "effects": "Heals 1 HP, Gain 1 AP",
+    "effects": "Heals 2 HP. Immediately gain +1 AP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
     "weight": 1,
     "cost": 20,
-    "rarity": 1
+    "rarity": 2,
+    "description": "The flagship beverage of the Nuka-Cola Corporation, this carbonated soft drink is instantly recognizable by its distinctive brown glass bottle and sweet, refreshing taste."
   },
   {
     "id": "drink_nuka_cola_quantum",
     "name": "Nuka-Cola Quantum",
     "type": "drink",
-    "effects": "Heals 3 HP, Gain 3 AP",
+    "effects": "Heals 10 HP. Immediately gain +5 AP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
     "weight": 1,
-    "cost": 80,
-    "rarity": 3
+    "cost": 50,
+    "rarity": 5,
+    "description": "Introduced the same day the bombs fell, Nuka-Cola Quantum was the newest flavor, with twice the calories, twice the carbohydrates, twice the caffeine, and twice the taste. The drink's distinctive blue glow comes from a safe isotope additive."
   },
   {
     "id": "drink_purified_water",
     "name": "Purified Water",
     "type": "drink",
-    "effects": "Heals 1 HP",
+    "effects": "Heals 3 HP",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 10,
-    "rarity": 1
+    "weight": "<1",
+    "cost": 20,
+    "rarity": 1,
+    "description": "Water which has been cleansed of any contaminants or radiation. Sometimes found in sealed cans or bottles in the wasteland."
   },
   {
     "id": "drink_refreshing",
     "name": "Refreshing Beverage",
     "type": "drink",
-    "effects": "Heals 6 HP, Removes all addictions",
+    "effects": "Heals 11 HP. Heals 10 Radiation damage. Cures all addictions",
     "duration": "Instant",
     "weight": 1,
-    "cost": 40,
-    "rarity": 2
+    "cost": 110,
+    "rarity": 5,
+    "description": "A pre-War sports drink designed to rehydrate and restore energy. Its electrolytic properties make it highly effective at revitalizing the body."
   },
   {
     "id": "drink_rum",
     "name": "Rum",
     "type": "drink",
-    "effects": "Heals 1 HP, Reduce difficulty of CHA tests by 1, +1 difficulty to INT/PER tests",
+    "effects": "Heals 0 HP. Alcoholic. Re-roll 1d20 on AGI tests",
     "duration": "Instant",
     "weight": 1,
-    "cost": 10,
-    "rarity": 1
+    "cost": 8,
+    "rarity": 2,
+    "description": "A liquor made from fermenting then distilling sugarcane molasses. Rum has strong historic ties to naval and maritime traditions."
   },
   {
     "id": "drink_vodka",
     "name": "Vodka",
     "type": "drink",
-    "effects": "Heals 1 HP, Reduce difficulty of CHA tests by 1, +1 difficulty to INT/PER tests",
+    "effects": "Heals 2 HP. Alcoholic",
     "duration": "Instant",
     "weight": 1,
-    "cost": 12,
-    "rarity": 1
+    "cost": 5,
+    "rarity": 3,
+    "description": "A clear distilled alcoholic beverage, made from fermented rye, wheat, potatoes, or sugar beet molasses."
   },
   {
     "id": "drink_whiskey",
     "name": "Whiskey",
     "type": "drink",
-    "effects": "Heals 1 HP, Reduce difficulty of CHA tests by 1, +1 difficulty to INT/PER tests",
+    "effects": "Heals 0 HP. Alcoholic. Re-roll up to two d20 on STR tests (in total)",
     "duration": "Instant",
     "weight": 1,
-    "cost": 10,
-    "rarity": 1
+    "cost": 5,
+    "rarity": 3,
+    "description": "A triple-distilled alcoholic beverage made using grain mash. Some wasteland distilleries exist producing post-War versions using corn and other available grains."
   },
   {
     "id": "drink_wine",
     "name": "Wine",
     "type": "drink",
-    "effects": "Heals 1 HP, Reduce difficulty of CHA tests by 1, +1 difficulty to INT/PER tests",
+    "effects": "Heals 0 HP. Alcoholic. Immediately gain +1 AP",
     "duration": "Instant",
     "weight": 1,
-    "cost": 15,
-    "rarity": 1
+    "cost": 5,
+    "rarity": 3,
+    "description": "An alcoholic beverage made from fermented fruits, typically grapes. Pre-War bottles are still found in cellars and liquor stores across the wasteland."
   },
   {
     "id": "food_melon_juice",
     "name": "Melon Juice",
     "type": "drink",
-    "effects": "Heals 1 HP",
+    "effects": "Heals 3 HP. Heal 1 HP at start of each turn",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 5,
-    "rarity": 0
+    "weight": "<1",
+    "cost": 6,
+    "rarity": 2,
+    "description": "Juice made from pressing the pulp of a melon. A refreshing and healthy drink which promotes the body's natural healing."
   },
   {
     "id": "food_mutfruit_juice",
     "name": "Mutfruit Juice",
     "type": "drink",
-    "effects": "Heals 1 HP",
+    "effects": "Heals 3 HP. Re-roll 1d20 on all AGI tests",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 5,
-    "rarity": 0
+    "weight": "<1",
+    "cost": 8,
+    "rarity": 2,
+    "description": "Juice made from pressing the pulp of a mutfruit. A sweet and energizing beverage."
   },
   {
     "id": "food_tarberry_juice",
@@ -561,7 +611,8 @@
     "duration": "Instant",
     "weight": 1,
     "cost": 5,
-    "rarity": 0
+    "rarity": 0,
+    "description": "Juice made from pressing tarberries. Drinking Tarberry juice has a potent stimulant effect, making the drinker energetic and ready for action."
   },
   {
     "id": "food_tato_juice",
@@ -571,97 +622,107 @@
     "duration": "Instant",
     "weight": 1,
     "cost": 5,
-    "rarity": 0
+    "rarity": 0,
+    "description": "Juice made from pressing Tatos. Despite the unpleasant taste, Tato juice allows the drinker to dig more deeply into reserves of stamina and push themselves further."
   },
   {
     "id": "food_baked_bloatfly",
     "name": "Baked Bloatfly",
     "type": "food",
-    "effects": "Heals 2 HP",
+    "effects": "Heals 6 HP, +2 Radiation DR",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 5,
-    "rarity": 0
+    "weight": "<1",
+    "cost": 15,
+    "rarity": 1,
+    "description": "A bloatfly cooked over an open fire. Not particularly appetizing, but edible."
   },
   {
     "id": "food_bloodbug_steak",
     "name": "Bloodbug Steak",
     "type": "food",
-    "effects": "Heals 2 HP",
+    "effects": "Heals 10 HP, Max HP +3 until end of following scene",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 5,
-    "rarity": 0
+    "weight": "<1",
+    "cost": 18,
+    "rarity": 2,
+    "description": "A cooked slab of bloodbug meat. Surprisingly nutritious despite its unappealing origin."
   },
   {
     "id": "food_brain_fungus",
     "name": "Brain Fungus",
     "type": "food",
-    "effects": "Heals 1 HP, Reduce difficulty of INT tests by 1",
+    "effects": "Heals 3 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 3,
-    "rarity": 0
+    "weight": "<1",
+    "cost": 6,
+    "rarity": 1,
+    "description": "A mutated fungus that grows in dark, damp places. Consuming it raw has adverse effects on mental clarity."
   },
   {
     "id": "food_carrot",
     "name": "Carrot",
     "type": "food",
-    "effects": "Heals 1 HP",
+    "effects": "Heals 3 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
-    "weight": 1,
+    "weight": "<1",
     "cost": 3,
-    "rarity": 0
+    "rarity": 1,
+    "description": "A root vegetable grown in soil. Provides decent nutrition and is relatively easy to grow. A staple of wasteland agriculture."
   },
   {
     "id": "food_cooked_softshell",
     "name": "Cooked Softshell Meat",
     "type": "food",
-    "effects": "Heals 2 HP",
+    "effects": "Heals 9 HP, Gain +1 AP at start of next scene",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 5,
-    "rarity": 0
+    "weight": "<1",
+    "cost": 40,
+    "rarity": 3,
+    "description": "The softer meat from mirelurks, cooked into a rough steak. A high-energy meal, those who eat cooked softshell meat are often invigorated and eager for action for a while afterwards."
   },
   {
     "id": "food_corn",
     "name": "Corn",
     "type": "food",
-    "effects": "Heals 1 HP",
+    "effects": "Heals 3 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 5,
-    "rarity": 0
+    "weight": "<1",
+    "cost": 6,
+    "rarity": 1,
+    "description": "A highly versatile crop cultivated across the Americas for centuries. Corn remains largely unchanged by the War, and it remains a staple of wasteland agriculture."
   },
   {
     "id": "food_crispy_squirrel",
     "name": "Crispy Squirrel Bits",
     "type": "food",
-    "effects": "Heals 1 HP",
+    "effects": "Heals 6 HP",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 3,
-    "rarity": 0
+    "weight": "<1",
+    "cost": 6,
+    "rarity": 2,
+    "description": "Chunks of squirrel meat cooked until crispy. A decent snack, if not particularly filling."
   },
   {
     "id": "food_deathclaw_omelette",
     "name": "Deathclaw Omelette",
     "type": "food",
-    "effects": "Heals 4 HP, Re-roll 1d20 on STR tests",
+    "effects": "Heals 11 HP. If next scene is combat, regain 1 HP at start of each turn",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 10,
-    "rarity": 1
+    "weight": "<1",
+    "cost": 80,
+    "rarity": 4,
+    "description": "An omelette made from a deathclaw egg. In addition to being highly nutritious, it stimulates the natural healing processes of the body."
   },
   {
     "id": "food_deathclaw_steak",
     "name": "Deathclaw Steak",
     "type": "food",
-    "effects": "Heals 3 HP, Reduce difficulty of STR tests by 1",
+    "effects": "Heals 14 HP. May re-roll 1d20 on all STR tests until end of next scene",
     "duration": "Instant",
     "weight": 1,
-    "cost": 5,
-    "rarity": 0
+    "cost": 130,
+    "rarity": 4,
+    "description": "A cooked slab of deathclaw meat. The process of cooking has enhanced its nutritional value and eliminated the radiation hazard."
   },
   {
     "id": "food_glowing_fungus",
@@ -671,37 +732,41 @@
     "duration": "Instant",
     "weight": 1,
     "cost": 5,
-    "rarity": 0
+    "rarity": 0,
+    "description": "A bioluminescent fungus that grows in irradiated areas. It has medicinal properties but also contains significant radiation."
   },
   {
     "id": "food_gourd",
     "name": "Gourd",
     "type": "food",
-    "effects": "Heals 1 HP",
+    "effects": "Heals 3 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
     "weight": 1,
-    "cost": 5,
-    "rarity": 0
+    "cost": 6,
+    "rarity": 1,
+    "description": "A large edible fruit, which is fleshy with a hard skin, like a pumpkin. The pulp inside can be eaten or used in cooking."
   },
   {
     "id": "food_grilled_radroach",
     "name": "Grilled Radroach",
     "type": "food",
-    "effects": "Heals 2 HP",
+    "effects": "Heals 5 HP",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 5,
-    "rarity": 0
+    "weight": "<1",
+    "cost": 7,
+    "rarity": 1,
+    "description": "A grilled chunk of meat taken from a radroach. Not especially appetizing, but sufficiently nutritious for those with few other choices."
   },
   {
     "id": "food_grilled_radstag",
     "name": "Grilled Radstag",
     "type": "food",
-    "effects": "Heals 2 HP, +2 Max HP",
+    "effects": "Heals 11 HP. Carry weight increases by +25 until end of next scene",
     "duration": "Instant",
     "weight": 1,
-    "cost": 5,
-    "rarity": 0
+    "cost": 60,
+    "rarity": 2,
+    "description": "A cooked portion of radstag meat. The lean, gamey meat provides nourishment and a feeling of vitality."
   },
   {
     "id": "food_hubflower",
@@ -711,297 +776,327 @@
     "duration": "Instant",
     "weight": 1,
     "cost": 3,
-    "rarity": 0
+    "rarity": 0,
+    "description": "A mutated flower that grows in the wasteland. It has mild healing properties when consumed."
   },
   {
     "id": "food_iguana_bits",
     "name": "Iguana Bits",
     "type": "food",
-    "effects": "Heals 1 HP",
+    "effects": "Heals 4 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 5,
-    "rarity": 0
+    "weight": "<1",
+    "cost": 8,
+    "rarity": 1,
+    "description": "Small pieces of dried or cooked iguana meat. A lightweight, portable source of protein."
   },
   {
     "id": "food_iguana_stick",
     "name": "Iguana on a Stick",
     "type": "food",
-    "effects": "Heals 1 HP",
+    "effects": "Heals 6 HP",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 8,
-    "rarity": 0
+    "weight": "<1",
+    "cost": 33,
+    "rarity": 2,
+    "description": "A skewer of iguana meat roasted over a fire. A common street food in many settlements."
   },
   {
     "id": "food_iguana_soup",
     "name": "Iguana Soup",
     "type": "food",
-    "effects": "Heals 2 HP",
+    "effects": "Heals 10 HP",
     "duration": "Instant",
     "weight": 1,
-    "cost": 12,
-    "rarity": 1
+    "cost": 21,
+    "rarity": 3,
+    "description": "A simple soup made with iguana meat and vegetables. Warm and filling."
   },
   {
     "id": "food_melon",
     "name": "Melon",
     "type": "food",
-    "effects": "Heals 1 HP, Heals 1 Radiation damage",
+    "effects": "Heals 3 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
     "weight": 1,
-    "cost": 5,
-    "rarity": 0
+    "cost": 6,
+    "rarity": 1,
+    "description": "A large, green, juicy fruit with a hard outer rind. Once cut open, melons are very satisfying, sating hunger and quenching thirst."
   },
   {
     "id": "food_mirelurk_cake",
     "name": "Mirelurk Cake",
     "type": "food",
-    "effects": "Heals 3 HP, Re-roll 1d20 on AGI tests",
+    "effects": "Heals 12 HP. Can breathe underwater until end of next scene",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 25,
-    "rarity": 3
+    "weight": "<1",
+    "cost": 35,
+    "rarity": 3,
+    "description": "A dense cake or patty made from ground mirelurk meat. Surprisingly tasty and filling."
   },
   {
     "id": "food_mirelurk_egg",
     "name": "Mirelurk Egg Omelette",
     "type": "food",
-    "effects": "Heals 2 HP",
+    "effects": "Heals 7 HP. Immediately add 2 AP to the group pool",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 10,
-    "rarity": 1
+    "weight": "<1",
+    "cost": 30,
+    "rarity": 3,
+    "description": "An omelette made from a mirelurk egg. Said to sharpen the mind and improve focus."
   },
   {
     "id": "food_mirelurk_meat",
     "name": "Mirelurk Meat",
     "type": "food",
-    "effects": "Heals 1 HP",
+    "effects": "Heals 6 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 5,
-    "rarity": 0
+    "weight": "<1",
+    "cost": 22,
+    "rarity": 2,
+    "description": "Meat taken from inside the carapace of a mirelurk. Difficult to extract but delicious and nutritious."
   },
   {
     "id": "food_mirelurk_queen",
     "name": "Mirelurk Queen Steak",
     "type": "food",
-    "effects": "Heals 3 HP, Reduce difficulty of PER tests by 1",
+    "effects": "Heals 14 HP. Reduce difficulty of all END tests by 1 until end of next scene",
     "duration": "Instant",
     "weight": 1,
-    "cost": 10,
-    "rarity": 2
+    "cost": 130,
+    "rarity": 5,
+    "description": "The rare, nutrient-rich meat of a mirelurk Queen. When properly prepared, it can fortify the body and provide a surge of health and vitality."
   },
   {
     "id": "food_mole_rat",
     "name": "Mole Rat Chunks",
     "type": "food",
-    "effects": "Heals 1 HP",
+    "effects": "Heals 7 HP. +1 Max AP in group pool until end of current scene",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 5,
-    "rarity": 0
+    "weight": "<1",
+    "cost": 8,
+    "rarity": 1,
+    "description": "Chopped and cooked pieces of mole rat meat. Better than eating it raw, but still an acquired taste."
   },
   {
     "id": "food_mongrel_dog",
     "name": "Mongrel Dog Meat",
     "type": "food",
-    "effects": "Heals 1 HP",
+    "effects": "Heals 4 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 5,
-    "rarity": 0
+    "weight": "<1",
+    "cost": 8,
+    "rarity": 0,
+    "description": "A chunk of meat taken from a mongrel dog. Can be cooked to make Mutt Chops."
   },
   {
     "id": "food_mutfruit",
     "name": "Mutfruit",
     "type": "food",
-    "effects": "Heals 1 HP",
+    "effects": "Heals 3 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 5,
-    "rarity": 0
+    "weight": "<1",
+    "cost": 8,
+    "rarity": 0,
+    "description": "Pronounced 'mute-fruit', and short for mutated fruit, mutfruit is a mutated form of apple, which comes in several different varieties depending on where you are."
   },
   {
     "id": "food_mutant_hound",
     "name": "Mutant Hound Chops",
     "type": "food",
-    "effects": "Heals 2 HP",
+    "effects": "Heals 8 HP. Heals 2 Radiation damage",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 5,
-    "rarity": 0
+    "weight": "<1",
+    "cost": 12,
+    "rarity": 3,
+    "description": "Cooked chops of mutant hound meat. Still not the tastiest food, but no longer hazardous."
   },
   {
     "id": "food_mutt_chops",
     "name": "Mutt Chops",
     "type": "food",
-    "effects": "Heals 2 HP",
+    "effects": "Heals 6 HP",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 5,
-    "rarity": 0
+    "weight": "<1",
+    "cost": 12,
+    "rarity": 1,
+    "description": "Cuts of mongrel dog meat cooked to make them more nutritious and edible."
   },
   {
     "id": "food_noodle_cup",
     "name": "Noodle Cup",
     "type": "food",
-    "effects": "Heals 2 HP",
+    "effects": "Heals 6 HP",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 10,
-    "rarity": 2
+    "weight": "<1",
+    "cost": 20,
+    "rarity": 2,
+    "description": "A simple cup of noodle soup. Moderately filling and thirst-quenching, and simple enough to make if you can find the ingredients."
   },
   {
     "id": "food_potato_crisps",
     "name": "Potato Crisps",
     "type": "food",
-    "effects": "Heals 1 HP",
+    "effects": "Heals 3 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 5,
-    "rarity": 0
+    "weight": "<1",
+    "cost": 7,
+    "rarity": 0,
+    "description": "A can of salted or flavored potato chips, sealed in an inert environment for freshness. A common snack pre-War, still found in most places where people lived or worked."
   },
   {
     "id": "food_radscorpion_egg",
     "name": "Radscorpion Egg Omelette",
     "type": "food",
-    "effects": "Heals 2 HP, Reduce difficulty of PER tests by 1",
+    "effects": "Heals 9 HP. Cure all addictions",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 10,
-    "rarity": 1
+    "weight": "<1",
+    "cost": 65,
+    "rarity": 4,
+    "description": "Made from a radscorpion egg, these omelettes are highly prized by those who make considerable use of combat drugs, as something about the food cleanses the body to remove chemical dependencies and addictions."
   },
   {
     "id": "food_radscorpion_steak",
     "name": "Radscorpion Steak",
     "type": "food",
-    "effects": "Heals 2 HP",
+    "effects": "Heals 12 HP. +2 Energy DR until end of next scene",
     "duration": "Instant",
     "weight": 1,
-    "cost": 5,
-    "rarity": 0
+    "cost": 65,
+    "rarity": 3,
+    "description": "A cooked slab of radscorpion meat. The process of cooking has reduced the radiation below dangerous levels and enhanced the nutritional value."
   },
   {
     "id": "food_radstag_stew",
     "name": "Radstag Stew",
     "type": "food",
-    "effects": "Heals 3 HP, +3 Max HP",
+    "effects": "Heals 12 HP. +3 Energy DR until end of next scene",
     "duration": "Instant",
     "weight": 1,
-    "cost": 20,
-    "rarity": 3
+    "cost": 60,
+    "rarity": 3,
+    "description": "A hearty stew made with radstag meat and vegetables. Warming and satisfying."
   },
   {
     "id": "food_razorgrain",
     "name": "Razorgrain",
     "type": "food",
-    "effects": "Heals 1 HP",
+    "effects": "Heals 3 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 3,
-    "rarity": 0
+    "weight": "<1",
+    "cost": 5,
+    "rarity": 1,
+    "description": "A tall, fast-growing grass similar to wheat, which can be ground down to make flour for making bread and other staple foods."
   },
   {
     "id": "food_ribeye",
     "name": "Ribeye Steak",
     "type": "food",
-    "effects": "Heals 2 HP",
+    "effects": "Heals 10 HP",
     "duration": "Instant",
     "weight": 1,
-    "cost": 5,
-    "rarity": 0
+    "cost": 40,
+    "rarity": 2,
+    "description": "A grilled piece of meat from a brahmin. The closest thing to a pre-War steak you're likely to find."
   },
   {
     "id": "food_roasted_mirelurk",
     "name": "Roasted Mirelurk Meat",
     "type": "food",
-    "effects": "Heals 2 HP",
+    "effects": "Heals 8 HP. Gain +1 AP at start of next scene",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 5,
-    "rarity": 0
+    "weight": "<1",
+    "cost": 40,
+    "rarity": 2,
+    "description": "A cooked portion of meat from a mirelurk. Though not to the same extent as the softshell meat, roasted mirelurk meat invigorates the body and mind."
   },
   {
     "id": "food_salisbury",
     "name": "Salisbury Steak",
     "type": "food",
-    "effects": "Heals 2 HP",
+    "effects": "Heals 5 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 10,
-    "rarity": 1
+    "weight": "<1",
+    "cost": 20,
+    "rarity": 0,
+    "description": "A ready-to-eat meal of ground beef mixed with breadcrumbs, onion, and egg, served with gravy. Pre-packaged, preserved, and sealed for freshness."
   },
   {
     "id": "food_silt_bean",
     "name": "Silt Bean",
     "type": "food",
-    "effects": "Heals 1 HP",
+    "effects": "Heals 3 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 3,
-    "rarity": 0
+    "weight": "<1",
+    "cost": 6,
+    "rarity": 1,
+    "description": "A legume that grows in muddy or silty soil. Provides decent nutrition and can be used in various recipes."
   },
   {
     "id": "food_squirrel_bits",
     "name": "Squirrel Bits",
     "type": "food",
-    "effects": "Heals 1 HP",
+    "effects": "Heals 4 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 3,
-    "rarity": 0
+    "weight": "<1",
+    "cost": 4,
+    "rarity": 1,
+    "description": "A few scraps and chunks of squirrel meat. Squirrels, not being especially large creatures, do not have much meat on them."
   },
   {
     "id": "food_squirrel_stick",
     "name": "Squirrel on a Stick",
     "type": "food",
-    "effects": "Heals 1 HP",
+    "effects": "Heals 7 HP",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 8,
-    "rarity": 0
+    "weight": "<1",
+    "cost": 15,
+    "rarity": 2,
+    "description": "Chunks of squirrel meat skewered on a thin piece of wood for cooking, and then roasted over an open flame. Not enough meat for a decent meal, but certainly enough for a snack."
   },
   {
     "id": "food_stingwing",
     "name": "Stingwing Filet",
     "type": "food",
-    "effects": "Heals 1 HP, Reduce difficulty of AGI tests by 1",
+    "effects": "Heals 11 HP. May re-roll 1d20 on all PER tests until end of next scene",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 5,
-    "rarity": 0
+    "weight": "<1",
+    "cost": 35,
+    "rarity": 2,
+    "description": "A cooked piece of stingwing meat. Not the most appetizing of foods, but surprisingly useful for those surviving in the wastelands, as it can sharpen the senses."
   },
   {
     "id": "food_tarberry",
     "name": "Tarberry",
     "type": "food",
-    "effects": "Heals 1 HP",
+    "effects": "Heals 3 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 3,
-    "rarity": 0
+    "weight": "<1",
+    "cost": 5,
+    "rarity": 3,
+    "description": "Small purple berries of the Tarberry plant, a water-grown crop similar to pre-War cranberries. A useful ingredient in several recipes."
   },
   {
     "id": "food_tato",
     "name": "Tato",
     "type": "food",
-    "effects": "Heals 1 HP",
+    "effects": "Heals 3 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
-    "weight": 1,
-    "cost": 3,
-    "rarity": 0
+    "weight": "<1",
+    "cost": 7,
+    "rarity": 1,
+    "description": "A mutated hybrid of the pre-War tomato and potato plants, with the stem and reddish skin of the former and the brownish flesh of the latter. Tatos provide decent nutrition, but taste disgusting."
   },
   {
     "id": "food_vegetable_soup",
     "name": "Vegetable Soup",
     "type": "food",
-    "effects": "Heals 2 HP",
+    "effects": "Heals 7 HP. +2 Radiation DR until end of next scene",
     "duration": "Instant",
     "weight": 1,
-    "cost": 10,
-    "rarity": 1
+    "cost": 13,
+    "rarity": 2,
+    "description": "A simple soup made with carrot and tato. A reasonably filling meal, sating both hunger and thirst, while also helping to fortify the body against radiation poisoning for a while."
   },
   {
     "id": "food_yao_guai_ribs",
@@ -1011,7 +1106,8 @@
     "duration": "Instant",
     "weight": 1,
     "cost": 5,
-    "rarity": 0
+    "rarity": 0,
+    "description": "A rack of ribs made with Yao Guai meat. Both a satisfying meal and inspire a sense of invincibility, while also boosting your tolerance for pain for a short while."
   },
   {
     "id": "food_yao_guai_roast",
@@ -1021,7 +1117,8 @@
     "duration": "Instant",
     "weight": 1,
     "cost": 15,
-    "rarity": 2
+    "rarity": 2,
+    "description": "A roasted piece of Yao Guai meat cooked with carrot and tato. An extremely filling and satisfying meal, and many have claimed that it heightens their killer instinct."
   },
   {
     "id": "food_yum_yum",
@@ -1031,40 +1128,44 @@
     "duration": "Instant",
     "weight": 1,
     "cost": 8,
-    "rarity": 1
+    "rarity": 1,
+    "description": "Hard-boiled eggs stuffed with a spicy filling, which were preserved and sealed for freshness before the Great War."
   },
   {
     "id": "food_bloatfly_meat",
     "name": "Bloatfly Meat",
     "type": "food",
-    "effects": "Heals 2 HP",
+    "effects": "Heals 2 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
     "addictive": false,
-    "weight": 0.5,
+    "weight": "<1",
     "cost": 8,
-    "rarity": 0
+    "rarity": 0,
+    "description": "Meat taken from a bloatfly. Not particularly appetizing, but it's a source of protein."
   },
   {
     "id": "food_bloodbug_meat",
     "name": "Bloodbug Meat",
     "type": "food",
-    "effects": "Heals 7 HP",
+    "effects": "Heals 7 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
     "addictive": false,
-    "weight": 0.5,
+    "weight": "<1",
     "cost": 8,
-    "rarity": 1
+    "rarity": 1,
+    "description": "Meat taken from a bloodbug. Slimy and unappealing, but edible when cooked."
   },
   {
     "id": "food_brahmin_meat",
     "name": "Brahmin Meat",
     "type": "food",
-    "effects": "Heals 3 HP",
+    "effects": "Heals 3 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
     "addictive": false,
     "weight": 1,
     "cost": 28,
-    "rarity": 1
+    "rarity": 1,
+    "description": "A cut of meat taken from a brahmin. A reliable source of protein in the wasteland."
   },
   {
     "id": "food_canned_dog_food",
@@ -1075,84 +1176,92 @@
     "addictive": false,
     "weight": 0.5,
     "cost": 6,
-    "rarity": 0
+    "rarity": 0,
+    "description": "A can of processed meat-based food, intended for dogs. Edible in a pinch, but deeply unappealing."
   },
   {
     "id": "food_cram",
     "name": "Cram",
     "type": "food",
-    "effects": "Heals 5 HP",
+    "effects": "Heals 5 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
     "addictive": false,
-    "weight": 0.5,
+    "weight": "<1",
     "cost": 25,
-    "rarity": 1
+    "rarity": 1,
+    "description": "A can of processed meat, typically containing a mixture of brahmin, radstag, and other meats. The can is sealed for preservation and can last for decades."
   },
   {
     "id": "food_dandy_boy_apples",
     "name": "Dandy Boy Apples",
     "type": "food",
-    "effects": "Heals 3 HP",
+    "effects": "Heals 3 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
     "addictive": false,
-    "weight": 0.5,
+    "weight": "<1",
     "cost": 7,
-    "rarity": 0
+    "rarity": 0,
+    "description": "Candied apples produced by the Dandy Boy company. An extremely sweet fruit-based snack packaged in a cardboard box."
   },
   {
     "id": "food_deathclaw_egg",
     "name": "Deathclaw Egg",
     "type": "food",
-    "effects": "Heals 7 HP",
+    "effects": "Heals 7 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
     "addictive": false,
-    "weight": 0.5,
+    "weight": "<1",
     "cost": 69,
-    "rarity": 3
+    "rarity": 3,
+    "description": "The egg of a deathclaw. Extremely dangerous to acquire, but highly prized for its nutritional value."
   },
   {
     "id": "food_deathclaw_meat",
     "name": "Deathclaw Meat",
     "type": "food",
-    "effects": "Heals 9 HP",
+    "effects": "Heals 9 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
     "addictive": false,
     "weight": 1,
     "cost": 110,
-    "rarity": 3
+    "rarity": 3,
+    "description": "Meat taken from a slain deathclaw. Extremely dangerous to obtain, but highly nutritious and prized across the wasteland."
   },
   {
     "id": "food_instamash",
     "name": "InstaMash",
     "type": "food",
-    "effects": "Heals 4 HP",
+    "effects": "Heals 4 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
     "addictive": false,
-    "weight": 0.5,
+    "weight": "<1",
     "cost": 20,
-    "rarity": 0
+    "rarity": 0,
+    "description": "A packet of dehydrated mashed potatoes. Just add water (heated or not) and you have a quick, filling meal."
   },
   {
     "id": "food_gum_drops",
     "name": "Gum Drops",
     "type": "food",
-    "effects": "Heals 3 HP",
+    "effects": "Heals 3 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
     "addictive": false,
-    "weight": 0.5,
+    "weight": "<1",
     "cost": 5,
-    "rarity": 0
+    "rarity": 0,
+    "description": "A pre-War confection of small drops of congealed gelatin, sweetened and flavored. The most common variety to survive the War were labelled as 'radioactive' for their powerful sour flavor."
   },
   {
     "id": "food_fancy_lads_snack_cakes",
     "name": "Fancy Lads Snack Cakes",
     "type": "food",
-    "effects": "Heals 3 HP",
+    "effects": "Heals 3 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
     "addictive": false,
-    "weight": 0.5,
+    "weight": "<1",
     "cost": 18,
-    "rarity": 0
+    "rarity": 0,
+    "description": "A box of pre-War packaged snack cakes, filled with a sweet, creamy center. Surprisingly well-preserved despite their age."
   },
   {
     "id": "food_blamco_brand_mac_and_cheese",
@@ -1161,31 +1270,34 @@
     "effects": "Heals 4 HP",
     "duration": "Instant",
     "addictive": false,
-    "weight": 0.5,
+    "weight": "<1",
     "cost": 10,
-    "rarity": 1
+    "rarity": 1,
+    "description": "A packaged box of dried macaroni pasta and a packet of powdered cheese mix. A pre-War staple that's still perfectly edible decades later."
   },
   {
     "id": "food_mole_rat_meat",
     "name": "Mole Rat Meat",
     "type": "food",
-    "effects": "Heals 5 HP",
+    "effects": "Heals 5 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
     "addictive": false,
-    "weight": 0.5,
+    "weight": "<1",
     "cost": 5,
-    "rarity": 0
+    "rarity": 0,
+    "description": "Meat taken from a mole rat. Not the most appetizing food, but it's edible and provides sustenance."
   },
   {
     "id": "food_mutant_hound_meat",
     "name": "Mutant Hound Meat",
     "type": "food",
-    "effects": "Heals 5 HP",
+    "effects": "Heals 5 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
     "addictive": false,
-    "weight": 0.5,
+    "weight": "<1",
     "cost": 8,
-    "rarity": 2
+    "rarity": 2,
+    "description": "A cut of meat taken from a dead mutant hound. This meat's off-green color and lumpy texture suggests that it would be quite unpleasant to eat."
   },
   {
     "id": "food_perfectly_preserved_pie",
@@ -1194,64 +1306,70 @@
     "effects": "Heals 5 HP",
     "duration": "Instant",
     "addictive": false,
-    "weight": 0.5,
+    "weight": "<1",
     "cost": 20,
-    "rarity": 3
+    "rarity": 3,
+    "description": "A slice of fruit pie shielded from the radioactive environment since before the Great War. Copious preservatives keep it as edible as the day it was made."
   },
   {
     "id": "food_pork_n_beans",
     "name": "Pork 'n' Beans",
     "type": "food",
-    "effects": "Heals 4 HP",
+    "effects": "Heals 4 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
     "addictive": false,
-    "weight": 0.5,
+    "weight": "<1",
     "cost": 10,
-    "rarity": 0
+    "rarity": 0,
+    "description": "A can containing a complete meal: beans stewed in a tomato sauce with chunks of cured pork belly. The tin may be slightly rusted, but the contents are still edible."
   },
   {
     "id": "food_potted_meat",
     "name": "Potted Meat",
     "type": "food",
-    "effects": "Heals 6 HP. Roll 2 CD rather than 1 for determining Radiation damage",
+    "effects": "Heals 6 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
     "addictive": false,
     "weight": 1,
     "cost": 25,
-    "rarity": 0
+    "rarity": 0,
+    "description": "A small metal tin of mixed processed meat, typically containing mixtures of meat from brahmin, radstags, mole rats, mongrel dogs, and anything else the maker can get their hands on."
   },
   {
     "id": "food_radroach_meat",
     "name": "Radroach Meat",
     "type": "food",
-    "effects": "Heals 4 HP",
+    "effects": "Heals 4 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
     "addictive": false,
-    "weight": 0.5,
+    "weight": "<1",
     "cost": 3,
-    "rarity": 0
+    "rarity": 0,
+    "description": "Meat taken from a radroach. Not particularly tasty, but it's a common source of protein in the wasteland."
   },
   {
     "id": "food_radscorpion_meat",
     "name": "Radscorpion Meat",
     "type": "food",
-    "effects": "Heals 9 HP",
+    "effects": "Heals 9 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
     "addictive": false,
     "weight": 1,
     "cost": 55,
-    "rarity": 2
+    "rarity": 2,
+    "description": "Meat taken from inside the carapace of a radscorpion, normally from the tail or one of the legs. Difficult to obtain, as it requires killing a radscorpion."
   },
   {
     "id": "food_radstag_meat",
     "name": "Radstag Meat",
     "type": "food",
-    "effects": "Heals 8 HP",
+    "effects": "Heals 8 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
     "addictive": false,
     "weight": 1,
     "cost": 50,
-    "rarity": 1
+    "rarity": 1,
+    "description": "Meat taken from a radstag, a mutated deer-like creature. Lean and gamey, it provides good nutrition."
   },
   {
     "id": "food_squirrel_stew",
@@ -1262,40 +1380,44 @@
     "addictive": false,
     "weight": 1,
     "cost": 24,
-    "rarity": 2
+    "rarity": 2,
+    "description": "Chunks of squirrel meat, along with carrot, tato, and some bloodleaf, cooked together to create a thick stew. More filling and appetizing than the ingredients individually."
   },
   {
     "id": "food_stingwing_meat",
     "name": "Stingwing Meat",
     "type": "food",
-    "effects": "Heals 8 HP",
+    "effects": "Heals 8 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
     "addictive": false,
-    "weight": 0.5,
+    "weight": "<1",
     "cost": 30,
-    "rarity": 1
+    "rarity": 1,
+    "description": "Meat taken from the body of a stingwing, a mutated scorpionfly with a nasty sting. Doesn't look especially tasty, but it cooks reasonably well."
   },
   {
     "id": "food_sugar_bombs",
     "name": "Sugar Bombs",
     "type": "food",
-    "effects": "Heals 4 HP. Gain +1 AP at start of next scene",
+    "effects": "Heals 4 HP. Gain +1 AP at start of next scene. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
     "addictive": false,
-    "weight": 0.5,
+    "weight": "<1",
     "cost": 11,
-    "rarity": 0
+    "rarity": 0,
+    "description": "A pre-War breakfast cereal heavily sweetened with sugar. The box may have seen better days, but the contents are still edible, if absurdly sweet."
   },
   {
     "id": "food_sweet_roll",
     "name": "Sweet Roll",
     "type": "food",
-    "effects": "Heals 4 HP",
+    "effects": "Heals 4 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
     "addictive": false,
-    "weight": 0.5,
+    "weight": "<1",
     "cost": 9,
-    "rarity": 1
+    "rarity": 1,
+    "description": "A small, sweetened pastry or baked confection normally made as a treat for children or people who need a bit of cheering up."
   },
   {
     "id": "food_yao_guai_meat",
@@ -1306,7 +1428,8 @@
     "addictive": false,
     "weight": 1,
     "cost": 85,
-    "rarity": 3
+    "rarity": 3,
+    "description": "Dangerous meat to obtain, Yao Guai meat comes from the bodies of slain Yao Guai, a ferocious mutated form of bear that roams the wastelands. The meat is highly prized and nutritious."
   },
   {
     "id": "food_food_paste",
@@ -1315,9 +1438,10 @@
     "effects": "Heals 7 HP. May re-roll 1d20 on all END tests until end of next scene",
     "duration": "Instant",
     "addictive": false,
-    "weight": 0.5,
+    "weight": "<1",
     "cost": 0,
-    "rarity": 2
+    "rarity": 2,
+    "description": "A flavorless mush, garish pink in color, developed by Vault-Tec as part of the Nutritional Alternative Paste Program. Fortified with vitamins and minerals, it remains unspoiled for over a century."
   },
   {
     "id": "food_institute_food_packet",
@@ -1326,30 +1450,33 @@
     "effects": "Heals 5 HP",
     "duration": "Instant",
     "addictive": false,
-    "weight": 0.5,
+    "weight": "<1",
     "cost": 10,
-    "rarity": 2
+    "rarity": 2,
+    "description": "A small white box of food marked with the symbol of the Institute. Each box contains enriched ration bars filled with essential nutrients."
   },
   {
     "id": "food_dirty_wastelander",
     "name": "Dirty Wastelander",
     "type": "drink",
-    "effects": "Heals 0 HP. Reduce difficulty of all STR tests by 1",
+    "effects": "Heals 0 HP. Alcoholic. Reduce difficulty of all STR tests by 1 and increase difficulty of all INT tests by 2 (in total)",
     "duration": "Instant",
     "addictive": true,
     "weight": 1,
     "cost": 10,
-    "rarity": 3
+    "rarity": 3,
+    "description": "An extremely potent alcoholic beverage, made from a blend of whiskey, Nuka-Cola, and Mutfruit, which has much the same effect as most alcoholic drinks, just moreso."
   },
   {
     "id": "food_irradiated_blood",
     "name": "Irradiated Blood",
     "type": "drink",
-    "effects": "Heals 3 HP. Roll 2 CD rather than 1 for determining Radiation damage",
+    "effects": "Heals 3 HP. Roll 2 CD rather than 1 for determining Radiation damage when consumed",
     "duration": "Instant",
     "addictive": false,
-    "weight": 0.5,
+    "weight": "<1",
     "cost": 50,
-    "rarity": 2
+    "rarity": 2,
+    "description": "A blood bag filled with discolored—often green—blood-like fluid. About as useful as a normal blood pack, but highly irradiated."
   }
 ]

@@ -37,7 +37,7 @@
   },
   {
     "id": "shotgun_shell",
-    "name": "Shotgun Shells",
+    "name": "Shotgun Shell",
     "quantityFound": "6+3DC",
     "weight": "<1",
     "cost": 3,
@@ -82,7 +82,7 @@
   },
   {
     "id": "railway_spike",
-    "name": "Railway Spike",
+    "name": "Railway Spikes",
     "quantityFound": "6+3DC",
     "weight": "<1",
     "cost": 1,
@@ -90,9 +90,9 @@
     "description": "A standard railway spike, used as ammunition for the railway rifle."
   },
   {
-    "id": "syringer_ammo",
-    "name": "Syringer Ammo",
-    "quantityFound": "4+2DC",
+    "id": "syringe",
+    "name": "Syringe",
+    "quantityFound": "4+2 CD",
     "weight": "<1",
     "cost": 0,
     "rarity": 2,
@@ -100,7 +100,7 @@
   },
   {
     "id": "44_magnum",
-    "name": ".44 Magnum",
+    "name": ".44 Rounds",
     "quantityFound": "4+2DC",
     "weight": "<1",
     "cost": 3,

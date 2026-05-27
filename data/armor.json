@@ -1,58 +1,1962 @@
 [
-  {"id":"raider_chest_piece","name":"Raider Chest Piece","armorClass":"raider","piece":"chest","variant":"standard","covers":["torso"],"physicalDR":1,"energyDR":1,"radiationDR":0,"weight":7,"cost":18,"rarity":0,"underArmor":true,"compatibleMods":{"material":["armor_mod_welded","armor_mod_tempered","armor_mod_hardened","armor_mod_buttressed"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_padded","armor_mod_asbestos_lining","armor_mod_dense","armor_mod_biocommmesh","armor_mod_pneumatic"]}},
-  {"id":"raider_leg","name":"Raider Leg","armorClass":"raider","piece":"leg","variant":"standard","covers":["leg"],"physicalDR":1,"energyDR":1,"radiationDR":0,"weight":3,"cost":8,"rarity":0,"underArmor":true,"compatibleMods":{"material":["armor_mod_welded","armor_mod_tempered","armor_mod_hardened","armor_mod_buttressed"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_cushioned","armor_mod_muffled"]}},
-  {"id":"raider_arm","name":"Raider Arm","armorClass":"raider","piece":"arm","variant":"standard","covers":["arm"],"physicalDR":1,"energyDR":1,"radiationDR":0,"weight":3,"cost":6,"rarity":0,"underArmor":true,"compatibleMods":{"material":["armor_mod_welded","armor_mod_tempered","armor_mod_hardened","armor_mod_buttressed"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_brawling","armor_mod_braced","armor_mod_stabilized","armor_mod_aerodynamic","armor_mod_weighted"]}},
-  {"id":"sturdy_raider_chest_piece","name":"Sturdy Raider Chest Piece","armorClass":"raider","piece":"chest","variant":"sturdy","covers":["torso"],"physicalDR":2,"energyDR":2,"radiationDR":0,"weight":12,"cost":33,"rarity":1,"underArmor":true,"compatibleMods":{"material":["armor_mod_welded","armor_mod_tempered","armor_mod_hardened","armor_mod_buttressed"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_padded","armor_mod_asbestos_lining","armor_mod_dense","armor_mod_biocommmesh","armor_mod_pneumatic"]}},
-  {"id":"sturdy_raider_leg","name":"Sturdy Raider Leg","armorClass":"raider","piece":"leg","variant":"sturdy","covers":["leg"],"physicalDR":2,"energyDR":2,"radiationDR":0,"weight":7,"cost":13,"rarity":1,"underArmor":true,"compatibleMods":{"material":["armor_mod_welded","armor_mod_tempered","armor_mod_hardened","armor_mod_buttressed"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_cushioned","armor_mod_muffled"]}},
-  {"id":"sturdy_raider_arm","name":"Sturdy Raider Arm","armorClass":"raider","piece":"arm","variant":"sturdy","covers":["arm"],"physicalDR":2,"energyDR":2,"radiationDR":0,"weight":7,"cost":8,"rarity":1,"underArmor":true,"compatibleMods":{"material":["armor_mod_welded","armor_mod_tempered","armor_mod_hardened","armor_mod_buttressed"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_brawling","armor_mod_braced","armor_mod_stabilized","armor_mod_aerodynamic","armor_mod_weighted"]}},
-  {"id":"heavy_raider_chest_piece","name":"Heavy Raider Chest Piece","armorClass":"raider","piece":"chest","variant":"heavy","covers":["torso"],"physicalDR":3,"energyDR":3,"radiationDR":0,"weight":17,"cost":48,"rarity":2,"underArmor":true,"compatibleMods":{"material":["armor_mod_welded","armor_mod_tempered","armor_mod_hardened","armor_mod_buttressed"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_padded","armor_mod_asbestos_lining","armor_mod_dense","armor_mod_biocommmesh","armor_mod_pneumatic"]}},
-  {"id":"heavy_raider_leg","name":"Heavy Raider Leg","armorClass":"raider","piece":"leg","variant":"heavy","covers":["leg"],"physicalDR":3,"energyDR":3,"radiationDR":0,"weight":10,"cost":18,"rarity":2,"underArmor":true,"compatibleMods":{"material":["armor_mod_welded","armor_mod_tempered","armor_mod_hardened","armor_mod_buttressed"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_cushioned","armor_mod_muffled"]}},
-  {"id":"heavy_raider_arm","name":"Heavy Raider Arm","armorClass":"raider","piece":"arm","variant":"heavy","covers":["arm"],"physicalDR":3,"energyDR":3,"radiationDR":0,"weight":10,"cost":15,"rarity":2,"underArmor":true,"compatibleMods":{"material":["armor_mod_welded","armor_mod_tempered","armor_mod_hardened","armor_mod_buttressed"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_brawling","armor_mod_braced","armor_mod_stabilized","armor_mod_aerodynamic","armor_mod_weighted"]}},
-  {"id":"leather_chest_piece","name":"Leather Chest Piece","armorClass":"leather","piece":"chest","variant":"standard","covers":["torso"],"physicalDR":1,"energyDR":2,"radiationDR":0,"weight":5,"cost":25,"rarity":1,"underArmor":true,"compatibleMods":{"material":["armor_mod_boiled_leather","armor_mod_girded_leather","armor_mod_treated_leather","armor_mod_shadowed_leather","armor_mod_studded_leather"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_padded","armor_mod_asbestos_lining","armor_mod_dense","armor_mod_biocommmesh","armor_mod_pneumatic"]}},
-  {"id":"leather_leg","name":"Leather Leg","armorClass":"leather","piece":"leg","variant":"standard","covers":["leg"],"physicalDR":1,"energyDR":2,"radiationDR":0,"weight":2,"cost":10,"rarity":1,"underArmor":true,"compatibleMods":{"material":["armor_mod_boiled_leather","armor_mod_girded_leather","armor_mod_treated_leather","armor_mod_shadowed_leather","armor_mod_studded_leather"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_cushioned","armor_mod_muffled"]}},
-  {"id":"leather_arm","name":"Leather Arm","armorClass":"leather","piece":"arm","variant":"standard","covers":["arm"],"physicalDR":1,"energyDR":2,"radiationDR":0,"weight":2,"cost":8,"rarity":1,"underArmor":true,"compatibleMods":{"material":["armor_mod_boiled_leather","armor_mod_girded_leather","armor_mod_treated_leather","armor_mod_shadowed_leather","armor_mod_studded_leather"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_brawling","armor_mod_braced","armor_mod_stabilized","armor_mod_aerodynamic","armor_mod_weighted"]}},
-  {"id":"sturdy_leather_chest_piece","name":"Sturdy Leather Chest Piece","armorClass":"leather","piece":"chest","variant":"sturdy","covers":["torso"],"physicalDR":2,"energyDR":3,"radiationDR":0,"weight":10,"cost":50,"rarity":2,"underArmor":true,"compatibleMods":{"material":["armor_mod_boiled_leather","armor_mod_girded_leather","armor_mod_treated_leather","armor_mod_shadowed_leather","armor_mod_studded_leather"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_padded","armor_mod_asbestos_lining","armor_mod_dense","armor_mod_biocommmesh","armor_mod_pneumatic"]}},
-  {"id":"sturdy_leather_leg","name":"Sturdy Leather Leg","armorClass":"leather","piece":"leg","variant":"sturdy","covers":["leg"],"physicalDR":2,"energyDR":3,"radiationDR":0,"weight":5,"cost":20,"rarity":2,"underArmor":true,"compatibleMods":{"material":["armor_mod_boiled_leather","armor_mod_girded_leather","armor_mod_treated_leather","armor_mod_shadowed_leather","armor_mod_studded_leather"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_cushioned","armor_mod_muffled"]}},
-  {"id":"sturdy_leather_arm","name":"Sturdy Leather Arm","armorClass":"leather","piece":"arm","variant":"sturdy","covers":["arm"],"physicalDR":2,"energyDR":3,"radiationDR":0,"weight":5,"cost":18,"rarity":2,"underArmor":true,"compatibleMods":{"material":["armor_mod_boiled_leather","armor_mod_girded_leather","armor_mod_treated_leather","armor_mod_shadowed_leather","armor_mod_studded_leather"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_brawling","armor_mod_braced","armor_mod_stabilized","armor_mod_aerodynamic","armor_mod_weighted"]}},
-  {"id":"heavy_leather_chest_piece","name":"Heavy Leather Chest Piece","armorClass":"leather","piece":"chest","variant":"heavy","covers":["torso"],"physicalDR":3,"energyDR":4,"radiationDR":0,"weight":15,"cost":75,"rarity":3,"underArmor":true,"compatibleMods":{"material":["armor_mod_boiled_leather","armor_mod_girded_leather","armor_mod_treated_leather","armor_mod_shadowed_leather","armor_mod_studded_leather"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_padded","armor_mod_asbestos_lining","armor_mod_dense","armor_mod_biocommmesh","armor_mod_pneumatic"]}},
-  {"id":"heavy_leather_leg","name":"Heavy Leather Leg","armorClass":"leather","piece":"leg","variant":"heavy","covers":["leg"],"physicalDR":3,"energyDR":4,"radiationDR":0,"weight":7,"cost":30,"rarity":3,"underArmor":true,"compatibleMods":{"material":["armor_mod_boiled_leather","armor_mod_girded_leather","armor_mod_treated_leather","armor_mod_shadowed_leather","armor_mod_studded_leather"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_cushioned","armor_mod_muffled"]}},
-  {"id":"heavy_leather_arm","name":"Heavy Leather Arm","armorClass":"leather","piece":"arm","variant":"heavy","covers":["arm"],"physicalDR":3,"energyDR":4,"radiationDR":0,"weight":7,"cost":28,"rarity":3,"underArmor":true,"compatibleMods":{"material":["armor_mod_boiled_leather","armor_mod_girded_leather","armor_mod_treated_leather","armor_mod_shadowed_leather","armor_mod_studded_leather"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_brawling","armor_mod_braced","armor_mod_stabilized","armor_mod_aerodynamic","armor_mod_weighted"]}},
-  {"id":"metal_helmet","name":"Metal Helmet","armorClass":"metal","piece":"helmet","variant":"standard","covers":["head"],"physicalDR":2,"energyDR":1,"radiationDR":0,"weight":3,"cost":15,"rarity":1,"underArmor":false,"compatibleMods":{"material":["armor_mod_painted_metal","armor_mod_enameled_metal","armor_mod_shadowed_metal","armor_mod_alloyed_metal","armor_mod_polished_metal"]}},
-  {"id":"metal_chest_piece","name":"Metal Chest Piece","armorClass":"metal","piece":"chest","variant":"standard","covers":["torso"],"physicalDR":2,"energyDR":1,"radiationDR":0,"weight":6,"cost":40,"rarity":1,"underArmor":false,"compatibleMods":{"material":["armor_mod_painted_metal","armor_mod_enameled_metal","armor_mod_shadowed_metal","armor_mod_alloyed_metal","armor_mod_polished_metal"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_padded","armor_mod_asbestos_lining","armor_mod_dense","armor_mod_biocommmesh","armor_mod_pneumatic"]}},
-  {"id":"metal_leg","name":"Metal Leg","armorClass":"metal","piece":"leg","variant":"standard","covers":["leg"],"physicalDR":2,"energyDR":1,"radiationDR":0,"weight":3,"cost":15,"rarity":1,"underArmor":false,"compatibleMods":{"material":["armor_mod_painted_metal","armor_mod_enameled_metal","armor_mod_shadowed_metal","armor_mod_alloyed_metal","armor_mod_polished_metal"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_cushioned","armor_mod_muffled"]}},
-  {"id":"metal_arm","name":"Metal Arm","armorClass":"metal","piece":"arm","variant":"standard","covers":["arm"],"physicalDR":2,"energyDR":1,"radiationDR":0,"weight":3,"cost":15,"rarity":1,"underArmor":false,"compatibleMods":{"material":["armor_mod_painted_metal","armor_mod_enameled_metal","armor_mod_shadowed_metal","armor_mod_alloyed_metal","armor_mod_polished_metal"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_brawling","armor_mod_braced","armor_mod_stabilized","armor_mod_aerodynamic","armor_mod_weighted"]}},
-  {"id":"sturdy_metal_helmet","name":"Sturdy Metal Helmet","armorClass":"metal","piece":"helmet","variant":"sturdy","covers":["head"],"physicalDR":3,"energyDR":2,"radiationDR":0,"weight":8,"cost":65,"rarity":2,"underArmor":false,"compatibleMods":{"material":["armor_mod_painted_metal","armor_mod_enameled_metal","armor_mod_shadowed_metal","armor_mod_alloyed_metal","armor_mod_polished_metal"]}},
-  {"id":"sturdy_metal_chest_piece","name":"Sturdy Metal Chest Piece","armorClass":"metal","piece":"chest","variant":"sturdy","covers":["torso"],"physicalDR":3,"energyDR":2,"radiationDR":0,"weight":16,"cost":115,"rarity":2,"underArmor":false,"compatibleMods":{"material":["armor_mod_painted_metal","armor_mod_enameled_metal","armor_mod_shadowed_metal","armor_mod_alloyed_metal","armor_mod_polished_metal"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_padded","armor_mod_asbestos_lining","armor_mod_dense","armor_mod_biocommmesh","armor_mod_pneumatic"]}},
-  {"id":"sturdy_metal_leg","name":"Sturdy Metal Leg","armorClass":"metal","piece":"leg","variant":"sturdy","covers":["leg"],"physicalDR":3,"energyDR":2,"radiationDR":0,"weight":8,"cost":65,"rarity":2,"underArmor":false,"compatibleMods":{"material":["armor_mod_painted_metal","armor_mod_enameled_metal","armor_mod_shadowed_metal","armor_mod_alloyed_metal","armor_mod_polished_metal"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_cushioned","armor_mod_muffled"]}},
-  {"id":"sturdy_metal_arm","name":"Sturdy Metal Arm","armorClass":"metal","piece":"arm","variant":"sturdy","covers":["arm"],"physicalDR":3,"energyDR":2,"radiationDR":0,"weight":8,"cost":65,"rarity":2,"underArmor":false,"compatibleMods":{"material":["armor_mod_painted_metal","armor_mod_enameled_metal","armor_mod_shadowed_metal","armor_mod_alloyed_metal","armor_mod_polished_metal"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_brawling","armor_mod_braced","armor_mod_stabilized","armor_mod_aerodynamic","armor_mod_weighted"]}},
-  {"id":"heavy_metal_helmet","name":"Heavy Metal Helmet","armorClass":"metal","piece":"helmet","variant":"heavy","covers":["head"],"physicalDR":4,"energyDR":3,"radiationDR":0,"weight":12,"cost":115,"rarity":3,"underArmor":false,"compatibleMods":{"material":["armor_mod_painted_metal","armor_mod_enameled_metal","armor_mod_shadowed_metal","armor_mod_alloyed_metal","armor_mod_polished_metal"]}},
-  {"id":"heavy_metal_chest_piece","name":"Heavy Metal Chest Piece","armorClass":"metal","piece":"chest","variant":"heavy","covers":["torso"],"physicalDR":4,"energyDR":3,"radiationDR":0,"weight":23,"cost":190,"rarity":3,"underArmor":false,"compatibleMods":{"material":["armor_mod_painted_metal","armor_mod_enameled_metal","armor_mod_shadowed_metal","armor_mod_alloyed_metal","armor_mod_polished_metal"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_padded","armor_mod_asbestos_lining","armor_mod_dense","armor_mod_biocommmesh","armor_mod_pneumatic"]}},
-  {"id":"heavy_metal_leg","name":"Heavy Metal Leg","armorClass":"metal","piece":"leg","variant":"heavy","covers":["leg"],"physicalDR":4,"energyDR":3,"radiationDR":0,"weight":12,"cost":115,"rarity":3,"underArmor":false,"compatibleMods":{"material":["armor_mod_painted_metal","armor_mod_enameled_metal","armor_mod_shadowed_metal","armor_mod_alloyed_metal","armor_mod_polished_metal"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_cushioned","armor_mod_muffled"]}},
-  {"id":"heavy_metal_arm","name":"Heavy Metal Arm","armorClass":"metal","piece":"arm","variant":"heavy","covers":["arm"],"physicalDR":4,"energyDR":3,"radiationDR":0,"weight":12,"cost":115,"rarity":3,"underArmor":false,"compatibleMods":{"material":["armor_mod_painted_metal","armor_mod_enameled_metal","armor_mod_shadowed_metal","armor_mod_alloyed_metal","armor_mod_polished_metal"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_brawling","armor_mod_braced","armor_mod_stabilized","armor_mod_aerodynamic","armor_mod_weighted"]}},
-  {"id":"combat_helmet","name":"Combat Helmet","armorClass":"combat","piece":"helmet","variant":"standard","covers":["head"],"physicalDR":2,"energyDR":2,"radiationDR":0,"weight":4,"cost":25,"rarity":2,"underArmor":false,"compatibleMods":{"material":["armor_mod_reinforced","armor_mod_shadowed","armor_mod_fiberglass","armor_mod_polymer"]}},
-  {"id":"combat_chest_piece","name":"Combat Chest Piece","armorClass":"combat","piece":"chest","variant":"standard","covers":["torso"],"physicalDR":2,"energyDR":2,"radiationDR":0,"weight":8,"cost":60,"rarity":2,"underArmor":false,"compatibleMods":{"material":["armor_mod_reinforced","armor_mod_shadowed","armor_mod_fiberglass","armor_mod_polymer"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_padded","armor_mod_asbestos_lining","armor_mod_dense","armor_mod_biocommmesh","armor_mod_pneumatic"]}},
-  {"id":"combat_leg","name":"Combat Leg","armorClass":"combat","piece":"leg","variant":"standard","covers":["leg"],"physicalDR":2,"energyDR":2,"radiationDR":0,"weight":2,"cost":25,"rarity":2,"underArmor":false,"compatibleMods":{"material":["armor_mod_reinforced","armor_mod_shadowed","armor_mod_fiberglass","armor_mod_polymer"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_cushioned","armor_mod_muffled"]}},
-  {"id":"combat_arm","name":"Combat Arm","armorClass":"combat","piece":"arm","variant":"standard","covers":["arm"],"physicalDR":2,"energyDR":2,"radiationDR":0,"weight":2,"cost":25,"rarity":2,"underArmor":false,"compatibleMods":{"material":["armor_mod_reinforced","armor_mod_shadowed","armor_mod_fiberglass","armor_mod_polymer"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_brawling","armor_mod_braced","armor_mod_stabilized","armor_mod_aerodynamic","armor_mod_weighted"]}},
-  {"id":"sturdy_combat_helmet","name":"Sturdy Combat Helmet","armorClass":"combat","piece":"helmet","variant":"sturdy","covers":["head"],"physicalDR":3,"energyDR":3,"radiationDR":0,"weight":5,"cost":105,"rarity":3,"underArmor":false,"compatibleMods":{"material":["armor_mod_reinforced","armor_mod_shadowed","armor_mod_fiberglass","armor_mod_polymer"]}},
-  {"id":"sturdy_combat_chest_piece","name":"Sturdy Combat Chest Piece","armorClass":"combat","piece":"chest","variant":"sturdy","covers":["torso"],"physicalDR":3,"energyDR":3,"radiationDR":0,"weight":12,"cost":140,"rarity":3,"underArmor":false,"compatibleMods":{"material":["armor_mod_reinforced","armor_mod_shadowed","armor_mod_fiberglass","armor_mod_polymer"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_padded","armor_mod_asbestos_lining","armor_mod_dense","armor_mod_biocommmesh","armor_mod_pneumatic"]}},
-  {"id":"sturdy_combat_leg","name":"Sturdy Combat Leg","armorClass":"combat","piece":"leg","variant":"sturdy","covers":["leg"],"physicalDR":3,"energyDR":3,"radiationDR":0,"weight":5,"cost":105,"rarity":3,"underArmor":false,"compatibleMods":{"material":["armor_mod_reinforced","armor_mod_shadowed","armor_mod_fiberglass","armor_mod_polymer"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_cushioned","armor_mod_muffled"]}},
-  {"id":"sturdy_combat_arm","name":"Sturdy Combat Arm","armorClass":"combat","piece":"arm","variant":"sturdy","covers":["arm"],"physicalDR":3,"energyDR":3,"radiationDR":0,"weight":5,"cost":105,"rarity":3,"underArmor":false,"compatibleMods":{"material":["armor_mod_reinforced","armor_mod_shadowed","armor_mod_fiberglass","armor_mod_polymer"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_brawling","armor_mod_braced","armor_mod_stabilized","armor_mod_aerodynamic","armor_mod_weighted"]}},
-  {"id":"heavy_combat_helmet","name":"Heavy Combat Helmet","armorClass":"combat","piece":"helmet","variant":"heavy","covers":["head"],"physicalDR":4,"energyDR":4,"radiationDR":0,"weight":7,"cost":185,"rarity":4,"underArmor":false,"compatibleMods":{"material":["armor_mod_reinforced","armor_mod_shadowed","armor_mod_fiberglass","armor_mod_polymer"]}},
-  {"id":"heavy_combat_chest_piece","name":"Heavy Combat Chest Piece","armorClass":"combat","piece":"chest","variant":"heavy","covers":["torso"],"physicalDR":4,"energyDR":4,"radiationDR":0,"weight":16,"cost":220,"rarity":4,"underArmor":false,"compatibleMods":{"material":["armor_mod_reinforced","armor_mod_shadowed","armor_mod_fiberglass","armor_mod_polymer"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_padded","armor_mod_asbestos_lining","armor_mod_dense","armor_mod_biocommmesh","armor_mod_pneumatic"]}},
-  {"id":"heavy_combat_leg","name":"Heavy Combat Leg","armorClass":"combat","piece":"leg","variant":"heavy","covers":["leg"],"physicalDR":4,"energyDR":4,"radiationDR":0,"weight":7,"cost":185,"rarity":4,"underArmor":false,"compatibleMods":{"material":["armor_mod_reinforced","armor_mod_shadowed","armor_mod_fiberglass","armor_mod_polymer"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_cushioned","armor_mod_muffled"]}},
-  {"id":"heavy_combat_arm","name":"Heavy Combat Arm","armorClass":"combat","piece":"arm","variant":"heavy","covers":["arm"],"physicalDR":4,"energyDR":4,"radiationDR":0,"weight":7,"cost":145,"rarity":4,"underArmor":false,"compatibleMods":{"material":["armor_mod_reinforced","armor_mod_shadowed","armor_mod_fiberglass","armor_mod_polymer"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_brawling","armor_mod_braced","armor_mod_stabilized","armor_mod_aerodynamic","armor_mod_weighted"]}},
-  {"id":"synth_helmet","name":"Synth Helmet","armorClass":"synth","piece":"helmet","variant":"standard","covers":["head"],"physicalDR":2,"energyDR":3,"radiationDR":0,"weight":3,"cost":33,"rarity":3,"underArmor":false,"compatibleMods":{"material":["armor_mod_laminated","armor_mod_resin","armor_mod_microcarbon","armor_mod_nanofilament"]}},
-  {"id":"synth_chest_piece","name":"Synth Chest Piece","armorClass":"synth","piece":"chest","variant":"standard","covers":["torso"],"physicalDR":2,"energyDR":3,"radiationDR":0,"weight":7,"cost":75,"rarity":3,"underArmor":false,"compatibleMods":{"material":["armor_mod_laminated","armor_mod_resin","armor_mod_microcarbon","armor_mod_nanofilament"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_padded","armor_mod_asbestos_lining","armor_mod_dense","armor_mod_biocommmesh","armor_mod_pneumatic"]}},
-  {"id":"synth_leg","name":"Synth Leg","armorClass":"synth","piece":"leg","variant":"standard","covers":["leg"],"physicalDR":2,"energyDR":3,"radiationDR":0,"weight":3,"cost":30,"rarity":3,"underArmor":false,"compatibleMods":{"material":["armor_mod_laminated","armor_mod_resin","armor_mod_microcarbon","armor_mod_nanofilament"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_cushioned","armor_mod_muffled"]}},
-  {"id":"synth_arm","name":"Synth Arm","armorClass":"synth","piece":"arm","variant":"standard","covers":["arm"],"physicalDR":2,"energyDR":3,"radiationDR":0,"weight":3,"cost":30,"rarity":4,"underArmor":false,"compatibleMods":{"material":["armor_mod_laminated","armor_mod_resin","armor_mod_microcarbon","armor_mod_nanofilament"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_brawling","armor_mod_braced","armor_mod_stabilized","armor_mod_aerodynamic","armor_mod_weighted"]}},
-  {"id":"sturdy_synth_helmet","name":"Sturdy Synth Helmet","armorClass":"synth","piece":"helmet","variant":"sturdy","covers":["head"],"physicalDR":3,"energyDR":4,"radiationDR":0,"weight":7,"cost":70,"rarity":4,"underArmor":false,"compatibleMods":{"material":["armor_mod_laminated","armor_mod_resin","armor_mod_microcarbon","armor_mod_nanofilament"]}},
-  {"id":"sturdy_synth_chest_piece","name":"Sturdy Synth Chest Piece","armorClass":"synth","piece":"chest","variant":"sturdy","covers":["torso"],"physicalDR":3,"energyDR":4,"radiationDR":0,"weight":12,"cost":125,"rarity":4,"underArmor":false,"compatibleMods":{"material":["armor_mod_laminated","armor_mod_resin","armor_mod_microcarbon","armor_mod_nanofilament"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_padded","armor_mod_asbestos_lining","armor_mod_dense","armor_mod_biocommmesh","armor_mod_pneumatic"]}},
-  {"id":"sturdy_synth_leg","name":"Sturdy Synth Leg","armorClass":"synth","piece":"leg","variant":"sturdy","covers":["leg"],"physicalDR":3,"energyDR":4,"radiationDR":0,"weight":7,"cost":80,"rarity":4,"underArmor":false,"compatibleMods":{"material":["armor_mod_laminated","armor_mod_resin","armor_mod_microcarbon","armor_mod_nanofilament"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_cushioned","armor_mod_muffled"]}},
-  {"id":"sturdy_synth_arm","name":"Sturdy Synth Arm","armorClass":"synth","piece":"arm","variant":"sturdy","covers":["arm"],"physicalDR":3,"energyDR":4,"radiationDR":0,"weight":7,"cost":70,"rarity":4,"underArmor":false,"compatibleMods":{"material":["armor_mod_laminated","armor_mod_resin","armor_mod_microcarbon","armor_mod_nanofilament"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_brawling","armor_mod_braced","armor_mod_stabilized","armor_mod_aerodynamic","armor_mod_weighted"]}},
-  {"id":"heavy_synth_helmet","name":"Heavy Synth Helmet","armorClass":"synth","piece":"helmet","variant":"heavy","covers":["head"],"physicalDR":4,"energyDR":5,"radiationDR":0,"weight":10,"cost":110,"rarity":5,"underArmor":false,"compatibleMods":{"material":["armor_mod_laminated","armor_mod_resin","armor_mod_microcarbon","armor_mod_nanofilament"]}},
-  {"id":"heavy_synth_chest_piece","name":"Heavy Synth Chest Piece","armorClass":"synth","piece":"chest","variant":"heavy","covers":["torso"],"physicalDR":4,"energyDR":5,"radiationDR":0,"weight":17,"cost":175,"rarity":5,"underArmor":false,"compatibleMods":{"material":["armor_mod_laminated","armor_mod_resin","armor_mod_microcarbon","armor_mod_nanofilament"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_padded","armor_mod_asbestos_lining","armor_mod_dense","armor_mod_biocommmesh","armor_mod_pneumatic"]}},
-  {"id":"heavy_synth_leg","name":"Heavy Synth Leg","armorClass":"synth","piece":"leg","variant":"heavy","covers":["leg"],"physicalDR":4,"energyDR":5,"radiationDR":0,"weight":10,"cost":130,"rarity":5,"underArmor":false,"compatibleMods":{"material":["armor_mod_laminated","armor_mod_resin","armor_mod_microcarbon","armor_mod_nanofilament"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_cushioned","armor_mod_muffled"]}},
-  {"id":"heavy_synth_arm","name":"Heavy Synth Arm","armorClass":"synth","piece":"arm","variant":"heavy","covers":["arm"],"physicalDR":4,"energyDR":5,"radiationDR":0,"weight":10,"cost":110,"rarity":5,"underArmor":false,"compatibleMods":{"material":["armor_mod_laminated","armor_mod_resin","armor_mod_microcarbon","armor_mod_nanofilament"],"utility":["armor_mod_lighter_build","armor_mod_pocketed","armor_mod_deep_pocketed","armor_mod_lead_lined","armor_mod_ultra_light_build","armor_mod_brawling","armor_mod_braced","armor_mod_stabilized","armor_mod_aerodynamic","armor_mod_weighted"]}},
-  {"id":"vault_tec_security_helmet","name":"Vault-Tec Security Helmet","armorClass":"vault_tec_security","piece":"helmet","variant":"standard","covers":["head"],"physicalDR":2,"energyDR":0,"radiationDR":0,"weight":2,"cost":20,"rarity":1,"underArmor":true,"compatibleMods":{}},
-  {"id":"vault_tec_security_armor","name":"Vault-Tec Security Armor","armorClass":"vault_tec_security","piece":"full_body","variant":"standard","covers":["arms","legs","torso"],"physicalDR":2,"energyDR":0,"radiationDR":2,"weight":8,"cost":16,"rarity":1,"underArmor":true,"compatibleMods":{}}
+  {
+    "id": "raider_chest_piece",
+    "name": "Raider Chest Piece",
+    "armorClass": "raider",
+    "piece": "chest",
+    "variant": "standard",
+    "covers": [
+      "torso"
+    ],
+    "physicalDR": 1,
+    "energyDR": 1,
+    "radiationDR": 0,
+    "weight": 7,
+    "cost": 18,
+    "rarity": 0,
+    "underArmor": true,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_welded",
+        "armor_mod_tempered",
+        "armor_mod_hardened",
+        "armor_mod_buttressed"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_padded",
+        "armor_mod_asbestos_lining",
+        "armor_mod_dense",
+        "armor_mod_biocommmesh",
+        "armor_mod_pneumatic"
+      ]
+    },
+    "description": "Makeshift armor employed by raiders and other cutthroat types across the wastes. It varies considerably in quality and appearance but tends to be made of scrap metal rudely battered into shape, reinforced by metal bars, wire, and leather straps. This barbaric appearance is often bolstered by grisly trophies such as skulls or other body parts."
+  },
+  {
+    "id": "raider_leg",
+    "name": "Raider Leg",
+    "armorClass": "raider",
+    "piece": "leg",
+    "variant": "standard",
+    "covers": [
+      "leg"
+    ],
+    "physicalDR": 1,
+    "energyDR": 1,
+    "radiationDR": 0,
+    "weight": 3,
+    "cost": 8,
+    "rarity": 0,
+    "underArmor": true,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_welded",
+        "armor_mod_tempered",
+        "armor_mod_hardened",
+        "armor_mod_buttressed"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_cushioned",
+        "armor_mod_muffled"
+      ]
+    },
+    "description": "Makeshift armor employed by raiders and other cutthroat types across the wastes. It varies considerably in quality and appearance but tends to be made of scrap metal rudely battered into shape, reinforced by metal bars, wire, and leather straps. This barbaric appearance is often bolstered by grisly trophies such as skulls or other body parts."
+  },
+  {
+    "id": "raider_arm",
+    "name": "Raider Arm",
+    "armorClass": "raider",
+    "piece": "arm",
+    "variant": "standard",
+    "covers": [
+      "arm"
+    ],
+    "physicalDR": 1,
+    "energyDR": 1,
+    "radiationDR": 0,
+    "weight": 3,
+    "cost": 6,
+    "rarity": 0,
+    "underArmor": true,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_welded",
+        "armor_mod_tempered",
+        "armor_mod_hardened",
+        "armor_mod_buttressed"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_brawling",
+        "armor_mod_braced",
+        "armor_mod_stabilized",
+        "armor_mod_aerodynamic",
+        "armor_mod_weighted"
+      ]
+    },
+    "description": "Makeshift armor employed by raiders and other cutthroat types across the wastes. It varies considerably in quality and appearance but tends to be made of scrap metal rudely battered into shape, reinforced by metal bars, wire, and leather straps. This barbaric appearance is often bolstered by grisly trophies such as skulls or other body parts."
+  },
+  {
+    "id": "sturdy_raider_chest_piece",
+    "name": "Sturdy Raider Chest Piece",
+    "armorClass": "raider",
+    "piece": "chest",
+    "variant": "sturdy",
+    "covers": [
+      "torso"
+    ],
+    "physicalDR": 2,
+    "energyDR": 2,
+    "radiationDR": 0,
+    "weight": 12,
+    "cost": 33,
+    "rarity": 1,
+    "underArmor": true,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_welded",
+        "armor_mod_tempered",
+        "armor_mod_hardened",
+        "armor_mod_buttressed"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_padded",
+        "armor_mod_asbestos_lining",
+        "armor_mod_dense",
+        "armor_mod_biocommmesh",
+        "armor_mod_pneumatic"
+      ]
+    },
+    "description": "Makeshift armor employed by raiders and other cutthroat types across the wastes. It varies considerably in quality and appearance but tends to be made of scrap metal rudely battered into shape, reinforced by metal bars, wire, and leather straps. This barbaric appearance is often bolstered by grisly trophies such as skulls or other body parts."
+  },
+  {
+    "id": "sturdy_raider_leg",
+    "name": "Sturdy Raider Leg",
+    "armorClass": "raider",
+    "piece": "leg",
+    "variant": "sturdy",
+    "covers": [
+      "leg"
+    ],
+    "physicalDR": 2,
+    "energyDR": 2,
+    "radiationDR": 0,
+    "weight": 7,
+    "cost": 13,
+    "rarity": 1,
+    "underArmor": true,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_welded",
+        "armor_mod_tempered",
+        "armor_mod_hardened",
+        "armor_mod_buttressed"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_cushioned",
+        "armor_mod_muffled"
+      ]
+    },
+    "description": "Makeshift armor employed by raiders and other cutthroat types across the wastes. It varies considerably in quality and appearance but tends to be made of scrap metal rudely battered into shape, reinforced by metal bars, wire, and leather straps. This barbaric appearance is often bolstered by grisly trophies such as skulls or other body parts."
+  },
+  {
+    "id": "sturdy_raider_arm",
+    "name": "Sturdy Raider Arm",
+    "armorClass": "raider",
+    "piece": "arm",
+    "variant": "sturdy",
+    "covers": [
+      "arm"
+    ],
+    "physicalDR": 2,
+    "energyDR": 2,
+    "radiationDR": 0,
+    "weight": 7,
+    "cost": 8,
+    "rarity": 1,
+    "underArmor": true,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_welded",
+        "armor_mod_tempered",
+        "armor_mod_hardened",
+        "armor_mod_buttressed"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_brawling",
+        "armor_mod_braced",
+        "armor_mod_stabilized",
+        "armor_mod_aerodynamic",
+        "armor_mod_weighted"
+      ]
+    },
+    "description": "Makeshift armor employed by raiders and other cutthroat types across the wastes. It varies considerably in quality and appearance but tends to be made of scrap metal rudely battered into shape, reinforced by metal bars, wire, and leather straps. This barbaric appearance is often bolstered by grisly trophies such as skulls or other body parts."
+  },
+  {
+    "id": "heavy_raider_chest_piece",
+    "name": "Heavy Raider Chest Piece",
+    "armorClass": "raider",
+    "piece": "chest",
+    "variant": "heavy",
+    "covers": [
+      "torso"
+    ],
+    "physicalDR": 3,
+    "energyDR": 3,
+    "radiationDR": 0,
+    "weight": 17,
+    "cost": 48,
+    "rarity": 2,
+    "underArmor": true,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_welded",
+        "armor_mod_tempered",
+        "armor_mod_hardened",
+        "armor_mod_buttressed"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_padded",
+        "armor_mod_asbestos_lining",
+        "armor_mod_dense",
+        "armor_mod_biocommmesh",
+        "armor_mod_pneumatic"
+      ]
+    },
+    "description": "Makeshift armor employed by raiders and other cutthroat types across the wastes. It varies considerably in quality and appearance but tends to be made of scrap metal rudely battered into shape, reinforced by metal bars, wire, and leather straps. This barbaric appearance is often bolstered by grisly trophies such as skulls or other body parts."
+  },
+  {
+    "id": "heavy_raider_leg",
+    "name": "Heavy Raider Leg",
+    "armorClass": "raider",
+    "piece": "leg",
+    "variant": "heavy",
+    "covers": [
+      "leg"
+    ],
+    "physicalDR": 3,
+    "energyDR": 3,
+    "radiationDR": 0,
+    "weight": 10,
+    "cost": 18,
+    "rarity": 2,
+    "underArmor": true,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_welded",
+        "armor_mod_tempered",
+        "armor_mod_hardened",
+        "armor_mod_buttressed"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_cushioned",
+        "armor_mod_muffled"
+      ]
+    },
+    "description": "Makeshift armor employed by raiders and other cutthroat types across the wastes. It varies considerably in quality and appearance but tends to be made of scrap metal rudely battered into shape, reinforced by metal bars, wire, and leather straps. This barbaric appearance is often bolstered by grisly trophies such as skulls or other body parts."
+  },
+  {
+    "id": "heavy_raider_arm",
+    "name": "Heavy Raider Arm",
+    "armorClass": "raider",
+    "piece": "arm",
+    "variant": "heavy",
+    "covers": [
+      "arm"
+    ],
+    "physicalDR": 3,
+    "energyDR": 3,
+    "radiationDR": 0,
+    "weight": 10,
+    "cost": 15,
+    "rarity": 2,
+    "underArmor": true,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_welded",
+        "armor_mod_tempered",
+        "armor_mod_hardened",
+        "armor_mod_buttressed"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_brawling",
+        "armor_mod_braced",
+        "armor_mod_stabilized",
+        "armor_mod_aerodynamic",
+        "armor_mod_weighted"
+      ]
+    },
+    "description": "Makeshift armor employed by raiders and other cutthroat types across the wastes. It varies considerably in quality and appearance but tends to be made of scrap metal rudely battered into shape, reinforced by metal bars, wire, and leather straps. This barbaric appearance is often bolstered by grisly trophies such as skulls or other body parts."
+  },
+  {
+    "id": "leather_chest_piece",
+    "name": "Leather Chest Piece",
+    "armorClass": "leather",
+    "piece": "chest",
+    "variant": "standard",
+    "covers": [
+      "torso"
+    ],
+    "physicalDR": 1,
+    "energyDR": 2,
+    "radiationDR": 0,
+    "weight": 5,
+    "cost": 25,
+    "rarity": 1,
+    "underArmor": true,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_boiled_leather",
+        "armor_mod_girded_leather",
+        "armor_mod_treated_leather",
+        "armor_mod_shadowed_leather",
+        "armor_mod_studded_leather"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_padded",
+        "armor_mod_asbestos_lining",
+        "armor_mod_dense",
+        "armor_mod_biocommmesh",
+        "armor_mod_pneumatic"
+      ]
+    },
+    "description": "Tanned and toughened animal hide, shaped into crude armor pieces and held together with leather straps and stitching. Leather armor provides decent protection against energy attacks compared to metal armor, but is less effective against physical impacts."
+  },
+  {
+    "id": "leather_leg",
+    "name": "Leather Leg",
+    "armorClass": "leather",
+    "piece": "leg",
+    "variant": "standard",
+    "covers": [
+      "leg"
+    ],
+    "physicalDR": 1,
+    "energyDR": 2,
+    "radiationDR": 0,
+    "weight": 2,
+    "cost": 10,
+    "rarity": 1,
+    "underArmor": true,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_boiled_leather",
+        "armor_mod_girded_leather",
+        "armor_mod_treated_leather",
+        "armor_mod_shadowed_leather",
+        "armor_mod_studded_leather"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_cushioned",
+        "armor_mod_muffled"
+      ]
+    },
+    "description": "Tanned and toughened animal hide, shaped into crude armor pieces and held together with leather straps and stitching. Leather armor provides decent protection against energy attacks compared to metal armor, but is less effective against physical impacts."
+  },
+  {
+    "id": "leather_arm",
+    "name": "Leather Arm",
+    "armorClass": "leather",
+    "piece": "arm",
+    "variant": "standard",
+    "covers": [
+      "arm"
+    ],
+    "physicalDR": 1,
+    "energyDR": 2,
+    "radiationDR": 0,
+    "weight": 2,
+    "cost": 8,
+    "rarity": 1,
+    "underArmor": true,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_boiled_leather",
+        "armor_mod_girded_leather",
+        "armor_mod_treated_leather",
+        "armor_mod_shadowed_leather",
+        "armor_mod_studded_leather"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_brawling",
+        "armor_mod_braced",
+        "armor_mod_stabilized",
+        "armor_mod_aerodynamic",
+        "armor_mod_weighted"
+      ]
+    },
+    "description": "Tanned and toughened animal hide, shaped into crude armor pieces and held together with leather straps and stitching. Leather armor provides decent protection against energy attacks compared to metal armor, but is less effective against physical impacts."
+  },
+  {
+    "id": "sturdy_leather_chest_piece",
+    "name": "Sturdy Leather Chest Piece",
+    "armorClass": "leather",
+    "piece": "chest",
+    "variant": "sturdy",
+    "covers": [
+      "torso"
+    ],
+    "physicalDR": 2,
+    "energyDR": 3,
+    "radiationDR": 0,
+    "weight": 10,
+    "cost": 50,
+    "rarity": 2,
+    "underArmor": true,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_boiled_leather",
+        "armor_mod_girded_leather",
+        "armor_mod_treated_leather",
+        "armor_mod_shadowed_leather",
+        "armor_mod_studded_leather"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_padded",
+        "armor_mod_asbestos_lining",
+        "armor_mod_dense",
+        "armor_mod_biocommmesh",
+        "armor_mod_pneumatic"
+      ]
+    },
+    "description": "Tanned and toughened animal hide, shaped into crude armor pieces and held together with leather straps and stitching. Leather armor provides decent protection against energy attacks compared to metal armor, but is less effective against physical impacts."
+  },
+  {
+    "id": "sturdy_leather_leg",
+    "name": "Sturdy Leather Leg",
+    "armorClass": "leather",
+    "piece": "leg",
+    "variant": "sturdy",
+    "covers": [
+      "leg"
+    ],
+    "physicalDR": 2,
+    "energyDR": 3,
+    "radiationDR": 0,
+    "weight": 5,
+    "cost": 20,
+    "rarity": 2,
+    "underArmor": true,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_boiled_leather",
+        "armor_mod_girded_leather",
+        "armor_mod_treated_leather",
+        "armor_mod_shadowed_leather",
+        "armor_mod_studded_leather"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_cushioned",
+        "armor_mod_muffled"
+      ]
+    },
+    "description": "Tanned and toughened animal hide, shaped into crude armor pieces and held together with leather straps and stitching. Leather armor provides decent protection against energy attacks compared to metal armor, but is less effective against physical impacts."
+  },
+  {
+    "id": "sturdy_leather_arm",
+    "name": "Sturdy Leather Arm",
+    "armorClass": "leather",
+    "piece": "arm",
+    "variant": "sturdy",
+    "covers": [
+      "arm"
+    ],
+    "physicalDR": 2,
+    "energyDR": 3,
+    "radiationDR": 0,
+    "weight": 5,
+    "cost": 18,
+    "rarity": 2,
+    "underArmor": true,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_boiled_leather",
+        "armor_mod_girded_leather",
+        "armor_mod_treated_leather",
+        "armor_mod_shadowed_leather",
+        "armor_mod_studded_leather"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_brawling",
+        "armor_mod_braced",
+        "armor_mod_stabilized",
+        "armor_mod_aerodynamic",
+        "armor_mod_weighted"
+      ]
+    },
+    "description": "Tanned and toughened animal hide, shaped into crude armor pieces and held together with leather straps and stitching. Leather armor provides decent protection against energy attacks compared to metal armor, but is less effective against physical impacts."
+  },
+  {
+    "id": "heavy_leather_chest_piece",
+    "name": "Heavy Leather Chest Piece",
+    "armorClass": "leather",
+    "piece": "chest",
+    "variant": "heavy",
+    "covers": [
+      "torso"
+    ],
+    "physicalDR": 3,
+    "energyDR": 4,
+    "radiationDR": 0,
+    "weight": 15,
+    "cost": 75,
+    "rarity": 3,
+    "underArmor": true,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_boiled_leather",
+        "armor_mod_girded_leather",
+        "armor_mod_treated_leather",
+        "armor_mod_shadowed_leather",
+        "armor_mod_studded_leather"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_padded",
+        "armor_mod_asbestos_lining",
+        "armor_mod_dense",
+        "armor_mod_biocommmesh",
+        "armor_mod_pneumatic"
+      ]
+    },
+    "description": "Tanned and toughened animal hide, shaped into crude armor pieces and held together with leather straps and stitching. Leather armor provides decent protection against energy attacks compared to metal armor, but is less effective against physical impacts."
+  },
+  {
+    "id": "heavy_leather_leg",
+    "name": "Heavy Leather Leg",
+    "armorClass": "leather",
+    "piece": "leg",
+    "variant": "heavy",
+    "covers": [
+      "leg"
+    ],
+    "physicalDR": 3,
+    "energyDR": 4,
+    "radiationDR": 0,
+    "weight": 7,
+    "cost": 30,
+    "rarity": 3,
+    "underArmor": true,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_boiled_leather",
+        "armor_mod_girded_leather",
+        "armor_mod_treated_leather",
+        "armor_mod_shadowed_leather",
+        "armor_mod_studded_leather"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_cushioned",
+        "armor_mod_muffled"
+      ]
+    },
+    "description": "Tanned and toughened animal hide, shaped into crude armor pieces and held together with leather straps and stitching. Leather armor provides decent protection against energy attacks compared to metal armor, but is less effective against physical impacts."
+  },
+  {
+    "id": "heavy_leather_arm",
+    "name": "Heavy Leather Arm",
+    "armorClass": "leather",
+    "piece": "arm",
+    "variant": "heavy",
+    "covers": [
+      "arm"
+    ],
+    "physicalDR": 3,
+    "energyDR": 4,
+    "radiationDR": 0,
+    "weight": 7,
+    "cost": 28,
+    "rarity": 3,
+    "underArmor": true,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_boiled_leather",
+        "armor_mod_girded_leather",
+        "armor_mod_treated_leather",
+        "armor_mod_shadowed_leather",
+        "armor_mod_studded_leather"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_brawling",
+        "armor_mod_braced",
+        "armor_mod_stabilized",
+        "armor_mod_aerodynamic",
+        "armor_mod_weighted"
+      ]
+    },
+    "description": "Tanned and toughened animal hide, shaped into crude armor pieces and held together with leather straps and stitching. Leather armor provides decent protection against energy attacks compared to metal armor, but is less effective against physical impacts."
+  },
+  {
+    "id": "metal_helmet",
+    "name": "Metal Helmet",
+    "armorClass": "metal",
+    "piece": "helmet",
+    "variant": "standard",
+    "covers": [
+      "head"
+    ],
+    "physicalDR": 2,
+    "energyDR": 1,
+    "radiationDR": 0,
+    "weight": 3,
+    "cost": 15,
+    "rarity": 1,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_painted_metal",
+        "armor_mod_enameled_metal",
+        "armor_mod_shadowed_metal",
+        "armor_mod_alloyed_metal",
+        "armor_mod_polished_metal"
+      ]
+    },
+    "description": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
+  },
+  {
+    "id": "metal_chest_piece",
+    "name": "Metal Chest Piece",
+    "armorClass": "metal",
+    "piece": "chest",
+    "variant": "standard",
+    "covers": [
+      "torso"
+    ],
+    "physicalDR": 2,
+    "energyDR": 1,
+    "radiationDR": 0,
+    "weight": 6,
+    "cost": 40,
+    "rarity": 1,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_painted_metal",
+        "armor_mod_enameled_metal",
+        "armor_mod_shadowed_metal",
+        "armor_mod_alloyed_metal",
+        "armor_mod_polished_metal"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_padded",
+        "armor_mod_asbestos_lining",
+        "armor_mod_dense",
+        "armor_mod_biocommmesh",
+        "armor_mod_pneumatic"
+      ]
+    },
+    "description": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
+  },
+  {
+    "id": "metal_leg",
+    "name": "Metal Leg",
+    "armorClass": "metal",
+    "piece": "leg",
+    "variant": "standard",
+    "covers": [
+      "leg"
+    ],
+    "physicalDR": 2,
+    "energyDR": 1,
+    "radiationDR": 0,
+    "weight": 3,
+    "cost": 15,
+    "rarity": 1,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_painted_metal",
+        "armor_mod_enameled_metal",
+        "armor_mod_shadowed_metal",
+        "armor_mod_alloyed_metal",
+        "armor_mod_polished_metal"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_cushioned",
+        "armor_mod_muffled"
+      ]
+    },
+    "description": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
+  },
+  {
+    "id": "metal_arm",
+    "name": "Metal Arm",
+    "armorClass": "metal",
+    "piece": "arm",
+    "variant": "standard",
+    "covers": [
+      "arm"
+    ],
+    "physicalDR": 2,
+    "energyDR": 1,
+    "radiationDR": 0,
+    "weight": 3,
+    "cost": 15,
+    "rarity": 1,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_painted_metal",
+        "armor_mod_enameled_metal",
+        "armor_mod_shadowed_metal",
+        "armor_mod_alloyed_metal",
+        "armor_mod_polished_metal"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_brawling",
+        "armor_mod_braced",
+        "armor_mod_stabilized",
+        "armor_mod_aerodynamic",
+        "armor_mod_weighted"
+      ]
+    },
+    "description": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
+  },
+  {
+    "id": "sturdy_metal_helmet",
+    "name": "Sturdy Metal Helmet",
+    "armorClass": "metal",
+    "piece": "helmet",
+    "variant": "sturdy",
+    "covers": [
+      "head"
+    ],
+    "physicalDR": 3,
+    "energyDR": 2,
+    "radiationDR": 0,
+    "weight": 8,
+    "cost": 65,
+    "rarity": 2,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_painted_metal",
+        "armor_mod_enameled_metal",
+        "armor_mod_shadowed_metal",
+        "armor_mod_alloyed_metal",
+        "armor_mod_polished_metal"
+      ]
+    },
+    "description": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
+  },
+  {
+    "id": "sturdy_metal_chest_piece",
+    "name": "Sturdy Metal Chest Piece",
+    "armorClass": "metal",
+    "piece": "chest",
+    "variant": "sturdy",
+    "covers": [
+      "torso"
+    ],
+    "physicalDR": 3,
+    "energyDR": 2,
+    "radiationDR": 0,
+    "weight": 16,
+    "cost": 115,
+    "rarity": 2,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_painted_metal",
+        "armor_mod_enameled_metal",
+        "armor_mod_shadowed_metal",
+        "armor_mod_alloyed_metal",
+        "armor_mod_polished_metal"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_padded",
+        "armor_mod_asbestos_lining",
+        "armor_mod_dense",
+        "armor_mod_biocommmesh",
+        "armor_mod_pneumatic"
+      ]
+    },
+    "description": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
+  },
+  {
+    "id": "sturdy_metal_leg",
+    "name": "Sturdy Metal Leg",
+    "armorClass": "metal",
+    "piece": "leg",
+    "variant": "sturdy",
+    "covers": [
+      "leg"
+    ],
+    "physicalDR": 3,
+    "energyDR": 2,
+    "radiationDR": 0,
+    "weight": 8,
+    "cost": 65,
+    "rarity": 2,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_painted_metal",
+        "armor_mod_enameled_metal",
+        "armor_mod_shadowed_metal",
+        "armor_mod_alloyed_metal",
+        "armor_mod_polished_metal"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_cushioned",
+        "armor_mod_muffled"
+      ]
+    },
+    "description": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
+  },
+  {
+    "id": "sturdy_metal_arm",
+    "name": "Sturdy Metal Arm",
+    "armorClass": "metal",
+    "piece": "arm",
+    "variant": "sturdy",
+    "covers": [
+      "arm"
+    ],
+    "physicalDR": 3,
+    "energyDR": 2,
+    "radiationDR": 0,
+    "weight": 8,
+    "cost": 65,
+    "rarity": 2,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_painted_metal",
+        "armor_mod_enameled_metal",
+        "armor_mod_shadowed_metal",
+        "armor_mod_alloyed_metal",
+        "armor_mod_polished_metal"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_brawling",
+        "armor_mod_braced",
+        "armor_mod_stabilized",
+        "armor_mod_aerodynamic",
+        "armor_mod_weighted"
+      ]
+    },
+    "description": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
+  },
+  {
+    "id": "heavy_metal_helmet",
+    "name": "Heavy Metal Helmet",
+    "armorClass": "metal",
+    "piece": "helmet",
+    "variant": "heavy",
+    "covers": [
+      "head"
+    ],
+    "physicalDR": 4,
+    "energyDR": 3,
+    "radiationDR": 0,
+    "weight": 12,
+    "cost": 115,
+    "rarity": 3,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_painted_metal",
+        "armor_mod_enameled_metal",
+        "armor_mod_shadowed_metal",
+        "armor_mod_alloyed_metal",
+        "armor_mod_polished_metal"
+      ]
+    },
+    "description": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
+  },
+  {
+    "id": "heavy_metal_chest_piece",
+    "name": "Heavy Metal Chest Piece",
+    "armorClass": "metal",
+    "piece": "chest",
+    "variant": "heavy",
+    "covers": [
+      "torso"
+    ],
+    "physicalDR": 4,
+    "energyDR": 3,
+    "radiationDR": 0,
+    "weight": 23,
+    "cost": 190,
+    "rarity": 3,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_painted_metal",
+        "armor_mod_enameled_metal",
+        "armor_mod_shadowed_metal",
+        "armor_mod_alloyed_metal",
+        "armor_mod_polished_metal"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_padded",
+        "armor_mod_asbestos_lining",
+        "armor_mod_dense",
+        "armor_mod_biocommmesh",
+        "armor_mod_pneumatic"
+      ]
+    },
+    "description": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
+  },
+  {
+    "id": "heavy_metal_leg",
+    "name": "Heavy Metal Leg",
+    "armorClass": "metal",
+    "piece": "leg",
+    "variant": "heavy",
+    "covers": [
+      "leg"
+    ],
+    "physicalDR": 4,
+    "energyDR": 3,
+    "radiationDR": 0,
+    "weight": 12,
+    "cost": 115,
+    "rarity": 3,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_painted_metal",
+        "armor_mod_enameled_metal",
+        "armor_mod_shadowed_metal",
+        "armor_mod_alloyed_metal",
+        "armor_mod_polished_metal"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_cushioned",
+        "armor_mod_muffled"
+      ]
+    },
+    "description": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
+  },
+  {
+    "id": "heavy_metal_arm",
+    "name": "Heavy Metal Arm",
+    "armorClass": "metal",
+    "piece": "arm",
+    "variant": "heavy",
+    "covers": [
+      "arm"
+    ],
+    "physicalDR": 4,
+    "energyDR": 3,
+    "radiationDR": 0,
+    "weight": 12,
+    "cost": 115,
+    "rarity": 3,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_painted_metal",
+        "armor_mod_enameled_metal",
+        "armor_mod_shadowed_metal",
+        "armor_mod_alloyed_metal",
+        "armor_mod_polished_metal"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_brawling",
+        "armor_mod_braced",
+        "armor_mod_stabilized",
+        "armor_mod_aerodynamic",
+        "armor_mod_weighted"
+      ]
+    },
+    "description": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
+  },
+  {
+    "id": "combat_helmet",
+    "name": "Combat Helmet",
+    "armorClass": "combat",
+    "piece": "helmet",
+    "variant": "standard",
+    "covers": [
+      "head"
+    ],
+    "physicalDR": 2,
+    "energyDR": 2,
+    "radiationDR": 0,
+    "weight": 4,
+    "cost": 25,
+    "rarity": 2,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_reinforced",
+        "armor_mod_shadowed",
+        "armor_mod_fiberglass",
+        "armor_mod_polymer"
+      ]
+    },
+    "description": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
+  },
+  {
+    "id": "combat_chest_piece",
+    "name": "Combat Chest Piece",
+    "armorClass": "combat",
+    "piece": "chest",
+    "variant": "standard",
+    "covers": [
+      "torso"
+    ],
+    "physicalDR": 2,
+    "energyDR": 2,
+    "radiationDR": 0,
+    "weight": 8,
+    "cost": 60,
+    "rarity": 2,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_reinforced",
+        "armor_mod_shadowed",
+        "armor_mod_fiberglass",
+        "armor_mod_polymer"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_padded",
+        "armor_mod_asbestos_lining",
+        "armor_mod_dense",
+        "armor_mod_biocommmesh",
+        "armor_mod_pneumatic"
+      ]
+    },
+    "description": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
+  },
+  {
+    "id": "combat_leg",
+    "name": "Combat Leg",
+    "armorClass": "combat",
+    "piece": "leg",
+    "variant": "standard",
+    "covers": [
+      "leg"
+    ],
+    "physicalDR": 2,
+    "energyDR": 2,
+    "radiationDR": 0,
+    "weight": 2,
+    "cost": 25,
+    "rarity": 2,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_reinforced",
+        "armor_mod_shadowed",
+        "armor_mod_fiberglass",
+        "armor_mod_polymer"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_cushioned",
+        "armor_mod_muffled"
+      ]
+    },
+    "description": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
+  },
+  {
+    "id": "combat_arm",
+    "name": "Combat Arm",
+    "armorClass": "combat",
+    "piece": "arm",
+    "variant": "standard",
+    "covers": [
+      "arm"
+    ],
+    "physicalDR": 2,
+    "energyDR": 2,
+    "radiationDR": 0,
+    "weight": 2,
+    "cost": 25,
+    "rarity": 2,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_reinforced",
+        "armor_mod_shadowed",
+        "armor_mod_fiberglass",
+        "armor_mod_polymer"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_brawling",
+        "armor_mod_braced",
+        "armor_mod_stabilized",
+        "armor_mod_aerodynamic",
+        "armor_mod_weighted"
+      ]
+    },
+    "description": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
+  },
+  {
+    "id": "sturdy_combat_helmet",
+    "name": "Sturdy Combat Helmet",
+    "armorClass": "combat",
+    "piece": "helmet",
+    "variant": "sturdy",
+    "covers": [
+      "head"
+    ],
+    "physicalDR": 3,
+    "energyDR": 3,
+    "radiationDR": 0,
+    "weight": 5,
+    "cost": 105,
+    "rarity": 3,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_reinforced",
+        "armor_mod_shadowed",
+        "armor_mod_fiberglass",
+        "armor_mod_polymer"
+      ]
+    },
+    "description": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
+  },
+  {
+    "id": "sturdy_combat_chest_piece",
+    "name": "Sturdy Combat Chest Piece",
+    "armorClass": "combat",
+    "piece": "chest",
+    "variant": "sturdy",
+    "covers": [
+      "torso"
+    ],
+    "physicalDR": 3,
+    "energyDR": 3,
+    "radiationDR": 0,
+    "weight": 12,
+    "cost": 140,
+    "rarity": 3,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_reinforced",
+        "armor_mod_shadowed",
+        "armor_mod_fiberglass",
+        "armor_mod_polymer"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_padded",
+        "armor_mod_asbestos_lining",
+        "armor_mod_dense",
+        "armor_mod_biocommmesh",
+        "armor_mod_pneumatic"
+      ]
+    },
+    "description": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
+  },
+  {
+    "id": "sturdy_combat_leg",
+    "name": "Sturdy Combat Leg",
+    "armorClass": "combat",
+    "piece": "leg",
+    "variant": "sturdy",
+    "covers": [
+      "leg"
+    ],
+    "physicalDR": 3,
+    "energyDR": 3,
+    "radiationDR": 0,
+    "weight": 5,
+    "cost": 105,
+    "rarity": 3,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_reinforced",
+        "armor_mod_shadowed",
+        "armor_mod_fiberglass",
+        "armor_mod_polymer"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_cushioned",
+        "armor_mod_muffled"
+      ]
+    },
+    "description": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
+  },
+  {
+    "id": "sturdy_combat_arm",
+    "name": "Sturdy Combat Arm",
+    "armorClass": "combat",
+    "piece": "arm",
+    "variant": "sturdy",
+    "covers": [
+      "arm"
+    ],
+    "physicalDR": 3,
+    "energyDR": 3,
+    "radiationDR": 0,
+    "weight": 5,
+    "cost": 105,
+    "rarity": 3,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_reinforced",
+        "armor_mod_shadowed",
+        "armor_mod_fiberglass",
+        "armor_mod_polymer"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_brawling",
+        "armor_mod_braced",
+        "armor_mod_stabilized",
+        "armor_mod_aerodynamic",
+        "armor_mod_weighted"
+      ]
+    },
+    "description": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
+  },
+  {
+    "id": "heavy_combat_helmet",
+    "name": "Heavy Combat Helmet",
+    "armorClass": "combat",
+    "piece": "helmet",
+    "variant": "heavy",
+    "covers": [
+      "head"
+    ],
+    "physicalDR": 4,
+    "energyDR": 4,
+    "radiationDR": 0,
+    "weight": 7,
+    "cost": 185,
+    "rarity": 4,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_reinforced",
+        "armor_mod_shadowed",
+        "armor_mod_fiberglass",
+        "armor_mod_polymer"
+      ]
+    },
+    "description": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
+  },
+  {
+    "id": "heavy_combat_chest_piece",
+    "name": "Heavy Combat Chest Piece",
+    "armorClass": "combat",
+    "piece": "chest",
+    "variant": "heavy",
+    "covers": [
+      "torso"
+    ],
+    "physicalDR": 4,
+    "energyDR": 4,
+    "radiationDR": 0,
+    "weight": 16,
+    "cost": 220,
+    "rarity": 4,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_reinforced",
+        "armor_mod_shadowed",
+        "armor_mod_fiberglass",
+        "armor_mod_polymer"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_padded",
+        "armor_mod_asbestos_lining",
+        "armor_mod_dense",
+        "armor_mod_biocommmesh",
+        "armor_mod_pneumatic"
+      ]
+    },
+    "description": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
+  },
+  {
+    "id": "heavy_combat_leg",
+    "name": "Heavy Combat Leg",
+    "armorClass": "combat",
+    "piece": "leg",
+    "variant": "heavy",
+    "covers": [
+      "leg"
+    ],
+    "physicalDR": 4,
+    "energyDR": 4,
+    "radiationDR": 0,
+    "weight": 7,
+    "cost": 185,
+    "rarity": 4,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_reinforced",
+        "armor_mod_shadowed",
+        "armor_mod_fiberglass",
+        "armor_mod_polymer"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_cushioned",
+        "armor_mod_muffled"
+      ]
+    },
+    "description": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
+  },
+  {
+    "id": "heavy_combat_arm",
+    "name": "Heavy Combat Arm",
+    "armorClass": "combat",
+    "piece": "arm",
+    "variant": "heavy",
+    "covers": [
+      "arm"
+    ],
+    "physicalDR": 4,
+    "energyDR": 4,
+    "radiationDR": 0,
+    "weight": 7,
+    "cost": 145,
+    "rarity": 4,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_reinforced",
+        "armor_mod_shadowed",
+        "armor_mod_fiberglass",
+        "armor_mod_polymer"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_brawling",
+        "armor_mod_braced",
+        "armor_mod_stabilized",
+        "armor_mod_aerodynamic",
+        "armor_mod_weighted"
+      ]
+    },
+    "description": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
+  },
+  {
+    "id": "synth_helmet",
+    "name": "Synth Helmet",
+    "armorClass": "synth",
+    "piece": "helmet",
+    "variant": "standard",
+    "covers": [
+      "head"
+    ],
+    "physicalDR": 2,
+    "energyDR": 3,
+    "radiationDR": 0,
+    "weight": 3,
+    "cost": 33,
+    "rarity": 3,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_laminated",
+        "armor_mod_resin",
+        "armor_mod_microcarbon",
+        "armor_mod_nanofilament"
+      ]
+    },
+    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
+  },
+  {
+    "id": "synth_chest_piece",
+    "name": "Synth Chest Piece",
+    "armorClass": "synth",
+    "piece": "chest",
+    "variant": "standard",
+    "covers": [
+      "torso"
+    ],
+    "physicalDR": 2,
+    "energyDR": 3,
+    "radiationDR": 0,
+    "weight": 7,
+    "cost": 75,
+    "rarity": 3,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_laminated",
+        "armor_mod_resin",
+        "armor_mod_microcarbon",
+        "armor_mod_nanofilament"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_padded",
+        "armor_mod_asbestos_lining",
+        "armor_mod_dense",
+        "armor_mod_biocommmesh",
+        "armor_mod_pneumatic"
+      ]
+    },
+    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
+  },
+  {
+    "id": "synth_leg",
+    "name": "Synth Leg",
+    "armorClass": "synth",
+    "piece": "leg",
+    "variant": "standard",
+    "covers": [
+      "leg"
+    ],
+    "physicalDR": 2,
+    "energyDR": 3,
+    "radiationDR": 0,
+    "weight": 3,
+    "cost": 30,
+    "rarity": 3,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_laminated",
+        "armor_mod_resin",
+        "armor_mod_microcarbon",
+        "armor_mod_nanofilament"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_cushioned",
+        "armor_mod_muffled"
+      ]
+    },
+    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
+  },
+  {
+    "id": "synth_arm",
+    "name": "Synth Arm",
+    "armorClass": "synth",
+    "piece": "arm",
+    "variant": "standard",
+    "covers": [
+      "arm"
+    ],
+    "physicalDR": 2,
+    "energyDR": 3,
+    "radiationDR": 0,
+    "weight": 3,
+    "cost": 30,
+    "rarity": 4,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_laminated",
+        "armor_mod_resin",
+        "armor_mod_microcarbon",
+        "armor_mod_nanofilament"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_brawling",
+        "armor_mod_braced",
+        "armor_mod_stabilized",
+        "armor_mod_aerodynamic",
+        "armor_mod_weighted"
+      ]
+    },
+    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
+  },
+  {
+    "id": "sturdy_synth_helmet",
+    "name": "Sturdy Synth Helmet",
+    "armorClass": "synth",
+    "piece": "helmet",
+    "variant": "sturdy",
+    "covers": [
+      "head"
+    ],
+    "physicalDR": 3,
+    "energyDR": 4,
+    "radiationDR": 0,
+    "weight": 7,
+    "cost": 70,
+    "rarity": 4,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_laminated",
+        "armor_mod_resin",
+        "armor_mod_microcarbon",
+        "armor_mod_nanofilament"
+      ]
+    },
+    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
+  },
+  {
+    "id": "sturdy_synth_chest_piece",
+    "name": "Sturdy Synth Chest Piece",
+    "armorClass": "synth",
+    "piece": "chest",
+    "variant": "sturdy",
+    "covers": [
+      "torso"
+    ],
+    "physicalDR": 3,
+    "energyDR": 4,
+    "radiationDR": 0,
+    "weight": 12,
+    "cost": 125,
+    "rarity": 4,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_laminated",
+        "armor_mod_resin",
+        "armor_mod_microcarbon",
+        "armor_mod_nanofilament"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_padded",
+        "armor_mod_asbestos_lining",
+        "armor_mod_dense",
+        "armor_mod_biocommmesh",
+        "armor_mod_pneumatic"
+      ]
+    },
+    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
+  },
+  {
+    "id": "sturdy_synth_leg",
+    "name": "Sturdy Synth Leg",
+    "armorClass": "synth",
+    "piece": "leg",
+    "variant": "sturdy",
+    "covers": [
+      "leg"
+    ],
+    "physicalDR": 3,
+    "energyDR": 4,
+    "radiationDR": 0,
+    "weight": 7,
+    "cost": 80,
+    "rarity": 4,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_laminated",
+        "armor_mod_resin",
+        "armor_mod_microcarbon",
+        "armor_mod_nanofilament"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_cushioned",
+        "armor_mod_muffled"
+      ]
+    },
+    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
+  },
+  {
+    "id": "sturdy_synth_arm",
+    "name": "Sturdy Synth Arm",
+    "armorClass": "synth",
+    "piece": "arm",
+    "variant": "sturdy",
+    "covers": [
+      "arm"
+    ],
+    "physicalDR": 3,
+    "energyDR": 4,
+    "radiationDR": 0,
+    "weight": 7,
+    "cost": 70,
+    "rarity": 4,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_laminated",
+        "armor_mod_resin",
+        "armor_mod_microcarbon",
+        "armor_mod_nanofilament"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_brawling",
+        "armor_mod_braced",
+        "armor_mod_stabilized",
+        "armor_mod_aerodynamic",
+        "armor_mod_weighted"
+      ]
+    },
+    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
+  },
+  {
+    "id": "heavy_synth_helmet",
+    "name": "Heavy Synth Helmet",
+    "armorClass": "synth",
+    "piece": "helmet",
+    "variant": "heavy",
+    "covers": [
+      "head"
+    ],
+    "physicalDR": 4,
+    "energyDR": 5,
+    "radiationDR": 0,
+    "weight": 10,
+    "cost": 110,
+    "rarity": 5,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_laminated",
+        "armor_mod_resin",
+        "armor_mod_microcarbon",
+        "armor_mod_nanofilament"
+      ]
+    },
+    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
+  },
+  {
+    "id": "heavy_synth_chest_piece",
+    "name": "Heavy Synth Chest Piece",
+    "armorClass": "synth",
+    "piece": "chest",
+    "variant": "heavy",
+    "covers": [
+      "torso"
+    ],
+    "physicalDR": 4,
+    "energyDR": 5,
+    "radiationDR": 0,
+    "weight": 17,
+    "cost": 175,
+    "rarity": 5,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_laminated",
+        "armor_mod_resin",
+        "armor_mod_microcarbon",
+        "armor_mod_nanofilament"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_padded",
+        "armor_mod_asbestos_lining",
+        "armor_mod_dense",
+        "armor_mod_biocommmesh",
+        "armor_mod_pneumatic"
+      ]
+    },
+    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
+  },
+  {
+    "id": "heavy_synth_leg",
+    "name": "Heavy Synth Leg",
+    "armorClass": "synth",
+    "piece": "leg",
+    "variant": "heavy",
+    "covers": [
+      "leg"
+    ],
+    "physicalDR": 4,
+    "energyDR": 5,
+    "radiationDR": 0,
+    "weight": 10,
+    "cost": 130,
+    "rarity": 5,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_laminated",
+        "armor_mod_resin",
+        "armor_mod_microcarbon",
+        "armor_mod_nanofilament"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_cushioned",
+        "armor_mod_muffled"
+      ]
+    },
+    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
+  },
+  {
+    "id": "heavy_synth_arm",
+    "name": "Heavy Synth Arm",
+    "armorClass": "synth",
+    "piece": "arm",
+    "variant": "heavy",
+    "covers": [
+      "arm"
+    ],
+    "physicalDR": 4,
+    "energyDR": 5,
+    "radiationDR": 0,
+    "weight": 10,
+    "cost": 110,
+    "rarity": 5,
+    "underArmor": false,
+    "compatibleMods": {
+      "material": [
+        "armor_mod_laminated",
+        "armor_mod_resin",
+        "armor_mod_microcarbon",
+        "armor_mod_nanofilament"
+      ],
+      "utility": [
+        "armor_mod_lighter_build",
+        "armor_mod_pocketed",
+        "armor_mod_deep_pocketed",
+        "armor_mod_lead_lined",
+        "armor_mod_ultra_light_build",
+        "armor_mod_brawling",
+        "armor_mod_braced",
+        "armor_mod_stabilized",
+        "armor_mod_aerodynamic",
+        "armor_mod_weighted"
+      ]
+    },
+    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
+  },
+  {
+    "id": "vault_tec_security_helmet",
+    "name": "Vault-Tec Security Helmet",
+    "armorClass": "vault_tec_security",
+    "piece": "helmet",
+    "variant": "standard",
+    "covers": [
+      "head"
+    ],
+    "physicalDR": 2,
+    "energyDR": 0,
+    "radiationDR": 0,
+    "weight": 2,
+    "cost": 20,
+    "rarity": 1,
+    "underArmor": true,
+    "compatibleMods": {},
+    "description": "Consisting of a long bulletproof apron and shoulder pads, plus an accompanying shock-resistant helmet, this armor was issued in small quantities to every vault for those vault-dwellers chosen to act as security personnel. It provides modest protection and isn't especially bulky, but it is unlikely to stand up to heavy combat, simply because vaults were expected to be controlled environments, lacking in the heavy armaments found outside."
+  },
+  {
+    "id": "vault_tec_security_armor",
+    "name": "Vault-Tec Security Armor",
+    "armorClass": "vault_tec_security",
+    "piece": "full_body",
+    "variant": "standard",
+    "covers": [
+      "arms",
+      "legs",
+      "torso"
+    ],
+    "physicalDR": 2,
+    "energyDR": 0,
+    "radiationDR": 2,
+    "weight": 8,
+    "cost": 16,
+    "rarity": 1,
+    "underArmor": true,
+    "compatibleMods": {},
+    "description": "Consisting of a long bulletproof apron and shoulder pads, plus an accompanying shock-resistant helmet, this armor was issued in small quantities to every vault for those vault-dwellers chosen to act as security personnel. It provides modest protection and isn't especially bulky, but it is unlikely to stand up to heavy combat, simply because vaults were expected to be controlled environments, lacking in the heavy armaments found outside."
+  }
 ]

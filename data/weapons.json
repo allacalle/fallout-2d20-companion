@@ -347,7 +347,7 @@
     "fireRate": 0,
     "range": "medium",
     "qualities": ["Two-Handed"],
-    "ammo": "syringer_ammo",
+    "ammo": "syringe",
     "weight": 6,
     "cost": 132,
     "rarity": 2,
