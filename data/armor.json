@@ -1951,12 +1951,72 @@
     ],
     "physicalDR": 2,
     "energyDR": 0,
-    "radiationDR": 2,
+    "radiationDR": 0,
     "weight": 8,
     "cost": 16,
     "rarity": 1,
     "underArmor": true,
     "compatibleMods": {},
     "description": "Consisting of a long bulletproof apron and shoulder pads, plus an accompanying shock-resistant helmet, this armor was issued in small quantities to every vault for those vault-dwellers chosen to act as security personnel. It provides modest protection and isn't especially bulky, but it is unlikely to stand up to heavy combat, simply because vaults were expected to be controlled environments, lacking in the heavy armaments found outside."
+  },
+  {
+    "id": "raider_pa_helm", "name": "Raider PA Helm", "armorClass": "raider_pa", "piece": "helm", "variant": "standard", "covers": ["head"], "physicalDR": 5, "energyDR": 4, "radiationDR": 3, "weight": 11, "cost": 48, "rarity": 3, "underArmor": false, "compatibleMods": {}, "description": "A crude, salvaged helmet cobbled together from scrap metal and industrial parts. Part of a set of Raider Power Armor, this helm offers basic protection and is often adorned with trophies or intimidating decorations."
+  },
+  {
+    "id": "raider_pa_chest_piece", "name": "Raider PA Chest Piece", "armorClass": "raider_pa", "piece": "chest", "variant": "standard", "covers": ["torso"], "physicalDR": 5, "energyDR": 4, "radiationDR": 3, "weight": 33, "cost": 144, "rarity": 3, "underArmor": false, "compatibleMods": {}, "description": "The chest piece of a set of Raider Power Armor. Bulky and heavy, constructed from reinforced scrap and salvaged metal plates, it provides modest protection compared to pre-War power armor but is relatively easy to maintain and repair."
+  },
+  {
+    "id": "raider_pa_arm", "name": "Raider PA Arm", "armorClass": "raider_pa", "piece": "arm", "variant": "standard", "covers": ["arm"], "physicalDR": 5, "energyDR": 4, "radiationDR": 3, "weight": 12, "cost": 54, "rarity": 3, "underArmor": false, "compatibleMods": {}, "description": "A heavy, articulated arm piece from a set of Raider Power Armor. Grudgingly functional, it offers protection while still allowing the wearer to wield weapons effectively."
+  },
+  {
+    "id": "raider_pa_leg", "name": "Raider PA Leg", "armorClass": "raider_pa", "piece": "leg", "variant": "standard", "covers": ["leg"], "physicalDR": 5, "energyDR": 4, "radiationDR": 3, "weight": 13, "cost": 54, "rarity": 3, "underArmor": false, "compatibleMods": {}, "description": "A leg piece from a set of Raider Power Armor, constructed from salvaged scrap and reinforced with metal bars and wire. It provides modest protection while supporting the great weight of the armor."
+  },
+  {
+    "id": "t45_helm", "name": "T-45 Helm", "armorClass": "t45_pa", "piece": "helm", "variant": "standard", "covers": ["head"], "physicalDR": 7, "energyDR": 5, "radiationDR": 3, "weight": 10, "cost": 69, "rarity": 4, "underArmor": false, "compatibleMods": {}, "description": "The helmet of the T-45 Power Armor, the first successful model of American power armor. Its distinctive design includes a thick visor and reinforced jaw plate, providing excellent protection for the head."
+  },
+  {
+    "id": "t45_chest_piece", "name": "T-45 Chest Piece", "armorClass": "t45_pa", "piece": "chest", "variant": "standard", "covers": ["torso"], "physicalDR": 7, "energyDR": 5, "radiationDR": 3, "weight": 30, "cost": 207, "rarity": 4, "underArmor": false, "compatibleMods": {}, "description": "The chest piece of the T-45 Power Armor. Thick ceramic and steel plating over a padded inner layer provides robust protection to the torso, while the back-mounted power supply and fusion core housing are integrated into the design."
+  },
+  {
+    "id": "t45_arm", "name": "T-45 Arm", "armorClass": "t45_pa", "piece": "arm", "variant": "standard", "covers": ["arm"], "physicalDR": 7, "energyDR": 5, "radiationDR": 3, "weight": 11, "cost": 77, "rarity": 4, "underArmor": false, "compatibleMods": {}, "description": "An articulated arm piece from the T-45 Power Armor. Hydraulic actuators assist the wearer's movements, allowing them to wield heavy weapons that would be impossible to manage without power assistance."
+  },
+  {
+    "id": "t45_leg", "name": "T-45 Leg", "armorClass": "t45_pa", "piece": "leg", "variant": "standard", "covers": ["leg"], "physicalDR": 7, "energyDR": 5, "radiationDR": 3, "weight": 11, "cost": 77, "rarity": 4, "underArmor": false, "compatibleMods": {}, "description": "A leg piece from the T-45 Power Armor. The powered joint actuators help support the immense weight of the armor and allow the wearer to move with surprising speed despite the bulk."
+  },
+  {
+    "id": "t51_helm", "name": "T-51 Helm", "armorClass": "t51_pa", "piece": "helm", "variant": "standard", "covers": ["head"], "physicalDR": 7, "energyDR": 10, "radiationDR": 3, "weight": 10, "cost": 64, "rarity": 4, "underArmor": false, "compatibleMods": {}, "description": "The helmet of the T-51 Power Armor. Its advanced composite materials and sleek design offer exceptional energy protection, making it highly sought after in the wasteland."
+  },
+  {
+    "id": "t51_chest_piece", "name": "T-51 Chest Piece", "armorClass": "t51_pa", "piece": "chest", "variant": "standard", "covers": ["torso"], "physicalDR": 7, "energyDR": 10, "radiationDR": 3, "weight": 30, "cost": 192, "rarity": 4, "underArmor": false, "compatibleMods": {}, "description": "The chest piece of the T-51 Power Armor. Its distinctive silver ceramic plating and advanced composite materials provide excellent all-round protection, with particular resilience against energy attacks."
+  },
+  {
+    "id": "t51_arm", "name": "T-51 Arm", "armorClass": "t51_pa", "piece": "arm", "variant": "standard", "covers": ["arm"], "physicalDR": 7, "energyDR": 10, "radiationDR": 3, "weight": 11, "cost": 72, "rarity": 4, "underArmor": false, "compatibleMods": {}, "description": "An articulated arm piece from the T-51 Power Armor. The servos and actuators are more refined than earlier models, providing smoother motion and better feedback to the wearer."
+  },
+  {
+    "id": "t51_leg", "name": "T-51 Leg", "armorClass": "t51_pa", "piece": "leg", "variant": "standard", "covers": ["leg"], "physicalDR": 7, "energyDR": 10, "radiationDR": 3, "weight": 11, "cost": 72, "rarity": 4, "underArmor": false, "compatibleMods": {}, "description": "A leg piece from the T-51 Power Armor. The advanced joint mechanics and hydraulic systems provide excellent mobility despite the armor's significant weight and bulk."
+  },
+  {
+    "id": "t60_helm", "name": "T-60 Helm", "armorClass": "t60_pa", "piece": "helm", "variant": "standard", "covers": ["head"], "physicalDR": 12, "energyDR": 7, "radiationDR": 3, "weight": 10, "cost": 115, "rarity": 5, "underArmor": false, "compatibleMods": {}, "description": "The helmet of the T-60 Power Armor. This model was designed to improve upon the T-45's protection while keeping production costs manageable. The thick steel plating offers supreme physical defense."
+  },
+  {
+    "id": "t60_chest_piece", "name": "T-60 Chest Piece", "armorClass": "t60_pa", "piece": "chest", "variant": "standard", "covers": ["torso"], "physicalDR": 12, "energyDR": 7, "radiationDR": 3, "weight": 30, "cost": 346, "rarity": 5, "underArmor": false, "compatibleMods": {}, "description": "The chest piece of the T-60 Power Armor. Reinforced with layered steel plating, this armor offers exceptional physical protection at the cost of increased weight, making it a favorite of Brotherhood of Steel paladins."
+  },
+  {
+    "id": "t60_arm", "name": "T-60 Arm", "armorClass": "t60_pa", "piece": "arm", "variant": "standard", "covers": ["arm"], "physicalDR": 12, "energyDR": 7, "radiationDR": 3, "weight": 11, "cost": 129, "rarity": 5, "underArmor": false, "compatibleMods": {}, "description": "An arm piece from the T-60 Power Armor. Heavily armored and robustly constructed, it provides exceptional protection while maintaining the powered assistance expected of military power armor."
+  },
+  {
+    "id": "t60_leg", "name": "T-60 Leg", "armorClass": "t60_pa", "piece": "leg", "variant": "standard", "covers": ["leg"], "physicalDR": 12, "energyDR": 7, "radiationDR": 3, "weight": 11, "cost": 130, "rarity": 5, "underArmor": false, "compatibleMods": {}, "description": "A leg piece from the T-60 Power Armor. The robust construction and powerful actuators support the heaviest armor plating of any standard power armor model."
+  },
+  {
+    "id": "x01_helm", "name": "X-01 Helm", "armorClass": "x01_pa", "piece": "helm", "variant": "standard", "covers": ["head"], "physicalDR": 10, "energyDR": 12, "radiationDR": 5, "weight": 10, "cost": 131, "rarity": 5, "underArmor": false, "compatibleMods": {}, "description": "The helmet of the X-01 Power Armor, an advanced prototype developed after the Great War. Its sleek, intimidating design incorporates cutting-edge materials offering superior protection against both physical and energy attacks."
+  },
+  {
+    "id": "x01_chest_piece", "name": "X-01 Chest Piece", "armorClass": "x01_pa", "piece": "chest", "variant": "standard", "covers": ["torso"], "physicalDR": 10, "energyDR": 12, "radiationDR": 5, "weight": 30, "cost": 394, "rarity": 5, "underArmor": false, "compatibleMods": {}, "description": "The chest piece of the X-01 Power Armor. This advanced prototype incorporates composite ceramic and ablative materials, providing outstanding energy protection and the best radiation shielding of any power armor."
+  },
+  {
+    "id": "x01_arm", "name": "X-01 Arm", "armorClass": "x01_pa", "piece": "arm", "variant": "standard", "covers": ["arm"], "physicalDR": 10, "energyDR": 12, "radiationDR": 5, "weight": 11, "cost": 147, "rarity": 5, "underArmor": false, "compatibleMods": {}, "description": "An arm piece from the X-01 Power Armor. The servos and actuators represent the pinnacle of pre-War power armor technology, providing smooth, responsive movement and exceptional protection."
+  },
+  {
+    "id": "x01_leg", "name": "X-01 Leg", "armorClass": "x01_pa", "piece": "leg", "variant": "standard", "covers": ["leg"], "physicalDR": 10, "energyDR": 12, "radiationDR": 5, "weight": 11, "cost": 148, "rarity": 5, "underArmor": false, "compatibleMods": {}, "description": "A leg piece from the X-01 Power Armor. The hydraulic systems and joint actuators are exceptionally well-engineered, providing unparalleled mobility for the wearer despite the armor's formidable protective capabilities."
   }
 ]

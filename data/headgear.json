@@ -2,141 +2,81 @@
   {
     "id": "headgear_formal_hat",
     "name": "Formal Hat",
-    "covers": [
-      "head"
-    ],
-    "physicalDR": 0,
-    "energyDR": 0,
-    "radiationDR": 0,
-    "weight": "<1",
-    "cost": 15,
-    "rarity": 2,
+    "covers": ["head"],
+    "physicalDR": 0, "energyDR": 0, "radiationDR": 0,
+    "weight": 1, "cost": 10, "rarity": 0,
     "description": "A smart-looking hat, that'll look the part adorning your head during a business engagement or formal event. Or just because you like how it looks and it keeps the sun off your face. Many examples are somewhat battered and worn from neglect and ill-use, but they're still functional."
   },
   {
     "id": "headgear_gas_mask",
     "name": "Gas Mask",
-    "covers": [
-      "head"
-    ],
-    "physicalDR": 1,
-    "energyDR": 0,
-    "radiationDR": 3,
-    "weight": 3,
-    "cost": 10,
-    "rarity": 2,
+    "covers": ["head"],
+    "physicalDR": 1, "energyDR": 0, "radiationDR": 1,
+    "weight": 3, "cost": 15, "rarity": 1,
     "description": "A rubber and leather mask with a plastic visor, which fits with an air-tight seal over the face. The front of the mask contains a filter which cleanses the air of contaminants like dust and gas."
   },
   {
     "id": "headgear_hard_hat",
     "name": "Hard Hat",
-    "covers": [
-      "head"
-    ],
-    "physicalDR": 2,
-    "energyDR": 0,
-    "radiationDR": 0,
-    "weight": "<1",
-    "cost": 15,
-    "rarity": 1,
+    "covers": ["head"],
+    "physicalDR": 1, "energyDR": 0, "radiationDR": 0,
+    "weight": 2, "cost": 8, "rarity": 0,
     "description": "A light metal or plastic hat intended to protect the head from bumps and collisions in a busy industrial workplace or construction site. Not really intended to protect from combat, but if you're lacking a helmet, a hard hat is better than nothing."
   },
   {
     "id": "headgear_hood_or_cowl",
     "name": "Hood or Cowl",
-    "covers": [
-      "head"
-    ],
-    "physicalDR": 1,
-    "energyDR": 0,
-    "radiationDR": 1,
-    "weight": 2,
-    "cost": 5,
-    "rarity": 1,
+    "covers": ["head"],
+    "physicalDR": 0, "energyDR": 0, "radiationDR": 0,
+    "weight": 1, "cost": 5, "rarity": 0,
     "description": "A cloth or leather covering for the head and neck. Provides a little protection from the elements, and easily combined with a mask or kerchief to cover the mouth and nose to keep dust and fumes out. Handy in the wasteland if you're caught outside without better protection."
   },
   {
     "id": "headgear_sack_hood",
     "name": "Sack Hood",
-    "covers": [
-      "head"
-    ],
-    "physicalDR": 0,
-    "energyDR": 0,
-    "radiationDR": 2,
-    "weight": 1,
-    "cost": 5,
-    "rarity": 0,
+    "covers": ["head"],
+    "physicalDR": 0, "energyDR": 0, "radiationDR": 0,
+    "weight": 1, "cost": 3, "rarity": 0,
     "description": "A simple cloth sack pulled over the head, with holes cut for vision and breathing. A crude and unsettling garment, offering minimal protection but serving to hide the wearer's identity."
   },
   {
     "id": "headgear_welders_visor",
     "name": "Welder's Visor",
-    "covers": [
-      "head"
-    ],
-    "physicalDR": 2,
-    "energyDR": 2,
-    "radiationDR": 0,
-    "weight": 4,
-    "cost": 20,
-    "rarity": 2,
+    "covers": ["head"],
+    "physicalDR": 1, "energyDR": 0, "radiationDR": 0,
+    "weight": 2, "cost": 15, "rarity": 1,
     "description": "A protective visor with a dark lens designed to shield the eyes from the intense light of welding. The heavy construction provides reasonable protection against impacts as well."
   },
   {
     "id": "army_helmet",
     "name": "Army Helmet",
-    "covers": [
-      "head"
-    ],
-    "physicalDR": 2,
-    "energyDR": 0,
-    "radiationDR": 0,
-    "weight": 3,
-    "cost": 20,
-    "rarity": 1,
+    "covers": ["head"],
+    "physicalDR": 1, "energyDR": 0, "radiationDR": 0,
+    "weight": 2, "cost": 12, "rarity": 1,
     "description": "A helmet made of metal, plastic, and light ceramics, designed to protect a soldier's head from shrapnel. The helmet is lined with supportive padding to ensure a secure fit."
   },
   {
     "id": "brotherhood_of_steel_hood",
     "name": "Brotherhood of Steel Hood",
-    "covers": [
-      "head"
-    ],
-    "physicalDR": 0,
-    "energyDR": 1,
-    "radiationDR": 0,
-    "weight": "<1",
-    "cost": 12,
-    "rarity": 2,
+    "covers": ["head"],
+    "physicalDR": 1, "energyDR": 1, "radiationDR": 0,
+    "weight": 1, "cost": 8, "rarity": 1,
     "description": "The matching headpiece for the Brotherhood of Steel uniform, this close-fitting hood was developed before the Great War for wearers of Power Armor. It is designed to plug into the helmet of a suit of Power Armor, providing a closer interface to the armor's systems, as well as containing an earpiece and microphone for the armor's internal radio."
   },
   {
     "id": "brotherhood_scribes_hat",
     "name": "Brotherhood Scribe's Hat",
-    "covers": [
-      "head"
-    ],
-    "physicalDR": 0,
-    "energyDR": 2,
-    "radiationDR": 0,
-    "weight": "<1",
-    "cost": 8,
-    "rarity": 2,
+    "covers": ["head"],
+    "physicalDR": 0, "energyDR": 0, "radiationDR": 0,
+    "weight": 1, "cost": 8, "rarity": 1,
     "description": "This lightweight leather cap and goggles are provided as an accompaniment to the Brotherhood Scribe's Armor, to protect the head from hazardous conditions."
   },
   {
     "id": "casual_hat",
     "name": "Casual Hat",
-    "covers": [
-      "head"
-    ],
-    "physicalDR": 0,
-    "energyDR": 0,
-    "radiationDR": 0,
-    "weight": "<1",
-    "cost": 15,
-    "rarity": 1,
+    "covers": ["head"],
+    "physicalDR": 0, "energyDR": 0, "radiationDR": 0,
+    "weight": 1, "cost": 3, "rarity": 0,
     "description": "A simple, lightweight hat, normally with a peak or brim to keep the sunlight out of the wearer's eyes."
   }
 ]
