@@ -35,7 +35,8 @@
         "armor_mod_pneumatic"
       ]
     },
-    "description": "Makeshift armor employed by raiders and other cutthroat types across the wastes. It varies considerably in quality and appearance but tends to be made of scrap metal rudely battered into shape, reinforced by metal bars, wire, and leather straps. This barbaric appearance is often bolstered by grisly trophies such as skulls or other body parts."
+    "description": "chest piece: Makeshift armor made of scrap metal, bars, wire, and leather straps, rudely battered into shape.",
+    "longDescription": "Makeshift armor employed by raiders and other cutthroat types across the wastes. It varies considerably in quality and appearance but tends to be made of scrap metal rudely battered into shape, reinforced by metal bars, wire, and leather straps. This barbaric appearance is often bolstered by grisly trophies such as skulls or other body parts."
   },
   {
     "id": "raider_leg",
@@ -70,7 +71,8 @@
         "armor_mod_muffled"
       ]
     },
-    "description": "Makeshift armor employed by raiders and other cutthroat types across the wastes. It varies considerably in quality and appearance but tends to be made of scrap metal rudely battered into shape, reinforced by metal bars, wire, and leather straps. This barbaric appearance is often bolstered by grisly trophies such as skulls or other body parts."
+    "description": "leg piece: Makeshift armor made of scrap metal, bars, wire, and leather straps, rudely battered into shape.",
+    "longDescription": "Makeshift armor employed by raiders and other cutthroat types across the wastes. It varies considerably in quality and appearance but tends to be made of scrap metal rudely battered into shape, reinforced by metal bars, wire, and leather straps. This barbaric appearance is often bolstered by grisly trophies such as skulls or other body parts."
   },
   {
     "id": "raider_arm",
@@ -108,7 +110,8 @@
         "armor_mod_weighted"
       ]
     },
-    "description": "Makeshift armor employed by raiders and other cutthroat types across the wastes. It varies considerably in quality and appearance but tends to be made of scrap metal rudely battered into shape, reinforced by metal bars, wire, and leather straps. This barbaric appearance is often bolstered by grisly trophies such as skulls or other body parts."
+    "description": "arm piece: Makeshift armor made of scrap metal, bars, wire, and leather straps, rudely battered into shape.",
+    "longDescription": "Makeshift armor employed by raiders and other cutthroat types across the wastes. It varies considerably in quality and appearance but tends to be made of scrap metal rudely battered into shape, reinforced by metal bars, wire, and leather straps. This barbaric appearance is often bolstered by grisly trophies such as skulls or other body parts."
   },
   {
     "id": "sturdy_raider_chest_piece",
@@ -146,7 +149,8 @@
         "armor_mod_pneumatic"
       ]
     },
-    "description": "Makeshift armor employed by raiders and other cutthroat types across the wastes. It varies considerably in quality and appearance but tends to be made of scrap metal rudely battered into shape, reinforced by metal bars, wire, and leather straps. This barbaric appearance is often bolstered by grisly trophies such as skulls or other body parts."
+    "description": "Sturdy chest piece: Makeshift armor made of scrap metal, bars, wire, and leather straps, rudely battered into shape.",
+    "longDescription": "Makeshift armor employed by raiders and other cutthroat types across the wastes. It varies considerably in quality and appearance but tends to be made of scrap metal rudely battered into shape, reinforced by metal bars, wire, and leather straps. This barbaric appearance is often bolstered by grisly trophies such as skulls or other body parts."
   },
   {
     "id": "sturdy_raider_leg",
@@ -181,7 +185,8 @@
         "armor_mod_muffled"
       ]
     },
-    "description": "Makeshift armor employed by raiders and other cutthroat types across the wastes. It varies considerably in quality and appearance but tends to be made of scrap metal rudely battered into shape, reinforced by metal bars, wire, and leather straps. This barbaric appearance is often bolstered by grisly trophies such as skulls or other body parts."
+    "description": "Sturdy leg piece: Makeshift armor made of scrap metal, bars, wire, and leather straps, rudely battered into shape.",
+    "longDescription": "Makeshift armor employed by raiders and other cutthroat types across the wastes. It varies considerably in quality and appearance but tends to be made of scrap metal rudely battered into shape, reinforced by metal bars, wire, and leather straps. This barbaric appearance is often bolstered by grisly trophies such as skulls or other body parts."
   },
   {
     "id": "sturdy_raider_arm",
@@ -219,7 +224,8 @@
         "armor_mod_weighted"
       ]
     },
-    "description": "Makeshift armor employed by raiders and other cutthroat types across the wastes. It varies considerably in quality and appearance but tends to be made of scrap metal rudely battered into shape, reinforced by metal bars, wire, and leather straps. This barbaric appearance is often bolstered by grisly trophies such as skulls or other body parts."
+    "description": "Sturdy arm piece: Makeshift armor made of scrap metal, bars, wire, and leather straps, rudely battered into shape.",
+    "longDescription": "Makeshift armor employed by raiders and other cutthroat types across the wastes. It varies considerably in quality and appearance but tends to be made of scrap metal rudely battered into shape, reinforced by metal bars, wire, and leather straps. This barbaric appearance is often bolstered by grisly trophies such as skulls or other body parts."
   },
   {
     "id": "heavy_raider_chest_piece",
@@ -257,7 +263,8 @@
         "armor_mod_pneumatic"
       ]
     },
-    "description": "Makeshift armor employed by raiders and other cutthroat types across the wastes. It varies considerably in quality and appearance but tends to be made of scrap metal rudely battered into shape, reinforced by metal bars, wire, and leather straps. This barbaric appearance is often bolstered by grisly trophies such as skulls or other body parts."
+    "description": "Heavy chest piece: Makeshift armor made of scrap metal, bars, wire, and leather straps, rudely battered into shape.",
+    "longDescription": "Makeshift armor employed by raiders and other cutthroat types across the wastes. It varies considerably in quality and appearance but tends to be made of scrap metal rudely battered into shape, reinforced by metal bars, wire, and leather straps. This barbaric appearance is often bolstered by grisly trophies such as skulls or other body parts."
   },
   {
     "id": "heavy_raider_leg",
@@ -292,7 +299,8 @@
         "armor_mod_muffled"
       ]
     },
-    "description": "Makeshift armor employed by raiders and other cutthroat types across the wastes. It varies considerably in quality and appearance but tends to be made of scrap metal rudely battered into shape, reinforced by metal bars, wire, and leather straps. This barbaric appearance is often bolstered by grisly trophies such as skulls or other body parts."
+    "description": "Heavy leg piece: Makeshift armor made of scrap metal, bars, wire, and leather straps, rudely battered into shape.",
+    "longDescription": "Makeshift armor employed by raiders and other cutthroat types across the wastes. It varies considerably in quality and appearance but tends to be made of scrap metal rudely battered into shape, reinforced by metal bars, wire, and leather straps. This barbaric appearance is often bolstered by grisly trophies such as skulls or other body parts."
   },
   {
     "id": "heavy_raider_arm",
@@ -330,7 +338,8 @@
         "armor_mod_weighted"
       ]
     },
-    "description": "Makeshift armor employed by raiders and other cutthroat types across the wastes. It varies considerably in quality and appearance but tends to be made of scrap metal rudely battered into shape, reinforced by metal bars, wire, and leather straps. This barbaric appearance is often bolstered by grisly trophies such as skulls or other body parts."
+    "description": "Heavy arm piece: Makeshift armor made of scrap metal, bars, wire, and leather straps, rudely battered into shape.",
+    "longDescription": "Makeshift armor employed by raiders and other cutthroat types across the wastes. It varies considerably in quality and appearance but tends to be made of scrap metal rudely battered into shape, reinforced by metal bars, wire, and leather straps. This barbaric appearance is often bolstered by grisly trophies such as skulls or other body parts."
   },
   {
     "id": "leather_chest_piece",
@@ -369,7 +378,8 @@
         "armor_mod_pneumatic"
       ]
     },
-    "description": "Tanned and toughened animal hide, shaped into crude armor pieces and held together with leather straps and stitching. Leather armor provides decent protection against energy attacks compared to metal armor, but is less effective against physical impacts."
+    "description": "chest piece: Armor crafted from toughened animal hides, offering decent protection against physical and energy attacks.",
+    "longDescription": "Tanned and toughened animal hide, shaped into crude armor pieces and held together with leather straps and stitching. Leather armor provides decent protection against energy attacks compared to metal armor, but is less effective against physical impacts."
   },
   {
     "id": "leather_leg",
@@ -405,7 +415,8 @@
         "armor_mod_muffled"
       ]
     },
-    "description": "Tanned and toughened animal hide, shaped into crude armor pieces and held together with leather straps and stitching. Leather armor provides decent protection against energy attacks compared to metal armor, but is less effective against physical impacts."
+    "description": "leg piece: Armor crafted from toughened animal hides, offering decent protection against physical and energy attacks.",
+    "longDescription": "Tanned and toughened animal hide, shaped into crude armor pieces and held together with leather straps and stitching. Leather armor provides decent protection against energy attacks compared to metal armor, but is less effective against physical impacts."
   },
   {
     "id": "leather_arm",
@@ -444,7 +455,8 @@
         "armor_mod_weighted"
       ]
     },
-    "description": "Tanned and toughened animal hide, shaped into crude armor pieces and held together with leather straps and stitching. Leather armor provides decent protection against energy attacks compared to metal armor, but is less effective against physical impacts."
+    "description": "arm piece: Armor crafted from toughened animal hides, offering decent protection against physical and energy attacks.",
+    "longDescription": "Tanned and toughened animal hide, shaped into crude armor pieces and held together with leather straps and stitching. Leather armor provides decent protection against energy attacks compared to metal armor, but is less effective against physical impacts."
   },
   {
     "id": "sturdy_leather_chest_piece",
@@ -483,7 +495,8 @@
         "armor_mod_pneumatic"
       ]
     },
-    "description": "Tanned and toughened animal hide, shaped into crude armor pieces and held together with leather straps and stitching. Leather armor provides decent protection against energy attacks compared to metal armor, but is less effective against physical impacts."
+    "description": "Sturdy chest piece: Armor crafted from toughened animal hides, offering decent protection against physical and energy attacks.",
+    "longDescription": "Tanned and toughened animal hide, shaped into crude armor pieces and held together with leather straps and stitching. Leather armor provides decent protection against energy attacks compared to metal armor, but is less effective against physical impacts."
   },
   {
     "id": "sturdy_leather_leg",
@@ -519,7 +532,8 @@
         "armor_mod_muffled"
       ]
     },
-    "description": "Tanned and toughened animal hide, shaped into crude armor pieces and held together with leather straps and stitching. Leather armor provides decent protection against energy attacks compared to metal armor, but is less effective against physical impacts."
+    "description": "Sturdy leg piece: Armor crafted from toughened animal hides, offering decent protection against physical and energy attacks.",
+    "longDescription": "Tanned and toughened animal hide, shaped into crude armor pieces and held together with leather straps and stitching. Leather armor provides decent protection against energy attacks compared to metal armor, but is less effective against physical impacts."
   },
   {
     "id": "sturdy_leather_arm",
@@ -558,7 +572,8 @@
         "armor_mod_weighted"
       ]
     },
-    "description": "Tanned and toughened animal hide, shaped into crude armor pieces and held together with leather straps and stitching. Leather armor provides decent protection against energy attacks compared to metal armor, but is less effective against physical impacts."
+    "description": "Sturdy arm piece: Armor crafted from toughened animal hides, offering decent protection against physical and energy attacks.",
+    "longDescription": "Tanned and toughened animal hide, shaped into crude armor pieces and held together with leather straps and stitching. Leather armor provides decent protection against energy attacks compared to metal armor, but is less effective against physical impacts."
   },
   {
     "id": "heavy_leather_chest_piece",
@@ -597,7 +612,8 @@
         "armor_mod_pneumatic"
       ]
     },
-    "description": "Tanned and toughened animal hide, shaped into crude armor pieces and held together with leather straps and stitching. Leather armor provides decent protection against energy attacks compared to metal armor, but is less effective against physical impacts."
+    "description": "Heavy chest piece: Armor crafted from toughened animal hides, offering decent protection against physical and energy attacks.",
+    "longDescription": "Tanned and toughened animal hide, shaped into crude armor pieces and held together with leather straps and stitching. Leather armor provides decent protection against energy attacks compared to metal armor, but is less effective against physical impacts."
   },
   {
     "id": "heavy_leather_leg",
@@ -633,7 +649,8 @@
         "armor_mod_muffled"
       ]
     },
-    "description": "Tanned and toughened animal hide, shaped into crude armor pieces and held together with leather straps and stitching. Leather armor provides decent protection against energy attacks compared to metal armor, but is less effective against physical impacts."
+    "description": "Heavy leg piece: Armor crafted from toughened animal hides, offering decent protection against physical and energy attacks.",
+    "longDescription": "Tanned and toughened animal hide, shaped into crude armor pieces and held together with leather straps and stitching. Leather armor provides decent protection against energy attacks compared to metal armor, but is less effective against physical impacts."
   },
   {
     "id": "heavy_leather_arm",
@@ -672,7 +689,8 @@
         "armor_mod_weighted"
       ]
     },
-    "description": "Tanned and toughened animal hide, shaped into crude armor pieces and held together with leather straps and stitching. Leather armor provides decent protection against energy attacks compared to metal armor, but is less effective against physical impacts."
+    "description": "Heavy arm piece: Armor crafted from toughened animal hides, offering decent protection against physical and energy attacks.",
+    "longDescription": "Tanned and toughened animal hide, shaped into crude armor pieces and held together with leather straps and stitching. Leather armor provides decent protection against energy attacks compared to metal armor, but is less effective against physical impacts."
   },
   {
     "id": "metal_helmet",
@@ -699,7 +717,8 @@
         "armor_mod_polished_metal"
       ]
     },
-    "description": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
+    "description": "helmet: Sturdy pre-War metal armor offering solid protection, commonly found in military surplus and police armories.",
+    "longDescription": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
   },
   {
     "id": "metal_chest_piece",
@@ -738,7 +757,8 @@
         "armor_mod_pneumatic"
       ]
     },
-    "description": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
+    "description": "chest piece: Sturdy pre-War metal armor offering solid protection, commonly found in military surplus and police armories.",
+    "longDescription": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
   },
   {
     "id": "metal_leg",
@@ -774,7 +794,8 @@
         "armor_mod_muffled"
       ]
     },
-    "description": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
+    "description": "leg piece: Sturdy pre-War metal armor offering solid protection, commonly found in military surplus and police armories.",
+    "longDescription": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
   },
   {
     "id": "metal_arm",
@@ -813,7 +834,8 @@
         "armor_mod_weighted"
       ]
     },
-    "description": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
+    "description": "arm piece: Sturdy pre-War metal armor offering solid protection, commonly found in military surplus and police armories.",
+    "longDescription": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
   },
   {
     "id": "sturdy_metal_helmet",
@@ -840,7 +862,8 @@
         "armor_mod_polished_metal"
       ]
     },
-    "description": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
+    "description": "Sturdy helmet: Sturdy pre-War metal armor offering solid protection, commonly found in military surplus and police armories.",
+    "longDescription": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
   },
   {
     "id": "sturdy_metal_chest_piece",
@@ -879,7 +902,8 @@
         "armor_mod_pneumatic"
       ]
     },
-    "description": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
+    "description": "Sturdy chest piece: Sturdy pre-War metal armor offering solid protection, commonly found in military surplus and police armories.",
+    "longDescription": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
   },
   {
     "id": "sturdy_metal_leg",
@@ -915,7 +939,8 @@
         "armor_mod_muffled"
       ]
     },
-    "description": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
+    "description": "Sturdy leg piece: Sturdy pre-War metal armor offering solid protection, commonly found in military surplus and police armories.",
+    "longDescription": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
   },
   {
     "id": "sturdy_metal_arm",
@@ -954,7 +979,8 @@
         "armor_mod_weighted"
       ]
     },
-    "description": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
+    "description": "Sturdy arm piece: Sturdy pre-War metal armor offering solid protection, commonly found in military surplus and police armories.",
+    "longDescription": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
   },
   {
     "id": "heavy_metal_helmet",
@@ -981,7 +1007,8 @@
         "armor_mod_polished_metal"
       ]
     },
-    "description": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
+    "description": "Heavy helmet: Sturdy pre-War metal armor offering solid protection, commonly found in military surplus and police armories.",
+    "longDescription": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
   },
   {
     "id": "heavy_metal_chest_piece",
@@ -1020,7 +1047,8 @@
         "armor_mod_pneumatic"
       ]
     },
-    "description": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
+    "description": "Heavy chest piece: Sturdy pre-War metal armor offering solid protection, commonly found in military surplus and police armories.",
+    "longDescription": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
   },
   {
     "id": "heavy_metal_leg",
@@ -1056,7 +1084,8 @@
         "armor_mod_muffled"
       ]
     },
-    "description": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
+    "description": "Heavy leg piece: Sturdy pre-War metal armor offering solid protection, commonly found in military surplus and police armories.",
+    "longDescription": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
   },
   {
     "id": "heavy_metal_arm",
@@ -1095,7 +1124,8 @@
         "armor_mod_weighted"
       ]
     },
-    "description": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
+    "description": "Heavy arm piece: Sturdy pre-War metal armor offering solid protection, commonly found in military surplus and police armories.",
+    "longDescription": "Shaped metal plating held together—and held on—with leather or cloth straps, which provide decent protection from physical impacts such as melee attacks and gunshots, but less protection against energy attacks, as the metal plating conducts heat."
   },
   {
     "id": "combat_helmet",
@@ -1121,7 +1151,8 @@
         "armor_mod_polymer"
       ]
     },
-    "description": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
+    "description": "helmet: Standard-issue military combat armor made of ballistic fibers and ceramic plates for maximum protection.",
+    "longDescription": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
   },
   {
     "id": "combat_chest_piece",
@@ -1159,7 +1190,8 @@
         "armor_mod_pneumatic"
       ]
     },
-    "description": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
+    "description": "chest piece: Standard-issue military combat armor made of ballistic fibers and ceramic plates for maximum protection.",
+    "longDescription": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
   },
   {
     "id": "combat_leg",
@@ -1194,7 +1226,8 @@
         "armor_mod_muffled"
       ]
     },
-    "description": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
+    "description": "leg piece: Standard-issue military combat armor made of ballistic fibers and ceramic plates for maximum protection.",
+    "longDescription": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
   },
   {
     "id": "combat_arm",
@@ -1232,7 +1265,8 @@
         "armor_mod_weighted"
       ]
     },
-    "description": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
+    "description": "arm piece: Standard-issue military combat armor made of ballistic fibers and ceramic plates for maximum protection.",
+    "longDescription": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
   },
   {
     "id": "sturdy_combat_helmet",
@@ -1258,7 +1292,8 @@
         "armor_mod_polymer"
       ]
     },
-    "description": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
+    "description": "Sturdy helmet: Standard-issue military combat armor made of ballistic fibers and ceramic plates for maximum protection.",
+    "longDescription": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
   },
   {
     "id": "sturdy_combat_chest_piece",
@@ -1296,7 +1331,8 @@
         "armor_mod_pneumatic"
       ]
     },
-    "description": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
+    "description": "Sturdy chest piece: Standard-issue military combat armor made of ballistic fibers and ceramic plates for maximum protection.",
+    "longDescription": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
   },
   {
     "id": "sturdy_combat_leg",
@@ -1331,7 +1367,8 @@
         "armor_mod_muffled"
       ]
     },
-    "description": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
+    "description": "Sturdy leg piece: Standard-issue military combat armor made of ballistic fibers and ceramic plates for maximum protection.",
+    "longDescription": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
   },
   {
     "id": "sturdy_combat_arm",
@@ -1369,7 +1406,8 @@
         "armor_mod_weighted"
       ]
     },
-    "description": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
+    "description": "Sturdy arm piece: Standard-issue military combat armor made of ballistic fibers and ceramic plates for maximum protection.",
+    "longDescription": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
   },
   {
     "id": "heavy_combat_helmet",
@@ -1395,7 +1433,8 @@
         "armor_mod_polymer"
       ]
     },
-    "description": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
+    "description": "Heavy helmet: Standard-issue military combat armor made of ballistic fibers and ceramic plates for maximum protection.",
+    "longDescription": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
   },
   {
     "id": "heavy_combat_chest_piece",
@@ -1433,7 +1472,8 @@
         "armor_mod_pneumatic"
       ]
     },
-    "description": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
+    "description": "Heavy chest piece: Standard-issue military combat armor made of ballistic fibers and ceramic plates for maximum protection.",
+    "longDescription": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
   },
   {
     "id": "heavy_combat_leg",
@@ -1468,7 +1508,8 @@
         "armor_mod_muffled"
       ]
     },
-    "description": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
+    "description": "Heavy leg piece: Standard-issue military combat armor made of ballistic fibers and ceramic plates for maximum protection.",
+    "longDescription": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
   },
   {
     "id": "heavy_combat_arm",
@@ -1506,7 +1547,8 @@
         "armor_mod_weighted"
       ]
     },
-    "description": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
+    "description": "Heavy arm piece: Standard-issue military combat armor made of ballistic fibers and ceramic plates for maximum protection.",
+    "longDescription": "Specially made armor pieces, designed pre-War and issued to the soldiers of the U.S. Armed Forces. It was constructed to keep the wearer protected from physical and energy attacks alike without being cumbersome or awkward to wear. The Brotherhood of Steel tend to use Combat armor for their troops when Power Armor is unavailable or unsuitable for the mission."
   },
   {
     "id": "synth_helmet",
@@ -1532,7 +1574,8 @@
         "armor_mod_nanofilament"
       ]
     },
-    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
+    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then.",
+    "longDescription": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
   },
   {
     "id": "synth_chest_piece",
@@ -1570,7 +1613,8 @@
         "armor_mod_pneumatic"
       ]
     },
-    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
+    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then.",
+    "longDescription": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
   },
   {
     "id": "synth_leg",
@@ -1605,7 +1649,8 @@
         "armor_mod_muffled"
       ]
     },
-    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
+    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then.",
+    "longDescription": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
   },
   {
     "id": "synth_arm",
@@ -1643,7 +1688,8 @@
         "armor_mod_weighted"
       ]
     },
-    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
+    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then.",
+    "longDescription": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
   },
   {
     "id": "sturdy_synth_helmet",
@@ -1669,7 +1715,8 @@
         "armor_mod_nanofilament"
       ]
     },
-    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
+    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then.",
+    "longDescription": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
   },
   {
     "id": "sturdy_synth_chest_piece",
@@ -1707,7 +1754,8 @@
         "armor_mod_pneumatic"
       ]
     },
-    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
+    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then.",
+    "longDescription": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
   },
   {
     "id": "sturdy_synth_leg",
@@ -1742,7 +1790,8 @@
         "armor_mod_muffled"
       ]
     },
-    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
+    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then.",
+    "longDescription": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
   },
   {
     "id": "sturdy_synth_arm",
@@ -1780,7 +1829,8 @@
         "armor_mod_weighted"
       ]
     },
-    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
+    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then.",
+    "longDescription": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
   },
   {
     "id": "heavy_synth_helmet",
@@ -1806,7 +1856,8 @@
         "armor_mod_nanofilament"
       ]
     },
-    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
+    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then.",
+    "longDescription": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
   },
   {
     "id": "heavy_synth_chest_piece",
@@ -1844,7 +1895,8 @@
         "armor_mod_pneumatic"
       ]
     },
-    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
+    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then.",
+    "longDescription": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
   },
   {
     "id": "heavy_synth_leg",
@@ -1879,7 +1931,8 @@
         "armor_mod_muffled"
       ]
     },
-    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
+    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then.",
+    "longDescription": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
   },
   {
     "id": "heavy_synth_arm",
@@ -1917,7 +1970,8 @@
         "armor_mod_weighted"
       ]
     },
-    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
+    "description": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then.",
+    "longDescription": "Developed by The Institute, Synth armor is distinctive and provides excellent protection, especially from energy weapons, but can only really be found within the Commonwealth and other locations where Institute synths travel. The rarity of its manufacture means that it's hard to acquire for anyone not on good terms with the Institute, and expensive even then."
   },
   {
     "id": "vault_tec_security_helmet",
@@ -1936,7 +1990,8 @@
     "rarity": 1,
     "underArmor": true,
     "compatibleMods": {},
-    "description": "Consisting of a long bulletproof apron and shoulder pads, plus an accompanying shock-resistant helmet, this armor was issued in small quantities to every vault for those vault-dwellers chosen to act as security personnel. It provides modest protection and isn't especially bulky, but it is unlikely to stand up to heavy combat, simply because vaults were expected to be controlled environments, lacking in the heavy armaments found outside."
+    "description": "Consisting of a long bulletproof apron and shoulder pads, plus an accompanying shock-resistant helmet, this armor was issued in small quantities to every vault for those vault-dwellers chosen to act as security personnel. It provides modest protection and isn't especially bulky, but it is unlikely to stand up to heavy combat, simply because vaults were expected to be controlled environments, lacking in the heavy armaments found outside.",
+    "longDescription": "Consisting of a long bulletproof apron and shoulder pads, plus an accompanying shock-resistant helmet, this armor was issued in small quantities to every vault for those vault-dwellers chosen to act as security personnel. It provides modest protection and isn't especially bulky, but it is unlikely to stand up to heavy combat, simply because vaults were expected to be controlled environments, lacking in the heavy armaments found outside."
   },
   {
     "id": "vault_tec_security_armor",
@@ -1957,7 +2012,8 @@
     "rarity": 1,
     "underArmor": true,
     "compatibleMods": {},
-    "description": "Consisting of a long bulletproof apron and shoulder pads, plus an accompanying shock-resistant helmet, this armor was issued in small quantities to every vault for those vault-dwellers chosen to act as security personnel. It provides modest protection and isn't especially bulky, but it is unlikely to stand up to heavy combat, simply because vaults were expected to be controlled environments, lacking in the heavy armaments found outside."
+    "description": "Consisting of a long bulletproof apron and shoulder pads, plus an accompanying shock-resistant helmet, this armor was issued in small quantities to every vault for those vault-dwellers chosen to act as security personnel. It provides modest protection and isn't especially bulky, but it is unlikely to stand up to heavy combat, simply because vaults were expected to be controlled environments, lacking in the heavy armaments found outside.",
+    "longDescription": "Consisting of a long bulletproof apron and shoulder pads, plus an accompanying shock-resistant helmet, this armor was issued in small quantities to every vault for those vault-dwellers chosen to act as security personnel. It provides modest protection and isn't especially bulky, but it is unlikely to stand up to heavy combat, simply because vaults were expected to be controlled environments, lacking in the heavy armaments found outside."
   },
   {
     "id": "raider_pa_helm",
@@ -1976,7 +2032,8 @@
     "rarity": 2,
     "underArmor": false,
     "compatibleMods": {},
-    "description": "A crude, salvaged helmet cobbled together from scrap metal and industrial parts. Part of a set of Raider Power Armor, this helm offers basic protection and is often adorned with trophies or intimidating decorations."
+    "description": "A crude, salvaged helmet cobbled together from scrap metal and industrial parts. Part of a set of Raider Power Armor, this helm offers basic protection and is often adorned with trophies or intimidating decorations.",
+    "longDescription": "A crude, salvaged helmet cobbled together from scrap metal and industrial parts. Part of a set of Raider Power Armor, this helm offers basic protection and is often adorned with trophies or intimidating decorations."
   },
   {
     "id": "raider_pa_chest_piece",
@@ -1995,7 +2052,8 @@
     "rarity": 2,
     "underArmor": false,
     "compatibleMods": {},
-    "description": "The chest piece of a set of Raider Power Armor. Bulky and heavy, constructed from reinforced scrap and salvaged metal plates, it provides modest protection compared to pre-War power armor but is relatively easy to maintain and repair."
+    "description": "The chest piece of a set of Raider Power Armor. Bulky and heavy, constructed from reinforced scrap and salvaged metal plates, it provides modest protection compared to pre-War power armor but is relatively easy to maintain and repair.",
+    "longDescription": "The chest piece of a set of Raider Power Armor. Bulky and heavy, constructed from reinforced scrap and salvaged metal plates, it provides modest protection compared to pre-War power armor but is relatively easy to maintain and repair."
   },
   {
     "id": "raider_pa_arm",
@@ -2014,7 +2072,8 @@
     "rarity": 2,
     "underArmor": false,
     "compatibleMods": {},
-    "description": "A heavy, articulated arm piece from a set of Raider Power Armor. Grudgingly functional, it offers protection while still allowing the wearer to wield weapons effectively."
+    "description": "A heavy, articulated arm piece from a set of Raider Power Armor. Grudgingly functional, it offers protection while still allowing the wearer to wield weapons effectively.",
+    "longDescription": "A heavy, articulated arm piece from a set of Raider Power Armor. Grudgingly functional, it offers protection while still allowing the wearer to wield weapons effectively."
   },
   {
     "id": "raider_pa_leg",
@@ -2033,7 +2092,8 @@
     "rarity": 2,
     "underArmor": false,
     "compatibleMods": {},
-    "description": "A leg piece from a set of Raider Power Armor, constructed from salvaged scrap and reinforced with metal bars and wire. It provides modest protection while supporting the great weight of the armor."
+    "description": "A leg piece from a set of Raider Power Armor, constructed from salvaged scrap and reinforced with metal bars and wire. It provides modest protection while supporting the great weight of the armor.",
+    "longDescription": "A leg piece from a set of Raider Power Armor, constructed from salvaged scrap and reinforced with metal bars and wire. It provides modest protection while supporting the great weight of the armor."
   },
   {
     "id": "t45_helm",
@@ -2052,7 +2112,8 @@
     "rarity": 2,
     "underArmor": false,
     "compatibleMods": {},
-    "description": "The helmet of the T-45 Power Armor, the first successful model of American power armor. Its distinctive design includes a thick visor and reinforced jaw plate, providing excellent protection for the head."
+    "description": "The helmet of the T-45 Power Armor, the first successful model of American power armor. Its distinctive design includes a thick visor and reinforced jaw plate, providing excellent protection for the head.",
+    "longDescription": "The helmet of the T-45 Power Armor, the first successful model of American power armor. Its distinctive design includes a thick visor and reinforced jaw plate, providing excellent protection for the head."
   },
   {
     "id": "t45_chest_piece",
@@ -2071,7 +2132,8 @@
     "rarity": 2,
     "underArmor": false,
     "compatibleMods": {},
-    "description": "The chest piece of the T-45 Power Armor. Thick ceramic and steel plating over a padded inner layer provides robust protection to the torso, while the back-mounted power supply and fusion core housing are integrated into the design."
+    "description": "The chest piece of the T-45 Power Armor. Thick ceramic and steel plating over a padded inner layer provides robust protection to the torso, while the back-mounted power supply and fusion core housing are integrated into the design.",
+    "longDescription": "The chest piece of the T-45 Power Armor. Thick ceramic and steel plating over a padded inner layer provides robust protection to the torso, while the back-mounted power supply and fusion core housing are integrated into the design."
   },
   {
     "id": "t45_arm",
@@ -2090,7 +2152,8 @@
     "rarity": 2,
     "underArmor": false,
     "compatibleMods": {},
-    "description": "An articulated arm piece from the T-45 Power Armor. Hydraulic actuators assist the wearer's movements, allowing them to wield heavy weapons that would be impossible to manage without power assistance."
+    "description": "An articulated arm piece from the T-45 Power Armor. Hydraulic actuators assist the wearer's movements, allowing them to wield heavy weapons that would be impossible to manage without power assistance.",
+    "longDescription": "An articulated arm piece from the T-45 Power Armor. Hydraulic actuators assist the wearer's movements, allowing them to wield heavy weapons that would be impossible to manage without power assistance."
   },
   {
     "id": "t45_leg",
@@ -2109,7 +2172,8 @@
     "rarity": 2,
     "underArmor": false,
     "compatibleMods": {},
-    "description": "A leg piece from the T-45 Power Armor. The powered joint actuators help support the immense weight of the armor and allow the wearer to move with surprising speed despite the bulk."
+    "description": "A leg piece from the T-45 Power Armor. The powered joint actuators help support the immense weight of the armor and allow the wearer to move with surprising speed despite the bulk.",
+    "longDescription": "A leg piece from the T-45 Power Armor. The powered joint actuators help support the immense weight of the armor and allow the wearer to move with surprising speed despite the bulk."
   },
   {
     "id": "t51_helm",
@@ -2128,7 +2192,8 @@
     "rarity": 3,
     "underArmor": false,
     "compatibleMods": {},
-    "description": "The helmet of the T-51 Power Armor. Its advanced composite materials and sleek design offer exceptional energy protection, making it highly sought after in the wasteland."
+    "description": "The helmet of the T-51 Power Armor. Its advanced composite materials and sleek design offer exceptional energy protection, making it highly sought after in the wasteland.",
+    "longDescription": "The helmet of the T-51 Power Armor. Its advanced composite materials and sleek design offer exceptional energy protection, making it highly sought after in the wasteland."
   },
   {
     "id": "t51_chest_piece",
@@ -2147,7 +2212,8 @@
     "rarity": 3,
     "underArmor": false,
     "compatibleMods": {},
-    "description": "The chest piece of the T-51 Power Armor. Its distinctive silver ceramic plating and advanced composite materials provide excellent all-round protection, with particular resilience against energy attacks."
+    "description": "The chest piece of the T-51 Power Armor. Its distinctive silver ceramic plating and advanced composite materials provide excellent all-round protection, with particular resilience against energy attacks.",
+    "longDescription": "The chest piece of the T-51 Power Armor. Its distinctive silver ceramic plating and advanced composite materials provide excellent all-round protection, with particular resilience against energy attacks."
   },
   {
     "id": "t51_arm",
@@ -2166,7 +2232,8 @@
     "rarity": 3,
     "underArmor": false,
     "compatibleMods": {},
-    "description": "An articulated arm piece from the T-51 Power Armor. The servos and actuators are more refined than earlier models, providing smoother motion and better feedback to the wearer."
+    "description": "An articulated arm piece from the T-51 Power Armor. The servos and actuators are more refined than earlier models, providing smoother motion and better feedback to the wearer.",
+    "longDescription": "An articulated arm piece from the T-51 Power Armor. The servos and actuators are more refined than earlier models, providing smoother motion and better feedback to the wearer."
   },
   {
     "id": "t51_leg",
@@ -2185,7 +2252,8 @@
     "rarity": 3,
     "underArmor": false,
     "compatibleMods": {},
-    "description": "A leg piece from the T-51 Power Armor. The advanced joint mechanics and hydraulic systems provide excellent mobility despite the armor's significant weight and bulk."
+    "description": "A leg piece from the T-51 Power Armor. The advanced joint mechanics and hydraulic systems provide excellent mobility despite the armor's significant weight and bulk.",
+    "longDescription": "A leg piece from the T-51 Power Armor. The advanced joint mechanics and hydraulic systems provide excellent mobility despite the armor's significant weight and bulk."
   },
   {
     "id": "t60_helm",
@@ -2204,7 +2272,8 @@
     "rarity": 4,
     "underArmor": false,
     "compatibleMods": {},
-    "description": "The helmet of the T-60 Power Armor. This model was designed to improve upon the T-45's protection while keeping production costs manageable. The thick steel plating offers supreme physical defense."
+    "description": "The helmet of the T-60 Power Armor. This model was designed to improve upon the T-45's protection while keeping production costs manageable. The thick steel plating offers supreme physical defense.",
+    "longDescription": "The helmet of the T-60 Power Armor. This model was designed to improve upon the T-45's protection while keeping production costs manageable. The thick steel plating offers supreme physical defense."
   },
   {
     "id": "t60_chest_piece",
@@ -2223,7 +2292,8 @@
     "rarity": 4,
     "underArmor": false,
     "compatibleMods": {},
-    "description": "The chest piece of the T-60 Power Armor. Reinforced with layered steel plating, this armor offers exceptional physical protection at the cost of increased weight, making it a favorite of Brotherhood of Steel paladins."
+    "description": "The chest piece of the T-60 Power Armor. Reinforced with layered steel plating, this armor offers exceptional physical protection at the cost of increased weight, making it a favorite of Brotherhood of Steel paladins.",
+    "longDescription": "The chest piece of the T-60 Power Armor. Reinforced with layered steel plating, this armor offers exceptional physical protection at the cost of increased weight, making it a favorite of Brotherhood of Steel paladins."
   },
   {
     "id": "t60_arm",
@@ -2242,7 +2312,8 @@
     "rarity": 4,
     "underArmor": false,
     "compatibleMods": {},
-    "description": "An arm piece from the T-60 Power Armor. Heavily armored and robustly constructed, it provides exceptional protection while maintaining the powered assistance expected of military power armor."
+    "description": "An arm piece from the T-60 Power Armor. Heavily armored and robustly constructed, it provides exceptional protection while maintaining the powered assistance expected of military power armor.",
+    "longDescription": "An arm piece from the T-60 Power Armor. Heavily armored and robustly constructed, it provides exceptional protection while maintaining the powered assistance expected of military power armor."
   },
   {
     "id": "t60_leg",
@@ -2261,7 +2332,8 @@
     "rarity": 4,
     "underArmor": false,
     "compatibleMods": {},
-    "description": "A leg piece from the T-60 Power Armor. The robust construction and powerful actuators support the heaviest armor plating of any standard power armor model."
+    "description": "A leg piece from the T-60 Power Armor. The robust construction and powerful actuators support the heaviest armor plating of any standard power armor model.",
+    "longDescription": "A leg piece from the T-60 Power Armor. The robust construction and powerful actuators support the heaviest armor plating of any standard power armor model."
   },
   {
     "id": "x01_helm",
@@ -2280,7 +2352,8 @@
     "rarity": 5,
     "underArmor": false,
     "compatibleMods": {},
-    "description": "The helmet of the X-01 Power Armor, an advanced prototype developed after the Great War. Its sleek, intimidating design incorporates cutting-edge materials offering superior protection against both physical and energy attacks."
+    "description": "The helmet of the X-01 Power Armor, an advanced prototype developed after the Great War. Its sleek, intimidating design incorporates cutting-edge materials offering superior protection against both physical and energy attacks.",
+    "longDescription": "The helmet of the X-01 Power Armor, an advanced prototype developed after the Great War. Its sleek, intimidating design incorporates cutting-edge materials offering superior protection against both physical and energy attacks."
   },
   {
     "id": "x01_chest_piece",
@@ -2299,7 +2372,8 @@
     "rarity": 5,
     "underArmor": false,
     "compatibleMods": {},
-    "description": "The chest piece of the X-01 Power Armor. This advanced prototype incorporates composite ceramic and ablative materials, providing outstanding energy protection and the best radiation shielding of any power armor."
+    "description": "The chest piece of the X-01 Power Armor. This advanced prototype incorporates composite ceramic and ablative materials, providing outstanding energy protection and the best radiation shielding of any power armor.",
+    "longDescription": "The chest piece of the X-01 Power Armor. This advanced prototype incorporates composite ceramic and ablative materials, providing outstanding energy protection and the best radiation shielding of any power armor."
   },
   {
     "id": "x01_arm",
@@ -2318,7 +2392,8 @@
     "rarity": 5,
     "underArmor": false,
     "compatibleMods": {},
-    "description": "An arm piece from the X-01 Power Armor. The servos and actuators represent the pinnacle of pre-War power armor technology, providing smooth, responsive movement and exceptional protection."
+    "description": "An arm piece from the X-01 Power Armor. The servos and actuators represent the pinnacle of pre-War power armor technology, providing smooth, responsive movement and exceptional protection.",
+    "longDescription": "An arm piece from the X-01 Power Armor. The servos and actuators represent the pinnacle of pre-War power armor technology, providing smooth, responsive movement and exceptional protection."
   },
   {
     "id": "x01_leg",
@@ -2337,6 +2412,7 @@
     "rarity": 5,
     "underArmor": false,
     "compatibleMods": {},
-    "description": "A leg piece from the X-01 Power Armor. The hydraulic systems and joint actuators are exceptionally well-engineered, providing unparalleled mobility for the wearer despite the armor's formidable protective capabilities."
+    "description": "A leg piece from the X-01 Power Armor. The hydraulic systems and joint actuators are exceptionally well-engineered, providing unparalleled mobility for the wearer despite the armor's formidable protective capabilities.",
+    "longDescription": "A leg piece from the X-01 Power Armor. The hydraulic systems and joint actuators are exceptionally well-engineered, providing unparalleled mobility for the wearer despite the armor's formidable protective capabilities."
   }
 ]

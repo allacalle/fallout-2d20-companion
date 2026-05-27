@@ -5,22 +5,40 @@
     "weaponType": "small_guns",
     "skillId": "small_guns",
     "damage": "6DC",
-    "damageEffects": ["Vicious"],
+    "damageEffects": [
+      "Vicious"
+    ],
     "damageType": "Physical",
     "fireRate": 1,
     "range": "close",
-    "qualities": ["Close Quarters"],
+    "qualities": [
+      "Close Quarters"
+    ],
     "ammo": "44_magnum",
     "weight": 4,
     "cost": 99,
     "rarity": 2,
     "description": "The .44 pistol is a double-action revolver, chambered to use the .44 Magnum cartridge. It's a powerful gun, though not as customizable as other handguns.",
     "parts": {
-      "receiver": ["mod_hardened", "mod_powerful", "mod_advanced"],
-      "barrel": ["mod_snubnose_barrel", "mod_bull_barrel"],
-      "grip": ["mod_comfort_grip"],
-      "sights": ["mod_short_scope", "mod_reflex_sight", "mod_recon_scope"]
-    }
+      "receiver": [
+        "mod_hardened",
+        "mod_powerful",
+        "mod_advanced"
+      ],
+      "barrel": [
+        "mod_snubnose_barrel",
+        "mod_bull_barrel"
+      ],
+      "grip": [
+        "mod_comfort_grip"
+      ],
+      "sights": [
+        "mod_short_scope",
+        "mod_reflex_sight",
+        "mod_recon_scope"
+      ]
+    },
+    "longDescription": "The .44 pistol is a double-action revolver, chambered to use the .44 Magnum cartridge. It's a powerful gun, though not as customizable as other handguns, making it a favored sidearm for those who value stopping power over versatility."
   },
   {
     "id": "10mm_pistol",
@@ -32,20 +50,47 @@
     "damageType": "Physical",
     "fireRate": 2,
     "range": "close",
-    "qualities": ["Close Quarters", "Reliable"],
+    "qualities": [
+      "Close Quarters",
+      "Reliable"
+    ],
     "ammo": "10mm",
     "weight": 4,
     "cost": 50,
     "rarity": 1,
     "description": "Small, dependable, reasonably powerful, and widely available, the 10mm pistol has been a staple of wasteland combat since the bombs first fell.",
     "parts": {
-      "receiver": ["mod_calibrated", "mod_hardened", "mod_automatic", "mod_hair_trigger", "mod_powerful", "mod_advanced"],
-      "barrel": ["mod_long_barrel", "mod_ported_barrel"],
-      "grip": ["mod_comfort_grip", "mod_sharpshooters_grip"],
-      "magazine": ["mod_large_magazine", "mod_quick_eject_magazine", "mod_large_quick_eject_magazine"],
-      "sights": ["mod_reflex_sight", "mod_recon_scope"],
-      "muzzle": ["mod_compensator", "mod_suppressor"]
-    }
+      "receiver": [
+        "mod_calibrated",
+        "mod_hardened",
+        "mod_automatic",
+        "mod_hair_trigger",
+        "mod_powerful",
+        "mod_advanced"
+      ],
+      "barrel": [
+        "mod_long_barrel",
+        "mod_ported_barrel"
+      ],
+      "grip": [
+        "mod_comfort_grip",
+        "mod_sharpshooters_grip"
+      ],
+      "magazine": [
+        "mod_large_magazine",
+        "mod_quick_eject_magazine",
+        "mod_large_quick_eject_magazine"
+      ],
+      "sights": [
+        "mod_reflex_sight",
+        "mod_recon_scope"
+      ],
+      "muzzle": [
+        "mod_compensator",
+        "mod_suppressor"
+      ]
+    },
+    "longDescription": "Small, dependable, reasonably powerful, and widely available, the 10mm pistol has been a staple of wasteland combat since the bombs first fell. It is the most common sidearm in the wasteland, with a good balance of stopping power, rate of fire, and reliability."
   },
   {
     "id": "flare_gun",
@@ -57,12 +102,15 @@
     "damageType": "Physical",
     "fireRate": 0,
     "range": "medium",
-    "qualities": ["Reliable"],
+    "qualities": [
+      "Reliable"
+    ],
     "ammo": "flare",
     "weight": 2,
     "cost": 50,
     "rarity": 1,
-    "description": "A Flare gun is a break-action single-shot device not really designed to inflict damage. Rather, it shoots signal flares which are used by many factions to signal for assistance."
+    "description": "A Flare gun is a break-action single-shot device not really designed to inflict damage. Rather, it shoots signal flares which are used by many factions to signal for assistance.",
+    "longDescription": "A Flare gun is a break-action single-shot device not really designed to inflict damage. Rather, it shoots signal flares which are used by many factions to signal for assistance, mark locations, or even ignite flammable materials."
   },
   {
     "id": "assault_rifle",
@@ -70,24 +118,58 @@
     "weaponType": "small_guns",
     "skillId": "small_guns",
     "damage": "5DC",
-    "damageEffects": ["Burst"],
+    "damageEffects": [
+      "Burst"
+    ],
     "damageType": "Physical",
     "fireRate": 2,
     "range": "medium",
-    "qualities": ["Two-Handed"],
+    "qualities": [
+      "Two-Handed"
+    ],
     "ammo": "5_56mm",
     "weight": 13,
     "cost": 144,
     "rarity": 2,
     "description": "This gas-operated rifle is a common sight across the wasteland, and well-liked because of the low recoil and reasonable accuracy, and the ease of modifications.",
     "parts": {
-      "receiver": ["mod_calibrated", "mod_hardened", "mod_automatic", "mod_hair_trigger", "mod_powerful", "mod_advanced"],
-      "barrel": ["mod_long_barrel", "mod_ported_barrel", "mod_vented_barrel"],
-      "stock": ["mod_full_stock", "mod_marksman_stock", "mod_recoil_compensating_stock"],
-      "magazine": ["mod_large_magazine", "mod_quick_eject_magazine", "mod_large_quick_eject_magazine"],
-      "sights": ["mod_reflex_sight", "mod_short_scope", "mod_long_scope", "mod_short_night_vision_scope", "mod_long_night_vision_scope", "mod_recon_scope"],
-      "muzzle": ["mod_compensator", "mod_suppressor"]
-    }
+      "receiver": [
+        "mod_calibrated",
+        "mod_hardened",
+        "mod_automatic",
+        "mod_hair_trigger",
+        "mod_powerful",
+        "mod_advanced"
+      ],
+      "barrel": [
+        "mod_long_barrel",
+        "mod_ported_barrel",
+        "mod_vented_barrel"
+      ],
+      "stock": [
+        "mod_full_stock",
+        "mod_marksman_stock",
+        "mod_recoil_compensating_stock"
+      ],
+      "magazine": [
+        "mod_large_magazine",
+        "mod_quick_eject_magazine",
+        "mod_large_quick_eject_magazine"
+      ],
+      "sights": [
+        "mod_reflex_sight",
+        "mod_short_scope",
+        "mod_long_scope",
+        "mod_short_night_vision_scope",
+        "mod_long_night_vision_scope",
+        "mod_recon_scope"
+      ],
+      "muzzle": [
+        "mod_compensator",
+        "mod_suppressor"
+      ]
+    },
+    "longDescription": "This gas-operated rifle is a common sight across the wasteland, and well-liked because of the low recoil and reasonable accuracy, and the ease of modifications. A fully automatic version, the assault carbine, has a higher rate of fire at the cost of reduced per-shot power."
   },
   {
     "id": "combat_rifle",
@@ -99,20 +181,55 @@
     "damageType": "Physical",
     "fireRate": 2,
     "range": "medium",
-    "qualities": ["Two-Handed"],
+    "qualities": [
+      "Two-Handed"
+    ],
     "ammo": "45",
     "weight": 11,
     "cost": 117,
     "rarity": 2,
     "description": "A pre-War weapon found across the wastelands and used in large numbers by various aggressive factions. Combat Rifles are a rugged and adaptable design.",
     "parts": {
-      "receiver": ["mod_calibrated", "mod_hardened", "mod_automatic", "mod_hair_trigger", "mod_powerful", "mod_advanced", "mod_38_receiver", "mod_308_receiver"],
-      "barrel": ["mod_long_barrel", "mod_ported_barrel", "mod_vented_barrel"],
-      "stock": ["mod_full_stock", "mod_marksman_stock", "mod_recoil_compensating_stock"],
-      "magazine": ["mod_large_magazine", "mod_quick_eject_magazine", "mod_large_quick_eject_magazine"],
-      "sights": ["mod_reflex_sight", "mod_short_scope", "mod_long_scope", "mod_short_night_vision_scope", "mod_long_night_vision_scope", "mod_recon_scope"],
-      "muzzle": ["mod_bayonet", "mod_compensator", "mod_suppressor"]
-    }
+      "receiver": [
+        "mod_calibrated",
+        "mod_hardened",
+        "mod_automatic",
+        "mod_hair_trigger",
+        "mod_powerful",
+        "mod_advanced",
+        "mod_38_receiver",
+        "mod_308_receiver"
+      ],
+      "barrel": [
+        "mod_long_barrel",
+        "mod_ported_barrel",
+        "mod_vented_barrel"
+      ],
+      "stock": [
+        "mod_full_stock",
+        "mod_marksman_stock",
+        "mod_recoil_compensating_stock"
+      ],
+      "magazine": [
+        "mod_large_magazine",
+        "mod_quick_eject_magazine",
+        "mod_large_quick_eject_magazine"
+      ],
+      "sights": [
+        "mod_reflex_sight",
+        "mod_short_scope",
+        "mod_long_scope",
+        "mod_short_night_vision_scope",
+        "mod_long_night_vision_scope",
+        "mod_recon_scope"
+      ],
+      "muzzle": [
+        "mod_bayonet",
+        "mod_compensator",
+        "mod_suppressor"
+      ]
+    },
+    "longDescription": "A pre-War weapon found across the wastelands and used in large numbers by various aggressive factions. Combat Rifles are a rugged and adaptable design that served as the standard-issue infantry rifle for the U.S. military before the Great War."
   },
   {
     "id": "gauss_rifle",
@@ -120,23 +237,44 @@
     "weaponType": "small_guns",
     "skillId": "small_guns",
     "damage": "10DC",
-    "damageEffects": ["Piercing 1"],
+    "damageEffects": [
+      "Piercing 1"
+    ],
     "damageType": "Physical",
     "fireRate": 1,
     "range": "long",
-    "qualities": ["Two-Handed"],
+    "qualities": [
+      "Two-Handed"
+    ],
     "ammo": "2mm_ec",
     "weight": 16,
     "cost": 228,
     "rarity": 4,
     "description": "The gauss rifle uses magnetic induction to propel a projectile at incredible, devastating speeds.",
     "parts": {
-      "barrel": ["mod_shielded_barrel"],
-      "stock": ["mod_recoil_compensating_stock"],
-      "capacitors": ["mod_full_capacitors", "mod_capacitor_boosting_coil"],
-      "sights": ["mod_reflex_sight", "mod_short_scope", "mod_long_scope", "mod_short_night_vision_scope", "mod_long_night_vision_scope", "mod_recon_scope"],
-      "muzzle": ["mod_suppressor"]
-    }
+      "barrel": [
+        "mod_shielded_barrel"
+      ],
+      "stock": [
+        "mod_recoil_compensating_stock"
+      ],
+      "capacitors": [
+        "mod_full_capacitors",
+        "mod_capacitor_boosting_coil"
+      ],
+      "sights": [
+        "mod_reflex_sight",
+        "mod_short_scope",
+        "mod_long_scope",
+        "mod_short_night_vision_scope",
+        "mod_long_night_vision_scope",
+        "mod_recon_scope"
+      ],
+      "muzzle": [
+        "mod_suppressor"
+      ]
+    },
+    "longDescription": "The gauss rifle uses magnetic induction to propel a projectile at incredible, devastating speeds. A tried-and-tested pre-War design, the gauss rifle is a high-tech weapon that uses super-strong electromagnets to accelerate metal projectiles to hypersonic velocities."
   },
   {
     "id": "hunting_rifle",
@@ -144,24 +282,57 @@
     "weaponType": "small_guns",
     "skillId": "small_guns",
     "damage": "6DC",
-    "damageEffects": ["Piercing 1"],
+    "damageEffects": [
+      "Piercing 1"
+    ],
     "damageType": "Physical",
     "fireRate": 0,
     "range": "medium",
-    "qualities": ["Two-Handed"],
+    "qualities": [
+      "Two-Handed"
+    ],
     "ammo": "308",
     "weight": 10,
     "cost": 55,
     "rarity": 2,
     "description": "A bolt-action rifle commonly found in the hands of super mutants and raiders. The simple design made them common amongst hunters and survivalists before the Great War.",
     "parts": {
-      "receiver": ["mod_hair_trigger", "mod_calibrated", "mod_hardened", "mod_powerful", "mod_38_receiver", "mod_50_receiver"],
-      "barrel": ["mod_long_barrel", "mod_ported_barrel", "mod_vented_barrel"],
-      "stock": ["mod_full_stock", "mod_marksman_stock"],
-      "magazine": ["mod_large_magazine", "mod_quick_eject_magazine", "mod_large_quick_eject_magazine"],
-      "sights": ["mod_reflex_sight", "mod_short_scope", "mod_long_scope", "mod_short_night_vision_scope", "mod_long_night_vision_scope", "mod_recon_scope"],
-      "muzzle": ["mod_bayonet", "mod_suppressor"]
-    }
+      "receiver": [
+        "mod_hair_trigger",
+        "mod_calibrated",
+        "mod_hardened",
+        "mod_powerful",
+        "mod_38_receiver",
+        "mod_50_receiver"
+      ],
+      "barrel": [
+        "mod_long_barrel",
+        "mod_ported_barrel",
+        "mod_vented_barrel"
+      ],
+      "stock": [
+        "mod_full_stock",
+        "mod_marksman_stock"
+      ],
+      "magazine": [
+        "mod_large_magazine",
+        "mod_quick_eject_magazine",
+        "mod_large_quick_eject_magazine"
+      ],
+      "sights": [
+        "mod_reflex_sight",
+        "mod_short_scope",
+        "mod_long_scope",
+        "mod_short_night_vision_scope",
+        "mod_long_night_vision_scope",
+        "mod_recon_scope"
+      ],
+      "muzzle": [
+        "mod_bayonet",
+        "mod_suppressor"
+      ]
+    },
+    "longDescription": "A bolt-action rifle commonly found in the hands of super mutants and raiders. The simple design made them common amongst hunters and survivalists before the Great War, prized for their reliability and accuracy at medium to long ranges."
   },
   {
     "id": "submachine_gun",
@@ -169,23 +340,46 @@
     "weaponType": "small_guns",
     "skillId": "small_guns",
     "damage": "3DC",
-    "damageEffects": ["Burst"],
+    "damageEffects": [
+      "Burst"
+    ],
     "damageType": "Physical",
     "fireRate": 3,
     "range": "close",
-    "qualities": ["Inaccurate", "Two-Handed"],
+    "qualities": [
+      "Inaccurate",
+      "Two-Handed"
+    ],
     "ammo": "45",
     "weight": 12,
     "cost": 109,
     "rarity": 1,
     "description": "These submachine guns were an old design, even before the War, and while they're hideously inaccurate, their rate-of-fire means you don't need to be accurate.",
     "parts": {
-      "receiver": ["mod_hardened", "mod_hair_trigger", "mod_powerful"],
-      "stock": ["mod_full_stock", "mod_recoil_compensating_stock"],
-      "magazine": ["mod_large_magazine", "mod_quick_eject_magazine", "mod_large_quick_eject_magazine"],
-      "sights": ["mod_reflex_sight"],
-      "muzzle": ["mod_compensator", "mod_muzzle_brake", "mod_suppressor"]
-    }
+      "receiver": [
+        "mod_hardened",
+        "mod_hair_trigger",
+        "mod_powerful"
+      ],
+      "stock": [
+        "mod_full_stock",
+        "mod_recoil_compensating_stock"
+      ],
+      "magazine": [
+        "mod_large_magazine",
+        "mod_quick_eject_magazine",
+        "mod_large_quick_eject_magazine"
+      ],
+      "sights": [
+        "mod_reflex_sight"
+      ],
+      "muzzle": [
+        "mod_compensator",
+        "mod_muzzle_brake",
+        "mod_suppressor"
+      ]
+    },
+    "longDescription": "These submachine guns were an old design, even before the War, and while they're hideously inaccurate, their rate-of-fire means you don't need to be accurate. They are effective at close range where the spray of bullets can overwhelm targets."
   },
   {
     "id": "combat_shotgun",
@@ -193,24 +387,60 @@
     "weaponType": "small_guns",
     "skillId": "small_guns",
     "damage": "5DC",
-    "damageEffects": ["Spread"],
+    "damageEffects": [
+      "Spread"
+    ],
     "damageType": "Physical",
     "fireRate": 2,
     "range": "close",
-    "qualities": ["Inaccurate", "Two-Handed"],
+    "qualities": [
+      "Inaccurate",
+      "Two-Handed"
+    ],
     "ammo": "shotgun_shell",
     "weight": 11,
     "cost": 87,
     "rarity": 2,
     "description": "Combat shotguns are shotguns intended for an offensive role, typically by a military force; they're ideal for close-range fighting.",
     "parts": {
-      "receiver": ["mod_calibrated", "mod_hardened", "mod_automatic", "mod_hair_trigger", "mod_powerful", "mod_advanced"],
-      "barrel": ["mod_long_barrel", "mod_ported_barrel"],
-      "stock": ["mod_full_stock", "mod_marksman_stock", "mod_recoil_compensating_stock"],
-      "magazine": ["mod_large_magazine", "mod_quick_eject_magazine", "mod_large_quick_eject_magazine"],
-      "sights": ["mod_reflex_sight", "mod_short_scope", "mod_long_scope", "mod_short_night_vision_scope", "mod_long_night_vision_scope", "mod_recon_scope"],
-      "muzzle": ["mod_bayonet", "mod_compensator", "mod_muzzle_brake", "mod_suppressor"]
-    }
+      "receiver": [
+        "mod_calibrated",
+        "mod_hardened",
+        "mod_automatic",
+        "mod_hair_trigger",
+        "mod_powerful",
+        "mod_advanced"
+      ],
+      "barrel": [
+        "mod_long_barrel",
+        "mod_ported_barrel"
+      ],
+      "stock": [
+        "mod_full_stock",
+        "mod_marksman_stock",
+        "mod_recoil_compensating_stock"
+      ],
+      "magazine": [
+        "mod_large_magazine",
+        "mod_quick_eject_magazine",
+        "mod_large_quick_eject_magazine"
+      ],
+      "sights": [
+        "mod_reflex_sight",
+        "mod_short_scope",
+        "mod_long_scope",
+        "mod_short_night_vision_scope",
+        "mod_long_night_vision_scope",
+        "mod_recon_scope"
+      ],
+      "muzzle": [
+        "mod_bayonet",
+        "mod_compensator",
+        "mod_muzzle_brake",
+        "mod_suppressor"
+      ]
+    },
+    "longDescription": "Combat shotguns are shotguns intended for an offensive role, typically by a military force; they're ideal for close-range fighting where their spread pattern makes them devastating against both soft targets and lightly armored opponents."
   },
   {
     "id": "double_barrel_shotgun",
@@ -218,23 +448,44 @@
     "weaponType": "small_guns",
     "skillId": "small_guns",
     "damage": "5DC",
-    "damageEffects": ["Spread", "Vicious"],
+    "damageEffects": [
+      "Spread",
+      "Vicious"
+    ],
     "damageType": "Physical",
     "fireRate": 0,
     "range": "close",
-    "qualities": ["Inaccurate", "Two-Handed"],
+    "qualities": [
+      "Inaccurate",
+      "Two-Handed"
+    ],
     "ammo": "shotgun_shell",
     "weight": 9,
     "cost": 39,
     "rarity": 1,
     "description": "Before the Great War, double-barrel shotguns were mainly used for hunting and home defense. Simple to make and maintain.",
     "parts": {
-      "receiver": ["mod_hardened", "mod_hair_trigger", "mod_powerful", "mod_advanced"],
-      "barrel": ["mod_long_barrel", "mod_sawed_off_barrel"],
-      "stock": ["mod_full_stock"],
-      "sights": ["mod_reflex_sight"],
-      "muzzle": ["mod_muzzle_brake"]
-    }
+      "receiver": [
+        "mod_hardened",
+        "mod_hair_trigger",
+        "mod_powerful",
+        "mod_advanced"
+      ],
+      "barrel": [
+        "mod_long_barrel",
+        "mod_sawed_off_barrel"
+      ],
+      "stock": [
+        "mod_full_stock"
+      ],
+      "sights": [
+        "mod_reflex_sight"
+      ],
+      "muzzle": [
+        "mod_muzzle_brake"
+      ]
+    },
+    "longDescription": "Before the Great War, double-barrel shotguns were mainly used for hunting and home defense. Simple to make and maintain, they remain a common sight in the wasteland, favored for their reliability and the sheer stopping power of both barrels fired at once."
   },
   {
     "id": "pipe_bolt_action",
@@ -242,24 +493,57 @@
     "weaponType": "small_guns",
     "skillId": "small_guns",
     "damage": "5DC",
-    "damageEffects": ["Piercing 1"],
+    "damageEffects": [
+      "Piercing 1"
+    ],
     "damageType": "Physical",
     "fireRate": 0,
     "range": "close",
-    "qualities": ["Unreliable"],
+    "qualities": [
+      "Unreliable"
+    ],
     "ammo": "308",
     "weight": 3,
     "cost": 30,
     "rarity": 0,
     "description": "A makeshift weapon, normally seen in the hands of those who can't make, buy, or scavenge anything better. Bolt-action pipe guns tend to be chambered for rifle caliber rounds.",
     "parts": {
-      "receiver": ["mod_calibrated", "mod_hardened", "mod_powerful", "mod_38_receiver", "mod_50_receiver"],
-      "barrel": ["mod_long_barrel", "mod_ported_barrel", "mod_finned_barrel"],
-      "grip": ["mod_sharpshooters_grip"],
-      "stock": ["mod_full_stock", "mod_marksman_stock", "mod_recoil_compensating_stock"],
-      "sights": ["mod_reflex_sight", "mod_short_scope", "mod_long_scope", "mod_short_night_vision_scope", "mod_long_night_vision_scope", "mod_recon_scope"],
-      "muzzle": ["mod_bayonet", "mod_compensator", "mod_muzzle_brake", "mod_suppressor"]
-    }
+      "receiver": [
+        "mod_calibrated",
+        "mod_hardened",
+        "mod_powerful",
+        "mod_38_receiver",
+        "mod_50_receiver"
+      ],
+      "barrel": [
+        "mod_long_barrel",
+        "mod_ported_barrel",
+        "mod_finned_barrel"
+      ],
+      "grip": [
+        "mod_sharpshooters_grip"
+      ],
+      "stock": [
+        "mod_full_stock",
+        "mod_marksman_stock",
+        "mod_recoil_compensating_stock"
+      ],
+      "sights": [
+        "mod_reflex_sight",
+        "mod_short_scope",
+        "mod_long_scope",
+        "mod_short_night_vision_scope",
+        "mod_long_night_vision_scope",
+        "mod_recon_scope"
+      ],
+      "muzzle": [
+        "mod_bayonet",
+        "mod_compensator",
+        "mod_muzzle_brake",
+        "mod_suppressor"
+      ]
+    },
+    "longDescription": "A makeshift weapon, normally seen in the hands of those who can't make, buy, or scavenge anything better. Bolt-action pipe guns tend to be chambered for rifle caliber rounds, giving them surprising stopping power despite their crude construction."
   },
   {
     "id": "pipe_gun",
@@ -271,21 +555,58 @@
     "damageType": "Physical",
     "fireRate": 2,
     "range": "close",
-    "qualities": ["Close Quarters", "Unreliable"],
+    "qualities": [
+      "Close Quarters",
+      "Unreliable"
+    ],
     "ammo": "38",
     "weight": 2,
     "cost": 30,
     "rarity": 0,
     "description": "A crude, homemade weapon, normally seen in the hands of those who can't make, buy, or scavenge anything better.",
     "parts": {
-      "receiver": ["mod_calibrated", "mod_hardened", "mod_automatic", "mod_hair_trigger", "mod_powerful", "mod_45_receiver"],
-      "barrel": ["mod_long_barrel", "mod_ported_barrel", "mod_finned_barrel"],
-      "grip": ["mod_sharpshooters_grip"],
-      "stock": ["mod_full_stock", "mod_marksman_stock", "mod_recoil_compensating_stock"],
-      "magazine": ["mod_large_magazine", "mod_quick_eject_magazine", "mod_large_quick_eject_magazine"],
-      "sights": ["mod_reflex_sight", "mod_short_scope", "mod_long_scope", "mod_short_night_vision_scope", "mod_long_night_vision_scope", "mod_recon_scope"],
-      "muzzle": ["mod_bayonet", "mod_compensator", "mod_muzzle_brake", "mod_suppressor"]
-    }
+      "receiver": [
+        "mod_calibrated",
+        "mod_hardened",
+        "mod_automatic",
+        "mod_hair_trigger",
+        "mod_powerful",
+        "mod_45_receiver"
+      ],
+      "barrel": [
+        "mod_long_barrel",
+        "mod_ported_barrel",
+        "mod_finned_barrel"
+      ],
+      "grip": [
+        "mod_sharpshooters_grip"
+      ],
+      "stock": [
+        "mod_full_stock",
+        "mod_marksman_stock",
+        "mod_recoil_compensating_stock"
+      ],
+      "magazine": [
+        "mod_large_magazine",
+        "mod_quick_eject_magazine",
+        "mod_large_quick_eject_magazine"
+      ],
+      "sights": [
+        "mod_reflex_sight",
+        "mod_short_scope",
+        "mod_long_scope",
+        "mod_short_night_vision_scope",
+        "mod_long_night_vision_scope",
+        "mod_recon_scope"
+      ],
+      "muzzle": [
+        "mod_bayonet",
+        "mod_compensator",
+        "mod_muzzle_brake",
+        "mod_suppressor"
+      ]
+    },
+    "longDescription": "A crude, homemade weapon, normally seen in the hands of those who can't make, buy, or scavenge anything better. Pipe guns are cobbled together from scrap metal and simple mechanical components, making them unreliable but incredibly easy to produce."
   },
   {
     "id": "pipe_revolver",
@@ -297,20 +618,52 @@
     "damageType": "Physical",
     "fireRate": 1,
     "range": "close",
-    "qualities": ["Close Quarters", "Unreliable"],
+    "qualities": [
+      "Close Quarters",
+      "Unreliable"
+    ],
     "ammo": "45",
     "weight": 4,
     "cost": 25,
     "rarity": 0,
     "description": "Like the other forms of pipe gun, the pipe revolver is a makeshift or homemade gun, in this case modelled after a revolver.",
     "parts": {
-      "receiver": ["mod_calibrated", "mod_hardened", "mod_powerful", "mod_38_receiver", "mod_308_receiver"],
-      "barrel": ["mod_long_barrel", "mod_ported_barrel", "mod_finned_barrel"],
-      "grip": ["mod_sharpshooters_grip"],
-      "stock": ["mod_full_stock", "mod_marksman_stock", "mod_recoil_compensating_stock"],
-      "sights": ["mod_reflex_sight", "mod_short_scope", "mod_long_scope", "mod_short_night_vision_scope", "mod_long_night_vision_scope", "mod_recon_scope"],
-      "muzzle": ["mod_bayonet", "mod_compensator", "mod_muzzle_brake", "mod_suppressor"]
-    }
+      "receiver": [
+        "mod_calibrated",
+        "mod_hardened",
+        "mod_powerful",
+        "mod_38_receiver",
+        "mod_308_receiver"
+      ],
+      "barrel": [
+        "mod_long_barrel",
+        "mod_ported_barrel",
+        "mod_finned_barrel"
+      ],
+      "grip": [
+        "mod_sharpshooters_grip"
+      ],
+      "stock": [
+        "mod_full_stock",
+        "mod_marksman_stock",
+        "mod_recoil_compensating_stock"
+      ],
+      "sights": [
+        "mod_reflex_sight",
+        "mod_short_scope",
+        "mod_long_scope",
+        "mod_short_night_vision_scope",
+        "mod_long_night_vision_scope",
+        "mod_recon_scope"
+      ],
+      "muzzle": [
+        "mod_bayonet",
+        "mod_compensator",
+        "mod_muzzle_brake",
+        "mod_suppressor"
+      ]
+    },
+    "longDescription": "Like the other forms of pipe gun, the pipe revolver is a makeshift or homemade gun, in this case modelled after a revolver. It strikes a balance between the stopping power of the pipe bolt-action and the fire rate of the pipe gun, and is similarly suited for modification."
   },
   {
     "id": "railway_rifle",
@@ -318,23 +671,45 @@
     "weaponType": "small_guns",
     "skillId": "small_guns",
     "damage": "10DC",
-    "damageEffects": ["Breaking"],
+    "damageEffects": [
+      "Breaking"
+    ],
     "damageType": "Physical",
     "fireRate": 0,
     "range": "medium",
-    "qualities": ["Debilitating", "Two-Handed", "Unreliable"],
+    "qualities": [
+      "Debilitating",
+      "Two-Handed",
+      "Unreliable"
+    ],
     "ammo": "railway_spike",
     "weight": 14,
     "cost": 290,
     "rarity": 4,
     "description": "A makeshift weapon created by enterprising engineers in the wastelands, the railway rifle uses high-pressure steam to propel railway spikes.",
     "parts": {
-      "receiver": ["mod_automatic_piston"],
-      "barrel": ["mod_long_barrel"],
-      "stock": ["mod_recoil_compensating_stock"],
-      "sights": ["mod_reflex_sight", "mod_short_scope", "mod_long_scope", "mod_short_night_vision_scope", "mod_long_night_vision_scope", "mod_recon_scope"],
-      "muzzle": ["mod_bayonet"]
-    }
+      "receiver": [
+        "mod_automatic_piston"
+      ],
+      "barrel": [
+        "mod_long_barrel"
+      ],
+      "stock": [
+        "mod_recoil_compensating_stock"
+      ],
+      "sights": [
+        "mod_reflex_sight",
+        "mod_short_scope",
+        "mod_long_scope",
+        "mod_short_night_vision_scope",
+        "mod_long_night_vision_scope",
+        "mod_recon_scope"
+      ],
+      "muzzle": [
+        "mod_bayonet"
+      ]
+    },
+    "longDescription": "A makeshift weapon created by enterprising engineers in the wastelands, the railway rifle uses high-pressure steam to propel railway spikes at speeds sufficient to pierce and impale a wide range of targets. The distinctive CHOOO sound of a railway rifle being fired is unmistakable."
   },
   {
     "id": "syringer",
@@ -346,12 +721,15 @@
     "damageType": "Physical",
     "fireRate": 0,
     "range": "medium",
-    "qualities": ["Two-Handed"],
+    "qualities": [
+      "Two-Handed"
+    ],
     "ammo": "syringe",
     "weight": 6,
     "cost": 132,
     "rarity": 2,
-    "description": "A makeshift weapon using air pressure to propel customized syringes at a target. This inflicts little damage by itself, but the syringes can inflict a wide range of debilitating effects."
+    "description": "A makeshift weapon using air pressure to propel customized syringes at a target. This inflicts little damage by itself, but the syringes can inflict a wide range of debilitating effects.",
+    "longDescription": "A makeshift weapon using air pressure to propel customized syringes at a target. This inflicts little damage by itself, but the syringes can inflict a wide range of debilitating effects depending on what chemical or biological agent is loaded."
   },
   {
     "id": "institute_laser",
@@ -359,23 +737,51 @@
     "weaponType": "energy_weapons",
     "skillId": "energy_weapons",
     "damage": "3DC",
-    "damageEffects": ["Burst"],
+    "damageEffects": [
+      "Burst"
+    ],
     "damageType": "Energy",
     "fireRate": 3,
     "range": "close",
-    "qualities": ["Close Quarters", "Inaccurate"],
+    "qualities": [
+      "Close Quarters",
+      "Inaccurate"
+    ],
     "ammo": "fusion_cell",
     "weight": 4,
     "cost": 50,
     "rarity": 2,
     "description": "Developed by The Institute after the Great War, Institute lasers differ in design and function from the pre-War lasers used by other factions.",
     "parts": {
-      "capacitor": ["mod_photon_exciter", "mod_beta_wave_tuner", "mod_boosted_capacitor", "mod_photon_agitator"],
-      "barrel": ["mod_long_barrel", "mod_automatic_barrel", "mod_improved_barrel"],
-      "stock": ["mod_standard_stock"],
-      "sights": ["mod_reflex_sight", "mod_short_scope", "mod_long_scope", "mod_short_night_vision_scope", "mod_long_night_vision_scope", "mod_recon_scope"],
-      "muzzle": ["mod_beam_splitter", "mod_beam_focuser", "mod_gyro_compensating_lens"]
-    }
+      "capacitor": [
+        "mod_photon_exciter",
+        "mod_beta_wave_tuner",
+        "mod_boosted_capacitor",
+        "mod_photon_agitator"
+      ],
+      "barrel": [
+        "mod_long_barrel",
+        "mod_automatic_barrel",
+        "mod_improved_barrel"
+      ],
+      "stock": [
+        "mod_standard_stock"
+      ],
+      "sights": [
+        "mod_reflex_sight",
+        "mod_short_scope",
+        "mod_long_scope",
+        "mod_short_night_vision_scope",
+        "mod_long_night_vision_scope",
+        "mod_recon_scope"
+      ],
+      "muzzle": [
+        "mod_beam_splitter",
+        "mod_beam_focuser",
+        "mod_gyro_compensating_lens"
+      ]
+    },
+    "longDescription": "Developed by The Institute after the Great War, Institute lasers differ in design and function from the pre-War lasers used by other factions such as the Brotherhood of Steel. Eschewing raw power for a rapid succession of beams, these lasers can lay down a searing volley of suppressive fire."
   },
   {
     "id": "laser_musket",
@@ -383,23 +789,50 @@
     "weaponType": "energy_weapons",
     "skillId": "energy_weapons",
     "damage": "5DC",
-    "damageEffects": ["Piercing 1"],
+    "damageEffects": [
+      "Piercing 1"
+    ],
     "damageType": "Energy",
     "fireRate": 0,
     "range": "medium",
-    "qualities": ["Two-Handed"],
+    "qualities": [
+      "Two-Handed"
+    ],
     "ammo": "fusion_cell",
     "weight": 13,
     "cost": 57,
     "rarity": 1,
     "description": "The laser musket is a homemade form of laser rifle, blending advanced technology with strangely primitive mechanisms, popular with militia groups such as the Minutemen.",
     "parts": {
-      "capacitor": ["mod_three_crank_capacitor", "mod_four_crank_capacitor", "mod_five_crank_capacitor", "mod_six_crank_capacitor"],
-      "barrel": ["mod_long_barrel", "mod_bracketed_barrel", "mod_bracketed_long_barrel"],
-      "stock": ["mod_full_stock"],
-      "sights": ["mod_reflex_sight", "mod_short_scope", "mod_long_scope", "mod_short_night_vision_scope", "mod_long_night_vision_scope", "mod_recon_scope"],
-      "muzzle": ["mod_beam_splitter", "mod_beam_focuser", "mod_gyro_compensating_lens"]
-    }
+      "capacitor": [
+        "mod_three_crank_capacitor",
+        "mod_four_crank_capacitor",
+        "mod_five_crank_capacitor",
+        "mod_six_crank_capacitor"
+      ],
+      "barrel": [
+        "mod_long_barrel",
+        "mod_bracketed_barrel",
+        "mod_bracketed_long_barrel"
+      ],
+      "stock": [
+        "mod_full_stock"
+      ],
+      "sights": [
+        "mod_reflex_sight",
+        "mod_short_scope",
+        "mod_long_scope",
+        "mod_short_night_vision_scope",
+        "mod_long_night_vision_scope",
+        "mod_recon_scope"
+      ],
+      "muzzle": [
+        "mod_beam_splitter",
+        "mod_beam_focuser",
+        "mod_gyro_compensating_lens"
+      ]
+    },
+    "longDescription": "The laser musket is a homemade form of laser rifle, blending advanced technology with strangely primitive mechanisms, popular with militia groups such as the Minutemen. The laser musket must be manually primed, charging the makeshift capacitor through turning a hand-crank on the weapon's rear."
   },
   {
     "id": "laser_gun",
@@ -407,24 +840,56 @@
     "weaponType": "energy_weapons",
     "skillId": "energy_weapons",
     "damage": "4DC",
-    "damageEffects": ["Piercing 1"],
+    "damageEffects": [
+      "Piercing 1"
+    ],
     "damageType": "Energy",
     "fireRate": 2,
     "range": "close",
-    "qualities": ["Close Quarters"],
+    "qualities": [
+      "Close Quarters"
+    ],
     "ammo": "fusion_cell",
     "weight": 4,
     "cost": 69,
     "rarity": 2,
     "description": "Laser guns are high-tech weapons which emit a concentrated beam of coherent, directional light, intense enough to inflict serious damage.",
     "parts": {
-      "capacitor": ["mod_photon_exciter", "mod_beta_wave_tuner", "mod_boosted_capacitor", "mod_photon_agitator"],
-      "barrel": ["mod_long_barrel", "mod_automatic_barrel", "mod_sniper_barrel", "mod_improved_barrel"],
-      "grip": ["mod_sharpshooters_grip"],
-      "stock": ["mod_standard_stock", "mod_marksman_stock", "mod_recoil_compensating_stock"],
-      "sights": ["mod_reflex_sight", "mod_short_scope", "mod_long_scope", "mod_short_night_vision_scope", "mod_long_night_vision_scope", "mod_recon_scope"],
-      "muzzle": ["mod_beam_splitter", "mod_beam_focuser", "mod_gyro_compensating_lens"]
-    }
+      "capacitor": [
+        "mod_photon_exciter",
+        "mod_beta_wave_tuner",
+        "mod_boosted_capacitor",
+        "mod_photon_agitator"
+      ],
+      "barrel": [
+        "mod_long_barrel",
+        "mod_automatic_barrel",
+        "mod_sniper_barrel",
+        "mod_improved_barrel"
+      ],
+      "grip": [
+        "mod_sharpshooters_grip"
+      ],
+      "stock": [
+        "mod_standard_stock",
+        "mod_marksman_stock",
+        "mod_recoil_compensating_stock"
+      ],
+      "sights": [
+        "mod_reflex_sight",
+        "mod_short_scope",
+        "mod_long_scope",
+        "mod_short_night_vision_scope",
+        "mod_long_night_vision_scope",
+        "mod_recon_scope"
+      ],
+      "muzzle": [
+        "mod_beam_splitter",
+        "mod_beam_focuser",
+        "mod_gyro_compensating_lens"
+      ]
+    },
+    "longDescription": "Laser guns are high-tech weapons which emit a concentrated beam of coherent, directional light, intense enough to inflict serious damage. They were a relatively new development in the years before the Great War, and thus are not an especially common sight in the wasteland."
   },
   {
     "id": "plasma_gun",
@@ -436,18 +901,43 @@
     "damageType": "Physical/Energy",
     "fireRate": 1,
     "range": "close",
-    "qualities": ["Close Quarters"],
+    "qualities": [
+      "Close Quarters"
+    ],
     "ammo": "plasma_cartridge",
     "weight": 4,
     "cost": 123,
     "rarity": 3,
     "description": "Plasma guns, or plasma casters, are high-tech weapons firing superheated ionized gas, or plasma.",
     "parts": {
-      "capacitor": ["mod_photon_exciter", "mod_beta_wave_tuner", "mod_boosted_capacitor", "mod_photon_agitator"],
-      "barrel": ["mod_splitter", "mod_automatic_barrel", "mod_sniper_barrel", "mod_flamer_barrel", "mod_improved_barrel"],
-      "stock": ["mod_standard_stock", "mod_marksman_stock", "mod_recoil_compensating_stock"],
-      "sights": ["mod_reflex_sight", "mod_short_scope", "mod_long_scope", "mod_short_night_vision_scope", "mod_long_night_vision_scope", "mod_recon_scope"]
-    }
+      "capacitor": [
+        "mod_photon_exciter",
+        "mod_beta_wave_tuner",
+        "mod_boosted_capacitor",
+        "mod_photon_agitator"
+      ],
+      "barrel": [
+        "mod_splitter",
+        "mod_automatic_barrel",
+        "mod_sniper_barrel",
+        "mod_flamer_barrel",
+        "mod_improved_barrel"
+      ],
+      "stock": [
+        "mod_standard_stock",
+        "mod_marksman_stock",
+        "mod_recoil_compensating_stock"
+      ],
+      "sights": [
+        "mod_reflex_sight",
+        "mod_short_scope",
+        "mod_long_scope",
+        "mod_short_night_vision_scope",
+        "mod_long_night_vision_scope",
+        "mod_recon_scope"
+      ]
+    },
+    "longDescription": "Plasma guns, or plasma casters, are high-tech weapons firing superheated ionized gas, or plasma. Powered by a plasma cartridge, these weapons are rare and potent, delivering damage through the high-speed impact of the plasma bolt and then thermal transfer as the heat is transferred into the target."
   },
   {
     "id": "gamma_gun",
@@ -455,20 +945,32 @@
     "weaponType": "energy_weapons",
     "skillId": "energy_weapons",
     "damage": "3DC",
-    "damageEffects": ["Piercing 1", "Stun", "Blast"],
+    "damageEffects": [
+      "Piercing 1",
+      "Stun",
+      "Blast"
+    ],
     "damageType": "Radiation",
     "fireRate": 1,
     "range": "medium",
-    "qualities": ["Inaccurate"],
+    "qualities": [
+      "Inaccurate"
+    ],
     "ammo": "gamma_round",
     "weight": 3,
     "cost": 156,
     "rarity": 5,
     "description": "A crude-looking weapon, the gamma gun emits directed blasts of high-intensity ionizing radiation.",
     "parts": {
-      "dish": ["mod_deep_dish"],
-      "muzzle": ["mod_electric_signal_carrier_antennae", "mod_signal_repeater"]
-    }
+      "dish": [
+        "mod_deep_dish"
+      ],
+      "muzzle": [
+        "mod_electric_signal_carrier_antennae",
+        "mod_signal_repeater"
+      ]
+    },
+    "longDescription": "A crude-looking weapon, the gamma gun emits directed blasts of high-intensity ionizing radiation which can be devastating to any creature not immune nor massively resistant to radiation, while leaving other targets largely unharmed."
   },
   {
     "id": "fat_man",
@@ -476,16 +978,25 @@
     "weaponType": "big_guns",
     "skillId": "big_guns",
     "damage": "21DC",
-    "damageEffects": ["Breaking", "Radioactive", "Vicious"],
+    "damageEffects": [
+      "Breaking",
+      "Radioactive",
+      "Vicious"
+    ],
     "damageType": "Physical",
     "fireRate": 0,
     "range": "medium",
-    "qualities": ["Blast", "Inaccurate", "Two-Handed"],
+    "qualities": [
+      "Blast",
+      "Inaccurate",
+      "Two-Handed"
+    ],
     "ammo": "mini_nuke",
     "weight": 31,
     "cost": 512,
     "rarity": 4,
-    "description": "The M42 Nuclear Catapult is a shoulder-fired infantry support weapon which launches compact tactical nuclear warheads."
+    "description": "The M42 Nuclear Catapult is a shoulder-fired infantry support weapon which launches compact tactical nuclear warheads.",
+    "longDescription": "The M42 Nuclear Catapult is a shoulder-fired infantry support weapon which launches compact tactical nuclear warheads—mini-nukes, each about the size of a football—over a moderate distance to inflict massive destruction upon the target location."
   },
   {
     "id": "flamer",
@@ -493,22 +1004,41 @@
     "weaponType": "big_guns",
     "skillId": "big_guns",
     "damage": "3DC",
-    "damageEffects": ["Burst", "Persistent", "Spread"],
+    "damageEffects": [
+      "Burst",
+      "Persistent",
+      "Spread"
+    ],
     "damageType": "Energy",
     "fireRate": 4,
     "range": "close",
-    "qualities": ["Debilitating", "Inaccurate", "Two-Handed"],
+    "qualities": [
+      "Debilitating",
+      "Inaccurate",
+      "Two-Handed"
+    ],
     "ammo": "flamer_fuel",
     "weight": 16,
     "cost": 137,
     "rarity": 3,
     "description": "A flamethrower, or flamer, is a weapon which sprays an ignited fuel mixture over an area.",
     "parts": {
-      "fuel": ["mod_napalm"],
-      "barrel": ["mod_long_barrel"],
-      "propellant_tank": ["mod_large_tank", "mod_huge_tank"],
-      "nozzle": ["mod_compression_nozzle", "mod_vaporization_nozzle"]
-    }
+      "fuel": [
+        "mod_napalm"
+      ],
+      "barrel": [
+        "mod_long_barrel"
+      ],
+      "propellant_tank": [
+        "mod_large_tank",
+        "mod_huge_tank"
+      ],
+      "nozzle": [
+        "mod_compression_nozzle",
+        "mod_vaporization_nozzle"
+      ]
+    },
+    "longDescription": "A flamethrower, or flamer, is a weapon which sprays an ignited fuel mixture over an area, essentially creating a jet of flame that can burn or ignite targets at a distance. Ideal for clearing dead foliage, irritating vermin, and fortified bunkers!"
   },
   {
     "id": "gatling_laser",
@@ -516,22 +1046,41 @@
     "weaponType": "big_guns",
     "skillId": "big_guns",
     "damage": "3DC",
-    "damageEffects": ["Burst", "Piercing 1"],
+    "damageEffects": [
+      "Burst",
+      "Piercing 1"
+    ],
     "damageType": "Energy",
     "fireRate": 6,
     "range": "medium",
-    "qualities": ["Gatling", "Inaccurate", "Two-Handed"],
+    "qualities": [
+      "Gatling",
+      "Inaccurate",
+      "Two-Handed"
+    ],
     "ammo": "fusion_core",
     "weight": 19,
     "cost": 804,
     "rarity": 3,
     "description": "A high rate-of-fire laser weapon, the Gatling laser uses several rotating barrels fired in quick succession.",
     "parts": {
-      "capacitor": ["mod_photon_exciter", "mod_beta_wave_tuner", "mod_boosted_capacitor", "mod_photon_agitator"],
-      "barrel": ["mod_charging_barrels"],
-      "sights": ["mod_reflex_sight"],
-      "nozzle": ["mod_beam_focuser"]
-    }
+      "capacitor": [
+        "mod_photon_exciter",
+        "mod_beta_wave_tuner",
+        "mod_boosted_capacitor",
+        "mod_photon_agitator"
+      ],
+      "barrel": [
+        "mod_charging_barrels"
+      ],
+      "sights": [
+        "mod_reflex_sight"
+      ],
+      "nozzle": [
+        "mod_beam_focuser"
+      ]
+    },
+    "longDescription": "A high rate-of-fire laser weapon, the Gatling laser uses several rotating barrels fired in quick succession to produce a devastating fusillade of laser pulses. While the individual laser pulses lack in stopping power, the sheer mass of them can wear down almost any target."
   },
   {
     "id": "heavy_incinerator",
@@ -539,16 +1088,24 @@
     "weaponType": "big_guns",
     "skillId": "big_guns",
     "damage": "5DC",
-    "damageEffects": ["Burst", "Persistent", "Spread"],
+    "damageEffects": [
+      "Burst",
+      "Persistent",
+      "Spread"
+    ],
     "damageType": "Energy",
     "fireRate": 3,
     "range": "medium",
-    "qualities": ["Debilitating", "Two-Handed"],
+    "qualities": [
+      "Debilitating",
+      "Two-Handed"
+    ],
     "ammo": "flamer_fuel",
     "weight": 20,
     "cost": 350,
     "rarity": 4,
-    "description": "Like a flamethrower, a heavy incinerator also propels ignited fuel mixtures to burn a target, but lobbing fireballs at the target."
+    "description": "Like a flamethrower, a heavy incinerator also propels ignited fuel mixtures to burn a target, but lobbing fireballs at the target.",
+    "longDescription": "Like a flamethrower, a heavy incinerator also propels ignited fuel mixtures to burn a target. However, the heavy incinerator differs in that it appears to lob a succession of fireballs at the target, lobbing them in an arc like a grenade launcher. These fireballs burst upon impact, spreading flames as the fuel splashes off the target."
   },
   {
     "id": "junk_jet",
@@ -560,18 +1117,30 @@
     "damageType": "Physical",
     "fireRate": 1,
     "range": "medium",
-    "qualities": ["Two-Handed"],
+    "qualities": [
+      "Two-Handed"
+    ],
     "ammo": null,
     "weight": 30,
     "cost": 285,
     "rarity": 3,
     "description": "The Junk Jet is a makeshift heavy weapon which fires anything.",
     "parts": {
-      "barrel": ["mod_long_barrel"],
-      "stock": ["mod_recoil_compensating_stock"],
-      "sights": ["mod_gunner_sight"],
-      "muzzle": ["mod_electrification_module", "mod_ignition_module"]
-    }
+      "barrel": [
+        "mod_long_barrel"
+      ],
+      "stock": [
+        "mod_recoil_compensating_stock"
+      ],
+      "sights": [
+        "mod_gunner_sight"
+      ],
+      "muzzle": [
+        "mod_electrification_module",
+        "mod_ignition_module"
+      ]
+    },
+    "longDescription": "The Junk Jet is a makeshift heavy weapon which fires anything. Any items loaded into the weapon's hopper are hurled with deadly force from the business end of the gun. This makes it quite useful in situations where random junk is abundant but actual ammunition is scarce."
   },
   {
     "id": "minigun",
@@ -579,21 +1148,36 @@
     "weaponType": "big_guns",
     "skillId": "big_guns",
     "damage": "3DC",
-    "damageEffects": ["Burst", "Spread"],
+    "damageEffects": [
+      "Burst",
+      "Spread"
+    ],
     "damageType": "Physical",
     "fireRate": 5,
     "range": "medium",
-    "qualities": ["Gatling", "Inaccurate", "Two-Handed"],
+    "qualities": [
+      "Gatling",
+      "Inaccurate",
+      "Two-Handed"
+    ],
     "ammo": "5mm",
     "weight": 27,
     "cost": 382,
     "rarity": 2,
     "description": "The minigun is a motorized Gatling-style rapid fire weapon commonly employed by the military.",
     "parts": {
-      "barrel": ["mod_accelerated_barrel", "mod_tri_barrel"],
-      "sights": ["mod_gunner_sight"],
-      "muzzle": ["mod_shredder"]
-    }
+      "barrel": [
+        "mod_accelerated_barrel",
+        "mod_tri_barrel"
+      ],
+      "sights": [
+        "mod_gunner_sight"
+      ],
+      "muzzle": [
+        "mod_shredder"
+      ]
+    },
+    "longDescription": "The minigun is a motorized Gatling-style rapid fire weapon commonly employed by the military, or other lesser factions that managed to acquire such a weapon. The high rate-of-fire means it can produce devastating results, but at a cost of consuming ammo at incredible rates."
   },
   {
     "id": "missile_launcher",
@@ -605,17 +1189,31 @@
     "damageType": "Physical",
     "fireRate": 0,
     "range": "long",
-    "qualities": ["Blast", "Two-Handed"],
+    "qualities": [
+      "Blast",
+      "Two-Handed"
+    ],
     "ammo": "missile",
     "weight": 21,
     "cost": 314,
     "rarity": 4,
     "description": "A refined, highly adaptable multipurpose missile weapon introduced into the American arsenal.",
     "parts": {
-      "barrel": ["mod_triple_barrel", "mod_quad_barrel"],
-      "sights": ["mod_scope", "mod_night_vision_scope", "mod_targeting_computer"],
-      "muzzle": ["mod_bayonet", "mod_stabilizer"]
-    }
+      "barrel": [
+        "mod_triple_barrel",
+        "mod_quad_barrel"
+      ],
+      "sights": [
+        "mod_scope",
+        "mod_night_vision_scope",
+        "mod_targeting_computer"
+      ],
+      "muzzle": [
+        "mod_bayonet",
+        "mod_stabilizer"
+      ]
+    },
+    "longDescription": "A refined, highly adaptable multipurpose missile weapon introduced into the American arsenal, the modular launcher is smaller and more maneuverable than earlier models. It is a breech-loading weapon, reloaded by lifting the front section of the launch tube and sliding a 72mm fin-stabilized missile inside."
   },
   {
     "id": "unarmed_strike",
@@ -632,7 +1230,8 @@
     "weight": 0,
     "cost": 0,
     "rarity": 0,
-    "description": "The basic unarmed attack using fists, feet, or any other part of the body."
+    "description": "The basic unarmed attack using fists, feet, or any other part of the body.",
+    "longDescription": "The basic unarmed attack using fists, feet, or any other part of the body. All characters can make unarmed strikes, dealing 2 CD Physical damage."
   },
   {
     "id": "handy_rock",
@@ -640,16 +1239,21 @@
     "weaponType": "unarmed",
     "skillId": "unarmed",
     "damage": "2DC",
-    "damageEffects": ["Vicious"],
+    "damageEffects": [
+      "Vicious"
+    ],
     "damageType": "Physical",
     "fireRate": null,
     "range": null,
-    "qualities": ["Thrown (C)"],
+    "qualities": [
+      "Thrown (C)"
+    ],
     "ammo": null,
     "weight": 1,
     "cost": 0,
     "rarity": 0,
-    "description": "A conveniently-sized rock that can be used as an improvised weapon or thrown at enemies."
+    "description": "A conveniently-sized rock that can be used as an improvised weapon or thrown at enemies.",
+    "longDescription": "A conveniently-sized rock that can be used as an improvised weapon or thrown at enemies. Rocks are plentiful in the wasteland and while not particularly damaging, they can be found just about anywhere."
   },
   {
     "id": "gun_bash_1h",
@@ -657,7 +1261,9 @@
     "weaponType": "melee_weapons",
     "skillId": "melee_weapons",
     "damage": "2DC",
-    "damageEffects": ["Stun"],
+    "damageEffects": [
+      "Stun"
+    ],
     "damageType": "Physical",
     "fireRate": null,
     "range": null,
@@ -666,7 +1272,8 @@
     "weight": 0,
     "cost": 0,
     "rarity": 0,
-    "description": "A melee attack made by bashing an opponent with a one-handed firearm."
+    "description": "A melee attack made by bashing an opponent with a one-handed firearm.",
+    "longDescription": "A melee attack made by bashing an opponent with a one-handed firearm. When you run out of ammunition or find yourself in close quarters, a gun butt to the face is always an option."
   },
   {
     "id": "gun_bash_2h",
@@ -674,7 +1281,9 @@
     "weaponType": "melee_weapons",
     "skillId": "melee_weapons",
     "damage": "3DC",
-    "damageEffects": ["Stun"],
+    "damageEffects": [
+      "Stun"
+    ],
     "damageType": "Physical",
     "fireRate": null,
     "range": null,
@@ -683,7 +1292,8 @@
     "weight": 0,
     "cost": 0,
     "rarity": 0,
-    "description": "A melee attack made by bashing an opponent with a two-handed firearm."
+    "description": "A melee attack made by bashing an opponent with a two-handed firearm.",
+    "longDescription": "A melee attack made by bashing an opponent with a two-handed firearm. The extra length and weight of a two-handed weapon makes for a more powerful, if slower, bash."
   },
   {
     "id": "sword",
@@ -691,19 +1301,29 @@
     "weaponType": "melee_weapons",
     "skillId": "melee_weapons",
     "damage": "4DC",
-    "damageEffects": ["Piercing 1"],
+    "damageEffects": [
+      "Piercing 1"
+    ],
     "damageType": "Physical",
     "fireRate": null,
     "range": null,
-    "qualities": ["Parry"],
+    "qualities": [
+      "Parry"
+    ],
     "ammo": null,
     "weight": 3,
     "cost": 50,
     "rarity": 2,
     "description": "Swords have been in use for almost as long as wars have been fought and remained widespread as symbols of status and prestige.",
     "parts": {
-      "blade": ["mod_serrated_blade", "mod_electrified_blade", "mod_electrified_serrated_blade", "mod_stun_pack"]
-    }
+      "blade": [
+        "mod_serrated_blade",
+        "mod_electrified_blade",
+        "mod_electrified_serrated_blade",
+        "mod_stun_pack"
+      ]
+    },
+    "longDescription": "Swords have been in use for almost as long as wars have been fought and remained widespread as symbols of status and prestige amongst soldiers—particularly officers—across the world right up until the Great War."
   },
   {
     "id": "combat_knife",
@@ -711,7 +1331,9 @@
     "weaponType": "melee_weapons",
     "skillId": "melee_weapons",
     "damage": "3DC",
-    "damageEffects": ["Piercing 1"],
+    "damageEffects": [
+      "Piercing 1"
+    ],
     "damageType": "Physical",
     "fireRate": null,
     "range": null,
@@ -722,8 +1344,12 @@
     "rarity": 1,
     "description": "For both fighting and for utility uses, soldiers—and those who seek to emulate soldiers—frequently carry knives.",
     "parts": {
-      "blade": ["mod_serrated_blade", "mod_stealth_blade"]
-    }
+      "blade": [
+        "mod_serrated_blade",
+        "mod_stealth_blade"
+      ]
+    },
+    "longDescription": "For both fighting and for utility uses, soldiers—and those who seek to emulate soldiers—frequently carry knives. The Combat Knife found across the wastelands is normally of the same type as was issued to U.S. Army soldiers during the Great War."
   },
   {
     "id": "machete",
@@ -731,7 +1357,9 @@
     "weaponType": "melee_weapons",
     "skillId": "melee_weapons",
     "damage": "3DC",
-    "damageEffects": ["Piercing 1"],
+    "damageEffects": [
+      "Piercing 1"
+    ],
     "damageType": "Physical",
     "fireRate": null,
     "range": null,
@@ -742,8 +1370,11 @@
     "rarity": 1,
     "description": "A long, sharp knife designed to hack through dense or tough vegetation.",
     "parts": {
-      "blade": ["mod_serrated_blade"]
-    }
+      "blade": [
+        "mod_serrated_blade"
+      ]
+    },
+    "longDescription": "A long, sharp knife designed to hack through dense or tough vegetation. The same properties that make it a useful tool also make it an effective weapon. While some machetes were purpose-made blades, others are makeshift tools made from sharpened metal."
   },
   {
     "id": "ripper",
@@ -751,7 +1382,9 @@
     "weaponType": "melee_weapons",
     "skillId": "melee_weapons",
     "damage": "4DC",
-    "damageEffects": ["Vicious"],
+    "damageEffects": [
+      "Vicious"
+    ],
     "damageType": "Physical",
     "fireRate": null,
     "range": null,
@@ -762,8 +1395,12 @@
     "rarity": 2,
     "description": "The Ripper is a small, handheld, militarized chainsaw that saw extensive use in the armed conflicts before the Great War.",
     "parts": {
-      "blade": ["mod_curved_blade", "mod_extended_blade"]
-    }
+      "blade": [
+        "mod_curved_blade",
+        "mod_extended_blade"
+      ]
+    },
+    "longDescription": "The Ripper is a small, handheld, militarized chainsaw that saw extensive use in the armed conflicts before the Great War, with a commercial-grade, scaled-down version made available for the general market. It can saw through both flesh and metal alike with ease."
   },
   {
     "id": "shishkebab",
@@ -771,19 +1408,26 @@
     "weaponType": "melee_weapons",
     "skillId": "melee_weapons",
     "damage": "5DC",
-    "damageEffects": ["Piercing 1"],
+    "damageEffects": [
+      "Piercing 1"
+    ],
     "damageType": "Energy",
     "fireRate": null,
     "range": null,
-    "qualities": ["Parry"],
+    "qualities": [
+      "Parry"
+    ],
     "ammo": null,
     "weight": 3,
     "cost": 200,
     "rarity": 3,
     "description": "A makeshift \"flaming sword\", the Shishkebab is found in various forms across the wastelands.",
     "parts": {
-      "blade": ["mod_extra_flame_jets"]
-    }
+      "blade": [
+        "mod_extra_flame_jets"
+      ]
+    },
+    "longDescription": "A makeshift \"flaming sword\", the Shishkebab is found in various forms across the wastelands. They all have a few common elements: some form of fuel tank, a pilot light, and a triggering mechanism. During use, fuel is released along the blade and ignited, wreathing the blade in flames."
   },
   {
     "id": "switchblade",
@@ -791,19 +1435,26 @@
     "weaponType": "melee_weapons",
     "skillId": "melee_weapons",
     "damage": "2DC",
-    "damageEffects": ["Piercing 1"],
+    "damageEffects": [
+      "Piercing 1"
+    ],
     "damageType": "Physical",
     "fireRate": null,
     "range": null,
-    "qualities": ["Concealed"],
+    "qualities": [
+      "Concealed"
+    ],
     "ammo": null,
     "weight": 1,
     "cost": 20,
     "rarity": 0,
     "description": "The switchblade is a commonly found melee weapon. Its small size means that it is easily smuggled into restricted areas.",
     "parts": {
-      "blade": ["mod_serrated_blade"]
-    }
+      "blade": [
+        "mod_serrated_blade"
+      ]
+    },
+    "longDescription": "The switchblade is a commonly found melee weapon. Its small size means that it is easily smuggled into restricted areas and is easy to handle. It doesn't do as much damage as larger knives or blades, however."
   },
   {
     "id": "baseball_bat",
@@ -815,15 +1466,24 @@
     "damageType": "Physical",
     "fireRate": null,
     "range": null,
-    "qualities": ["Two-Handed"],
+    "qualities": [
+      "Two-Handed"
+    ],
     "ammo": null,
     "weight": 3,
     "cost": 25,
     "rarity": 1,
     "description": "Baseball bats were once used in the sport of baseball, considered America's number-one pastime during the pre-War era.",
     "parts": {
-      "head": ["mod_barbed", "mod_spiked", "mod_sharp", "mod_chain_wrapped", "mod_bladed"]
-    }
+      "head": [
+        "mod_barbed",
+        "mod_spiked",
+        "mod_sharp",
+        "mod_chain_wrapped",
+        "mod_bladed"
+      ]
+    },
+    "longDescription": "Baseball bats were once used in the sport of baseball, considered America's number-one pastime during the pre-War era. Two hundred years later, they have been re-purposed as crude but effective melee weapons."
   },
   {
     "id": "aluminum_baseball_bat",
@@ -835,15 +1495,24 @@
     "damageType": "Physical",
     "fireRate": null,
     "range": null,
-    "qualities": ["Two-Handed"],
+    "qualities": [
+      "Two-Handed"
+    ],
     "ammo": null,
     "weight": 2,
     "cost": 32,
     "rarity": 2,
     "description": "A lighter, harder variant of the traditional wooden baseball bat, made of aluminum instead.",
     "parts": {
-      "head": ["mod_barbed", "mod_spiked", "mod_sharp", "mod_chain_wrapped", "mod_bladed"]
-    }
+      "head": [
+        "mod_barbed",
+        "mod_spiked",
+        "mod_sharp",
+        "mod_chain_wrapped",
+        "mod_bladed"
+      ]
+    },
+    "longDescription": "A lighter, harder variant of the traditional wooden baseball bat, made of aluminum instead. These provide better performance than their wooden counterparts and are prized by wasteland sports enthusiasts and brawlers alike."
   },
   {
     "id": "board",
@@ -855,15 +1524,22 @@
     "damageType": "Physical",
     "fireRate": null,
     "range": null,
-    "qualities": ["Two-Handed"],
+    "qualities": [
+      "Two-Handed"
+    ],
     "ammo": null,
     "weight": 3,
     "cost": 20,
     "rarity": 0,
     "description": "Little more than a long plank of wood with a handle wrapped in duct tape.",
     "parts": {
-      "head": ["mod_spiked", "mod_puncturing", "mod_bladed"]
-    }
+      "head": [
+        "mod_spiked",
+        "mod_puncturing",
+        "mod_bladed"
+      ]
+    },
+    "longDescription": "Little more than a long plank of wood with a handle wrapped in duct tape. Boards are heavy melee weapons, normally favored by super mutants who have the strength to wield them effectively."
   },
   {
     "id": "lead_pipe",
@@ -882,8 +1558,12 @@
     "rarity": 0,
     "description": "A length of heavy, metal (normally lead) pipe, with a duct-tape wrapped grip at one end.",
     "parts": {
-      "head": ["mod_spiked", "mod_heavy"]
-    }
+      "head": [
+        "mod_spiked",
+        "mod_heavy"
+      ]
+    },
+    "longDescription": "A length of heavy, metal (normally lead) pipe, with a duct-tape wrapped grip at one end and a few nuts and bolts attached at the other. Crude, simple, and hurts like hell."
   },
   {
     "id": "pipe_wrench",
@@ -902,8 +1582,14 @@
     "rarity": 1,
     "description": "A heavy, metal, adjustable wrench, long enough to be used as a makeshift melee weapon.",
     "parts": {
-      "head": ["mod_hooked", "mod_heavy", "mod_puncturing", "mod_extra_heavy"]
-    }
+      "head": [
+        "mod_hooked",
+        "mod_heavy",
+        "mod_puncturing",
+        "mod_extra_heavy"
+      ]
+    },
+    "longDescription": "A heavy, metal, adjustable wrench, long enough to be used as a makeshift melee weapon. The adjustable jaws are often used to hold attachments, allowing the wrench to be modified extremely easily."
   },
   {
     "id": "pool_cue",
@@ -915,15 +1601,21 @@
     "damageType": "Physical",
     "fireRate": null,
     "range": null,
-    "qualities": ["Two-Handed"],
+    "qualities": [
+      "Two-Handed"
+    ],
     "ammo": null,
     "weight": 1,
     "cost": 10,
     "rarity": 0,
     "description": "A long, slender piece of wood used in games like pool.",
     "parts": {
-      "head": ["mod_barbed", "mod_sharp"]
-    }
+      "head": [
+        "mod_barbed",
+        "mod_sharp"
+      ]
+    },
+    "longDescription": "A long, slender piece of wood used in games like pool. Useful as a melee weapon if there's nothing to hand with more heft. Surprisingly effective in the right hands, and easily found in bars and recreational areas."
   },
   {
     "id": "rolling_pin",
@@ -942,8 +1634,12 @@
     "rarity": 0,
     "description": "A sturdy cylinder of wood found in kitchens everywhere.",
     "parts": {
-      "head": ["mod_spiked", "mod_sharp"]
-    }
+      "head": [
+        "mod_spiked",
+        "mod_sharp"
+      ]
+    },
+    "longDescription": "A sturdy cylinder of wood found in kitchens everywhere. Heavy enough to deter an assortment of attackers if you haven't got something more dangerous. A classic improvised weapon."
   },
   {
     "id": "baton",
@@ -962,8 +1658,12 @@
     "rarity": 1,
     "description": "A collapsible baton of the sort used by police departments and private security forces before the Great War.",
     "parts": {
-      "head": ["mod_electrified", "mod_stun_pack"]
-    }
+      "head": [
+        "mod_electrified",
+        "mod_stun_pack"
+      ]
+    },
+    "longDescription": "A collapsible baton of the sort used by police departments and private security forces before the Great War. Vault-Tec security within each vault had a stock of these, so they remain in common use as a lightweight back-up melee weapon."
   },
   {
     "id": "sledgehammer",
@@ -975,15 +1675,21 @@
     "damageType": "Physical",
     "fireRate": null,
     "range": null,
-    "qualities": ["Two-Handed"],
+    "qualities": [
+      "Two-Handed"
+    ],
     "ammo": null,
     "weight": 12,
     "cost": 40,
     "rarity": 2,
     "description": "Sledgehammers are primitive weapons, used as tools before the Great War, for breaking ground or demolishing things.",
     "parts": {
-      "head": ["mod_puncturing", "mod_heavy"]
-    }
+      "head": [
+        "mod_puncturing",
+        "mod_heavy"
+      ]
+    },
+    "longDescription": "Sledgehammers are primitive weapons, used as tools before the Great War, for breaking ground or demolishing things. A strong person—or a super mutant—can wield one like a club, taking full advantage of the hammer's weight."
   },
   {
     "id": "super_sledge",
@@ -991,19 +1697,27 @@
     "weaponType": "melee_weapons",
     "skillId": "melee_weapons",
     "damage": "6DC",
-    "damageEffects": ["Breaking"],
+    "damageEffects": [
+      "Breaking"
+    ],
     "damageType": "Physical",
     "fireRate": null,
     "range": null,
-    "qualities": ["Two-Handed"],
+    "qualities": [
+      "Two-Handed"
+    ],
     "ammo": null,
     "weight": 20,
     "cost": 180,
     "rarity": 3,
     "description": "Super Sledgehammers are powered variants of the regular sledgehammer.",
     "parts": {
-      "head": ["mod_heating_coil", "mod_stun_pack"]
-    }
+      "head": [
+        "mod_heating_coil",
+        "mod_stun_pack"
+      ]
+    },
+    "longDescription": "Super Sledgehammers are powered variants of the regular sledgehammer. Older, pre-War designs were outfitted with kinetic storage devices to increase the impact force, while post-War ones mount a small rocket motor within the hammer's head to accelerate the swing."
   },
   {
     "id": "tire_iron",
@@ -1022,8 +1736,11 @@
     "rarity": 1,
     "description": "A simple L-shaped tool found commonly in cars and garages.",
     "parts": {
-      "head": ["mod_bladed"]
-    }
+      "head": [
+        "mod_bladed"
+      ]
+    },
+    "longDescription": "A simple L-shaped tool found commonly in cars and garages. Tire irons make for handy weapons when not being used to change the tires on a car. Commonly found in vehicles and workshops throughout the wasteland."
   },
   {
     "id": "walking_cane",
@@ -1042,8 +1759,12 @@
     "rarity": 0,
     "description": "A simple stick used to support those who can't walk so well.",
     "parts": {
-      "head": ["mod_barbed", "mod_spiked"]
-    }
+      "head": [
+        "mod_barbed",
+        "mod_spiked"
+      ]
+    },
+    "longDescription": "A simple stick used to support those who can't walk so well. A walking cane is sturdy enough to be an impromptu weapon if you've not got any other options. Often hides a blade for those who prefer discretion."
   },
   {
     "id": "boxing_glove",
@@ -1051,7 +1772,9 @@
     "weaponType": "unarmed",
     "skillId": "unarmed",
     "damage": "3DC",
-    "damageEffects": ["Stun"],
+    "damageEffects": [
+      "Stun"
+    ],
     "damageType": "Physical",
     "fireRate": null,
     "range": null,
@@ -1062,8 +1785,13 @@
     "rarity": 1,
     "description": "A large, leather mitt, used to protect the hands and wrists while punching.",
     "parts": {
-      "knuckle": ["mod_spiked", "mod_puncturing", "mod_lead_lining"]
-    }
+      "knuckle": [
+        "mod_spiked",
+        "mod_puncturing",
+        "mod_lead_lining"
+      ]
+    },
+    "longDescription": "A large, leather mitt, used to protect the hands and wrists while punching. While originally used during sporting matches, a skilled fighter can use these to deliver solid blows to enemies in less organized fights."
   },
   {
     "id": "deathclaw_gauntlet",
@@ -1071,7 +1799,9 @@
     "weaponType": "unarmed",
     "skillId": "unarmed",
     "damage": "5DC",
-    "damageEffects": ["Piercing 1"],
+    "damageEffects": [
+      "Piercing 1"
+    ],
     "damageType": "Physical",
     "fireRate": null,
     "range": null,
@@ -1082,8 +1812,11 @@
     "rarity": 3,
     "description": "Made from the severed fingers and talons of a deathclaw and mounted on a cuff which fits over the wrist.",
     "parts": {
-      "claw": ["mod_extra_claw"]
-    }
+      "claw": [
+        "mod_extra_claw"
+      ]
+    },
+    "longDescription": "Made from the severed fingers and talons of a deathclaw and mounted on a cuff which fits over the wrist, these allow the wearer to strike with some of the lethal force of the claws' previous owner. A fearsome weapon by any standard."
   },
   {
     "id": "knuckles",
@@ -1095,15 +1828,23 @@
     "damageType": "Physical",
     "fireRate": null,
     "range": null,
-    "qualities": ["Concealed"],
+    "qualities": [
+      "Concealed"
+    ],
     "ammo": null,
     "weight": 0.5,
     "cost": 10,
     "rarity": 1,
     "description": "Developed in antiquity, this weapon is nevertheless quite prevalent in the post-Great War wastelands.",
     "parts": {
-      "knuckle": ["mod_sharp", "mod_spiked", "mod_puncturing", "mod_bladed"]
-    }
+      "knuckle": [
+        "mod_sharp",
+        "mod_spiked",
+        "mod_puncturing",
+        "mod_bladed"
+      ]
+    },
+    "longDescription": "Developed in antiquity, this weapon is nevertheless quite prevalent in the post-Great War wastelands. Brass Knuckles take the form of four linked metal rings in a shallow convex formation, drastically increasing the force of a punch."
   },
   {
     "id": "power_fist",
@@ -1111,7 +1852,9 @@
     "weaponType": "unarmed",
     "skillId": "unarmed",
     "damage": "4DC",
-    "damageEffects": ["Stun"],
+    "damageEffects": [
+      "Stun"
+    ],
     "damageType": "Physical",
     "fireRate": null,
     "range": null,
@@ -1122,8 +1865,12 @@
     "rarity": 2,
     "description": "A Power Fist is a reinforced gauntlet or vambrace which mounts a heavy-duty pneumatic ram over the knuckles.",
     "parts": {
-      "knuckle": ["mod_puncturing", "mod_heating_coil"]
-    }
+      "knuckle": [
+        "mod_puncturing",
+        "mod_heating_coil"
+      ]
+    },
+    "longDescription": "A Power Fist is a reinforced gauntlet or vambrace which mounts a heavy-duty pneumatic ram over the knuckles. Designed for use by demolition crews, it has also seen military use for breaching fortifications and clearing enemy barricades… and enemies."
   },
   {
     "id": "throwing_knives",
@@ -1131,16 +1878,23 @@
     "weaponType": "throwing",
     "skillId": "throwing",
     "damage": "3DC",
-    "damageEffects": ["Piercing 1"],
+    "damageEffects": [
+      "Piercing 1"
+    ],
     "damageType": "Physical",
     "fireRate": null,
     "range": null,
-    "qualities": ["Concealed", "Suppressed", "Thrown (C)"],
+    "qualities": [
+      "Concealed",
+      "Suppressed",
+      "Thrown (C)"
+    ],
     "ammo": null,
     "weight": 0.5,
     "cost": 10,
     "rarity": 1,
-    "description": "A small, sharp knife, specially balanced for throwing."
+    "description": "A small, sharp knife, specially balanced for throwing.",
+    "longDescription": "A small, sharp knife, specially balanced for throwing. Normally made of a lightweight metal, with the grip hollowed out to reduce weight. They do little damage by themselves, but are light, quiet, and quick to handle."
   },
   {
     "id": "tomahawk",
@@ -1148,16 +1902,22 @@
     "weaponType": "throwing",
     "skillId": "throwing",
     "damage": "4DC",
-    "damageEffects": ["Piercing 1"],
+    "damageEffects": [
+      "Piercing 1"
+    ],
     "damageType": "Physical",
     "fireRate": null,
     "range": null,
-    "qualities": ["Suppressed", "Thrown (C)"],
+    "qualities": [
+      "Suppressed",
+      "Thrown (C)"
+    ],
     "ammo": null,
     "weight": 0.5,
     "cost": 15,
     "rarity": 2,
-    "description": "A small, short-handled axe, akin to a small hatchet."
+    "description": "A small, short-handled axe, akin to a small hatchet.",
+    "longDescription": "A small, short-handled axe, akin to a small hatchet. Less subtle than a throwing knife, a hurled tomahawk can certainly make an impression in an enemy. Useful both as a tool and as a weapon."
   },
   {
     "id": "javelin",
@@ -1165,16 +1925,22 @@
     "weaponType": "throwing",
     "skillId": "throwing",
     "damage": "4DC",
-    "damageEffects": ["Piercing 1"],
+    "damageEffects": [
+      "Piercing 1"
+    ],
     "damageType": "Physical",
     "fireRate": null,
     "range": null,
-    "qualities": ["Suppressed", "Thrown (M)"],
+    "qualities": [
+      "Suppressed",
+      "Thrown (M)"
+    ],
     "ammo": null,
     "weight": 4,
     "cost": 10,
     "rarity": 1,
-    "description": "A short spear, not typically sturdy enough for close-in fighting, a javelin can be thrown a considerable distance."
+    "description": "A short spear, not typically sturdy enough for close-in fighting, a javelin can be thrown a considerable distance.",
+    "longDescription": "A short spear, not typically sturdy enough for close-in fighting, a javelin can be thrown a considerable distance. Designed to be thrown rather than used in melee, javelins rely on their momentum to penetrate targets."
   },
   {
     "id": "baseball_grenade",
@@ -1186,12 +1952,16 @@
     "damageType": "Physical",
     "fireRate": null,
     "range": null,
-    "qualities": ["Blast", "Thrown (M)"],
+    "qualities": [
+      "Blast",
+      "Thrown (M)"
+    ],
     "ammo": null,
     "weight": 1,
     "cost": 40,
     "rarity": 1,
-    "description": "Little more than a hollowed-out baseball filled with an improvised explosive mixture."
+    "description": "Little more than a hollowed-out baseball filled with an improvised explosive mixture.",
+    "longDescription": "Little more than a hollowed-out baseball filled with an improvised explosive mixture, these grenades are crude, low-tech, and easy to make, dealing a moderate amount of damage to those within the blast."
   },
   {
     "id": "frag_grenade",
@@ -1203,12 +1973,16 @@
     "damageType": "Physical",
     "fireRate": null,
     "range": null,
-    "qualities": ["Blast", "Thrown (M)"],
+    "qualities": [
+      "Blast",
+      "Thrown (M)"
+    ],
     "ammo": null,
     "weight": 0.5,
     "cost": 50,
     "rarity": 2,
-    "description": "A basic fragmentation grenade, consisting of an explosive core within a metal casing designed to shatter into shrapnel."
+    "description": "A basic fragmentation grenade, consisting of an explosive core within a metal casing designed to shatter into shrapnel.",
+    "longDescription": "A basic fragmentation grenade, consisting of an explosive core within a metal casing designed to shatter into shrapnel upon detonation. They're simple and highly effective. Just remember to throw the grenade, and not the pin."
   },
   {
     "id": "molotov_cocktail",
@@ -1216,16 +1990,22 @@
     "weaponType": "explosives",
     "skillId": "explosives",
     "damage": "4DC",
-    "damageEffects": ["Persistent"],
+    "damageEffects": [
+      "Persistent"
+    ],
     "damageType": "Energy",
     "fireRate": null,
     "range": null,
-    "qualities": ["Blast", "Thrown (M)"],
+    "qualities": [
+      "Blast",
+      "Thrown (M)"
+    ],
     "ammo": null,
     "weight": 1,
     "cost": 20,
     "rarity": 1,
-    "description": "Consisting of a glass bottle containing a flammable fuel mixture, a bit of motor oil to help it spread, and an alcohol-soaked rag."
+    "description": "Consisting of a glass bottle containing a flammable fuel mixture, a bit of motor oil to help it spread, and an alcohol-soaked rag.",
+    "longDescription": "Consisting of a glass bottle containing a flammable fuel mixture, a bit of motor oil to help it spread, and an alcohol-soaked rag stuffed in the top to act as a wick. Cheap and effective."
   },
   {
     "id": "nuka_grenade",
@@ -1233,16 +2013,24 @@
     "weaponType": "explosives",
     "skillId": "explosives",
     "damage": "9DC",
-    "damageEffects": ["Breaking", "Radioactive", "Vicious"],
+    "damageEffects": [
+      "Breaking",
+      "Radioactive",
+      "Vicious"
+    ],
     "damageType": "Energy",
     "fireRate": null,
     "range": null,
-    "qualities": ["Blast", "Thrown (M)"],
+    "qualities": [
+      "Blast",
+      "Thrown (M)"
+    ],
     "ammo": null,
     "weight": 1,
     "cost": 100,
     "rarity": 4,
-    "description": "A tiny, handheld tactical nuclear weapon, a Nuka-grenade is extremely dangerous to use but devastatingly effective."
+    "description": "A tiny, handheld tactical nuclear weapon, a Nuka-grenade is extremely dangerous to use but devastatingly effective.",
+    "longDescription": "A tiny, handheld tactical nuclear weapon, a Nuka-grenade is extremely dangerous to use—dropping one is ill-advised—but devastatingly effective, comparable to the mini-nukes used by the Fat Man launcher."
   },
   {
     "id": "plasma_grenade",
@@ -1254,12 +2042,16 @@
     "damageType": "Energy",
     "fireRate": null,
     "range": null,
-    "qualities": ["Blast", "Thrown (M)"],
+    "qualities": [
+      "Blast",
+      "Thrown (M)"
+    ],
     "ammo": null,
     "weight": 0.5,
     "cost": 135,
     "rarity": 3,
-    "description": "A canister containing chemicals which are rapidly transformed into superheated ionized gas—or plasma—upon detonation."
+    "description": "A canister containing chemicals which are rapidly transformed into superheated ionized gas—or plasma—upon detonation.",
+    "longDescription": "A canister containing chemicals which are rapidly transformed into superheated ionized gas—or plasma—upon detonation. The blast generates vast amounts of heat which more than makes up for the lack of shrapnel or concussive shockwaves."
   },
   {
     "id": "pulse_grenade",
@@ -1267,16 +2059,22 @@
     "weaponType": "explosives",
     "skillId": "explosives",
     "damage": "6DC",
-    "damageEffects": ["Stun"],
+    "damageEffects": [
+      "Stun"
+    ],
     "damageType": "Energy",
     "fireRate": null,
     "range": null,
-    "qualities": ["Blast", "Thrown (M)"],
+    "qualities": [
+      "Blast",
+      "Thrown (M)"
+    ],
     "ammo": null,
     "weight": 0.5,
     "cost": 100,
     "rarity": 3,
-    "description": "Pulse grenades emit a burst of electromagnetism which inflicts massive damage to machines."
+    "description": "Pulse grenades emit a burst of electromagnetism which inflicts massive damage to machines.",
+    "longDescription": "Pulse grenades emit a burst of electromagnetism which inflicts massive damage to machines—such as robots, synths, and Power Armor—within the vicinity, while leaving living creatures unharmed."
   },
   {
     "id": "bottlecap_mine",
@@ -1288,12 +2086,16 @@
     "damageType": "Physical",
     "fireRate": null,
     "range": null,
-    "qualities": ["Blast", "Mine"],
+    "qualities": [
+      "Blast",
+      "Mine"
+    ],
     "ammo": null,
     "weight": 1,
     "cost": 75,
     "rarity": 2,
-    "description": "The Bottlecap mine is crudely put together, yet a formidable explosive."
+    "description": "The Bottlecap mine is crudely put together, yet a formidable explosive.",
+    "longDescription": "The Bottlecap mine is crudely put together, yet a formidable explosive. Constructed from a simple container such as a lunchbox, filled with bottle caps and a crude explosive mixture, and fitted with a sensor and a detonator."
   },
   {
     "id": "frag_mine",
@@ -1305,12 +2107,16 @@
     "damageType": "Physical",
     "fireRate": null,
     "range": null,
-    "qualities": ["Blast", "Mine"],
+    "qualities": [
+      "Blast",
+      "Mine"
+    ],
     "ammo": null,
     "weight": 1,
     "cost": 50,
     "rarity": 2,
-    "description": "Similar in design and construction to a frag grenade, a fragmentation mine is instead placed on the ground."
+    "description": "Similar in design and construction to a frag grenade, a fragmentation mine is instead placed on the ground.",
+    "longDescription": "Similar in design and construction to a frag grenade, a fragmentation mine is instead placed on the ground and uses a pressure plate or proximity sensor to trigger detonation when someone gets too close."
   },
   {
     "id": "nuke_mine",
@@ -1318,16 +2124,24 @@
     "weaponType": "explosives",
     "skillId": "explosives",
     "damage": "9DC",
-    "damageEffects": ["Breaking", "Radioactive", "Vicious"],
+    "damageEffects": [
+      "Breaking",
+      "Radioactive",
+      "Vicious"
+    ],
     "damageType": "Energy",
     "fireRate": null,
     "range": null,
-    "qualities": ["Blast", "Mine"],
+    "qualities": [
+      "Blast",
+      "Mine"
+    ],
     "ammo": null,
     "weight": 1,
     "cost": 100,
     "rarity": 4,
-    "description": "A Nuka-grenade with a mine trigger attached. Extremely dangerous, but devastatingly effective."
+    "description": "A Nuka-grenade with a mine trigger attached. Extremely dangerous, but devastatingly effective.",
+    "longDescription": "A nuclear variant of a landmine. The Nuke mine operates in all respects as other mines do although its explosion is more akin to that of a mini-nuke, inflicting damage from both the explosion and the radiation the blast emits."
   },
   {
     "id": "plasma_mine",
@@ -1339,12 +2153,16 @@
     "damageType": "Energy",
     "fireRate": null,
     "range": null,
-    "qualities": ["Blast", "Mine"],
+    "qualities": [
+      "Blast",
+      "Mine"
+    ],
     "ammo": null,
     "weight": 0.5,
     "cost": 135,
     "rarity": 3,
-    "description": "A plasma grenade with a mine trigger attached."
+    "description": "A plasma grenade with a mine trigger attached.",
+    "longDescription": "These magnetically sealed mines unleash a blast of energized plasma upon being triggered, searing those who tripped the mine's sensors. They inflict both physical and energy damage on detonation."
   },
   {
     "id": "pulse_mine",
@@ -1352,15 +2170,21 @@
     "weaponType": "explosives",
     "skillId": "explosives",
     "damage": "6DC",
-    "damageEffects": ["Stun"],
+    "damageEffects": [
+      "Stun"
+    ],
     "damageType": "Energy",
     "fireRate": null,
     "range": null,
-    "qualities": ["Blast", "Mine"],
+    "qualities": [
+      "Blast",
+      "Mine"
+    ],
     "ammo": null,
     "weight": 0.5,
     "cost": 100,
     "rarity": 3,
-    "description": "A pulse grenade with a mine trigger attached."
+    "description": "A pulse grenade with a mine trigger attached.",
+    "longDescription": "The mine consists of a powerful EMP device wired to a proximity fuse and then secured inside a heavy metal casing. While only mildly harmful to organic targets, these mines deal severe damage to robotic enemies."
   }
 ]

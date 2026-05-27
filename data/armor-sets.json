@@ -1,23 +1,330 @@
 [
-  {"id":"set_raider_standard","name":"Raider Armor (Standard)","armorClass":"raider","variant":"standard","pieces":["raider_chest_piece","raider_leg","raider_arm"],"totalWeight":13,"totalCost":32},
-  {"id":"set_raider_sturdy","name":"Raider Armor (Sturdy)","armorClass":"raider","variant":"sturdy","pieces":["sturdy_raider_chest_piece","sturdy_raider_leg","sturdy_raider_arm"],"totalWeight":26,"totalCost":54},
-  {"id":"set_raider_heavy","name":"Raider Armor (Heavy)","armorClass":"raider","variant":"heavy","pieces":["heavy_raider_chest_piece","heavy_raider_leg","heavy_raider_arm"],"totalWeight":37,"totalCost":81},
-  {"id":"set_leather_standard","name":"Leather Armor (Standard)","armorClass":"leather","variant":"standard","pieces":["leather_chest_piece","leather_leg","leather_arm"],"totalWeight":9,"totalCost":43},
-  {"id":"set_leather_sturdy","name":"Leather Armor (Sturdy)","armorClass":"leather","variant":"sturdy","pieces":["sturdy_leather_chest_piece","sturdy_leather_leg","sturdy_leather_arm"],"totalWeight":20,"totalCost":88},
-  {"id":"set_leather_heavy","name":"Leather Armor (Heavy)","armorClass":"leather","variant":"heavy","pieces":["heavy_leather_chest_piece","heavy_leather_leg","heavy_leather_arm"],"totalWeight":29,"totalCost":133},
-  {"id":"set_metal_standard","name":"Metal Armor (Standard)","armorClass":"metal","variant":"standard","pieces":["metal_helmet","metal_chest_piece","metal_leg","metal_arm"],"totalWeight":15,"totalCost":85},
-  {"id":"set_metal_sturdy","name":"Metal Armor (Sturdy)","armorClass":"metal","variant":"sturdy","pieces":["sturdy_metal_helmet","sturdy_metal_chest_piece","sturdy_metal_leg","sturdy_metal_arm"],"totalWeight":40,"totalCost":310},
-  {"id":"set_metal_heavy","name":"Metal Armor (Heavy)","armorClass":"metal","variant":"heavy","pieces":["heavy_metal_helmet","heavy_metal_chest_piece","heavy_metal_leg","heavy_metal_arm"],"totalWeight":59,"totalCost":535},
-  {"id":"set_combat_standard","name":"Combat Armor (Standard)","armorClass":"combat","variant":"standard","pieces":["combat_helmet","combat_chest_piece","combat_leg","combat_arm"],"totalWeight":16,"totalCost":135},
-  {"id":"set_combat_sturdy","name":"Combat Armor (Sturdy)","armorClass":"combat","variant":"sturdy","pieces":["sturdy_combat_helmet","sturdy_combat_chest_piece","sturdy_combat_leg","sturdy_combat_arm"],"totalWeight":27,"totalCost":455},
-  {"id":"set_combat_heavy","name":"Combat Armor (Heavy)","armorClass":"combat","variant":"heavy","pieces":["heavy_combat_helmet","heavy_combat_chest_piece","heavy_combat_leg","heavy_combat_arm"],"totalWeight":37,"totalCost":735},
-  {"id":"set_synth_standard","name":"Synth Armor (Standard)","armorClass":"synth","variant":"standard","pieces":["synth_helmet","synth_chest_piece","synth_leg","synth_arm"],"totalWeight":16,"totalCost":168},
-  {"id":"set_synth_sturdy","name":"Synth Armor (Sturdy)","armorClass":"synth","variant":"sturdy","pieces":["sturdy_synth_helmet","sturdy_synth_chest_piece","sturdy_synth_leg","sturdy_synth_arm"],"totalWeight":33,"totalCost":345},
-  {"id":"set_synth_heavy","name":"Synth Armor (Heavy)","armorClass":"synth","variant":"heavy","pieces":["heavy_synth_helmet","heavy_synth_chest_piece","heavy_synth_leg","heavy_synth_arm"],"totalWeight":47,"totalCost":525},
-  {"id":"set_vault_tec_security","name":"Vault-Tec Security Armor","armorClass":"vault_tec_security","variant":"standard","pieces":["vault_tec_security_helmet","vault_tec_security_armor"],"totalWeight":10,"totalCost":36},
-  {"id":"set_raider_pa","name":"Raider Power Armor (Full)","armorClass":"raider_pa","variant":"standard","pieces":["raider_pa_helm","raider_pa_chest_piece","raider_pa_arm","raider_pa_leg"],"totalWeight":69,"totalCost":300},
-  {"id":"set_t45_pa","name":"T-45 Power Armor (Full)","armorClass":"t45_pa","variant":"standard","pieces":["t45_helm","t45_chest_piece","t45_arm","t45_leg"],"totalWeight":62,"totalCost":430},
-  {"id":"set_t51_pa","name":"T-51 Power Armor (Full)","armorClass":"t51_pa","variant":"standard","pieces":["t51_helm","t51_chest_piece","t51_arm","t51_leg"],"totalWeight":62,"totalCost":400},
-  {"id":"set_t60_pa","name":"T-60 Power Armor (Full)","armorClass":"t60_pa","variant":"standard","pieces":["t60_helm","t60_chest_piece","t60_arm","t60_leg"],"totalWeight":62,"totalCost":720},
-  {"id":"set_x01_pa","name":"X-01 Power Armor (Full)","armorClass":"x01_pa","variant":"standard","pieces":["x01_helm","x01_chest_piece","x01_arm","x01_leg"],"totalWeight":62,"totalCost":820}
+  {
+    "id": "set_raider_standard",
+    "name": "Raider Armor (Standard)",
+    "armorClass": "raider",
+    "variant": "standard",
+    "pieces": [
+      "raider_chest_piece",
+      "raider_leg",
+      "raider_arm"
+    ],
+    "totalWeight": 13,
+    "totalCost": 32,
+    "description": "A complete set of Raider Armor (Standard) consisting of 3 pieces.",
+    "longDescription": "A full set of raider armor in the standard variant. This set consists of 3 armor pieces with a total weight of 13 lbs and a total cost of 32 caps."
+  },
+  {
+    "id": "set_raider_sturdy",
+    "name": "Raider Armor (Sturdy)",
+    "armorClass": "raider",
+    "variant": "sturdy",
+    "pieces": [
+      "sturdy_raider_chest_piece",
+      "sturdy_raider_leg",
+      "sturdy_raider_arm"
+    ],
+    "totalWeight": 26,
+    "totalCost": 54,
+    "description": "A complete set of Raider Armor (Sturdy) consisting of 3 pieces.",
+    "longDescription": "A full set of raider armor in a sturdier, more protective variant. This set consists of 3 armor pieces with a total weight of 26 lbs and a total cost of 54 caps."
+  },
+  {
+    "id": "set_raider_heavy",
+    "name": "Raider Armor (Heavy)",
+    "armorClass": "raider",
+    "variant": "heavy",
+    "pieces": [
+      "heavy_raider_chest_piece",
+      "heavy_raider_leg",
+      "heavy_raider_arm"
+    ],
+    "totalWeight": 37,
+    "totalCost": 81,
+    "description": "A complete set of Raider Armor (Heavy) consisting of 3 pieces.",
+    "longDescription": "A full set of raider armor in the heavy, maximum protection variant. This set consists of 3 armor pieces with a total weight of 37 lbs and a total cost of 81 caps."
+  },
+  {
+    "id": "set_leather_standard",
+    "name": "Leather Armor (Standard)",
+    "armorClass": "leather",
+    "variant": "standard",
+    "pieces": [
+      "leather_chest_piece",
+      "leather_leg",
+      "leather_arm"
+    ],
+    "totalWeight": 9,
+    "totalCost": 43,
+    "description": "A complete set of Leather Armor (Standard) consisting of 3 pieces.",
+    "longDescription": "A full set of leather armor in the standard variant. This set consists of 3 armor pieces with a total weight of 9 lbs and a total cost of 43 caps."
+  },
+  {
+    "id": "set_leather_sturdy",
+    "name": "Leather Armor (Sturdy)",
+    "armorClass": "leather",
+    "variant": "sturdy",
+    "pieces": [
+      "sturdy_leather_chest_piece",
+      "sturdy_leather_leg",
+      "sturdy_leather_arm"
+    ],
+    "totalWeight": 20,
+    "totalCost": 88,
+    "description": "A complete set of Leather Armor (Sturdy) consisting of 3 pieces.",
+    "longDescription": "A full set of leather armor in a sturdier, more protective variant. This set consists of 3 armor pieces with a total weight of 20 lbs and a total cost of 88 caps."
+  },
+  {
+    "id": "set_leather_heavy",
+    "name": "Leather Armor (Heavy)",
+    "armorClass": "leather",
+    "variant": "heavy",
+    "pieces": [
+      "heavy_leather_chest_piece",
+      "heavy_leather_leg",
+      "heavy_leather_arm"
+    ],
+    "totalWeight": 29,
+    "totalCost": 133,
+    "description": "A complete set of Leather Armor (Heavy) consisting of 3 pieces.",
+    "longDescription": "A full set of leather armor in the heavy, maximum protection variant. This set consists of 3 armor pieces with a total weight of 29 lbs and a total cost of 133 caps."
+  },
+  {
+    "id": "set_metal_standard",
+    "name": "Metal Armor (Standard)",
+    "armorClass": "metal",
+    "variant": "standard",
+    "pieces": [
+      "metal_helmet",
+      "metal_chest_piece",
+      "metal_leg",
+      "metal_arm"
+    ],
+    "totalWeight": 15,
+    "totalCost": 85,
+    "description": "A complete set of Metal Armor (Standard) consisting of 4 pieces.",
+    "longDescription": "A full set of metal armor in the standard variant. This set consists of 4 armor pieces with a total weight of 15 lbs and a total cost of 85 caps."
+  },
+  {
+    "id": "set_metal_sturdy",
+    "name": "Metal Armor (Sturdy)",
+    "armorClass": "metal",
+    "variant": "sturdy",
+    "pieces": [
+      "sturdy_metal_helmet",
+      "sturdy_metal_chest_piece",
+      "sturdy_metal_leg",
+      "sturdy_metal_arm"
+    ],
+    "totalWeight": 40,
+    "totalCost": 310,
+    "description": "A complete set of Metal Armor (Sturdy) consisting of 4 pieces.",
+    "longDescription": "A full set of metal armor in a sturdier, more protective variant. This set consists of 4 armor pieces with a total weight of 40 lbs and a total cost of 310 caps."
+  },
+  {
+    "id": "set_metal_heavy",
+    "name": "Metal Armor (Heavy)",
+    "armorClass": "metal",
+    "variant": "heavy",
+    "pieces": [
+      "heavy_metal_helmet",
+      "heavy_metal_chest_piece",
+      "heavy_metal_leg",
+      "heavy_metal_arm"
+    ],
+    "totalWeight": 59,
+    "totalCost": 535,
+    "description": "A complete set of Metal Armor (Heavy) consisting of 4 pieces.",
+    "longDescription": "A full set of metal armor in the heavy, maximum protection variant. This set consists of 4 armor pieces with a total weight of 59 lbs and a total cost of 535 caps."
+  },
+  {
+    "id": "set_combat_standard",
+    "name": "Combat Armor (Standard)",
+    "armorClass": "combat",
+    "variant": "standard",
+    "pieces": [
+      "combat_helmet",
+      "combat_chest_piece",
+      "combat_leg",
+      "combat_arm"
+    ],
+    "totalWeight": 16,
+    "totalCost": 135,
+    "description": "A complete set of Combat Armor (Standard) consisting of 4 pieces.",
+    "longDescription": "A full set of combat armor in the standard variant. This set consists of 4 armor pieces with a total weight of 16 lbs and a total cost of 135 caps."
+  },
+  {
+    "id": "set_combat_sturdy",
+    "name": "Combat Armor (Sturdy)",
+    "armorClass": "combat",
+    "variant": "sturdy",
+    "pieces": [
+      "sturdy_combat_helmet",
+      "sturdy_combat_chest_piece",
+      "sturdy_combat_leg",
+      "sturdy_combat_arm"
+    ],
+    "totalWeight": 27,
+    "totalCost": 455,
+    "description": "A complete set of Combat Armor (Sturdy) consisting of 4 pieces.",
+    "longDescription": "A full set of combat armor in a sturdier, more protective variant. This set consists of 4 armor pieces with a total weight of 27 lbs and a total cost of 455 caps."
+  },
+  {
+    "id": "set_combat_heavy",
+    "name": "Combat Armor (Heavy)",
+    "armorClass": "combat",
+    "variant": "heavy",
+    "pieces": [
+      "heavy_combat_helmet",
+      "heavy_combat_chest_piece",
+      "heavy_combat_leg",
+      "heavy_combat_arm"
+    ],
+    "totalWeight": 37,
+    "totalCost": 735,
+    "description": "A complete set of Combat Armor (Heavy) consisting of 4 pieces.",
+    "longDescription": "A full set of combat armor in the heavy, maximum protection variant. This set consists of 4 armor pieces with a total weight of 37 lbs and a total cost of 735 caps."
+  },
+  {
+    "id": "set_synth_standard",
+    "name": "Synth Armor (Standard)",
+    "armorClass": "synth",
+    "variant": "standard",
+    "pieces": [
+      "synth_helmet",
+      "synth_chest_piece",
+      "synth_leg",
+      "synth_arm"
+    ],
+    "totalWeight": 16,
+    "totalCost": 168,
+    "description": "A complete set of Synth Armor (Standard) consisting of 4 pieces.",
+    "longDescription": "A full set of synth armor in the standard variant. This set consists of 4 armor pieces with a total weight of 16 lbs and a total cost of 168 caps."
+  },
+  {
+    "id": "set_synth_sturdy",
+    "name": "Synth Armor (Sturdy)",
+    "armorClass": "synth",
+    "variant": "sturdy",
+    "pieces": [
+      "sturdy_synth_helmet",
+      "sturdy_synth_chest_piece",
+      "sturdy_synth_leg",
+      "sturdy_synth_arm"
+    ],
+    "totalWeight": 33,
+    "totalCost": 345,
+    "description": "A complete set of Synth Armor (Sturdy) consisting of 4 pieces.",
+    "longDescription": "A full set of synth armor in a sturdier, more protective variant. This set consists of 4 armor pieces with a total weight of 33 lbs and a total cost of 345 caps."
+  },
+  {
+    "id": "set_synth_heavy",
+    "name": "Synth Armor (Heavy)",
+    "armorClass": "synth",
+    "variant": "heavy",
+    "pieces": [
+      "heavy_synth_helmet",
+      "heavy_synth_chest_piece",
+      "heavy_synth_leg",
+      "heavy_synth_arm"
+    ],
+    "totalWeight": 47,
+    "totalCost": 525,
+    "description": "A complete set of Synth Armor (Heavy) consisting of 4 pieces.",
+    "longDescription": "A full set of synth armor in the heavy, maximum protection variant. This set consists of 4 armor pieces with a total weight of 47 lbs and a total cost of 525 caps."
+  },
+  {
+    "id": "set_vault_tec_security",
+    "name": "Vault-Tec Security Armor",
+    "armorClass": "vault_tec_security",
+    "variant": "standard",
+    "pieces": [
+      "vault_tec_security_helmet",
+      "vault_tec_security_armor"
+    ],
+    "totalWeight": 10,
+    "totalCost": 36,
+    "description": "A complete set of Vault-Tec Security Armor consisting of 2 pieces.",
+    "longDescription": "A full set of vault-tec security armor in the standard variant. This set consists of 2 armor pieces with a total weight of 10 lbs and a total cost of 36 caps."
+  },
+  {
+    "id": "set_raider_pa",
+    "name": "Raider Power Armor (Full)",
+    "armorClass": "raider_pa",
+    "variant": "standard",
+    "pieces": [
+      "raider_pa_helm",
+      "raider_pa_chest_piece",
+      "raider_pa_arm",
+      "raider_pa_leg"
+    ],
+    "totalWeight": 69,
+    "totalCost": 300,
+    "description": "A complete set of Raider Power Armor (Full) consisting of 4 pieces.",
+    "longDescription": "A full set of raider power armor in the standard variant. This set consists of 4 armor pieces with a total weight of 69 lbs and a total cost of 300 caps."
+  },
+  {
+    "id": "set_t45_pa",
+    "name": "T-45 Power Armor (Full)",
+    "armorClass": "t45_pa",
+    "variant": "standard",
+    "pieces": [
+      "t45_helm",
+      "t45_chest_piece",
+      "t45_arm",
+      "t45_leg"
+    ],
+    "totalWeight": 62,
+    "totalCost": 430,
+    "description": "A complete set of T-45 Power Armor (Full) consisting of 4 pieces.",
+    "longDescription": "A full set of t-45 power armor in the standard variant. This set consists of 4 armor pieces with a total weight of 62 lbs and a total cost of 430 caps."
+  },
+  {
+    "id": "set_t51_pa",
+    "name": "T-51 Power Armor (Full)",
+    "armorClass": "t51_pa",
+    "variant": "standard",
+    "pieces": [
+      "t51_helm",
+      "t51_chest_piece",
+      "t51_arm",
+      "t51_leg"
+    ],
+    "totalWeight": 62,
+    "totalCost": 400,
+    "description": "A complete set of T-51 Power Armor (Full) consisting of 4 pieces.",
+    "longDescription": "A full set of t-51 power armor in the standard variant. This set consists of 4 armor pieces with a total weight of 62 lbs and a total cost of 400 caps."
+  },
+  {
+    "id": "set_t60_pa",
+    "name": "T-60 Power Armor (Full)",
+    "armorClass": "t60_pa",
+    "variant": "standard",
+    "pieces": [
+      "t60_helm",
+      "t60_chest_piece",
+      "t60_arm",
+      "t60_leg"
+    ],
+    "totalWeight": 62,
+    "totalCost": 720,
+    "description": "A complete set of T-60 Power Armor (Full) consisting of 4 pieces.",
+    "longDescription": "A full set of t-60 power armor in the standard variant. This set consists of 4 armor pieces with a total weight of 62 lbs and a total cost of 720 caps."
+  },
+  {
+    "id": "set_x01_pa",
+    "name": "X-01 Power Armor (Full)",
+    "armorClass": "x01_pa",
+    "variant": "standard",
+    "pieces": [
+      "x01_helm",
+      "x01_chest_piece",
+      "x01_arm",
+      "x01_leg"
+    ],
+    "totalWeight": 62,
+    "totalCost": 820,
+    "description": "A complete set of X-01 Power Armor (Full) consisting of 4 pieces.",
+    "longDescription": "A full set of x-01 power armor in the standard variant. This set consists of 4 armor pieces with a total weight of 62 lbs and a total cost of 820 caps."
+  }
 ]

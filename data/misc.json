@@ -1,11 +1,92 @@
 [
-  {"id":"misc_backpack_large","name":"Backpack, Large","effects":"Wearer adds +10xSTR to maximum Carry weight","weight":"—","cost":60,"rarity":2},
-  {"id":"misc_backpack_small","name":"Backpack, Small","effects":"Wearer adds +5xSTR to maximum Carry weight","weight":"—","cost":30,"rarity":1},
-  {"id":"misc_bobby_pin","name":"Bobby Pin","effects":"Reduces difficulty of Lockpick tests by 1 (minimum 1), One bobby pin breaks per complication rolled","weight":"<1","cost":1,"rarity":0},
-  {"id":"misc_deluxe_toolkit","name":"Deluxe Toolkit","effects":"Reduce the difficulty of Repair tests by 1 (minimum 0), May attempt Repair tests which normally require a workbench or similar at +1 difficulty","weight":20,"cost":150,"rarity":3},
-  {"id":"misc_first_aid_kit","name":"First Aid Kit","effects":"Heal +2 HP upon succeeding at the First Aid action","weight":4,"cost":200,"rarity":2},
-  {"id":"misc_flashlight","name":"Flashlight","effects":"Generates bright light in a single zone within Medium range; the user may choose which zone is illuminated","weight":2,"cost":100,"rarity":3},
-  {"id":"misc_lock_pick_set","name":"Lock Pick Set","effects":"Reduces difficulty of Lockpick tests by 1 (minimum 0), After 3 complications, the set is broken","weight":2,"cost":150,"rarity":2},
-  {"id":"misc_multi_tool","name":"Multi-Tool","effects":"Reduce the difficulty of Repair tests by 1 (minimum 0)","weight":1,"cost":100,"rarity":2},
-  {"id":"misc_pip_boy","name":"Pip-Boy","effects":"A Personal Information Processor. Functions as compass, radio, Geiger counter, and flashlight. Allows use of V.A.T.S. ignoring the normal difficulty increase for targeting a specific location.","weight":"—","cost":"—","rarity":"—"}
+  {
+    "id": "misc_backpack_large",
+    "name": "Backpack, Large",
+    "description": "A large backpack that adds 10xSTR to maximum carry weight, allowing you to haul more equipment.",
+    "longDescription": "A large, sturdy backpack designed for carrying significant loads. The wearer adds 10xSTR to their maximum carry weight, making it essential for long expeditions into the wasteland where every piece of loot matters.",
+    "effects": "Wearer adds +10xSTR to maximum Carry weight",
+    "weight": "—",
+    "cost": 60,
+    "rarity": 2
+  },
+  {
+    "id": "misc_backpack_small",
+    "name": "Backpack, Small",
+    "description": "A small backpack that adds 5xSTR to maximum carry weight for extra storage.",
+    "longDescription": "A compact backpack useful for carrying extra supplies. The wearer adds 5xSTR to their maximum carry weight, providing a modest boost to carrying capacity without the bulk of a larger pack.",
+    "effects": "Wearer adds +5xSTR to maximum Carry weight",
+    "weight": "—",
+    "cost": 30,
+    "rarity": 1
+  },
+  {
+    "id": "misc_bobby_pin",
+    "name": "Bobby Pin",
+    "description": "A thin metal pin used for lockpicking. Reduces Lockpick difficulty but breaks on complications.",
+    "longDescription": "A small, thin piece of metal used by wastelanders to pick locks. Bobby pins reduce the difficulty of Lockpick tests by 1 (minimum 1), but one bobby pin breaks per complication rolled. An essential tool for any aspiring thief or scavenger.",
+    "effects": "Reduces difficulty of Lockpick tests by 1 (minimum 1), One bobby pin breaks per complication rolled",
+    "weight": "<1",
+    "cost": 1,
+    "rarity": 0
+  },
+  {
+    "id": "misc_deluxe_toolkit",
+    "name": "Deluxe Toolkit",
+    "description": "A comprehensive toolkit that reduces Repair test difficulty and allows workbench-level repairs on the go.",
+    "longDescription": "A high-quality toolkit containing a wide array of tools for repairing equipment and machinery. It reduces the difficulty of Repair tests by 1 (minimum 0) and allows the user to attempt Repair tests that normally require a workbench or similar at +1 difficulty.",
+    "effects": "Reduce the difficulty of Repair tests by 1 (minimum 0), May attempt Repair tests which normally require a workbench or similar at +1 difficulty",
+    "weight": 20,
+    "cost": 150,
+    "rarity": 3
+  },
+  {
+    "id": "misc_first_aid_kit",
+    "name": "First Aid Kit",
+    "description": "A medical kit that provides +2 HP when succeeding at a First Aid action.",
+    "longDescription": "A portable medical kit stocked with bandages, antiseptics, and basic medical supplies. When you succeed at a First Aid action, the kit heals an additional +2 HP, making it a valuable asset for keeping your party alive in the field.",
+    "effects": "Heal +2 HP upon succeeding at the First Aid action",
+    "weight": 4,
+    "cost": 200,
+    "rarity": 2
+  },
+  {
+    "id": "misc_flashlight",
+    "name": "Flashlight",
+    "description": "A portable light source that illuminates a single zone within Medium range.",
+    "longDescription": "A battery-powered flashlight that generates bright light in a single zone within Medium range. The user may choose which zone is illuminated, making it essential for exploring dark vaults, ruins, and tunnels in the wasteland.",
+    "effects": "Generates bright light in a single zone within Medium range; the user may choose which zone is illuminated",
+    "weight": 2,
+    "cost": 100,
+    "rarity": 3
+  },
+  {
+    "id": "misc_lock_pick_set",
+    "name": "Lock Pick Set",
+    "description": "A set of professional lockpicks that reduces Lockpick difficulty. Breaks after 3 complications.",
+    "longDescription": "A professional set of lockpicking tools. It reduces the difficulty of Lockpick tests by 1 (minimum 0), but after 3 complications, the set is broken and must be replaced. Superior to simple bobby pins for serious locksmithing work.",
+    "effects": "Reduces difficulty of Lockpick tests by 1 (minimum 0), After 3 complications, the set is broken",
+    "weight": 2,
+    "cost": 150,
+    "rarity": 2
+  },
+  {
+    "id": "misc_multi_tool",
+    "name": "Multi-Tool",
+    "description": "A compact multi-tool that reduces the difficulty of Repair tests.",
+    "longDescription": "A handy pocket-sized tool combining several useful implements in one. It reduces the difficulty of Repair tests by 1 (minimum 0), making it a valuable companion for anyone who works with machinery or needs to make field repairs.",
+    "effects": "Reduce the difficulty of Repair tests by 1 (minimum 0)",
+    "weight": 1,
+    "cost": 100,
+    "rarity": 2
+  },
+  {
+    "id": "misc_pip_boy",
+    "name": "Pip-Boy",
+    "description": "A Personal Information Processor functioning as compass, radio, Geiger counter, and flashlight. Allows V.A.T.S. use.",
+    "longDescription": "A Personal Information Processor worn on the wrist. Functions as a compass, radio, Geiger counter, and flashlight. Its most valuable feature is allowing the use of V.A.T.S., ignoring the normal difficulty increase for targeting a specific location. An indispensable tool for any wasteland explorer.",
+    "effects": "A Personal Information Processor. Functions as compass, radio, Geiger counter, and flashlight. Allows use of V.A.T.S. ignoring the normal difficulty increase for targeting a specific location.",
+    "weight": "—",
+    "cost": "—",
+    "rarity": "—"
+  }
 ]

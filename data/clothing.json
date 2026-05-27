@@ -1,9 +1,153 @@
 [
-  {"id":"clothing_brotherhood_uniform","name":"Brotherhood of Steel Uniform","covers":["arms","legs","torso"],"physicalDR":1,"energyDR":1,"radiationDR":1,"weight":2,"cost":20,"rarity":2,"underArmor":true,"compatibleMods":["armor_mod_ballistic_weave"]},
-  {"id":"clothing_casual","name":"Casual Clothing","covers":["arms","legs","torso"],"physicalDR":0,"energyDR":0,"radiationDR":0,"weight":2,"cost":20,"rarity":1,"underArmor":true,"compatibleMods":["armor_mod_ballistic_weave"]},
-  {"id":"clothing_harness","name":"Harness","covers":["arms","legs","torso"],"physicalDR":0,"energyDR":0,"radiationDR":0,"weight":1,"cost":5,"rarity":0,"underArmor":true,"compatibleMods":["armor_mod_ballistic_weave"]},
-  {"id":"clothing_military_fatigues","name":"Military Fatigues","covers":["arms","legs","torso"],"physicalDR":0,"energyDR":1,"radiationDR":0,"weight":3,"cost":12,"rarity":1,"underArmor":true,"compatibleMods":["armor_mod_ballistic_weave"]},
-  {"id":"clothing_road_leathers","name":"Road Leathers","covers":["arms","legs","torso"],"physicalDR":1,"energyDR":1,"radiationDR":0,"weight":1,"cost":5,"rarity":1,"underArmor":true,"compatibleMods":["armor_mod_ballistic_weave"]},
-  {"id":"clothing_tough","name":"Tough Clothing","covers":["arms","legs","torso"],"physicalDR":1,"energyDR":1,"radiationDR":0,"weight":3,"cost":20,"rarity":1,"underArmor":true,"compatibleMods":["armor_mod_ballistic_weave"]},
-  {"id":"clothing_vault_jumpsuit","name":"Vault Jumpsuit","covers":["arms","legs","torso"],"physicalDR":0,"energyDR":1,"radiationDR":2,"weight":1,"cost":20,"rarity":2,"underArmor":true,"compatibleMods":["armor_mod_insulated_lining","armor_mod_treated_lining","armor_mod_resistant_lining","armor_mod_protective_lining","armor_mod_shielded_lining"]}
+  {
+    "id": "clothing_brotherhood_uniform",
+    "name": "Brotherhood of Steel Uniform",
+    "description": "Originally designed as the underarmor bodysuit for the T-45 Power Armor system, covered with interface ports to connect with Power Armor.",
+    "longDescription": "Originally designed as the underarmor bodysuit for the T-45 Power Armor system. The bodysuit's surface is covered with an assortment of interface ports and connections to connect the wearer with the Power Armor frame, over it. The Brotherhood of Steel employ these as the base of their standard uniforms, ensuring that as many of their personnel as possible are ready to wear full armor. In battle, the uniform is normally worn under other armor if Power Armor is unavailable, while senior Brotherhood officers often wear a bomber jacket or armored battlecoat over their undersuit.",
+    "covers": [
+      "arms",
+      "legs",
+      "torso"
+    ],
+    "physicalDR": 1,
+    "energyDR": 1,
+    "radiationDR": 1,
+    "weight": 2,
+    "cost": 20,
+    "rarity": 2,
+    "underArmor": true,
+    "compatibleMods": [
+      "armor_mod_ballistic_weave"
+    ]
+  },
+  {
+    "id": "clothing_casual",
+    "name": "Casual Clothing",
+    "description": "Simple, lightweight pre-War casual clothing intended for leisure and light activity. Easy to move around in.",
+    "longDescription": "Simple, lightweight, and easy to move around in, pre-War casual clothing was intended for leisure and light activity. Special: Wearing casual clothing allows you to re-roll a single d20 on one STR or AGI based skill test you make each scene, as the clothing is easy to move in. Casual clothing can be reinforced with Ballistic Weave.",
+    "covers": [
+      "arms",
+      "legs",
+      "torso"
+    ],
+    "physicalDR": 0,
+    "energyDR": 0,
+    "radiationDR": 0,
+    "weight": 2,
+    "cost": 20,
+    "rarity": 1,
+    "underArmor": true,
+    "compatibleMods": [
+      "armor_mod_ballistic_weave"
+    ]
+  },
+  {
+    "id": "clothing_harness",
+    "name": "Harness",
+    "description": "A worker's safety harness repurposed as a mount for armor pieces, commonly worn without a shirt by raiders.",
+    "longDescription": "A worker's safety harness repurposed to serve as a mount for pieces of armor. Common amongst raiders, who tend to wear the harness without a shirt underneath.",
+    "covers": [
+      "arms",
+      "legs",
+      "torso"
+    ],
+    "physicalDR": 0,
+    "energyDR": 0,
+    "radiationDR": 0,
+    "weight": 1,
+    "cost": 5,
+    "rarity": 0,
+    "underArmor": true,
+    "compatibleMods": [
+      "armor_mod_ballistic_weave"
+    ]
+  },
+  {
+    "id": "clothing_military_fatigues",
+    "name": "Military Fatigues",
+    "description": "Hard-wearing shirt, jacket, pants, and combat boots designed for military personnel, with numerous pockets for carrying useful items.",
+    "longDescription": "A simple, hard-wearing shirt, jacket, pants, and set of combat boots designed to be worn by military personnel before the Great War. These garments are designed to be worn in unpleasant conditions, and have numerous pockets for carrying useful items, so an intact set is a decent find. Special: Wearing military fatigues allows you to re-roll a single d20 on one STR or AGI based skill test you make each scene, as the fatigues are easy to move in. Military fatigues can be reinforced with Ballistic Weave.",
+    "covers": [
+      "arms",
+      "legs",
+      "torso"
+    ],
+    "physicalDR": 0,
+    "energyDR": 1,
+    "radiationDR": 0,
+    "weight": 3,
+    "cost": 12,
+    "rarity": 1,
+    "underArmor": true,
+    "compatibleMods": [
+      "armor_mod_ballistic_weave"
+    ]
+  },
+  {
+    "id": "clothing_road_leathers",
+    "name": "Road Leathers",
+    "description": "A leather jacket, pants, and motorcycle boots, often decorated with metallic studs, providing modest physical protection.",
+    "longDescription": "A leather jacket, leather pants, and a set of motorcycle boots. Often decorated with metallic studs, these soft leather items provide modest protection against physical hazards such as an involuntary dismount from a motorbike, while still being reasonably comfortable in any temperate or cold climate.",
+    "covers": [
+      "arms",
+      "legs",
+      "torso"
+    ],
+    "physicalDR": 1,
+    "energyDR": 1,
+    "radiationDR": 0,
+    "weight": 1,
+    "cost": 5,
+    "rarity": 1,
+    "underArmor": true,
+    "compatibleMods": [
+      "armor_mod_ballistic_weave"
+    ]
+  },
+  {
+    "id": "clothing_tough",
+    "name": "Tough Clothing",
+    "description": "Hard-wearing clothing cobbled together from sturdy garments, reinforced with duct tape to withstand wasteland life.",
+    "longDescription": "Hard-wearing clothing cobbled together from sufficiently sturdy garments to create an outfit that can withstand a hard life in the wasteland. Normally made from a jacket, a shirt and undershirt, a pair of jeans, and some walking boots, reinforced (or patched) with duct tape, to provide both a little protection against the bumps and scrapes of life and a bit of warmth on those cold nuclear winter nights.",
+    "covers": [
+      "arms",
+      "legs",
+      "torso"
+    ],
+    "physicalDR": 1,
+    "energyDR": 1,
+    "radiationDR": 0,
+    "weight": 3,
+    "cost": 20,
+    "rarity": 1,
+    "underArmor": true,
+    "compatibleMods": [
+      "armor_mod_ballistic_weave"
+    ]
+  },
+  {
+    "id": "clothing_vault_jumpsuit",
+    "name": "Vault Jumpsuit",
+    "description": "The standard blue Vault-Tec jumpsuit with a golden-yellow strip, integrated biometric scanners, and a vault number on the back.",
+    "longDescription": "The standard garment for all vault inhabitants, provided by Vault-Tec. A close-fitting blue jumpsuit with a golden-yellow strip running around the neck, down the torso, and along the sleeves. This strip is a metallic foil which aids in heat dissipation and works with the suit's integrated biometric scanners. Each Vault Jumpsuit has a number on the back, signifying which vault it originated from.",
+    "covers": [
+      "arms",
+      "legs",
+      "torso"
+    ],
+    "physicalDR": 0,
+    "energyDR": 1,
+    "radiationDR": 2,
+    "weight": 1,
+    "cost": 20,
+    "rarity": 2,
+    "underArmor": true,
+    "compatibleMods": [
+      "armor_mod_insulated_lining",
+      "armor_mod_treated_lining",
+      "armor_mod_resistant_lining",
+      "armor_mod_protective_lining",
+      "armor_mod_shielded_lining"
+    ]
+  }
 ]

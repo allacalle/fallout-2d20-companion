@@ -8,7 +8,9 @@
     "carryWeight": 0,
     "cost": 0,
     "rarity": 0,
-    "perksRequired": []
+    "perksRequired": [],
+    "description": "Standard Plating: +2 Physical DR, +0 Energy DR, covers all locations.",
+    "longDescription": "Robot armor plating providing +2 Physical and +0 Energy damage resistance to all locations. Designed for installation on robotic companions to improve their survivability in combat."
   },
   {
     "id": "robot_armor_mister_gutsy_plating",
@@ -19,7 +21,9 @@
     "carryWeight": -10,
     "cost": 0,
     "rarity": 0,
-    "perksRequired": []
+    "perksRequired": [],
+    "description": "Mister Gutsy Plating: +2 Physical DR, +2 Energy DR, covers all locations.",
+    "longDescription": "Robot armor plating providing +2 Physical and +2 Energy damage resistance to all locations. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: -10 lbs."
   },
   {
     "id": "robot_armor_factory_optics",
@@ -30,7 +34,9 @@
     "carryWeight": 0,
     "cost": 10,
     "rarity": 1,
-    "perksRequired": []
+    "perksRequired": [],
+    "description": "Factory Armor (Optics): ++1 Physical DR, ++1 Energy DR, covers Optics.",
+    "longDescription": "Robot armor plating providing ++1 Physical and ++1 Energy damage resistance to Optics. Designed for installation on robotic companions to improve their survivability in combat."
   },
   {
     "id": "robot_armor_factory_main_body",
@@ -41,7 +47,9 @@
     "carryWeight": 0,
     "cost": 20,
     "rarity": 1,
-    "perksRequired": []
+    "perksRequired": [],
+    "description": "Factory Armor (Main Body): ++1 Physical DR, ++1 Energy DR, covers Main Body.",
+    "longDescription": "Robot armor plating providing ++1 Physical and ++1 Energy damage resistance to Main Body. Designed for installation on robotic companions to improve their survivability in combat."
   },
   {
     "id": "robot_armor_factory_arms",
@@ -52,7 +60,9 @@
     "carryWeight": 0,
     "cost": 10,
     "rarity": 1,
-    "perksRequired": []
+    "perksRequired": [],
+    "description": "Factory Armor (Arms): ++1 Physical DR, ++1 Energy DR, covers the arms.",
+    "longDescription": "Robot armor plating providing ++1 Physical and ++1 Energy damage resistance to the arms. Designed for installation on robotic companions to improve their survivability in combat."
   },
   {
     "id": "robot_armor_factory_thruster",
@@ -63,7 +73,9 @@
     "carryWeight": 0,
     "cost": 10,
     "rarity": 1,
-    "perksRequired": []
+    "perksRequired": [],
+    "description": "Factory Armor (Thruster): ++1 Physical DR, ++1 Energy DR, covers Thruster.",
+    "longDescription": "Robot armor plating providing ++1 Physical and ++1 Energy damage resistance to Thruster. Designed for installation on robotic companions to improve their survivability in combat."
   },
   {
     "id": "robot_armor_factory_storage",
@@ -79,7 +91,9 @@
         "perkId": "armorer",
         "rank": 1
       }
-    ]
+    ],
+    "description": "Factory Storage Armor: ++1 Physical DR, ++1 Energy DR, covers Main Body.",
+    "longDescription": "Robot armor plating providing ++1 Physical and ++1 Energy damage resistance to Main Body. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: 20 lbs."
   },
   {
     "id": "robot_armor_primal_plate_optics",
@@ -90,7 +104,9 @@
     "carryWeight": -10,
     "cost": 10,
     "rarity": 2,
-    "perksRequired": []
+    "perksRequired": [],
+    "description": "Primal Plate (Optics): ++2 Physical DR, +— Energy DR, covers Optics.",
+    "longDescription": "Robot armor plating providing ++2 Physical and +— Energy damage resistance to Optics. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: -10 lbs."
   },
   {
     "id": "robot_armor_primal_plate_main_body",
@@ -101,7 +117,9 @@
     "carryWeight": -20,
     "cost": 20,
     "rarity": 2,
-    "perksRequired": []
+    "perksRequired": [],
+    "description": "Primal Plate (Main Body): ++2 Physical DR, +— Energy DR, covers Main Body.",
+    "longDescription": "Robot armor plating providing ++2 Physical and +— Energy damage resistance to Main Body. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: -20 lbs."
   },
   {
     "id": "robot_armor_primal_plate_arms",
@@ -112,7 +130,9 @@
     "carryWeight": -10,
     "cost": 10,
     "rarity": 2,
-    "perksRequired": []
+    "perksRequired": [],
+    "description": "Primal Plate (Arms): ++2 Physical DR, +— Energy DR, covers the arms.",
+    "longDescription": "Robot armor plating providing ++2 Physical and +— Energy damage resistance to the arms. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: -10 lbs."
   },
   {
     "id": "robot_armor_primal_plate_thruster",
@@ -123,7 +143,9 @@
     "carryWeight": -10,
     "cost": 10,
     "rarity": 2,
-    "perksRequired": []
+    "perksRequired": [],
+    "description": "Primal Plate (Thruster): ++2 Physical DR, +— Energy DR, covers Thruster.",
+    "longDescription": "Robot armor plating providing ++2 Physical and +— Energy damage resistance to Thruster. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: -10 lbs."
   },
   {
     "id": "robot_armor_serrated_plate_optics",
@@ -139,7 +161,9 @@
         "perkId": "armorer",
         "rank": 1
       }
-    ]
+    ],
+    "description": "Serrated Plate (Optics): ++2 Physical DR, +— Energy DR, covers Optics.",
+    "longDescription": "Robot armor plating providing ++2 Physical and +— Energy damage resistance to Optics. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: -10 lbs."
   },
   {
     "id": "robot_armor_serrated_plate_main_body",
@@ -155,7 +179,9 @@
         "perkId": "armorer",
         "rank": 1
       }
-    ]
+    ],
+    "description": "Serrated Plate (Main Body): ++2 Physical DR, +— Energy DR, covers Main Body.",
+    "longDescription": "Robot armor plating providing ++2 Physical and +— Energy damage resistance to Main Body. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: -20 lbs."
   },
   {
     "id": "robot_armor_serrated_plate_arms",
@@ -171,7 +197,9 @@
         "perkId": "armorer",
         "rank": 1
       }
-    ]
+    ],
+    "description": "Serrated Plate (Arms): ++2 Physical DR, +— Energy DR, covers the arms.",
+    "longDescription": "Robot armor plating providing ++2 Physical and +— Energy damage resistance to the arms. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: -10 lbs."
   },
   {
     "id": "robot_armor_serrated_plate_thruster",
@@ -187,7 +215,9 @@
         "perkId": "armorer",
         "rank": 1
       }
-    ]
+    ],
+    "description": "Serrated Plate (Thruster): ++2 Physical DR, +— Energy DR, covers Thruster.",
+    "longDescription": "Robot armor plating providing ++2 Physical and +— Energy damage resistance to Thruster. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: -10 lbs."
   },
   {
     "id": "robot_armor_noxious_plate_optics",
@@ -203,7 +233,9 @@
         "perkId": "armorer",
         "rank": 1
       }
-    ]
+    ],
+    "description": "Noxious Plate (Optics): ++2 Physical DR, +— Energy DR, covers Optics.",
+    "longDescription": "Robot armor plating providing ++2 Physical and +— Energy damage resistance to Optics. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: -10 lbs."
   },
   {
     "id": "robot_armor_noxious_plate_main_body",
@@ -219,7 +251,9 @@
         "perkId": "armorer",
         "rank": 1
       }
-    ]
+    ],
+    "description": "Noxious Plate (Main Body): ++2 Physical DR, +— Energy DR, covers Main Body.",
+    "longDescription": "Robot armor plating providing ++2 Physical and +— Energy damage resistance to Main Body. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: -20 lbs."
   },
   {
     "id": "robot_armor_noxious_plate_arms",
@@ -235,7 +269,9 @@
         "perkId": "armorer",
         "rank": 1
       }
-    ]
+    ],
+    "description": "Noxious Plate (Arms): ++2 Physical DR, +— Energy DR, covers the arms.",
+    "longDescription": "Robot armor plating providing ++2 Physical and +— Energy damage resistance to the arms. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: -10 lbs."
   },
   {
     "id": "robot_armor_noxious_plate_thruster",
@@ -251,7 +287,9 @@
         "perkId": "armorer",
         "rank": 1
       }
-    ]
+    ],
+    "description": "Noxious Plate (Thruster): ++2 Physical DR, +— Energy DR, covers Thruster.",
+    "longDescription": "Robot armor plating providing ++2 Physical and +— Energy damage resistance to Thruster. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: -10 lbs."
   },
   {
     "id": "robot_armor_toxic_plate_optics",
@@ -267,7 +305,9 @@
         "perkId": "armorer",
         "rank": 3
       }
-    ]
+    ],
+    "description": "Toxic Plate (Optics): ++2 Physical DR, +— Energy DR, covers Optics.",
+    "longDescription": "Robot armor plating providing ++2 Physical and +— Energy damage resistance to Optics. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: -10 lbs."
   },
   {
     "id": "robot_armor_toxic_plate_main_body",
@@ -283,7 +323,9 @@
         "perkId": "armorer",
         "rank": 3
       }
-    ]
+    ],
+    "description": "Toxic Plate (Main Body): ++2 Physical DR, +— Energy DR, covers Main Body.",
+    "longDescription": "Robot armor plating providing ++2 Physical and +— Energy damage resistance to Main Body. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: -20 lbs."
   },
   {
     "id": "robot_armor_toxic_plate_arms",
@@ -299,7 +341,9 @@
         "perkId": "armorer",
         "rank": 3
       }
-    ]
+    ],
+    "description": "Toxic Plate (Arms): ++2 Physical DR, +— Energy DR, covers the arms.",
+    "longDescription": "Robot armor plating providing ++2 Physical and +— Energy damage resistance to the arms. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: -10 lbs."
   },
   {
     "id": "robot_armor_toxic_plate_thruster",
@@ -315,7 +359,9 @@
         "perkId": "armorer",
         "rank": 3
       }
-    ]
+    ],
+    "description": "Toxic Plate (Thruster): ++2 Physical DR, +— Energy DR, covers Thruster.",
+    "longDescription": "Robot armor plating providing ++2 Physical and +— Energy damage resistance to Thruster. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: -10 lbs."
   },
   {
     "id": "robot_armor_actuated_frame_optics",
@@ -326,7 +372,9 @@
     "carryWeight": 10,
     "cost": 15,
     "rarity": 2,
-    "perksRequired": []
+    "perksRequired": [],
+    "description": "Actuated Frame (Optics): ++1 Physical DR, ++1 Energy DR, covers Optics.",
+    "longDescription": "Robot armor plating providing ++1 Physical and ++1 Energy damage resistance to Optics. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: 10 lbs."
   },
   {
     "id": "robot_armor_actuated_frame_main_body",
@@ -337,7 +385,9 @@
     "carryWeight": 20,
     "cost": 30,
     "rarity": 2,
-    "perksRequired": []
+    "perksRequired": [],
+    "description": "Actuated Frame (Main Body): ++1 Physical DR, ++1 Energy DR, covers Main Body.",
+    "longDescription": "Robot armor plating providing ++1 Physical and ++1 Energy damage resistance to Main Body. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: 20 lbs."
   },
   {
     "id": "robot_armor_actuated_frame_arms",
@@ -348,7 +398,9 @@
     "carryWeight": 10,
     "cost": 15,
     "rarity": 2,
-    "perksRequired": []
+    "perksRequired": [],
+    "description": "Actuated Frame (Arms): ++1 Physical DR, ++1 Energy DR, covers the arms.",
+    "longDescription": "Robot armor plating providing ++1 Physical and ++1 Energy damage resistance to the arms. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: 10 lbs."
   },
   {
     "id": "robot_armor_actuated_frame_thruster",
@@ -359,7 +411,9 @@
     "carryWeight": 10,
     "cost": 15,
     "rarity": 2,
-    "perksRequired": []
+    "perksRequired": [],
+    "description": "Actuated Frame (Thruster): ++1 Physical DR, ++1 Energy DR, covers Thruster.",
+    "longDescription": "Robot armor plating providing ++1 Physical and ++1 Energy damage resistance to Thruster. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: 10 lbs."
   },
   {
     "id": "robot_armor_voltaic_frame_optics",
@@ -375,7 +429,9 @@
         "perkId": "armorer",
         "rank": 2
       }
-    ]
+    ],
+    "description": "Voltaic Frame (Optics): ++2 Physical DR, ++2 Energy DR, covers Optics.",
+    "longDescription": "Robot armor plating providing ++2 Physical and ++2 Energy damage resistance to Optics. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: 10 lbs."
   },
   {
     "id": "robot_armor_voltaic_frame_main_body",
@@ -391,7 +447,9 @@
         "perkId": "armorer",
         "rank": 2
       }
-    ]
+    ],
+    "description": "Voltaic Frame (Main Body): ++2 Physical DR, ++2 Energy DR, covers Main Body.",
+    "longDescription": "Robot armor plating providing ++2 Physical and ++2 Energy damage resistance to Main Body. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: 20 lbs."
   },
   {
     "id": "robot_armor_voltaic_frame_arms",
@@ -407,7 +465,9 @@
         "perkId": "armorer",
         "rank": 2
       }
-    ]
+    ],
+    "description": "Voltaic Frame (Arms): ++2 Physical DR, ++2 Energy DR, covers the arms.",
+    "longDescription": "Robot armor plating providing ++2 Physical and ++2 Energy damage resistance to the arms. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: 10 lbs."
   },
   {
     "id": "robot_armor_voltaic_frame_thruster",
@@ -423,7 +483,9 @@
         "perkId": "armorer",
         "rank": 2
       }
-    ]
+    ],
+    "description": "Voltaic Frame (Thruster): ++2 Physical DR, ++2 Energy DR, covers Thruster.",
+    "longDescription": "Robot armor plating providing ++2 Physical and ++2 Energy damage resistance to Thruster. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: 10 lbs."
   },
   {
     "id": "robot_armor_hydraulic_frame_optics",
@@ -439,7 +501,9 @@
         "perkId": "armorer",
         "rank": 3
       }
-    ]
+    ],
+    "description": "Hydraulic Frame (Optics): ++3 Physical DR, ++3 Energy DR, covers Optics.",
+    "longDescription": "Robot armor plating providing ++3 Physical and ++3 Energy damage resistance to Optics. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: 5 lbs."
   },
   {
     "id": "robot_armor_hydraulic_frame_main_body",
@@ -455,7 +519,9 @@
         "perkId": "armorer",
         "rank": 3
       }
-    ]
+    ],
+    "description": "Hydraulic Frame (Main Body): ++3 Physical DR, ++3 Energy DR, covers Main Body.",
+    "longDescription": "Robot armor plating providing ++3 Physical and ++3 Energy damage resistance to Main Body. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: 10 lbs."
   },
   {
     "id": "robot_armor_hydraulic_frame_arms",
@@ -471,7 +537,9 @@
         "perkId": "armorer",
         "rank": 3
       }
-    ]
+    ],
+    "description": "Hydraulic Frame (Arms): ++3 Physical DR, ++3 Energy DR, covers the arms.",
+    "longDescription": "Robot armor plating providing ++3 Physical and ++3 Energy damage resistance to the arms. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: 5 lbs."
   },
   {
     "id": "robot_armor_hydraulic_frame_thruster",
@@ -487,6 +555,8 @@
         "perkId": "armorer",
         "rank": 3
       }
-    ]
+    ],
+    "description": "Hydraulic Frame (Thruster): ++3 Physical DR, ++3 Energy DR, covers Thruster.",
+    "longDescription": "Robot armor plating providing ++3 Physical and ++3 Energy damage resistance to Thruster. Designed for installation on robotic companions to improve their survivability in combat. Carry weight: 5 lbs."
   }
 ]

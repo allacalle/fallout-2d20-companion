@@ -3,102 +3,119 @@
     "id": "athletics",
     "name": "Athletics",
     "attribute": "STR",
-    "description": "Lifting, pushing, pulling, jumping, running, and swimming. Used for physical exertion, climbing, and swimming."
+    "description": "Lifting, pushing, pulling, jumping, running, and swimming. Used for physical exertion, climbing, and swimming.",
+    "longDescription": "The Athletics skill covers feats of physical prowess including lifting, pushing, pulling, jumping, running, and swimming. Used whenever a character needs to exert themselves physically, climb a sheer surface, or swim across a body of water."
   },
   {
     "id": "barter",
     "name": "Barter",
     "attribute": "CHA",
-    "description": "Buying and selling, negotiating prices, and making deals with traders."
+    "description": "Buying and selling, negotiating prices, and making deals with traders.",
+    "longDescription": "The Barter skill governs buying and selling, negotiating prices, and making deals with traders and merchants across the wasteland. A skilled barterer can stretch their bottle caps much further."
   },
   {
     "id": "big_guns",
     "name": "Big Guns",
     "attribute": "END",
-    "description": "Using heavy weapons such as miniguns, Fat Mans, and gatling lasers."
+    "description": "Using heavy weapons such as miniguns, Fat Mans, and gatling lasers.",
+    "longDescription": "The Big Guns skill covers the use of heavy weapons such as miniguns, Fat Man launchers, and gatling lasers. These weapons are powerful but require significant strength and endurance to operate effectively."
   },
   {
     "id": "energy_weapons",
     "name": "Energy Weapons",
     "attribute": "PER",
-    "description": "Using energy-based firearms like laser guns, plasma guns, and gauss weaponry."
+    "description": "Using energy-based firearms like laser guns, plasma guns, and gauss weaponry.",
+    "longDescription": "The Energy Weapons skill governs the use of energy-based firearms like laser guns, plasma guns, and gauss weaponry. These high-tech weapons require specialized knowledge to operate and maintain."
   },
   {
     "id": "explosives",
     "name": "Explosives",
     "attribute": "PER",
-    "description": "Using, throwing, placing, and detonating explosive devices like grenades and mines."
+    "description": "Using, throwing, placing, and detonating explosive devices like grenades and mines.",
+    "longDescription": "The Explosives skill covers using, throwing, placing, and detonating explosive devices like grenades and mines. A character with this skill knows how to handle volatile materials safely and effectively."
   },
   {
     "id": "lockpick",
     "name": "Lockpick",
     "attribute": "PER",
-    "description": "Opening locks without the key, picking safes and locked doors."
+    "description": "Opening locks without the key, picking safes and locked doors.",
+    "longDescription": "The Lockpick skill allows a character to open locks without the key, including picking safes and locked doors. Essential for scavengers who want access to secured areas and containers."
   },
   {
     "id": "medicine",
     "name": "Medicine",
     "attribute": "INT",
-    "description": "Healing people, stabilizing the dying, administering chems, and treating radiation poisoning."
+    "description": "Healing people, stabilizing the dying, administering chems, and treating radiation poisoning.",
+    "longDescription": "The Medicine skill covers healing people, stabilizing the dying, administering chems, and treating radiation poisoning. A skilled medic is invaluable to any wasteland party."
   },
   {
     "id": "melee_weapons",
     "name": "Melee Weapons",
     "attribute": "STR",
-    "description": "Fighting with bats, clubs, knives, boards, wrenches, and sledges."
+    "description": "Fighting with bats, clubs, knives, boards, wrenches, and sledges.",
+    "longDescription": "The Melee Weapons skill governs fighting with bats, clubs, knives, boards, wrenches, sledges, and other hand-to-hand weapons. These weapons never run out of ammunition."
   },
   {
     "id": "pilot",
     "name": "Pilot",
     "attribute": "PER",
-    "description": "Operating vehicles, from buggies and motorcycles to Vertibirds and tanks."
+    "description": "Operating vehicles, from buggies and motorcycles to Vertibirds and tanks.",
+    "longDescription": "The Pilot skill covers operating vehicles, from buggies and motorcycles to Vertibirds and tanks. A skilled pilot can navigate the treacherous wasteland terrain and gain a tactical advantage."
   },
   {
     "id": "repair",
     "name": "Repair",
     "attribute": "INT",
-    "description": "Fixing stuff, crafting things, building machines, and modifying weapons."
+    "description": "Fixing stuff, crafting things, building machines, and modifying weapons.",
+    "longDescription": "The Repair skill covers fixing stuff, crafting things, building machines, and modifying weapons. One of the most versatile skills in the wasteland, essential for keeping equipment operational."
   },
   {
     "id": "science",
     "name": "Science",
     "attribute": "INT",
-    "description": "Hacking computers, programming robots, and brewing chems."
+    "description": "Hacking computers, programming robots, and brewing chems.",
+    "longDescription": "The Science skill covers hacking computers, programming robots, and brewing chems. A high-tech skill valued by those who work with pre-War technology and automation."
   },
   {
     "id": "small_guns",
     "name": "Small Guns",
     "attribute": "AGI",
-    "description": "Shooting with pistols, rifles, and shotguns."
+    "description": "Shooting with pistols, rifles, and shotguns.",
+    "longDescription": "The Small Guns skill covers shooting with pistols, rifles, and shotguns. The most common combat skill in the wasteland, as small firearms are plentiful and ammunition is relatively easy to find."
   },
   {
     "id": "sneak",
     "name": "Sneak",
     "attribute": "AGI",
-    "description": "Moving quietly, staying hidden, and avoiding detection."
+    "description": "Moving quietly, staying hidden, and avoiding detection.",
+    "longDescription": "The Sneak skill covers moving quietly, staying hidden, and avoiding detection. Essential for scouts, thieves, and anyone who prefers to avoid unnecessary combat."
   },
   {
     "id": "speech",
     "name": "Speech",
     "attribute": "CHA",
-    "description": "Making friends, influencing people, and lying to them if you have to."
+    "description": "Making friends, influencing people, and lying to them if you have to.",
+    "longDescription": "The Speech skill covers making friends, influencing people, and lying when necessary. In the wasteland, words can be as powerful as bullets, and a silver tongue can open doors that brute force cannot."
   },
   {
     "id": "survival",
     "name": "Survival",
     "attribute": "END",
-    "description": "Foraging, hunting, cooking, and enduring the wastes."
+    "description": "Foraging, hunting, cooking, and enduring the wastes.",
+    "longDescription": "The Survival skill covers foraging, hunting, cooking, and enduring the harsh conditions of the wastes. A survivalist can find food and water where others see only barren wasteland."
   },
   {
     "id": "throwing",
     "name": "Throwing",
     "attribute": "AGI",
-    "description": "Launching weapons from your hands, like spears or knives."
+    "description": "Launching weapons from your hands, like spears or knives.",
+    "longDescription": "The Throwing skill covers launching weapons from your hands, such as spears, knives, and tomahawks. A useful combat skill for those who prefer silent, ranged attacks."
   },
   {
     "id": "unarmed",
     "name": "Unarmed",
     "attribute": "STR",
-    "description": "Fighting without a weapon by making unarmed attacks."
+    "description": "Fighting without a weapon by making unarmed attacks.",
+    "longDescription": "The Unarmed skill covers fighting without a weapon by making unarmed attacks. A character with this skill knows how to throw powerful punches and execute combat maneuvers without any equipment."
   }
 ]

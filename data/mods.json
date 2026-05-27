@@ -13,7 +13,9 @@
     "perksRequired": [],
     "skill": "repair",
     "complexity": 2,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Hardened Receiver: +1 DC damage",
+    "longDescription": "A weapon modification for the Receiver slot. The Hardened mod provides the following effect: +1 DC damage. Installed with the Repair skill."
   },
   {
     "id": "mod_powerful",
@@ -34,7 +36,9 @@
     ],
     "skill": "repair",
     "complexity": 3,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Powerful Receiver: +2 DC damage",
+    "longDescription": "A weapon modification for the Receiver slot. The Powerful mod provides the following effect: +2 DC damage. Installed with the Repair skill."
   },
   {
     "id": "mod_advanced",
@@ -55,7 +59,9 @@
     ],
     "skill": "repair",
     "complexity": 5,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Advanced Receiver: +3 DC damage, +1 Fire Rate",
+    "longDescription": "A weapon modification for the Receiver slot. The Advanced mod provides the following effect: +3 DC damage, +1 Fire Rate. Installed with the Repair skill."
   },
   {
     "id": "mod_calibrated",
@@ -71,7 +77,9 @@
     "perksRequired": [],
     "skill": "repair",
     "complexity": 2,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Calibrated Receiver: Gain Vicious",
+    "longDescription": "A weapon modification for the Receiver slot. The Calibrated mod provides the following effect: Gain Vicious. Installed with the Repair skill."
   },
   {
     "id": "mod_automatic",
@@ -92,7 +100,9 @@
     ],
     "skill": "repair",
     "complexity": 3,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Auto Receiver: -1 DC damage, +2 Fire Rate, Gain Burst, Gain Inaccurate",
+    "longDescription": "A weapon modification for the Receiver slot. The Automatic mod provides the following effect: -1 DC damage, +2 Fire Rate, Gain Burst, Gain Inaccurate. Installed with the Repair skill."
   },
   {
     "id": "mod_hair_trigger",
@@ -113,7 +123,9 @@
     ],
     "skill": "repair",
     "complexity": 4,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Hair Trigger Receiver: +1 Fire Rate",
+    "longDescription": "A weapon modification for the Receiver slot. The Hair Trigger mod provides the following effect: +1 Fire Rate. Installed with the Repair skill."
   },
   {
     "id": "mod_38_receiver",
@@ -134,7 +146,9 @@
     ],
     "skill": "repair",
     "complexity": 6,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": ".38 Receiver: Change Damage to 4 DC, Ammo changes to .38",
+    "longDescription": "A weapon modification for the Receiver slot. The .38 Receiver mod provides the following effect: Change Damage to 4 DC, Ammo changes to .38. Installed with the Repair skill."
   },
   {
     "id": "mod_308_receiver",
@@ -155,7 +169,9 @@
     ],
     "skill": "repair",
     "complexity": 6,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": ".308 Receiver: Change damage to 7 DC, Ammo changes to .308",
+    "longDescription": "A weapon modification for the Receiver slot. The .308 Receiver mod provides the following effect: Change damage to 7 DC, Ammo changes to .308. Installed with the Repair skill."
   },
   {
     "id": "mod_45_receiver",
@@ -176,7 +192,9 @@
     ],
     "skill": "repair",
     "complexity": 4,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": ".45 Receiver: Change damage to 4 DC, +1 Fire Rate, Ammo changes to .45",
+    "longDescription": "A weapon modification for the Receiver slot. The .45 Receiver mod provides the following effect: Change damage to 4 DC, +1 Fire Rate, Ammo changes to .45. Installed with the Repair skill."
   },
   {
     "id": "mod_50_receiver",
@@ -197,7 +215,9 @@
     ],
     "skill": "repair",
     "complexity": 6,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": ".50 Receiver: Change damage to 8 DC, Gain Vicious, Ammo changes to .50",
+    "longDescription": "A weapon modification for the Receiver slot. The .50 Receiver mod provides the following effect: Change damage to 8 DC, Gain Vicious, Ammo changes to .50. Installed with the Repair skill."
   },
   {
     "id": "mod_automatic_piston",
@@ -218,7 +238,9 @@
     ],
     "skill": "repair",
     "complexity": 4,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Automatic Receiver: +2 Fire Rate, Reduce Range by 1 step",
+    "longDescription": "A weapon modification for the Receiver slot. The Automatic Piston mod provides the following effect: +2 Fire Rate, Reduce Range by 1 step. Installed with the Repair skill."
   },
   {
     "id": "mod_snubnose_barrel",
@@ -234,7 +256,9 @@
     "perksRequired": [],
     "skill": "repair",
     "complexity": 2,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Snub-nose Barrel: Gain Inaccurate",
+    "longDescription": "A weapon modification for the Barrel slot. The Snubnose mod provides the following effect: Gain Inaccurate. Installed with the Repair skill."
   },
   {
     "id": "mod_bull_barrel",
@@ -255,7 +279,9 @@
     ],
     "skill": "repair",
     "complexity": 5,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Bull Barrel Barrel: Gain Reliable",
+    "longDescription": "A weapon modification for the Barrel slot. The Bull Barrel mod provides the following effect: Gain Reliable. Installed with the Repair skill."
   },
   {
     "id": "mod_long_barrel",
@@ -276,7 +302,9 @@
     ],
     "skill": "repair",
     "complexity": 3,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Long Barrel: Increase Range by 1 step",
+    "longDescription": "A weapon modification for the Barrel slot. The Long mod provides the following effect: Increase Range by 1 step. Installed with the Repair skill."
   },
   {
     "id": "mod_ported_barrel",
@@ -297,7 +325,9 @@
     ],
     "skill": "repair",
     "complexity": 6,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Ported Barrel: Increase Range by 1 step, +1 Fire Rate",
+    "longDescription": "A weapon modification for the Barrel slot. The Ported mod provides the following effect: Increase Range by 1 step, +1 Fire Rate. Installed with the Repair skill."
   },
   {
     "id": "mod_vented_barrel",
@@ -318,7 +348,9 @@
     ],
     "skill": "repair",
     "complexity": 6,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Vented Barrel: Increase Range by 1 step, +1 Fire Rate, Gain Reliable",
+    "longDescription": "A weapon modification for the Barrel slot. The Vented mod provides the following effect: Increase Range by 1 step, +1 Fire Rate, Gain Reliable. Installed with the Repair skill."
   },
   {
     "id": "mod_sawed_off_barrel",
@@ -334,7 +366,9 @@
     "perksRequired": [],
     "skill": "repair",
     "complexity": 2,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Sawed Off Barrel: Remove Two-Handed, Gain Close Quarters",
+    "longDescription": "A weapon modification for the Barrel slot. The Sawed-Off mod provides the following effect: Remove Two-Handed, Gain Close Quarters. Installed with the Repair skill."
   },
   {
     "id": "mod_shielded_barrel",
@@ -355,7 +389,9 @@
     ],
     "skill": "repair",
     "complexity": 5,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Shielded Barrel: +1 DC damage",
+    "longDescription": "A weapon modification for the Barrel slot. The Shielded Barrel mod provides the following effect: +1 DC damage. Installed with the Repair skill."
   },
   {
     "id": "mod_finned_barrel",
@@ -376,7 +412,9 @@
     ],
     "skill": "repair",
     "complexity": 4,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Finned Barrel: +1 DC damage, Increase Range by 1 step",
+    "longDescription": "A weapon modification for the Barrel slot. The Finned mod provides the following effect: +1 DC damage, Increase Range by 1 step. Installed with the Repair skill."
   },
   {
     "id": "mod_comfort_grip",
@@ -392,7 +430,9 @@
     "perksRequired": [],
     "skill": "repair",
     "complexity": 2,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Comfort Grip: Remove Inaccurate",
+    "longDescription": "A weapon modification for the Grip slot. The Comfort Grip mod provides the following effect: Remove Inaccurate. Installed with the Repair skill."
   },
   {
     "id": "mod_sharpshooters_grip",
@@ -414,7 +454,9 @@
     ],
     "skill": "repair",
     "complexity": 3,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Sharpshooter's Grip: Remove Inaccurate, Add Piercing 1",
+    "longDescription": "A weapon modification for the Grip slot. The Sharpshooter's Grip mod provides the following effect: Remove Inaccurate, Add Piercing 1. Installed with the Repair skill."
   },
   {
     "id": "mod_large_magazine",
@@ -435,7 +477,9 @@
     ],
     "skill": "repair",
     "complexity": 4,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "High Capacity Magazine: +1 Fire Rate, Unreliable",
+    "longDescription": "A weapon modification for the Magazine slot. The Large Magazine mod provides the following effect: +1 Fire Rate, Unreliable. Installed with the Repair skill."
   },
   {
     "id": "mod_quick_eject_magazine",
@@ -456,7 +500,9 @@
     ],
     "skill": "repair",
     "complexity": 5,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Quick Magazine: Gain Reliable",
+    "longDescription": "A weapon modification for the Magazine slot. The Quick-Eject Mag mod provides the following effect: Gain Reliable. Installed with the Repair skill."
   },
   {
     "id": "mod_large_quick_eject_magazine",
@@ -477,7 +523,9 @@
     ],
     "skill": "repair",
     "complexity": 5,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Quick high capacity Magazine: +1 Fire Rate",
+    "longDescription": "A weapon modification for the Magazine slot. The Large Quick-Eject Mag mod provides the following effect: +1 Fire Rate. Installed with the Repair skill."
   },
   {
     "id": "mod_full_stock",
@@ -493,7 +541,9 @@
     "perksRequired": [],
     "skill": "repair",
     "complexity": 2,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": " Stock: Gain Two-Handed, Remove Inaccurate",
+    "longDescription": "A weapon modification for the Stock slot. The Full Stock mod provides the following effect: Gain Two-Handed, Remove Inaccurate. Installed with the Repair skill."
   },
   {
     "id": "mod_marksman_stock",
@@ -515,7 +565,9 @@
     ],
     "skill": "repair",
     "complexity": 4,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Marksman's Stock: Gain Two-Handed, Remove Inaccurate, Gain Accurate",
+    "longDescription": "A weapon modification for the Stock slot. The Marksman's Stock mod provides the following effect: Gain Two-Handed, Remove Inaccurate, Gain Accurate. Installed with the Repair skill."
   },
   {
     "id": "mod_recoil_compensating_stock",
@@ -537,7 +589,9 @@
     ],
     "skill": "repair",
     "complexity": 5,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Recoil Compensated Stock: Gain Two-Handed, Remove Inaccurate, +1 Fire Rate",
+    "longDescription": "A weapon modification for the Stock slot. The Recoil Compensating Stock mod provides the following effect: Gain Two-Handed, Remove Inaccurate, +1 Fire Rate. Installed with the Repair skill."
   },
   {
     "id": "mod_reflex_sight",
@@ -554,7 +608,9 @@
     "perksRequired": [],
     "skill": "repair",
     "complexity": 2,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Tactical Sights: May re-roll hit location die",
+    "longDescription": "A weapon modification for the Sights slot. The Reflex Sight mod provides the following effect: May re-roll hit location die. Installed with the Repair skill."
   },
   {
     "id": "mod_short_scope",
@@ -571,7 +627,9 @@
     "perksRequired": [],
     "skill": "repair",
     "complexity": 2,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Scoped Sights: Gain Accurate",
+    "longDescription": "A weapon modification for the Sights slot. The Short Scope mod provides the following effect: Gain Accurate. Installed with the Repair skill."
   },
   {
     "id": "mod_long_scope",
@@ -593,7 +651,9 @@
     ],
     "skill": "repair",
     "complexity": 4,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Scoped Sights: Gain Accurate, Increase Range by 1 step",
+    "longDescription": "A weapon modification for the Sights slot. The Long Scope mod provides the following effect: Gain Accurate, Increase Range by 1 step. Installed with the Repair skill."
   },
   {
     "id": "mod_short_night_vision_scope",
@@ -615,7 +675,9 @@
     ],
     "skill": "repair",
     "complexity": 4,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Night Vision Sights: Gain Accurate, Gain Night Vision",
+    "longDescription": "A weapon modification for the Sights slot. The Short Night Vision Scope mod provides the following effect: Gain Accurate, Gain Night Vision. Installed with the Repair skill."
   },
   {
     "id": "mod_long_night_vision_scope",
@@ -637,7 +699,9 @@
     ],
     "skill": "repair",
     "complexity": 5,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Night Vision Sights: Gain Accurate, Gain Night Vision, Increase Range by 1 step",
+    "longDescription": "A weapon modification for the Sights slot. The Long Night Vision Scope mod provides the following effect: Gain Accurate, Gain Night Vision, Increase Range by 1 step. Installed with the Repair skill."
   },
   {
     "id": "mod_recon_scope",
@@ -659,7 +723,9 @@
     ],
     "skill": "repair",
     "complexity": 5,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Recon Sights: Gain Accurate, Gain Recon",
+    "longDescription": "A weapon modification for the Sights slot. The Recon Scope mod provides the following effect: Gain Accurate, Gain Recon. Installed with the Repair skill."
   },
   {
     "id": "mod_bayonet",
@@ -675,7 +741,9 @@
     "perksRequired": [],
     "skill": "repair",
     "complexity": 2,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Bayoneted Muzzle: Melee weapon, deals 4 DC Piercing 1 physical damage",
+    "longDescription": "A weapon modification for the Muzzle slot. The Bayonet mod provides the following effect: Melee weapon, deals 4 DC Piercing 1 physical damage. Installed with the Repair skill."
   },
   {
     "id": "mod_compensator",
@@ -696,7 +764,9 @@
     ],
     "skill": "repair",
     "complexity": 3,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Compensated Muzzle: Remove Inaccurate",
+    "longDescription": "A weapon modification for the Muzzle slot. The Compensator mod provides the following effect: Remove Inaccurate. Installed with the Repair skill."
   },
   {
     "id": "mod_muzzle_brake",
@@ -717,7 +787,9 @@
     ],
     "skill": "repair",
     "complexity": 3,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Muzzled Muzzle: Remove Inaccurate, +1 Fire Rate",
+    "longDescription": "A weapon modification for the Muzzle slot. The Muzzle Break mod provides the following effect: Remove Inaccurate, +1 Fire Rate. Installed with the Repair skill."
   },
   {
     "id": "mod_suppressor",
@@ -738,7 +810,9 @@
     ],
     "skill": "repair",
     "complexity": 4,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Suppressed Muzzle: Gain Suppressed",
+    "longDescription": "A weapon modification for the Muzzle slot. The Suppressor mod provides the following effect: Gain Suppressed. Installed with the Repair skill."
   },
   {
     "id": "mod_beta_wave_tuner",
@@ -754,7 +828,9 @@
     "perksRequired": [],
     "skill": "science",
     "complexity": 2,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Incendiary Capacitor: Gain Persistent",
+    "longDescription": "A weapon modification for the Capacitor slot. The Beta Wave Tuner mod provides the following effect: Gain Persistent. Installed with the Repair skill."
   },
   {
     "id": "mod_boosted_capacitor",
@@ -770,7 +846,9 @@
     "perksRequired": [],
     "skill": "science",
     "complexity": 2,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Boosted Capacitor: +1 DC, -1 Fire Rate",
+    "longDescription": "A weapon modification for the Capacitor slot. The Boosted Capacitor mod provides the following effect: +1 DC, -1 Fire Rate. Installed with the Repair skill."
   },
   {
     "id": "mod_photon_exciter",
@@ -791,7 +869,9 @@
     ],
     "skill": "science",
     "complexity": 3,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Excited Capacitor: Gain Vicious",
+    "longDescription": "A weapon modification for the Capacitor slot. The Photon Exciter mod provides the following effect: Gain Vicious. Installed with the Repair skill."
   },
   {
     "id": "mod_photon_agitator",
@@ -812,7 +892,9 @@
     ],
     "skill": "science",
     "complexity": 4,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Agitated Capacitor: +1 DC, Gain Vicious",
+    "longDescription": "A weapon modification for the Capacitor slot. The Photon Agitator mod provides the following effect: +1 DC, Gain Vicious. Installed with the Repair skill."
   },
   {
     "id": "mod_bracketed_barrel",
@@ -828,7 +910,9 @@
     "perksRequired": [],
     "skill": "science",
     "complexity": 3,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": " Barrel: Allows the weapon to take a Muzzle mod",
+    "longDescription": "A weapon modification for the Barrel slot. The Bracketed Short Barrel mod provides the following effect: Allows the weapon to take a Muzzle mod. Installed with the Repair skill."
   },
   {
     "id": "mod_bracketed_long_barrel",
@@ -849,7 +933,9 @@
     ],
     "skill": "science",
     "complexity": 4,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": " Barrel: Remove Close Quarters, Increase Range by 1 step, Allows the weapon to take a Muzzle mod",
+    "longDescription": "A weapon modification for the Barrel slot. The Bracketed Long Barrel mod provides the following effect: Remove Close Quarters, Increase Range by 1 step, Allows the weapon to take a Muzzle mod. Installed with the Repair skill."
   },
   {
     "id": "mod_splitter",
@@ -865,7 +951,9 @@
     "perksRequired": [],
     "skill": "science",
     "complexity": 3,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Scattergun Barrel: -1 DC, Gain Spread, Gain Inaccurate",
+    "longDescription": "A weapon modification for the Barrel slot. The Splitter mod provides the following effect: -1 DC, Gain Spread, Gain Inaccurate. Installed with the Repair skill."
   },
   {
     "id": "mod_automatic_barrel",
@@ -886,7 +974,9 @@
     ],
     "skill": "science",
     "complexity": 4,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Automatic Barrel: -1 DC, Remove Close-Quarters, Increase Range by 1 step, +1 Fire Rate",
+    "longDescription": "A weapon modification for the Barrel slot. The Automatic Barrel mod provides the following effect: -1 DC, Remove Close-Quarters, Increase Range by 1 step, +1 Fire Rate. Installed with the Repair skill."
   },
   {
     "id": "mod_improved_barrel",
@@ -907,7 +997,9 @@
     ],
     "skill": "science",
     "complexity": 4,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Improved Barrel: +1 DC",
+    "longDescription": "A weapon modification for the Barrel slot. The Improved Barrel mod provides the following effect: +1 DC. Installed with the Repair skill."
   },
   {
     "id": "mod_sniper_barrel",
@@ -928,7 +1020,9 @@
     ],
     "skill": "science",
     "complexity": 4,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Sniper Barrel: +2 DC, Remove Close Quarters, Increase Range by 1 step, -1 Fire Rate",
+    "longDescription": "A weapon modification for the Barrel slot. The Sniper Barrel mod provides the following effect: +2 DC, Remove Close Quarters, Increase Range by 1 step, -1 Fire Rate. Installed with the Repair skill."
   },
   {
     "id": "mod_flamer_barrel",
@@ -949,7 +1043,9 @@
     ],
     "skill": "science",
     "complexity": 5,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Thrower Barrel: -2 DC, +2 Fire Rate, Gain Burst, Gain Spread, Reduce range by 1 step, Gain Inaccurate",
+    "longDescription": "A weapon modification for the Barrel slot. The Flamer Barrel mod provides the following effect: -2 DC, +2 Fire Rate, Gain Burst, Gain Spread, Reduce range by 1 step, Gain Inaccurate. Installed with the Repair skill."
   },
   {
     "id": "mod_standard_stock",
@@ -965,7 +1061,9 @@
     "perksRequired": [],
     "skill": "repair",
     "complexity": 2,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": " Stock: Gain Two-Handed, Remove Inaccurate, Remove Close Quarters",
+    "longDescription": "A weapon modification for the Stock slot. The Standard Stock mod provides the following effect: Gain Two-Handed, Remove Inaccurate, Remove Close Quarters. Installed with the Repair skill."
   },
   {
     "id": "mod_three_crank_capacitor",
@@ -981,7 +1079,9 @@
     "perksRequired": [],
     "skill": "science",
     "complexity": 2,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "3-Crank Capacitor: +1 DC",
+    "longDescription": "A weapon modification for the Capacitor slot. The Three-crank Capacitor mod provides the following effect: +1 DC. Installed with the Repair skill."
   },
   {
     "id": "mod_four_crank_capacitor",
@@ -1002,7 +1102,9 @@
     ],
     "skill": "science",
     "complexity": 3,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "4-Crank Capacitor: +2 DC",
+    "longDescription": "A weapon modification for the Capacitor slot. The Four-crank Capacitor mod provides the following effect: +2 DC. Installed with the Repair skill."
   },
   {
     "id": "mod_five_crank_capacitor",
@@ -1023,7 +1125,9 @@
     ],
     "skill": "science",
     "complexity": 4,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "5-Crank Capacitor: +3 DC",
+    "longDescription": "A weapon modification for the Capacitor slot. The Five-crank Capacitor mod provides the following effect: +3 DC. Installed with the Repair skill."
   },
   {
     "id": "mod_six_crank_capacitor",
@@ -1044,7 +1148,9 @@
     ],
     "skill": "science",
     "complexity": 5,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "6-Crank Capacitor: +4 DC",
+    "longDescription": "A weapon modification for the Capacitor slot. The Six-crank Capacitor mod provides the following effect: +4 DC. Installed with the Repair skill."
   },
   {
     "id": "mod_full_capacitors",
@@ -1065,7 +1171,9 @@
     ],
     "skill": "repair",
     "complexity": 5,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "High Capacity Capacitors: Gain Vicious",
+    "longDescription": "A weapon modification for the Capacitors slot. The Full Capacitors mod provides the following effect: Gain Vicious. Installed with the Repair skill."
   },
   {
     "id": "mod_capacitor_boosting_coil",
@@ -1086,7 +1194,9 @@
     ],
     "skill": "repair",
     "complexity": 6,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Maximum Capacity Capacitors: +1 DC damage, Gain Vicious",
+    "longDescription": "A weapon modification for the Capacitors slot. The Capacitor Boosting Coil mod provides the following effect: +1 DC damage, Gain Vicious. Installed with the Repair skill."
   },
   {
     "id": "mod_deep_dish",
@@ -1107,7 +1217,9 @@
     ],
     "skill": "science",
     "complexity": 6,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Long Dish: +1 DC, Increase Range by 1 step",
+    "longDescription": "A weapon modification for the Dish slot. The Deep Dish mod provides the following effect: +1 DC, Increase Range by 1 step. Installed with the Repair skill."
   },
   {
     "id": "mod_electric_signal_carrier_antennae",
@@ -1128,7 +1240,9 @@
     ],
     "skill": "science",
     "complexity": 5,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Electrified Muzzle: Change damage to 7 DC, Change damage type to Energy, Gain Radioactive",
+    "longDescription": "A weapon modification for the Muzzle slot. The Electric Signal Carrier Antennae mod provides the following effect: Change damage to 7 DC, Change damage type to Energy, Gain Radioactive. Installed with the Repair skill."
   },
   {
     "id": "mod_signal_repeater",
@@ -1149,7 +1263,9 @@
     ],
     "skill": "science",
     "complexity": 6,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Automatic Muzzle: +2 Fire Rate, Gain Burst, Remove Blast",
+    "longDescription": "A weapon modification for the Muzzle slot. The Signal Repeater mod provides the following effect: +2 Fire Rate, Gain Burst, Remove Blast. Installed with the Repair skill."
   },
   {
     "id": "mod_beam_splitter",
@@ -1170,7 +1286,9 @@
     ],
     "skill": "science",
     "complexity": 4,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Scattered Muzzle: -1 DC, Gain Spread, -1 Fire Rate, Gain Inaccurate, Reduce Range by 1 step",
+    "longDescription": "A weapon modification for the Muzzle slot. The Beam Splitter mod provides the following effect: -1 DC, Gain Spread, -1 Fire Rate, Gain Inaccurate, Reduce Range by 1 step. Installed with the Repair skill."
   },
   {
     "id": "mod_beam_focuser",
@@ -1191,7 +1309,9 @@
     ],
     "skill": "science",
     "complexity": 4,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Focused Muzzle: Increase Range by 1 Step",
+    "longDescription": "A weapon modification for the Muzzle slot. The Beam Focuser mod provides the following effect: Increase Range by 1 Step. Installed with the Repair skill."
   },
   {
     "id": "mod_gyro_compensating_lens",
@@ -1212,7 +1332,9 @@
     ],
     "skill": "science",
     "complexity": 4,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Targeting Muzzle: +1 Fire Rate, Remove Inaccurate",
+    "longDescription": "A weapon modification for the Muzzle slot. The Gyro Compensating Lens mod provides the following effect: +1 Fire Rate, Remove Inaccurate. Installed with the Repair skill."
   },
   {
     "id": "mod_napalm",
@@ -1233,7 +1355,9 @@
     ],
     "skill": "repair",
     "complexity": 3,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Napalmer Fuel: +1 DC",
+    "longDescription": "A weapon modification for the Fuel slot. The Napalm mod provides the following effect: +1 DC. Installed with the Repair skill."
   },
   {
     "id": "mod_large_tank",
@@ -1254,7 +1378,9 @@
     ],
     "skill": "repair",
     "complexity": 3,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "High Capacity Propellant_tank: +1 Fire Rate",
+    "longDescription": "A weapon modification for the Propellant_tank slot. The Large Tank mod provides the following effect: +1 Fire Rate. Installed with the Repair skill."
   },
   {
     "id": "mod_huge_tank",
@@ -1275,7 +1401,9 @@
     ],
     "skill": "repair",
     "complexity": 4,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Max. Capacity Propellant_tank: +2 Fire Rate",
+    "longDescription": "A weapon modification for the Propellant_tank slot. The Huge Tank mod provides the following effect: +2 Fire Rate. Installed with the Repair skill."
   },
   {
     "id": "mod_compression_nozzle",
@@ -1296,7 +1424,9 @@
     ],
     "skill": "repair",
     "complexity": 3,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Compressed Nozzle: +1 DC",
+    "longDescription": "A weapon modification for the Nozzle slot. The Compression Nozzle mod provides the following effect: +1 DC. Installed with the Repair skill."
   },
   {
     "id": "mod_vaporization_nozzle",
@@ -1317,7 +1447,9 @@
     ],
     "skill": "repair",
     "complexity": 4,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Vaporizing Nozzle: +1 DC, Gain Vicious",
+    "longDescription": "A weapon modification for the Nozzle slot. The Vaporization Nozzle mod provides the following effect: +1 DC, Gain Vicious. Installed with the Repair skill."
   },
   {
     "id": "mod_charging_barrels",
@@ -1338,7 +1470,9 @@
     ],
     "skill": "science",
     "complexity": 7,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Charging Barrel: +4 DC, -3 Fire Rate, Increase Range by 1 step",
+    "longDescription": "A weapon modification for the Barrel slot. The Charging Barrels mod provides the following effect: +4 DC, -3 Fire Rate, Increase Range by 1 step. Installed with the Repair skill."
   },
   {
     "id": "mod_accelerated_barrel",
@@ -1359,7 +1493,9 @@
     ],
     "skill": "repair",
     "complexity": 5,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "High-Speed Barrel: +1 DC, +1 Fire Rate, Reduce Range by 1 step",
+    "longDescription": "A weapon modification for the Barrel slot. The Accelerated Barrel mod provides the following effect: +1 DC, +1 Fire Rate, Reduce Range by 1 step. Installed with the Repair skill."
   },
   {
     "id": "mod_tri_barrel",
@@ -1380,7 +1516,9 @@
     ],
     "skill": "repair",
     "complexity": 6,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "High-Powered Barrel: +2 DC, -2 Fire Rate",
+    "longDescription": "A weapon modification for the Barrel slot. The Tri-Barrel mod provides the following effect: +2 DC, -2 Fire Rate. Installed with the Repair skill."
   },
   {
     "id": "mod_gunner_sight",
@@ -1396,7 +1534,9 @@
     "perksRequired": [],
     "skill": "repair",
     "complexity": 2,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Tactical Sights: Remove Inaccurate",
+    "longDescription": "A weapon modification for the Sights slot. The Gunner Sight mod provides the following effect: Remove Inaccurate. Installed with the Repair skill."
   },
   {
     "id": "mod_shredder",
@@ -1417,7 +1557,9 @@
     ],
     "skill": "repair",
     "complexity": 4,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Shredding Muzzle: Melee weapon, Deals DC of Physical damage equal to Fire Rate",
+    "longDescription": "A weapon modification for the Muzzle slot. The Shredder mod provides the following effect: Melee weapon, Deals DC of Physical damage equal to Fire Rate. Installed with the Repair skill."
   },
   {
     "id": "mod_triple_barrel",
@@ -1438,7 +1580,9 @@
     ],
     "skill": "repair",
     "complexity": 4,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Triple Barrel Barrel: +1 Fire Rate",
+    "longDescription": "A weapon modification for the Barrel slot. The Triple Barrel mod provides the following effect: +1 Fire Rate. Installed with the Repair skill."
   },
   {
     "id": "mod_quad_barrel",
@@ -1459,7 +1603,9 @@
     ],
     "skill": "repair",
     "complexity": 5,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Quad Barrel Barrel: +2 Fire Rate",
+    "longDescription": "A weapon modification for the Barrel slot. The Quad Barrel mod provides the following effect: +2 Fire Rate. Installed with the Repair skill."
   },
   {
     "id": "mod_scope",
@@ -1480,7 +1626,9 @@
     ],
     "skill": "repair",
     "complexity": 4,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Scoped Sights: Gain Accurate",
+    "longDescription": "A weapon modification for the Sights slot. The Scope mod provides the following effect: Gain Accurate. Installed with the Repair skill."
   },
   {
     "id": "mod_night_vision_scope",
@@ -1505,7 +1653,9 @@
     ],
     "skill": "repair",
     "complexity": 6,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Night-vision Sights: Gain Accurate, Gain Night Vision",
+    "longDescription": "A weapon modification for the Sights slot. The Night Vision Scope mod provides the following effect: Gain Accurate, Gain Night Vision. Installed with the Repair skill."
   },
   {
     "id": "mod_targeting_computer",
@@ -1530,7 +1680,9 @@
     ],
     "skill": "repair",
     "complexity": 6,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Targeting Sights: Gain Accurate, Gain Piercing 1",
+    "longDescription": "A weapon modification for the Sights slot. The Targeting Computer mod provides the following effect: Gain Accurate, Gain Piercing 1. Installed with the Repair skill."
   },
   {
     "id": "mod_stabilizer",
@@ -1551,7 +1703,9 @@
     ],
     "skill": "repair",
     "complexity": 4,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Stabilized Barrel: Remove Inaccurate",
+    "longDescription": "A weapon modification for the Barrel slot. The Stabilizer mod provides the following effect: Remove Inaccurate. Installed with the Repair skill."
   },
   {
     "id": "mod_electrification_module",
@@ -1576,7 +1730,9 @@
     ],
     "skill": "repair",
     "complexity": 6,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Electrified Muzzle: Gain Vicious, Change damage type to Energy",
+    "longDescription": "A weapon modification for the Muzzle slot. The Electrification Module mod provides the following effect: Gain Vicious, Change damage type to Energy. Installed with the Repair skill."
   },
   {
     "id": "mod_ignition_module",
@@ -1601,7 +1757,9 @@
     ],
     "skill": "repair",
     "complexity": 7,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Flaming Muzzle: Gain Persistent (Energy)",
+    "longDescription": "A weapon modification for the Muzzle slot. The Ignition Module mod provides the following effect: Gain Persistent (Energy). Installed with the Repair skill."
   },
   {
     "id": "mod_serrated_blade",
@@ -1622,7 +1780,9 @@
     ],
     "skill": "repair",
     "complexity": 3,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Serrated Blade: +1 DC, Gain Persistent",
+    "longDescription": "A weapon modification for the Blade slot. The Serrated Blade mod provides the following effect: +1 DC, Gain Persistent. Installed with the Repair skill."
   },
   {
     "id": "mod_electrified_blade",
@@ -1647,7 +1807,9 @@
     ],
     "skill": "repair",
     "complexity": 4,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Electrified Blade: +1 DC, Damage type becomes Energy",
+    "longDescription": "A weapon modification for the Blade slot. The Electrified Blade mod provides the following effect: +1 DC, Damage type becomes Energy. Installed with the Repair skill."
   },
   {
     "id": "mod_electrified_serrated_blade",
@@ -1672,7 +1834,9 @@
     ],
     "skill": "repair",
     "complexity": 5,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Electrified Serrated Blade: +1 DC, Damage type becomes Energy, Gain Persistent (Physical)",
+    "longDescription": "A weapon modification for the Blade slot. The Electrified Serrated Blade mod provides the following effect: +1 DC, Damage type becomes Energy, Gain Persistent (Physical). Installed with the Repair skill."
   },
   {
     "id": "mod_stun_pack",
@@ -1697,7 +1861,9 @@
     ],
     "skill": "repair",
     "complexity": 5,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Stunning Blade: +2 DC, Damage type becomes Energy, Gain Stun",
+    "longDescription": "A weapon modification for the Blade slot. The Stun Pack mod provides the following effect: +2 DC, Damage type becomes Energy, Gain Stun. Installed with the Repair skill."
   },
   {
     "id": "mod_stealth_blade",
@@ -1718,7 +1884,9 @@
     ],
     "skill": "repair",
     "complexity": 4,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Stealth Blade: +1 DC, Gain Persistent, +2 DC on Sneak Attacks",
+    "longDescription": "A weapon modification for the Blade slot. The Stealth Blade mod provides the following effect: +1 DC, Gain Persistent, +2 DC on Sneak Attacks. Installed with the Repair skill."
   },
   {
     "id": "mod_curved_blade",
@@ -1734,7 +1902,9 @@
     "perksRequired": [],
     "skill": "repair",
     "complexity": 2,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Curved Blade: +1 DC, On successful attack, spend 2 AP to disarm opponent",
+    "longDescription": "A weapon modification for the Blade slot. The Curved Blade mod provides the following effect: +1 DC, On successful attack, spend 2 AP to disarm opponent. Installed with the Repair skill."
   },
   {
     "id": "mod_extended_blade",
@@ -1755,7 +1925,9 @@
     ],
     "skill": "repair",
     "complexity": 5,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Extended Blade: +1 DC, Gain Persistent",
+    "longDescription": "A weapon modification for the Blade slot. The Extended Blade mod provides the following effect: +1 DC, Gain Persistent. Installed with the Repair skill."
   },
   {
     "id": "mod_extra_flame_jets",
@@ -1776,7 +1948,9 @@
     ],
     "skill": "repair",
     "complexity": 5,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Searing Blade: +1 DC, Gain Persistent",
+    "longDescription": "A weapon modification for the Blade slot. The Extra Flame Jets mod provides the following effect: +1 DC, Gain Persistent. Installed with the Repair skill."
   },
   {
     "id": "mod_barbed",
@@ -1792,7 +1966,9 @@
     "perksRequired": [],
     "skill": "repair",
     "complexity": 1,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Barbed Head: Gain Piercing 1",
+    "longDescription": "A weapon modification for the Head slot. The Barbed mod provides the following effect: Gain Piercing 1. Installed with the Repair skill."
   },
   {
     "id": "mod_spiked",
@@ -1808,7 +1984,9 @@
     "perksRequired": [],
     "skill": "repair",
     "complexity": 2,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Spiked Head: +1 DC, Gain Piercing 1",
+    "longDescription": "A weapon modification for the Head slot. The Spiked mod provides the following effect: +1 DC, Gain Piercing 1. Installed with the Repair skill."
   },
   {
     "id": "mod_sharp",
@@ -1824,7 +2002,9 @@
     "perksRequired": [],
     "skill": "repair",
     "complexity": 2,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Sharp Head: +1 DC, Gain Persistent",
+    "longDescription": "A weapon modification for the Head slot. The Sharp mod provides the following effect: +1 DC, Gain Persistent. Installed with the Repair skill."
   },
   {
     "id": "mod_chain_wrapped",
@@ -1845,7 +2025,9 @@
     ],
     "skill": "repair",
     "complexity": 3,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Chain-Wrapped Head: +2 DC",
+    "longDescription": "A weapon modification for the Head slot. The Chain-Wrapped mod provides the following effect: +2 DC. Installed with the Repair skill."
   },
   {
     "id": "mod_bladed",
@@ -1866,7 +2048,9 @@
     ],
     "skill": "repair",
     "complexity": 4,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Bladed Head: +2 DC, Gain Persistent",
+    "longDescription": "A weapon modification for the Head slot. The Bladed mod provides the following effect: +2 DC, Gain Persistent. Installed with the Repair skill."
   },
   {
     "id": "mod_puncturing",
@@ -1887,7 +2071,9 @@
     ],
     "skill": "repair",
     "complexity": 2,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Puncturing Head: +2 DC, Gain Piercing 1",
+    "longDescription": "A weapon modification for the Head slot. The Puncturing mod provides the following effect: +2 DC, Gain Piercing 1. Installed with the Repair skill."
   },
   {
     "id": "mod_heavy",
@@ -1908,7 +2094,9 @@
     ],
     "skill": "repair",
     "complexity": 3,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Heavy Head: +2 DC",
+    "longDescription": "A weapon modification for the Head slot. The Heavy mod provides the following effect: +2 DC. Installed with the Repair skill."
   },
   {
     "id": "mod_hooked",
@@ -1924,7 +2112,9 @@
     "perksRequired": [],
     "skill": "repair",
     "complexity": 1,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Hooked Head: +1 DC, On successful attack, spend 2 AP to disarm opponent",
+    "longDescription": "A weapon modification for the Head slot. The Hooked mod provides the following effect: +1 DC, On successful attack, spend 2 AP to disarm opponent. Installed with the Repair skill."
   },
   {
     "id": "mod_extra_heavy",
@@ -1945,7 +2135,9 @@
     ],
     "skill": "repair",
     "complexity": 3,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Heavy Head: +3 DC",
+    "longDescription": "A weapon modification for the Head slot. The Extra Heavy mod provides the following effect: +3 DC. Installed with the Repair skill."
   },
   {
     "id": "mod_electrified",
@@ -1970,7 +2162,9 @@
     ],
     "skill": "repair",
     "complexity": 4,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Shock Head: +2 DC, Change Damage Type to Energy",
+    "longDescription": "A weapon modification for the Head slot. The Electrified mod provides the following effect: +2 DC, Change Damage Type to Energy. Installed with the Repair skill."
   },
   {
     "id": "mod_heating_coil",
@@ -1991,7 +2185,9 @@
     ],
     "skill": "repair",
     "complexity": 3,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Heated Head: +1 DC, Change Damage Type to Energy",
+    "longDescription": "A weapon modification for the Head slot. The Heating Coil mod provides the following effect: +1 DC, Change Damage Type to Energy. Installed with the Repair skill."
   },
   {
     "id": "mod_spiked_knuckle",
@@ -2007,7 +2203,9 @@
     "perksRequired": [],
     "skill": "repair",
     "complexity": 1,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Spiked Knuckle: Gain Piercing 1",
+    "longDescription": "A weapon modification for the Knuckle slot. The Spiked mod provides the following effect: Gain Piercing 1. Installed with the Repair skill."
   },
   {
     "id": "mod_puncturing_knuckle",
@@ -2028,7 +2226,9 @@
     ],
     "skill": "repair",
     "complexity": 2,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Puncturing Knuckle: +1 DC, Gain Piercing 1",
+    "longDescription": "A weapon modification for the Knuckle slot. The Puncturing mod provides the following effect: +1 DC, Gain Piercing 1. Installed with the Repair skill."
   },
   {
     "id": "mod_lead_lining",
@@ -2049,7 +2249,9 @@
     ],
     "skill": "repair",
     "complexity": 2,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Lead-lined Knuckle: +2 DC",
+    "longDescription": "A weapon modification for the Knuckle slot. The Lead Lining mod provides the following effect: +2 DC. Installed with the Repair skill."
   },
   {
     "id": "mod_extra_claw",
@@ -2065,7 +2267,9 @@
     "perksRequired": [],
     "skill": "repair",
     "complexity": 1,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Large Claw: +1 DC, On successful attack, spend 2 AP to disarm opponent",
+    "longDescription": "A weapon modification for the Claw slot. The Extra Claw mod provides the following effect: +1 DC, On successful attack, spend 2 AP to disarm opponent. Installed with the Repair skill."
   },
   {
     "id": "mod_reflex_sight_gatling",
@@ -2086,7 +2290,9 @@
     ],
     "skill": "science",
     "complexity": 3,
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "description": "Tactical Sight: May re-roll hit location die",
+    "longDescription": "A weapon modification for the Sight slot. The Reflex Sight mod provides the following effect: May re-roll hit location die. Installed with the Repair skill."
   },
   {
     "id": "mod_beta_wave_tuner_gatling",
@@ -2102,7 +2308,9 @@
     "perksRequired": [],
     "skill": "science",
     "complexity": 4,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Incendiary Capacitor: Gain Persistent",
+    "longDescription": "A weapon modification for the Capacitor slot. The Beta Wave Tuner mod provides the following effect: Gain Persistent. Installed with the Repair skill."
   },
   {
     "id": "mod_boosted_capacitor_gatling",
@@ -2118,7 +2326,9 @@
     "perksRequired": [],
     "skill": "science",
     "complexity": 4,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Boosted Capacitor: +1 CD",
+    "longDescription": "A weapon modification for the Capacitor slot. The Boosted Capacitor mod provides the following effect: +1 CD. Installed with the Repair skill."
   },
   {
     "id": "mod_photon_exciter_gatling",
@@ -2139,7 +2349,9 @@
     ],
     "skill": "science",
     "complexity": 3,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Excited Capacitor: Gain Vicious",
+    "longDescription": "A weapon modification for the Capacitor slot. The Photon Exciter mod provides the following effect: Gain Vicious. Installed with the Repair skill."
   },
   {
     "id": "mod_photon_agitator_gatling",
@@ -2160,7 +2372,9 @@
     ],
     "skill": "science",
     "complexity": 5,
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "description": "Agitated Capacitor: +1 CD, Gain Vicious",
+    "longDescription": "A weapon modification for the Capacitor slot. The Photon Agitator mod provides the following effect: +1 CD, Gain Vicious. Installed with the Repair skill."
   },
   {
     "id": "mod_beam_focuser_gatling",
@@ -2176,7 +2390,9 @@
     "perksRequired": [],
     "skill": "science",
     "complexity": 2,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Focused Nozzle: +1 CD, Gain Vicious",
+    "longDescription": "A weapon modification for the Nozzle slot. The Beam Focuser mod provides the following effect: +1 CD, Gain Vicious. Installed with the Repair skill."
   },
   {
     "id": "mod_recoil_compensating_stock_junkjet",
@@ -2192,7 +2408,9 @@
     "perksRequired": [],
     "skill": "repair",
     "complexity": 2,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Recoil Compensated Stock: +1 Fire Rate",
+    "longDescription": "A weapon modification for the Stock slot. The Recoil Compensating Stock mod provides the following effect: +1 Fire Rate. Installed with the Repair skill."
   },
   {
     "id": "mod_gunner_sight_junkjet",
@@ -2208,7 +2426,9 @@
     "perksRequired": [],
     "skill": "repair",
     "complexity": 2,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Tactical Sight: May re-roll hit location die",
+    "longDescription": "A weapon modification for the Sight slot. The Gunner Sight mod provides the following effect: May re-roll hit location die. Installed with the Repair skill."
   },
   {
     "id": "mod_bayonet_missile",
@@ -2224,7 +2444,9 @@
     "perksRequired": [],
     "skill": "repair",
     "complexity": 2,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Bayoneted Shredding Muzzle: Melee weapon, deals 4 CD Piercing 1 physical damage",
+    "longDescription": "A weapon modification for the Muzzle slot. The Bayonet mod provides the following effect: Melee weapon, deals 4 CD Piercing 1 physical damage. Installed with the Repair skill."
   },
   {
     "id": "mod_puncturing_sledgehammer",
@@ -2245,7 +2467,9 @@
     ],
     "skill": "repair",
     "complexity": 3,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Puncturing Head_sledge: +2 CD, Gain Piercing 1",
+    "longDescription": "A weapon modification for the Head_sledge slot. The Puncturing mod provides the following effect: +2 CD, Gain Piercing 1. Installed with the Repair skill."
   },
   {
     "id": "mod_heavy_sledgehammer",
@@ -2266,7 +2490,9 @@
     ],
     "skill": "repair",
     "complexity": 3,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Heavy Head_sledge: +3 CD",
+    "longDescription": "A weapon modification for the Head_sledge slot. The Heavy mod provides the following effect: +3 CD. Installed with the Repair skill."
   },
   {
     "id": "mod_stun_pack_baton",
@@ -2291,7 +2517,9 @@
     ],
     "skill": "repair",
     "complexity": 3,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Stun Baton: +3 CD, Gain Stun, Change Damage Type to Energy",
+    "longDescription": "A weapon modification for the Baton slot. The Stun Pack mod provides the following effect: +3 CD, Gain Stun, Change Damage Type to Energy. Installed with the Repair skill."
   },
   {
     "id": "mod_stun_pack_super_sledge",
@@ -2316,7 +2544,9 @@
     ],
     "skill": "repair",
     "complexity": 5,
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "description": "Stunning Supersledge: +2 CD, Gain Stun, Change Damage Type to Energy",
+    "longDescription": "A weapon modification for the Supersledge slot. The Stun Pack mod provides the following effect: +2 CD, Gain Stun, Change Damage Type to Energy. Installed with the Repair skill."
   },
   {
     "id": "mod_puncturing_powerfist",
@@ -2337,7 +2567,9 @@
     ],
     "skill": "repair",
     "complexity": 4,
-    "rarity": "Uncommon"
+    "rarity": "Uncommon",
+    "description": "Puncturing Fist: +2 CD, Gain Piercing 1",
+    "longDescription": "A weapon modification for the Fist slot. The Puncturing mod provides the following effect: +2 CD, Gain Piercing 1. Installed with the Repair skill."
   },
   {
     "id": "mod_heating_coil_powerfist",
@@ -2358,7 +2590,9 @@
     ],
     "skill": "repair",
     "complexity": 4,
-    "rarity": "Rare"
+    "rarity": "Rare",
+    "description": "Heated Fist: +2 CD, Change Damage Type to Energy",
+    "longDescription": "A weapon modification for the Fist slot. The Heating Coil mod provides the following effect: +2 CD, Change Damage Type to Energy. Installed with the Repair skill."
   },
   {
     "id": "mod_weighted_pipe",
@@ -2379,7 +2613,9 @@
     ],
     "skill": "repair",
     "complexity": 3,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Weighted Pipe_wrench: +2 CD, Gain Piercing 1",
+    "longDescription": "A weapon modification for the Pipe_wrench slot. The Heavy mod provides the following effect: +2 CD, Gain Piercing 1. Installed with the Repair skill."
   },
   {
     "id": "mod_serrated_blade_sword",
@@ -2400,7 +2636,9 @@
     ],
     "skill": "repair",
     "complexity": 3,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Serrated Sword_blade: +2 CD, Gain Persistent",
+    "longDescription": "A weapon modification for the Sword_blade slot. The Serrated Blade mod provides the following effect: +2 CD, Gain Persistent. Installed with the Repair skill."
   },
   {
     "id": "mod_long_barrel_flamer",
@@ -2421,6 +2659,8 @@
     ],
     "skill": "repair",
     "complexity": 2,
-    "rarity": "Common"
+    "rarity": "Common",
+    "description": "Long Barrel: Increase Range by 1 step",
+    "longDescription": "A weapon modification for the Barrel slot. The Long Barrel mod provides the following effect: Increase Range by 1 step. Installed with the Repair skill."
   }
 ]

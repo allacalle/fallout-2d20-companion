@@ -1,51 +1,1053 @@
 [
-  {"id":"armor_mod_welded","name":"Welded","type":"material","armorType":["raider"],"complexity":2,"perksRequired":[],"skill":"repair","rarity":"Common","effects":"+1 Physical DR, +1 Energy DR","weightChange":1,"costChange":3},
-  {"id":"armor_mod_tempered","name":"Tempered","type":"material","armorType":["raider"],"complexity":3,"perksRequired":[],"skill":"repair","rarity":"Common","effects":"+2 Physical DR, +2 Energy DR","weightChange":1,"costChange":6},
-  {"id":"armor_mod_hardened","name":"Hardened","type":"material","armorType":["raider"],"complexity":4,"perksRequired":[{"perkId":"armorer","rank":1}],"skill":"repair","rarity":"Uncommon","effects":"+3 Physical DR, +3 Energy DR","weightChange":2,"costChange":9},
-  {"id":"armor_mod_buttressed","name":"Buttressed","type":"material","armorType":["raider"],"complexity":5,"perksRequired":[{"perkId":"armorer","rank":1}],"skill":"repair","rarity":"Uncommon","effects":"+4 Physical DR, +4 Energy DR","weightChange":3,"costChange":12},
-  {"id":"armor_mod_boiled_leather","name":"Boiled Leather","type":"material","armorType":["leather"],"complexity":2,"perksRequired":[],"skill":"repair","rarity":"Common","effects":"+1 Physical DR, +1 Energy DR","weightChange":1,"costChange":5},
-  {"id":"armor_mod_girded_leather","name":"Girded Leather","type":"material","armorType":["leather"],"complexity":3,"perksRequired":[],"skill":"repair","rarity":"Common","effects":"+2 Physical DR, +2 Energy DR","weightChange":1,"costChange":10},
-  {"id":"armor_mod_treated_leather","name":"Treated Leather","type":"material","armorType":["leather"],"complexity":4,"perksRequired":[{"perkId":"armorer","rank":1}],"skill":"repair","rarity":"Uncommon","effects":"+3 Physical DR, +3 Energy DR","weightChange":1,"costChange":15},
-  {"id":"armor_mod_shadowed_leather","name":"Shadowed Leather","type":"material","armorType":["leather"],"complexity":5,"perksRequired":[{"perkId":"armorer","rank":1}],"skill":"repair","rarity":"Uncommon","effects":"+3 Physical DR, +3 Energy DR","weightChange":1,"costChange":20},
-  {"id":"armor_mod_studded_leather","name":"Studded Leather","type":"material","armorType":["leather"],"complexity":6,"perksRequired":[{"perkId":"armorer","rank":1}],"skill":"repair","rarity":"Uncommon","effects":"+4 Physical DR, +4 Energy DR","weightChange":2,"costChange":25},
-  {"id":"armor_mod_painted_metal","name":"Painted Metal","type":"material","armorType":["metal"],"complexity":2,"perksRequired":[],"skill":"repair","rarity":"Common","effects":"+1 Physical DR, +1 Energy DR","weightChange":1,"costChange":10},
-  {"id":"armor_mod_enameled_metal","name":"Enameled Metal","type":"material","armorType":["metal"],"complexity":3,"perksRequired":[{"perkId":"armorer","rank":1}],"skill":"repair","rarity":"Common","effects":"+2 Physical DR, +2 Energy DR","weightChange":2,"costChange":20},
-  {"id":"armor_mod_shadowed_metal","name":"Shadowed Metal","type":"material","armorType":["metal"],"complexity":4,"perksRequired":[{"perkId":"armorer","rank":1}],"skill":"repair","rarity":"Uncommon","effects":"+2 Physical DR, +2 Energy DR","weightChange":2,"costChange":25},
-  {"id":"armor_mod_alloyed_metal","name":"Alloyed Metal","type":"material","armorType":["metal"],"complexity":5,"perksRequired":[{"perkId":"armorer","rank":1}],"skill":"repair","rarity":"Uncommon","effects":"+3 Physical DR, +3 Energy DR","weightChange":3,"costChange":30},
-  {"id":"armor_mod_polished_metal","name":"Polished Metal","type":"material","armorType":["metal"],"complexity":6,"perksRequired":[{"perkId":"armorer","rank":2}],"skill":"repair","rarity":"Uncommon","effects":"+4 Physical DR, +4 Energy DR","weightChange":4,"costChange":40},
-  {"id":"armor_mod_reinforced","name":"Reinforced","type":"material","armorType":["combat"],"complexity":3,"perksRequired":[],"skill":"repair","rarity":"Common","effects":"+1 Physical DR, +1 Energy DR","weightChange":1,"costChange":15},
-  {"id":"armor_mod_shadowed","name":"Shadowed","type":"material","armorType":["combat"],"complexity":4,"perksRequired":[{"perkId":"armorer","rank":1}],"skill":"repair","rarity":"Uncommon","effects":"+1 Physical DR, +1 Energy DR","weightChange":1,"costChange":15},
-  {"id":"armor_mod_fiberglass","name":"Fiberglass","type":"material","armorType":["combat"],"complexity":5,"perksRequired":[{"perkId":"armorer","rank":1}],"skill":"repair","rarity":"Uncommon","effects":"+2 Physical DR, +2 Energy DR","weightChange":1,"costChange":30},
-  {"id":"armor_mod_polymer","name":"Polymer","type":"material","armorType":["combat"],"complexity":6,"perksRequired":[{"perkId":"armorer","rank":1}],"skill":"repair","rarity":"Uncommon","effects":"+3 Physical DR, +3 Energy DR","weightChange":2,"costChange":45},
-  {"id":"armor_mod_laminated","name":"Laminated","type":"material","armorType":["synth"],"complexity":4,"perksRequired":[],"skill":"repair","rarity":"Common","effects":"+1 Physical DR, +1 Energy DR","weightChange":1,"costChange":5},
-  {"id":"armor_mod_resin","name":"Resin","type":"material","armorType":["synth"],"complexity":5,"perksRequired":[{"perkId":"armorer","rank":1}],"skill":"repair","rarity":"Uncommon","effects":"+2 Physical DR, +2 Energy DR","weightChange":1,"costChange":10},
-  {"id":"armor_mod_microcarbon","name":"Microcarbon","type":"material","armorType":["synth"],"complexity":6,"perksRequired":[{"perkId":"armorer","rank":1}],"skill":"repair","rarity":"Uncommon","effects":"+3 Physical DR, +3 Energy DR","weightChange":2,"costChange":15},
-  {"id":"armor_mod_nanofilament","name":"Nanofilament","type":"material","armorType":["synth"],"complexity":7,"perksRequired":[{"perkId":"armorer","rank":1}],"skill":"repair","rarity":"Uncommon","effects":"+4 Physical DR, +4 Energy DR","weightChange":3,"costChange":20},
-  {"id":"armor_mod_lighter_build","name":"Lighter Build","type":"utility","armorType":["all"],"complexity":2,"perksRequired":[],"skill":"repair","rarity":"Common","effects":"Weight -1","weightChange":-1,"costChange":1},
-  {"id":"armor_mod_pocketed","name":"Pocketed","type":"utility","armorType":["all"],"complexity":2,"perksRequired":[{"perkId":"armorer","rank":1}],"skill":"repair","rarity":"Uncommon","effects":"+10 Carry Weight","weightChange":1,"costChange":1},
-  {"id":"armor_mod_deep_pocketed","name":"Deep Pocketed","type":"utility","armorType":["all"],"complexity":4,"perksRequired":[{"perkId":"armorer","rank":1}],"skill":"repair","rarity":"Uncommon","effects":"+20 Carry Weight","weightChange":2,"costChange":5},
-  {"id":"armor_mod_lead_lined","name":"Lead Lined","type":"utility","armorType":["all"],"complexity":5,"perksRequired":[{"perkId":"armorer","rank":4},{"perkId":"science","rank":1}],"skill":"repair","rarity":"Uncommon","effects":"+3 Radiation DR","weightChange":2,"costChange":5},
-  {"id":"armor_mod_ultra_light_build","name":"Ultra-Light Build","type":"utility","armorType":["all"],"complexity":5,"perksRequired":[{"perkId":"armorer","rank":3}],"skill":"repair","rarity":"Uncommon","effects":"Weight -3","weightChange":-3,"costChange":7},
-  {"id":"armor_mod_padded","name":"Padded","type":"utility","armorType":["all"],"complexity":3,"perksRequired":[],"skill":"repair","rarity":"Common","effects":"+2 DR vs Blast weapons (Torso only)","weightChange":4,"costChange":1,"locationRestriction":"torso"},
-  {"id":"armor_mod_asbestos_lining","name":"Asbestos Lining","type":"utility","armorType":["all"],"complexity":4,"perksRequired":[{"perkId":"armorer","rank":1}],"skill":"repair","rarity":"Uncommon","effects":"+3 Energy DR, Ignore Energy Persistent damage (Torso only)","weightChange":4,"costChange":3,"locationRestriction":"torso"},
-  {"id":"armor_mod_dense","name":"Dense","type":"utility","armorType":["all"],"complexity":6,"perksRequired":[{"perkId":"armorer","rank":3}],"skill":"repair","rarity":"Uncommon","effects":"+4 DR vs Blast weapons (Torso only)","weightChange":4,"costChange":7,"locationRestriction":"torso"},
-  {"id":"armor_mod_biocommmesh","name":"BioCommMesh","type":"utility","armorType":["all"],"complexity":7,"perksRequired":[{"perkId":"armorer","rank":4},{"perkId":"science","rank":2}],"skill":"repair","rarity":"Uncommon","effects":"Chems last twice as long (Torso only)","weightChange":2,"costChange":9,"locationRestriction":"torso"},
-  {"id":"armor_mod_pneumatic","name":"Pneumatic","type":"utility","armorType":["all"],"complexity":6,"perksRequired":[{"perkId":"armorer","rank":4}],"skill":"repair","rarity":"Uncommon","effects":"Stun requires 2+ Effects (Torso only)","weightChange":2,"costChange":9,"locationRestriction":"torso"},
-  {"id":"armor_mod_brawling","name":"Brawling","type":"utility","armorType":["all"],"complexity":3,"perksRequired":[{"perkId":"armorer","rank":1}],"skill":"repair","rarity":"Uncommon","effects":"Unarmed +1 DC damage (Arms only)","weightChange":1,"costChange":1,"locationRestriction":"arm"},
-  {"id":"armor_mod_braced","name":"Braced","type":"utility","armorType":["all"],"complexity":3,"perksRequired":[{"perkId":"armorer","rank":1}],"skill":"repair","rarity":"Uncommon","effects":"+2 DR vs melee attacks (Arms only)","weightChange":1,"costChange":1,"locationRestriction":"arm"},
-  {"id":"armor_mod_stabilized","name":"Stabilized","type":"utility","armorType":["all"],"complexity":4,"perksRequired":[{"perkId":"armorer","rank":2}],"skill":"repair","rarity":"Uncommon","effects":"When aiming, ranged attack +1 DC damage (Arms only)","weightChange":1,"costChange":1,"locationRestriction":"arm"},
-  {"id":"armor_mod_aerodynamic","name":"Aerodynamic","type":"utility","armorType":["all"],"complexity":5,"perksRequired":[{"perkId":"armorer","rank":3}],"skill":"repair","rarity":"Uncommon","effects":"May spend up to 4 AP on bonus melee damage (Arms only)","weightChange":0,"costChange":1,"locationRestriction":"arm"},
-  {"id":"armor_mod_weighted","name":"Weighted","type":"utility","armorType":["all"],"complexity":6,"perksRequired":[{"perkId":"armorer","rank":4}],"skill":"repair","rarity":"Uncommon","effects":"Melee/Unarmed gain Piercing 1 (Arms only)","weightChange":1,"costChange":3,"locationRestriction":"arm"},
-  {"id":"armor_mod_cushioned","name":"Cushioned","type":"utility","armorType":["all"],"complexity":3,"perksRequired":[{"perkId":"armorer","rank":1}],"skill":"repair","rarity":"Uncommon","effects":"+2 Physical DR vs falling damage (Legs only)","weightChange":0,"costChange":1,"locationRestriction":"leg"},
-  {"id":"armor_mod_muffled","name":"Muffled","type":"utility","armorType":["all"],"complexity":4,"perksRequired":[{"perkId":"armorer","rank":2}],"skill":"repair","rarity":"Uncommon","effects":"Re-roll 1d20 on Stealth tests (Legs only)","weightChange":0,"costChange":2,"locationRestriction":"leg"},
-  {"id":"armor_mod_ballistic_weave","name":"Ballistic Weave","type":"utility","armorType":["clothing"],"complexity":3,"perksRequired":[],"skill":"repair","rarity":"Rare","effects":"+2 Physical DR, +2 Energy DR","weightChange":0,"costChange":20},
-  {"id":"armor_mod_ballistic_weave_mk_ii","name":"Ballistic Weave Mk II","type":"utility","armorType":["clothing"],"complexity":3,"perksRequired":[{"perkId":"armorer","rank":1}],"skill":"repair","rarity":"Rare","effects":"+3 Physical DR, +3 Energy DR","weightChange":0,"costChange":30},
-  {"id":"armor_mod_ballistic_weave_mk_iii","name":"Ballistic Weave Mk III","type":"utility","armorType":["clothing"],"complexity":3,"perksRequired":[{"perkId":"armorer","rank":2}],"skill":"repair","rarity":"Rare","effects":"+4 Physical DR, +4 Energy DR","weightChange":0,"costChange":40},
-  {"id":"armor_mod_ballistic_weave_mk_iv","name":"Ballistic Weave Mk IV","type":"utility","armorType":["clothing"],"complexity":3,"perksRequired":[{"perkId":"armorer","rank":3}],"skill":"repair","rarity":"Rare","effects":"+5 Physical DR, +5 Energy DR","weightChange":0,"costChange":50},
-  {"id":"armor_mod_ballistic_weave_mk_v","name":"Ballistic Weave Mk V","type":"utility","armorType":["clothing"],"complexity":3,"perksRequired":[{"perkId":"armorer","rank":4}],"skill":"repair","rarity":"Rare","effects":"+6 Physical DR, +6 Energy DR","weightChange":0,"costChange":60},
-  {"id":"armor_mod_insulated_lining","name":"Insulated Lining","type":"utility","armorType":["vault_suit"],"complexity":2,"perksRequired":[],"skill":"repair","rarity":"Common","effects":"+1 Energy DR","weightChange":0,"costChange":10},
-  {"id":"armor_mod_treated_lining","name":"Treated Lining","type":"utility","armorType":["vault_suit"],"complexity":3,"perksRequired":[{"perkId":"armorer","rank":2}],"skill":"repair","rarity":"Uncommon","effects":"+1 Energy DR, +1 Radiation DR","weightChange":1,"costChange":20},
-  {"id":"armor_mod_resistant_lining","name":"Resistant Lining","type":"utility","armorType":["vault_suit"],"complexity":4,"perksRequired":[{"perkId":"armorer","rank":3}],"skill":"repair","rarity":"Uncommon","effects":"+2 Energy DR, +1 Radiation DR","weightChange":1,"costChange":30},
-  {"id":"armor_mod_protective_lining","name":"Protective Lining","type":"utility","armorType":["vault_suit"],"complexity":5,"perksRequired":[{"perkId":"armorer","rank":4},{"perkId":"science","rank":2}],"skill":"repair","rarity":"Uncommon","effects":"+2 Energy DR, +2 Radiation DR","weightChange":1,"costChange":40},
-  {"id":"armor_mod_shielded_lining","name":"Shielded Lining","type":"utility","armorType":["vault_suit"],"complexity":6,"perksRequired":[{"perkId":"armorer","rank":4},{"perkId":"science","rank":4}],"skill":"repair","rarity":"Uncommon","effects":"+3 Energy DR, +3 Radiation DR","weightChange":1,"costChange":50}
+  {
+    "id": "armor_mod_welded",
+    "name": "Welded",
+    "type": "material",
+    "armorType": [
+      "raider"
+    ],
+    "complexity": 2,
+    "perksRequired": [],
+    "skill": "repair",
+    "rarity": "Common",
+    "effects": "+1 Physical DR, +1 Energy DR",
+    "weightChange": 1,
+    "costChange": 3,
+    "description": "Welded: +1 Physical DR, +1 Energy DR. Strengthens the armor's material composition.",
+    "longDescription": "The Welded mod improves the material quality of the armor, providing enhanced damage resistance. Effects: +1 Physical DR, +1 Energy DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_tempered",
+    "name": "Tempered",
+    "type": "material",
+    "armorType": [
+      "raider"
+    ],
+    "complexity": 3,
+    "perksRequired": [],
+    "skill": "repair",
+    "rarity": "Common",
+    "effects": "+2 Physical DR, +2 Energy DR",
+    "weightChange": 1,
+    "costChange": 6,
+    "description": "Tempered: +2 Physical DR, +2 Energy DR. Strengthens the armor's material composition.",
+    "longDescription": "The Tempered mod improves the material quality of the armor, providing enhanced damage resistance. Effects: +2 Physical DR, +2 Energy DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_hardened",
+    "name": "Hardened",
+    "type": "material",
+    "armorType": [
+      "raider"
+    ],
+    "complexity": 4,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 1
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "+3 Physical DR, +3 Energy DR",
+    "weightChange": 2,
+    "costChange": 9,
+    "description": "Hardened: +3 Physical DR, +3 Energy DR. Strengthens the armor's material composition.",
+    "longDescription": "The Hardened mod improves the material quality of the armor, providing enhanced damage resistance. Effects: +3 Physical DR, +3 Energy DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_buttressed",
+    "name": "Buttressed",
+    "type": "material",
+    "armorType": [
+      "raider"
+    ],
+    "complexity": 5,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 1
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "+4 Physical DR, +4 Energy DR",
+    "weightChange": 3,
+    "costChange": 12,
+    "description": "Buttressed: +4 Physical DR, +4 Energy DR. Strengthens the armor's material composition.",
+    "longDescription": "The Buttressed mod improves the material quality of the armor, providing enhanced damage resistance. Effects: +4 Physical DR, +4 Energy DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_boiled_leather",
+    "name": "Boiled Leather",
+    "type": "material",
+    "armorType": [
+      "leather"
+    ],
+    "complexity": 2,
+    "perksRequired": [],
+    "skill": "repair",
+    "rarity": "Common",
+    "effects": "+1 Physical DR, +1 Energy DR",
+    "weightChange": 1,
+    "costChange": 5,
+    "description": "Boiled Leather: +1 Physical DR, +1 Energy DR. Strengthens the armor's material composition.",
+    "longDescription": "The Boiled Leather mod improves the material quality of the armor, providing enhanced damage resistance. Effects: +1 Physical DR, +1 Energy DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_girded_leather",
+    "name": "Girded Leather",
+    "type": "material",
+    "armorType": [
+      "leather"
+    ],
+    "complexity": 3,
+    "perksRequired": [],
+    "skill": "repair",
+    "rarity": "Common",
+    "effects": "+2 Physical DR, +2 Energy DR",
+    "weightChange": 1,
+    "costChange": 10,
+    "description": "Girded Leather: +2 Physical DR, +2 Energy DR. Strengthens the armor's material composition.",
+    "longDescription": "The Girded Leather mod improves the material quality of the armor, providing enhanced damage resistance. Effects: +2 Physical DR, +2 Energy DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_treated_leather",
+    "name": "Treated Leather",
+    "type": "material",
+    "armorType": [
+      "leather"
+    ],
+    "complexity": 4,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 1
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "+3 Physical DR, +3 Energy DR",
+    "weightChange": 1,
+    "costChange": 15,
+    "description": "Treated Leather: +3 Physical DR, +3 Energy DR. Strengthens the armor's material composition.",
+    "longDescription": "The Treated Leather mod improves the material quality of the armor, providing enhanced damage resistance. Effects: +3 Physical DR, +3 Energy DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_shadowed_leather",
+    "name": "Shadowed Leather",
+    "type": "material",
+    "armorType": [
+      "leather"
+    ],
+    "complexity": 5,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 1
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "+3 Physical DR, +3 Energy DR",
+    "weightChange": 1,
+    "costChange": 20,
+    "description": "Shadowed Leather: +3 Physical DR, +3 Energy DR. Strengthens the armor's material composition.",
+    "longDescription": "The Shadowed Leather mod improves the material quality of the armor, providing enhanced damage resistance. Effects: +3 Physical DR, +3 Energy DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_studded_leather",
+    "name": "Studded Leather",
+    "type": "material",
+    "armorType": [
+      "leather"
+    ],
+    "complexity": 6,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 1
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "+4 Physical DR, +4 Energy DR",
+    "weightChange": 2,
+    "costChange": 25,
+    "description": "Studded Leather: +4 Physical DR, +4 Energy DR. Strengthens the armor's material composition.",
+    "longDescription": "The Studded Leather mod improves the material quality of the armor, providing enhanced damage resistance. Effects: +4 Physical DR, +4 Energy DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_painted_metal",
+    "name": "Painted Metal",
+    "type": "material",
+    "armorType": [
+      "metal"
+    ],
+    "complexity": 2,
+    "perksRequired": [],
+    "skill": "repair",
+    "rarity": "Common",
+    "effects": "+1 Physical DR, +1 Energy DR",
+    "weightChange": 1,
+    "costChange": 10,
+    "description": "Painted Metal: +1 Physical DR, +1 Energy DR. Strengthens the armor's material composition.",
+    "longDescription": "The Painted Metal mod improves the material quality of the armor, providing enhanced damage resistance. Effects: +1 Physical DR, +1 Energy DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_enameled_metal",
+    "name": "Enameled Metal",
+    "type": "material",
+    "armorType": [
+      "metal"
+    ],
+    "complexity": 3,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 1
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Common",
+    "effects": "+2 Physical DR, +2 Energy DR",
+    "weightChange": 2,
+    "costChange": 20,
+    "description": "Enameled Metal: +2 Physical DR, +2 Energy DR. Strengthens the armor's material composition.",
+    "longDescription": "The Enameled Metal mod improves the material quality of the armor, providing enhanced damage resistance. Effects: +2 Physical DR, +2 Energy DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_shadowed_metal",
+    "name": "Shadowed Metal",
+    "type": "material",
+    "armorType": [
+      "metal"
+    ],
+    "complexity": 4,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 1
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "+2 Physical DR, +2 Energy DR",
+    "weightChange": 2,
+    "costChange": 25,
+    "description": "Shadowed Metal: +2 Physical DR, +2 Energy DR. Strengthens the armor's material composition.",
+    "longDescription": "The Shadowed Metal mod improves the material quality of the armor, providing enhanced damage resistance. Effects: +2 Physical DR, +2 Energy DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_alloyed_metal",
+    "name": "Alloyed Metal",
+    "type": "material",
+    "armorType": [
+      "metal"
+    ],
+    "complexity": 5,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 1
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "+3 Physical DR, +3 Energy DR",
+    "weightChange": 3,
+    "costChange": 30,
+    "description": "Alloyed Metal: +3 Physical DR, +3 Energy DR. Strengthens the armor's material composition.",
+    "longDescription": "The Alloyed Metal mod improves the material quality of the armor, providing enhanced damage resistance. Effects: +3 Physical DR, +3 Energy DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_polished_metal",
+    "name": "Polished Metal",
+    "type": "material",
+    "armorType": [
+      "metal"
+    ],
+    "complexity": 6,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 2
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "+4 Physical DR, +4 Energy DR",
+    "weightChange": 4,
+    "costChange": 40,
+    "description": "Polished Metal: +4 Physical DR, +4 Energy DR. Strengthens the armor's material composition.",
+    "longDescription": "The Polished Metal mod improves the material quality of the armor, providing enhanced damage resistance. Effects: +4 Physical DR, +4 Energy DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_reinforced",
+    "name": "Reinforced",
+    "type": "material",
+    "armorType": [
+      "combat"
+    ],
+    "complexity": 3,
+    "perksRequired": [],
+    "skill": "repair",
+    "rarity": "Common",
+    "effects": "+1 Physical DR, +1 Energy DR",
+    "weightChange": 1,
+    "costChange": 15,
+    "description": "Reinforced: +1 Physical DR, +1 Energy DR. Strengthens the armor's material composition.",
+    "longDescription": "The Reinforced mod improves the material quality of the armor, providing enhanced damage resistance. Effects: +1 Physical DR, +1 Energy DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_shadowed",
+    "name": "Shadowed",
+    "type": "material",
+    "armorType": [
+      "combat"
+    ],
+    "complexity": 4,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 1
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "+1 Physical DR, +1 Energy DR",
+    "weightChange": 1,
+    "costChange": 15,
+    "description": "Shadowed: +1 Physical DR, +1 Energy DR. Strengthens the armor's material composition.",
+    "longDescription": "The Shadowed mod improves the material quality of the armor, providing enhanced damage resistance. Effects: +1 Physical DR, +1 Energy DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_fiberglass",
+    "name": "Fiberglass",
+    "type": "material",
+    "armorType": [
+      "combat"
+    ],
+    "complexity": 5,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 1
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "+2 Physical DR, +2 Energy DR",
+    "weightChange": 1,
+    "costChange": 30,
+    "description": "Fiberglass: +2 Physical DR, +2 Energy DR. Strengthens the armor's material composition.",
+    "longDescription": "The Fiberglass mod improves the material quality of the armor, providing enhanced damage resistance. Effects: +2 Physical DR, +2 Energy DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_polymer",
+    "name": "Polymer",
+    "type": "material",
+    "armorType": [
+      "combat"
+    ],
+    "complexity": 6,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 1
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "+3 Physical DR, +3 Energy DR",
+    "weightChange": 2,
+    "costChange": 45,
+    "description": "Polymer: +3 Physical DR, +3 Energy DR. Strengthens the armor's material composition.",
+    "longDescription": "The Polymer mod improves the material quality of the armor, providing enhanced damage resistance. Effects: +3 Physical DR, +3 Energy DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_laminated",
+    "name": "Laminated",
+    "type": "material",
+    "armorType": [
+      "synth"
+    ],
+    "complexity": 4,
+    "perksRequired": [],
+    "skill": "repair",
+    "rarity": "Common",
+    "effects": "+1 Physical DR, +1 Energy DR",
+    "weightChange": 1,
+    "costChange": 5,
+    "description": "Laminated: +1 Physical DR, +1 Energy DR. Strengthens the armor's material composition.",
+    "longDescription": "The Laminated mod improves the material quality of the armor, providing enhanced damage resistance. Effects: +1 Physical DR, +1 Energy DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_resin",
+    "name": "Resin",
+    "type": "material",
+    "armorType": [
+      "synth"
+    ],
+    "complexity": 5,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 1
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "+2 Physical DR, +2 Energy DR",
+    "weightChange": 1,
+    "costChange": 10,
+    "description": "Resin: +2 Physical DR, +2 Energy DR. Strengthens the armor's material composition.",
+    "longDescription": "The Resin mod improves the material quality of the armor, providing enhanced damage resistance. Effects: +2 Physical DR, +2 Energy DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_microcarbon",
+    "name": "Microcarbon",
+    "type": "material",
+    "armorType": [
+      "synth"
+    ],
+    "complexity": 6,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 1
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "+3 Physical DR, +3 Energy DR",
+    "weightChange": 2,
+    "costChange": 15,
+    "description": "Microcarbon: +3 Physical DR, +3 Energy DR. Strengthens the armor's material composition.",
+    "longDescription": "The Microcarbon mod improves the material quality of the armor, providing enhanced damage resistance. Effects: +3 Physical DR, +3 Energy DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_nanofilament",
+    "name": "Nanofilament",
+    "type": "material",
+    "armorType": [
+      "synth"
+    ],
+    "complexity": 7,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 1
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "+4 Physical DR, +4 Energy DR",
+    "weightChange": 3,
+    "costChange": 20,
+    "description": "Nanofilament: +4 Physical DR, +4 Energy DR. Strengthens the armor's material composition.",
+    "longDescription": "The Nanofilament mod improves the material quality of the armor, providing enhanced damage resistance. Effects: +4 Physical DR, +4 Energy DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_lighter_build",
+    "name": "Lighter Build",
+    "type": "utility",
+    "armorType": [
+      "all"
+    ],
+    "complexity": 2,
+    "perksRequired": [],
+    "skill": "repair",
+    "rarity": "Common",
+    "effects": "Weight -1",
+    "weightChange": -1,
+    "costChange": 1,
+    "description": "Lighter Build: Weight -1. A utility modification for armor.",
+    "longDescription": "The Lighter Build utility mod modifies armor for improved functionality. Effects: Weight -1. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_pocketed",
+    "name": "Pocketed",
+    "type": "utility",
+    "armorType": [
+      "all"
+    ],
+    "complexity": 2,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 1
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "+10 Carry Weight",
+    "weightChange": 1,
+    "costChange": 1,
+    "description": "Pocketed: +10 Carry Weight. A utility modification for armor.",
+    "longDescription": "The Pocketed utility mod modifies armor for improved functionality. Effects: +10 Carry Weight. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_deep_pocketed",
+    "name": "Deep Pocketed",
+    "type": "utility",
+    "armorType": [
+      "all"
+    ],
+    "complexity": 4,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 1
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "+20 Carry Weight",
+    "weightChange": 2,
+    "costChange": 5,
+    "description": "Deep Pocketed: +20 Carry Weight. A utility modification for armor.",
+    "longDescription": "The Deep Pocketed utility mod modifies armor for improved functionality. Effects: +20 Carry Weight. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_lead_lined",
+    "name": "Lead Lined",
+    "type": "utility",
+    "armorType": [
+      "all"
+    ],
+    "complexity": 5,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 4
+      },
+      {
+        "perkId": "science",
+        "rank": 1
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "+3 Radiation DR",
+    "weightChange": 2,
+    "costChange": 5,
+    "description": "Lead Lined: +3 Radiation DR. A utility modification for armor.",
+    "longDescription": "The Lead Lined utility mod modifies armor for improved functionality. Effects: +3 Radiation DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_ultra_light_build",
+    "name": "Ultra-Light Build",
+    "type": "utility",
+    "armorType": [
+      "all"
+    ],
+    "complexity": 5,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 3
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "Weight -3",
+    "weightChange": -3,
+    "costChange": 7,
+    "description": "Ultra-Light Build: Weight -3. A utility modification for armor.",
+    "longDescription": "The Ultra-Light Build utility mod modifies armor for improved functionality. Effects: Weight -3. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_padded",
+    "name": "Padded",
+    "type": "utility",
+    "armorType": [
+      "all"
+    ],
+    "complexity": 3,
+    "perksRequired": [],
+    "skill": "repair",
+    "rarity": "Common",
+    "effects": "+2 DR vs Blast weapons (Torso only)",
+    "weightChange": 4,
+    "costChange": 1,
+    "locationRestriction": "torso",
+    "description": "Padded: +2 DR vs Blast weapons (Torso only). A utility modification for armor.",
+    "longDescription": "The Padded utility mod modifies armor for improved functionality. Effects: +2 DR vs Blast weapons (Torso only). Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_asbestos_lining",
+    "name": "Asbestos Lining",
+    "type": "utility",
+    "armorType": [
+      "all"
+    ],
+    "complexity": 4,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 1
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "+3 Energy DR, Ignore Energy Persistent damage (Torso only)",
+    "weightChange": 4,
+    "costChange": 3,
+    "locationRestriction": "torso",
+    "description": "Asbestos Lining: +3 Energy DR, Ignore Energy Persistent damage (Torso only). A utility modification for armor.",
+    "longDescription": "The Asbestos Lining utility mod modifies armor for improved functionality. Effects: +3 Energy DR, Ignore Energy Persistent damage (Torso only). Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_dense",
+    "name": "Dense",
+    "type": "utility",
+    "armorType": [
+      "all"
+    ],
+    "complexity": 6,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 3
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "+4 DR vs Blast weapons (Torso only)",
+    "weightChange": 4,
+    "costChange": 7,
+    "locationRestriction": "torso",
+    "description": "Dense: +4 DR vs Blast weapons (Torso only). A utility modification for armor.",
+    "longDescription": "The Dense utility mod modifies armor for improved functionality. Effects: +4 DR vs Blast weapons (Torso only). Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_biocommmesh",
+    "name": "BioCommMesh",
+    "type": "utility",
+    "armorType": [
+      "all"
+    ],
+    "complexity": 7,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 4
+      },
+      {
+        "perkId": "science",
+        "rank": 2
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "Chems last twice as long (Torso only)",
+    "weightChange": 2,
+    "costChange": 9,
+    "locationRestriction": "torso",
+    "description": "BioCommMesh: Chems last twice as long (Torso only). A utility modification for armor.",
+    "longDescription": "The BioCommMesh utility mod modifies armor for improved functionality. Effects: Chems last twice as long (Torso only). Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_pneumatic",
+    "name": "Pneumatic",
+    "type": "utility",
+    "armorType": [
+      "all"
+    ],
+    "complexity": 6,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 4
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "Stun requires 2+ Effects (Torso only)",
+    "weightChange": 2,
+    "costChange": 9,
+    "locationRestriction": "torso",
+    "description": "Pneumatic: Stun requires 2+ Effects (Torso only). A utility modification for armor.",
+    "longDescription": "The Pneumatic utility mod modifies armor for improved functionality. Effects: Stun requires 2+ Effects (Torso only). Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_brawling",
+    "name": "Brawling",
+    "type": "utility",
+    "armorType": [
+      "all"
+    ],
+    "complexity": 3,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 1
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "Unarmed +1 DC damage (Arms only)",
+    "weightChange": 1,
+    "costChange": 1,
+    "locationRestriction": "arm",
+    "description": "Brawling: Unarmed +1 DC damage (Arms only). A utility modification for armor.",
+    "longDescription": "The Brawling utility mod modifies armor for improved functionality. Effects: Unarmed +1 DC damage (Arms only). Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_braced",
+    "name": "Braced",
+    "type": "utility",
+    "armorType": [
+      "all"
+    ],
+    "complexity": 3,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 1
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "+2 DR vs melee attacks (Arms only)",
+    "weightChange": 1,
+    "costChange": 1,
+    "locationRestriction": "arm",
+    "description": "Braced: +2 DR vs melee attacks (Arms only). A utility modification for armor.",
+    "longDescription": "The Braced utility mod modifies armor for improved functionality. Effects: +2 DR vs melee attacks (Arms only). Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_stabilized",
+    "name": "Stabilized",
+    "type": "utility",
+    "armorType": [
+      "all"
+    ],
+    "complexity": 4,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 2
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "When aiming, ranged attack +1 DC damage (Arms only)",
+    "weightChange": 1,
+    "costChange": 1,
+    "locationRestriction": "arm",
+    "description": "Stabilized: When aiming, ranged attack +1 DC damage (Arms only). A utility modification for armor.",
+    "longDescription": "The Stabilized utility mod modifies armor for improved functionality. Effects: When aiming, ranged attack +1 DC damage (Arms only). Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_aerodynamic",
+    "name": "Aerodynamic",
+    "type": "utility",
+    "armorType": [
+      "all"
+    ],
+    "complexity": 5,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 3
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "May spend up to 4 AP on bonus melee damage (Arms only)",
+    "weightChange": 0,
+    "costChange": 1,
+    "locationRestriction": "arm",
+    "description": "Aerodynamic: May spend up to 4 AP on bonus melee damage (Arms only). A utility modification for armor.",
+    "longDescription": "The Aerodynamic utility mod modifies armor for improved functionality. Effects: May spend up to 4 AP on bonus melee damage (Arms only). Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_weighted",
+    "name": "Weighted",
+    "type": "utility",
+    "armorType": [
+      "all"
+    ],
+    "complexity": 6,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 4
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "Melee/Unarmed gain Piercing 1 (Arms only)",
+    "weightChange": 1,
+    "costChange": 3,
+    "locationRestriction": "arm",
+    "description": "Weighted: Melee/Unarmed gain Piercing 1 (Arms only). A utility modification for armor.",
+    "longDescription": "The Weighted utility mod modifies armor for improved functionality. Effects: Melee/Unarmed gain Piercing 1 (Arms only). Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_cushioned",
+    "name": "Cushioned",
+    "type": "utility",
+    "armorType": [
+      "all"
+    ],
+    "complexity": 3,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 1
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "+2 Physical DR vs falling damage (Legs only)",
+    "weightChange": 0,
+    "costChange": 1,
+    "locationRestriction": "leg",
+    "description": "Cushioned: +2 Physical DR vs falling damage (Legs only). A utility modification for armor.",
+    "longDescription": "The Cushioned utility mod modifies armor for improved functionality. Effects: +2 Physical DR vs falling damage (Legs only). Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_muffled",
+    "name": "Muffled",
+    "type": "utility",
+    "armorType": [
+      "all"
+    ],
+    "complexity": 4,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 2
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "Re-roll 1d20 on Stealth tests (Legs only)",
+    "weightChange": 0,
+    "costChange": 2,
+    "locationRestriction": "leg",
+    "description": "Muffled: Re-roll 1d20 on Stealth tests (Legs only). A utility modification for armor.",
+    "longDescription": "The Muffled utility mod modifies armor for improved functionality. Effects: Re-roll 1d20 on Stealth tests (Legs only). Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_ballistic_weave",
+    "name": "Ballistic Weave",
+    "type": "utility",
+    "armorType": [
+      "clothing"
+    ],
+    "complexity": 3,
+    "perksRequired": [],
+    "skill": "repair",
+    "rarity": "Rare",
+    "effects": "+2 Physical DR, +2 Energy DR",
+    "weightChange": 0,
+    "costChange": 20,
+    "description": "Ballistic Weave: +2 Physical DR, +2 Energy DR. A utility modification for armor.",
+    "longDescription": "The Ballistic Weave utility mod modifies armor for improved functionality. Effects: +2 Physical DR, +2 Energy DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_ballistic_weave_mk_ii",
+    "name": "Ballistic Weave Mk II",
+    "type": "utility",
+    "armorType": [
+      "clothing"
+    ],
+    "complexity": 3,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 1
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Rare",
+    "effects": "+3 Physical DR, +3 Energy DR",
+    "weightChange": 0,
+    "costChange": 30,
+    "description": "Ballistic Weave Mk II: +3 Physical DR, +3 Energy DR. A utility modification for armor.",
+    "longDescription": "The Ballistic Weave Mk II utility mod modifies armor for improved functionality. Effects: +3 Physical DR, +3 Energy DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_ballistic_weave_mk_iii",
+    "name": "Ballistic Weave Mk III",
+    "type": "utility",
+    "armorType": [
+      "clothing"
+    ],
+    "complexity": 3,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 2
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Rare",
+    "effects": "+4 Physical DR, +4 Energy DR",
+    "weightChange": 0,
+    "costChange": 40,
+    "description": "Ballistic Weave Mk III: +4 Physical DR, +4 Energy DR. A utility modification for armor.",
+    "longDescription": "The Ballistic Weave Mk III utility mod modifies armor for improved functionality. Effects: +4 Physical DR, +4 Energy DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_ballistic_weave_mk_iv",
+    "name": "Ballistic Weave Mk IV",
+    "type": "utility",
+    "armorType": [
+      "clothing"
+    ],
+    "complexity": 3,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 3
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Rare",
+    "effects": "+5 Physical DR, +5 Energy DR",
+    "weightChange": 0,
+    "costChange": 50,
+    "description": "Ballistic Weave Mk IV: +5 Physical DR, +5 Energy DR. A utility modification for armor.",
+    "longDescription": "The Ballistic Weave Mk IV utility mod modifies armor for improved functionality. Effects: +5 Physical DR, +5 Energy DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_ballistic_weave_mk_v",
+    "name": "Ballistic Weave Mk V",
+    "type": "utility",
+    "armorType": [
+      "clothing"
+    ],
+    "complexity": 3,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 4
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Rare",
+    "effects": "+6 Physical DR, +6 Energy DR",
+    "weightChange": 0,
+    "costChange": 60,
+    "description": "Ballistic Weave Mk V: +6 Physical DR, +6 Energy DR. A utility modification for armor.",
+    "longDescription": "The Ballistic Weave Mk V utility mod modifies armor for improved functionality. Effects: +6 Physical DR, +6 Energy DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_insulated_lining",
+    "name": "Insulated Lining",
+    "type": "utility",
+    "armorType": [
+      "vault_suit"
+    ],
+    "complexity": 2,
+    "perksRequired": [],
+    "skill": "repair",
+    "rarity": "Common",
+    "effects": "+1 Energy DR",
+    "weightChange": 0,
+    "costChange": 10,
+    "description": "Insulated Lining: +1 Energy DR. A utility modification for armor.",
+    "longDescription": "The Insulated Lining utility mod modifies armor for improved functionality. Effects: +1 Energy DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_treated_lining",
+    "name": "Treated Lining",
+    "type": "utility",
+    "armorType": [
+      "vault_suit"
+    ],
+    "complexity": 3,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 2
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "+1 Energy DR, +1 Radiation DR",
+    "weightChange": 1,
+    "costChange": 20,
+    "description": "Treated Lining: +1 Energy DR, +1 Radiation DR. A utility modification for armor.",
+    "longDescription": "The Treated Lining utility mod modifies armor for improved functionality. Effects: +1 Energy DR, +1 Radiation DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_resistant_lining",
+    "name": "Resistant Lining",
+    "type": "utility",
+    "armorType": [
+      "vault_suit"
+    ],
+    "complexity": 4,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 3
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "+2 Energy DR, +1 Radiation DR",
+    "weightChange": 1,
+    "costChange": 30,
+    "description": "Resistant Lining: +2 Energy DR, +1 Radiation DR. A utility modification for armor.",
+    "longDescription": "The Resistant Lining utility mod modifies armor for improved functionality. Effects: +2 Energy DR, +1 Radiation DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_protective_lining",
+    "name": "Protective Lining",
+    "type": "utility",
+    "armorType": [
+      "vault_suit"
+    ],
+    "complexity": 5,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 4
+      },
+      {
+        "perkId": "science",
+        "rank": 2
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "+2 Energy DR, +2 Radiation DR",
+    "weightChange": 1,
+    "costChange": 40,
+    "description": "Protective Lining: +2 Energy DR, +2 Radiation DR. A utility modification for armor.",
+    "longDescription": "The Protective Lining utility mod modifies armor for improved functionality. Effects: +2 Energy DR, +2 Radiation DR. Installed with the Repair skill."
+  },
+  {
+    "id": "armor_mod_shielded_lining",
+    "name": "Shielded Lining",
+    "type": "utility",
+    "armorType": [
+      "vault_suit"
+    ],
+    "complexity": 6,
+    "perksRequired": [
+      {
+        "perkId": "armorer",
+        "rank": 4
+      },
+      {
+        "perkId": "science",
+        "rank": 4
+      }
+    ],
+    "skill": "repair",
+    "rarity": "Uncommon",
+    "effects": "+3 Energy DR, +3 Radiation DR",
+    "weightChange": 1,
+    "costChange": 50,
+    "description": "Shielded Lining: +3 Energy DR, +3 Radiation DR. A utility modification for armor.",
+    "longDescription": "The Shielded Lining utility mod modifies armor for improved functionality. Effects: +3 Energy DR, +3 Radiation DR. Installed with the Repair skill."
+  }
 ]

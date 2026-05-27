@@ -1,14 +1,239 @@
 [
-  {"id":"outfit_brotherhood_fatigues","name":"Brotherhood of Steel Fatigues","covers":["arms","legs","torso"],"physicalDR":2,"energyDR":2,"radiationDR":2,"weight":4,"cost":20,"rarity":3,"underArmor":false,"compatibleMods":[]},
-  {"id":"outfit_brotherhood_scribes","name":"Brotherhood Scribe's Armor","covers":["arms","legs","torso"],"physicalDR":1,"energyDR":2,"radiationDR":2,"weight":4,"cost":20,"rarity":2,"underArmor":false,"compatibleMods":[]},
-  {"id":"outfit_cage_armor","name":"Cage Armor","covers":["head","arms","legs","torso"],"physicalDR":3,"energyDR":4,"radiationDR":0,"weight":33,"cost":110,"rarity":3,"underArmor":false,"compatibleMods":[]},
-  {"id":"outfit_drifter","name":"Drifter Outfit","covers":["arms","legs","torso"],"physicalDR":1,"energyDR":2,"radiationDR":0,"weight":10,"cost":35,"rarity":1,"underArmor":false,"compatibleMods":[]},
-  {"id":"outfit_engineers","name":"Engineer's Armor","covers":["arms","legs","torso"],"physicalDR":1,"energyDR":1,"radiationDR":0,"weight":2,"cost":15,"rarity":1,"underArmor":false,"compatibleMods":[]},
-  {"id":"outfit_formal","name":"Formal Clothing","covers":["arms","legs","torso"],"physicalDR":0,"energyDR":0,"radiationDR":0,"weight":2,"cost":30,"rarity":2,"underArmor":false,"compatibleMods":["armor_mod_ballistic_weave"]},
-  {"id":"outfit_hazmat","name":"Hazmat Suit","covers":["head","arms","legs","torso"],"physicalDR":0,"energyDR":0,"radiationDR":"immune","weight":5,"cost":85,"rarity":3,"underArmor":false,"compatibleMods":[]},
-  {"id":"outfit_heavy_coat","name":"Heavy Coat","covers":["arms","legs","torso"],"physicalDR":1,"energyDR":1,"radiationDR":1,"weight":2,"cost":20,"rarity":1,"underArmor":false,"compatibleMods":["armor_mod_ballistic_weave"]},
-  {"id":"outfit_hides","name":"Hides","covers":["arms","legs","torso"],"physicalDR":1,"energyDR":0,"radiationDR":0,"weight":4,"cost":13,"rarity":0,"underArmor":false,"compatibleMods":[]},
-  {"id":"outfit_lab_coat","name":"Lab Coat","covers":["arms","legs","torso"],"physicalDR":0,"energyDR":0,"radiationDR":0,"weight":2,"cost":10,"rarity":1,"underArmor":false,"compatibleMods":["armor_mod_ballistic_weave"]},
-  {"id":"outfit_spike_armor","name":"Spike Armor","covers":["head","arms","legs","torso"],"physicalDR":2,"energyDR":2,"radiationDR":0,"weight":17,"cost":65,"rarity":2,"underArmor":false,"compatibleMods":[]},
-  {"id":"outfit_utility_coveralls","name":"Utility Coveralls","covers":["arms","legs","torso"],"physicalDR":2,"energyDR":0,"radiationDR":0,"weight":2,"cost":12,"rarity":1,"underArmor":false,"compatibleMods":[]}
+  {
+    "id": "outfit_brotherhood_fatigues",
+    "name": "Brotherhood of Steel Fatigues",
+    "description": "Basic hard-wearing gear with military sweater, pants, gloves, combat boots, and webbing bearing Brotherhood insignia.",
+    "longDescription": "A set of basic, hard-wearing gear for Brotherhood of Steel personnel, consisting of a military sweater, pants, gloves, combat boots, and military webbing, and emblazoned with Brotherhood insignia denoting rank and role. The color of the uniform also denotes certain specializations: medics wear a version with a white sweater, while flight personnel wear navy blue.",
+    "covers": [
+      "arms",
+      "legs",
+      "torso"
+    ],
+    "physicalDR": 2,
+    "energyDR": 2,
+    "radiationDR": 2,
+    "weight": 4,
+    "cost": 20,
+    "rarity": 3,
+    "underArmor": false,
+    "compatibleMods": []
+  },
+  {
+    "id": "outfit_brotherhood_scribes",
+    "name": "Brotherhood Scribe's Armor",
+    "description": "Limited protection garb for Brotherhood Scribes venturing into the field for observations or research.",
+    "longDescription": "The Scribes of the Brotherhood of Steel are sometimes required to venture out into the field to make observations or perform research up-close. While only providing limited protection, this garb is sufficient to protect the wearer from danger long enough to allow them to withdraw and seek assistance from someone better equipped.",
+    "covers": [
+      "arms",
+      "legs",
+      "torso"
+    ],
+    "physicalDR": 1,
+    "energyDR": 2,
+    "radiationDR": 2,
+    "weight": 4,
+    "cost": 20,
+    "rarity": 2,
+    "underArmor": false,
+    "compatibleMods": []
+  },
+  {
+    "id": "outfit_cage_armor",
+    "name": "Cage Armor",
+    "description": "Heavy leather reinforced with rags, metal plates, chains, and bars creating a rough cage of rebar around the head and torso.",
+    "longDescription": "Heavy leather clothing, reinforced with rags, metal plates, chains, and bars. Like spike armor, the metalwork creates a rough cage of rebar around the head and torso, providing extra protection. Normally worn with a hood and helmet.",
+    "covers": [
+      "head",
+      "arms",
+      "legs",
+      "torso"
+    ],
+    "physicalDR": 3,
+    "energyDR": 4,
+    "radiationDR": 0,
+    "weight": 33,
+    "cost": 110,
+    "rarity": 3,
+    "underArmor": false,
+    "compatibleMods": []
+  },
+  {
+    "id": "outfit_drifter",
+    "name": "Drifter Outfit",
+    "description": "A leather trenchcoat, sturdy hide gloves and boots, jeans, and a shirt, comfortable for long periods on the road.",
+    "longDescription": "A leather trenchcoat, sturdy hide gloves and boots, a pair of jeans, and a shirt make for an outfit that's hard wearing but comfortable for long periods of time, and warm enough on the open road to suit those who wander the wastelands.",
+    "covers": [
+      "arms",
+      "legs",
+      "torso"
+    ],
+    "physicalDR": 1,
+    "energyDR": 2,
+    "radiationDR": 0,
+    "weight": 10,
+    "cost": 35,
+    "rarity": 1,
+    "underArmor": false,
+    "compatibleMods": []
+  },
+  {
+    "id": "outfit_engineers",
+    "name": "Engineer's Armor",
+    "description": "Protective jacket, heavy canvas gauntlets, and toolbelt vest worn by Brotherhood engineers for workshop hazards.",
+    "longDescription": "Worn by Brotherhood engineers and those who style themselves as similar, this outfit consists of a protective jacket, heavy canvas or leather gauntlets, and a vest and toolbelt covered in pouches. It provides protection against the hazards of using power tools in a workshop but isn't really armor fit for the battlefield.",
+    "covers": [
+      "arms",
+      "legs",
+      "torso"
+    ],
+    "physicalDR": 1,
+    "energyDR": 1,
+    "radiationDR": 0,
+    "weight": 2,
+    "cost": 15,
+    "rarity": 1,
+    "underArmor": false,
+    "compatibleMods": []
+  },
+  {
+    "id": "outfit_formal",
+    "name": "Formal Clothing",
+    "description": "A nice suit, pretty dress, or fancy tailored clothing designed to impress. Prized as a sign of status.",
+    "longDescription": "A nice suit, a pretty dress, or some other kind of fancy, tailored clothing. Designed to be more flattering than functional, formal clothing is helpful when you need to impress someone, and is often prized as a sign of status, presenting the appearance of someone who doesn't need to worry about their own safety. Special: Wearing formal clothing allows you to re-roll a single d20 on one CHA-based skill test you make each scene, as the clothing helps you make a good first impression. Formal clothing can be reinforced with Ballistic Weave.",
+    "covers": [
+      "arms",
+      "legs",
+      "torso"
+    ],
+    "physicalDR": 0,
+    "energyDR": 0,
+    "radiationDR": 0,
+    "weight": 2,
+    "cost": 30,
+    "rarity": 2,
+    "underArmor": false,
+    "compatibleMods": [
+      "armor_mod_ballistic_weave"
+    ]
+  },
+  {
+    "id": "outfit_hazmat",
+    "name": "Hazmat Suit",
+    "description": "A completely enclosed suit for handling hazardous materials. Renders the wearer basically immune to radiation.",
+    "longDescription": "A completely enclosed suit for handling hazardous materials. The materials a hazmat suit is made from don't stand up well to violence; but wearing one of these renders you basically immune to radiation.",
+    "covers": [
+      "head",
+      "arms",
+      "legs",
+      "torso"
+    ],
+    "physicalDR": 0,
+    "energyDR": 0,
+    "radiationDR": "immune",
+    "weight": 5,
+    "cost": 85,
+    "rarity": 3,
+    "underArmor": false,
+    "compatibleMods": []
+  },
+  {
+    "id": "outfit_heavy_coat",
+    "name": "Heavy Coat",
+    "description": "A long leather duster or trenchcoat ideal for protecting against harsh elements, physical harm, heat, and radiation.",
+    "longDescription": "A long, heavy-weight coat—a leather duster, a trenchcoat, or similar—ideal for protecting you from the harsh elements. Provides a bit of protection against physical harm, extreme heat, and even covers well enough to keep a little radiation out. Special: Wearing a heavy coat allows you to re-roll a single d20 on one END-based skill test you make each scene, as it helps protect you from harsh conditions. A heavy coat can be reinforced with Ballistic Weave.",
+    "covers": [
+      "arms",
+      "legs",
+      "torso"
+    ],
+    "physicalDR": 1,
+    "energyDR": 1,
+    "radiationDR": 1,
+    "weight": 2,
+    "cost": 20,
+    "rarity": 1,
+    "underArmor": false,
+    "compatibleMods": [
+      "armor_mod_ballistic_weave"
+    ]
+  },
+  {
+    "id": "outfit_hides",
+    "name": "Hides",
+    "description": "Simple clothes made from brahmin or radstag hides providing a little protection, but no substitute for proper armor.",
+    "longDescription": "Typically made from the rough hides of a brahmin, radstag, or other large animal, these simple clothes provide a little protection and comfort, but they're no substitute for properly made clothing or armor.",
+    "covers": [
+      "arms",
+      "legs",
+      "torso"
+    ],
+    "physicalDR": 1,
+    "energyDR": 0,
+    "radiationDR": 0,
+    "weight": 4,
+    "cost": 13,
+    "rarity": 0,
+    "underArmor": false,
+    "compatibleMods": []
+  },
+  {
+    "id": "outfit_lab_coat",
+    "name": "Lab Coat",
+    "description": "A white lab coat with numerous pockets and a clock or sensor at the lapel, ideal for scientific work.",
+    "longDescription": "A white coat—though likely stained or dirty—intended for use in a laboratory environment. Normally contains a useful number of pockets, and clock or sensor just below the left lapel, where it can be easily checked without having to reach for it—ideal during delicate scientific work. Special: Between the utility of the design, and simply feeling smarter while wearing one, a lab coat allows you to re-roll a single d20 on one INT based skill test you make each scene. A lab coat can be reinforced with Ballistic Weave.",
+    "covers": [
+      "arms",
+      "legs",
+      "torso"
+    ],
+    "physicalDR": 0,
+    "energyDR": 0,
+    "radiationDR": 0,
+    "weight": 2,
+    "cost": 10,
+    "rarity": 1,
+    "underArmor": false,
+    "compatibleMods": [
+      "armor_mod_ballistic_weave"
+    ]
+  },
+  {
+    "id": "outfit_spike_armor",
+    "name": "Spike Armor",
+    "description": "Layers of leather with rags, metal plates, chain, and protruding bars creating a spiky appearance to fend off melee attacks.",
+    "longDescription": "Layers of leather, with rags, metal plates, lengths of chain, and bars sown into the layers or welded together. Many of the bars protrude outwards, creating a spiky appearance that helps fend off melee attacks, while the layers of metal plates and leather padding protect from hazards and attacks. A hood and helmet add to the protection provided.",
+    "covers": [
+      "head",
+      "arms",
+      "legs",
+      "torso"
+    ],
+    "physicalDR": 2,
+    "energyDR": 2,
+    "radiationDR": 0,
+    "weight": 17,
+    "cost": 65,
+    "rarity": 2,
+    "underArmor": false,
+    "compatibleMods": []
+  },
+  {
+    "id": "outfit_utility_coveralls",
+    "name": "Utility Coveralls",
+    "description": "Versatile coveralls with heavy gloves and a utility belt, favored by mechanics and tinkerers for dirty work.",
+    "longDescription": "A versatile outfit favored by mechanics and other tinkerers; the coveralls are designed to protect both from hard, dirty work with machinery. Comes with heavy gloves to protect the hands, and a utility belt to hold a range of tools and other useful items. Special: Utility Coveralls increase the wearer's maximum carry weight by +5.",
+    "covers": [
+      "arms",
+      "legs",
+      "torso"
+    ],
+    "physicalDR": 2,
+    "energyDR": 0,
+    "radiationDR": 0,
+    "weight": 2,
+    "cost": 12,
+    "rarity": 1,
+    "underArmor": false,
+    "compatibleMods": []
+  }
 ]

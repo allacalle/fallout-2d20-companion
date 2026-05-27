@@ -2,13 +2,14 @@
   {
     "id": "la_fantoma",
     "name": "¡La Fantoma!",
-    "description": "An issue of a pre-War comic book, detailing the adventures of ¡La Fantoma!, a master of stealth and infiltration.",
-    "perk": "When you succeed at a Sneak test to avoid notice, you may spend 1 AP to create a distraction somewhere within Medium range; the character who failed the opposed test to detect you heads towards the distraction you created. If you learn this perk, you may use it once per scene."
+    "description": "An issue of a pre-War comic book published by Hubris Comics, detailing the adventures of ¡La Fantoma!, a master of stealth and infiltration who uses cunning and agility to outwit enemies.",
+    "perk": "When you succeed at a Sneak test to avoid notice, you may spend 1 AP to create a distraction somewhere within Medium range; the character who failed the opposed test to detect you heads towards the distraction you created. If you learn this perk, you may use it once per scene.",
+    "longDescription": "An issue of a pre-War comic book, detailing the adventures of ¡La Fantoma!, a master of stealth and infiltration."
   },
   {
     "id": "astoundingly_awesome_tales",
     "name": "Astoundingly Awesome Tales",
-    "description": "A magazine containing thrilling short stories of daring adventure!",
+    "description": "A pre-War pulp magazine containing thrilling short stories of daring adventure! Each issue features tales of heroism, monsters, and action that captivated readers before the Great War.",
     "perk": "Depending on the individual issue found, you receive a different perk, granting bonus damage or bonus damage resistance against a single foe or type of attack. This lasts only for a single attack (made or received, respectively), unless the perk is learned, in which case it applies to all attacks.",
     "issues": [
       {
@@ -61,12 +62,13 @@
         "issue": "Surrounded by the Dead!",
         "effect": "+1 CD on attacks where you spend one or more Ammunition for bonus damage"
       }
-    ]
+    ],
+    "longDescription": "A magazine containing thrilling short stories of daring adventure!"
   },
   {
     "id": "backwoodsman",
     "name": "Backwoodsman",
-    "description": "Thrilling, true stories for rugged men! Backwoodsman is a magazine series containing articles and stories about outdoor survival.",
+    "description": "A pre-War magazine series containing articles and stories about outdoor survival, hunting, fishing, and living off the land.",
     "perk": "Depending on the individual issue found, you receive a different perk, which you may benefit from once. If you later learn the perk, you may use that benefit once per scene.",
     "issues": [
       {
@@ -119,36 +121,41 @@
         "issue": "Nightmare in the Garden",
         "effect": "Heal +2 HP when you consume an Alcoholic drink"
       }
-    ]
+    ],
+    "longDescription": "Thrilling, true stories for rugged men! Backwoodsman is a magazine series containing articles and stories about outdoor survival."
   },
   {
     "id": "boxing_times",
     "name": "Boxing Times",
-    "description": "A pre-War magazine aimed at fans of boxing, often containing features on noteworthy or up-and-coming boxers, discussions of technique and equipment, and in-depth reporting on the sport.",
-    "perk": "Once, when you succeed at an Unarmed attack, if you spend any AP to increase the damage you dealt, you may add the Stun damage effect to your attack. If you later learn this perk, you may use this on any successful Unarmed attack."
+    "description": "A pre-War magazine aimed at fans of boxing, containing features on noteworthy boxers, discussions of technique and equipment, and in-depth reporting on the sport of boxing.",
+    "perk": "Once, when you succeed at an Unarmed attack, if you spend any AP to increase the damage you dealt, you may add the Stun damage effect to your attack. If you later learn this perk, you may use this on any successful Unarmed attack.",
+    "longDescription": "A pre-War magazine aimed at fans of boxing, often containing features on noteworthy or up-and-coming boxers, discussions of technique and equipment, and in-depth reporting on the sport."
   },
   {
     "id": "duck_and_cover",
     "name": "Duck and Cover!",
-    "description": "A pre-War book about the manufacture, use, and disarming of explosives.",
-    "perk": "Once, when you are affected by a Blast weapon, you may choose to fall prone. If you do so, you add +3 to all damage resistances against the damage caused by that Blast. If you later learn this perk, you may use whenever you are affected by a Blast weapon by spending 1 AP."
+    "description": "A pre-War instructional publication about the manufacture, use, and disarming of explosives.",
+    "perk": "Once, when you are affected by a Blast weapon, you may choose to fall prone. If you do so, you add +3 to all damage resistances against the damage caused by that Blast. If you later learn this perk, you may use whenever you are affected by a Blast weapon by spending 1 AP.",
+    "longDescription": "A pre-War book about the manufacture, use, and disarming of explosives."
   },
   {
     "id": "fixin_things",
     "name": "Fixin' Things",
-    "description": "A magazine for those dedicated to fixing things themselves, each issue contains a wealth of information on how to mend and repair a variety of objects and materials.",
-    "perk": "Once, when you attempt to repair an item, halve the amounts of the materials needed to complete the repair (round up). If you later learn this perk, you may use this whenever you attempt repairs."
+    "description": "A pre-War magazine for those dedicated to fixing things themselves.",
+    "perk": "Once, when you attempt to repair an item, halve the amounts of the materials needed to complete the repair (round up). If you later learn this perk, you may use this whenever you attempt repairs.",
+    "longDescription": "A magazine for those dedicated to fixing things themselves, each issue contains a wealth of information on how to mend and repair a variety of objects and materials."
   },
   {
     "id": "future_weapons_today",
     "name": "Future Weapons Today",
-    "description": "A magazine for enthusiasts of energy weaponry, featuring articles on new technologies, reviews of new weapons, and true stories about energy weapons in action.",
-    "perk": "Once, when you make an attack with an Energy Weapon, you may overcharge it. Increase the damage by +2 CD for that attack. The weapon cannot be used to make an attack in the turn after an overcharged attack as it cools down. If you later learn this perk, you may overcharge an Energy Weapon once per scene."
+    "description": "A pre-War magazine for enthusiasts of energy weaponry, featuring articles on new technologies, reviews of new weapons, and true stories about energy weapons in action on the battlefield.",
+    "perk": "Once, when you make an attack with an Energy Weapon, you may overcharge it. Increase the damage by +2 CD for that attack. The weapon cannot be used to make an attack in the turn after an overcharged attack as it cools down. If you later learn this perk, you may overcharge an Energy Weapon once per scene.",
+    "longDescription": "A magazine for enthusiasts of energy weaponry, featuring articles on new technologies, reviews of new weapons, and true stories about energy weapons in action."
   },
   {
     "id": "grognak_the_barbarian",
     "name": "Grognak the Barbarian",
-    "description": "A series of comic books published by Hubris Comics before the Great War. The comics depict the action-packed adventures of the title character in a prehistoric world.",
+    "description": "A series of comic books published by Hubris Comics before the Great War.",
     "perk": "Depending on the individual issue found, you receive a different perk, which you may benefit from once. If you later learn the perk, you may use that benefit once per scene.",
     "issues": [
       {
@@ -201,12 +208,13 @@
         "issue": "What Sorcery is This?",
         "effect": "Gain +2 Energy damage resistance against one attack"
       }
-    ]
+    ],
+    "longDescription": "A series of comic books published by Hubris Comics before the Great War. The comics depict the action-packed adventures of the title character in a prehistoric world."
   },
   {
     "id": "guns_and_bullets",
     "name": "Guns and Bullets",
-    "description": "A magazine series catering to weapons enthusiasts, with articles dedicated to hunting, weapons, gun law, and the portrayal of practical use of firearms.",
+    "description": "A pre-War magazine series catering to weapons enthusiasts, with articles dedicated to hunting, firearms technology, gun law, and the practical use of weapons in the field.",
     "perk": "Depending on the individual issue found, you receive a different perk, which you may benefit from once. If you later learn the perk, you may use that benefit once per scene.",
     "issues": [
       {
@@ -259,12 +267,13 @@
         "issue": "Guide to Hunting Commies!",
         "effect": "One attack against an enemy with a lower level than you inflicts +2 CD damage"
       }
-    ]
+    ],
+    "longDescription": "A magazine series catering to weapons enthusiasts, with articles dedicated to hunting, weapons, gun law, and the portrayal of practical use of firearms."
   },
   {
     "id": "live_and_love",
     "name": "Live & Love",
-    "description": "A pre-War magazine series dedicated to lifestyle and relationships, often covering cultural events, health advice, diet tips, relationship advice, and more.",
+    "description": "A pre-War magazine series dedicated to lifestyle and relationships, covering cultural events, health advice, diet tips, and relationship advice for the modern American.",
     "perk": "Depending on the individual issue found, you receive a different perk, which you may benefit from for a single scene. If you later learn the perk, you may use that benefit constantly.",
     "issues": [
       {
@@ -317,36 +326,41 @@
         "issue": "Re-roll result",
         "effect": "Roll again on this table"
       }
-    ]
+    ],
+    "longDescription": "A pre-War magazine series dedicated to lifestyle and relationships, often covering cultural events, health advice, diet tips, relationship advice, and more."
   },
   {
     "id": "massachusetts_surgical_journal",
     "name": "Massachusetts Surgical Journal",
-    "description": "A periodical medical journal originating from pre-War Massachusetts. It contains detailed discussions of advances in medical science and technology, published studies on unusual diseases, and a host of other useful medical knowledge.",
-    "perk": "Once, when you provide medical attention to another character and assist their END + Survival test to heal Injuries, you may treat your assistance die as if it had rolled a 1. If you learn this perk, you may do this once per session."
+    "description": "A periodical medical journal from pre-War Massachusetts containing detailed discussions of advances in medical science and technology, published studies on unusual diseases, and useful medical knowledge.",
+    "perk": "Once, when you provide medical attention to another character and assist their END + Survival test to heal Injuries, you may treat your assistance die as if it had rolled a 1. If you learn this perk, you may do this once per session.",
+    "longDescription": "A periodical medical journal originating from pre-War Massachusetts. It contains detailed discussions of advances in medical science and technology, published studies on unusual diseases, and a host of other useful medical knowledge."
   },
   {
     "id": "meeting_people",
     "name": "Meeting People",
-    "description": "A magazine aimed at those who lack social grace. Meeting People magazine advertises itself as a primer for social interaction.",
-    "perk": "Once, when you roll one or more complications on a Speech test, you may ignore those complications. If you learn this perk, you may do this once per scene."
+    "description": "A pre-War magazine aimed at those who lack social grace, advertising itself as a primer for social interaction.",
+    "perk": "Once, when you roll one or more complications on a Speech test, you may ignore those complications. If you learn this perk, you may do this once per scene.",
+    "longDescription": "A magazine aimed at those who lack social grace. Meeting People magazine advertises itself as a primer for social interaction."
   },
   {
     "id": "programmers_digest",
     "name": "Programmer's Digest",
-    "description": "A magazine aimed at computer afficionados, discussing programming languages, encryption and decryption techniques, and the latest software.",
-    "perk": "Once, when you fail a Science test to hack into a computer terminal and would be locked out, you may choose not to be locked out, allowing you to make another attempt. If you learn this Perk, you may do this whenever you are locked out of a computer."
+    "description": "A pre-War magazine for computer aficionados, discussing programming languages, encryption and decryption techniques, and the latest software developments and technologies.",
+    "perk": "Once, when you fail a Science test to hack into a computer terminal and would be locked out, you may choose not to be locked out, allowing you to make another attempt. If you learn this Perk, you may do this whenever you are locked out of a computer.",
+    "longDescription": "A magazine aimed at computer afficionados, discussing programming languages, encryption and decryption techniques, and the latest software."
   },
   {
     "id": "tales_of_a_junktown_jerky_vendor",
     "name": "Tales of a Junktown Jerky Vendor",
-    "description": "One example of a post-War magazine, Tales of a Junktown Jerky Vendor is a collection of short, hand-made books written by an unknown vendor of jerky from Junktown.",
-    "perk": "Once, when you succeed or fail at a Barter test to haggle on the price of a trade, you may spend 1 Luck point to shift the price 10% in your favor. If you learn this Perk, you may do this on any Barter test to haggle, though you must spend one additional Luck point each extra time you use it during a session (1 for the first time, 2 for the second, 3 for the third, etc.)."
+    "description": "A post-War collection of short, hand-made books written by an unknown vendor of jerky from Junktown, containing his observations, recipes, and tales from the wasteland.",
+    "perk": "Once, when you succeed or fail at a Barter test to haggle on the price of a trade, you may spend 1 Luck point to shift the price 10% in your favor. If you learn this Perk, you may do this on any Barter test to haggle, though you must spend one additional Luck point each extra time you use it during a session (1 for the first time, 2 for the second, 3 for the third, etc.).",
+    "longDescription": "One example of a post-War magazine, Tales of a Junktown Jerky Vendor is a collection of short, hand-made books written by an unknown vendor of jerky from Junktown."
   },
   {
     "id": "tesla_science_magazine",
     "name": "Tesla Science Magazine",
-    "description": "An informational magazine covering topics such as rocket science, robotics, laser technology, and other cutting-edge fields of science and technology.",
+    "description": "A pre-War informational magazine covering rocket science, robotics, laser technology, and other cutting-edge fields of science and technology.",
     "perk": "Depending on the individual issue found, you receive a different perk, which you may benefit from once. If you later learn the perk, you may use that benefit once per scene.",
     "issues": [
       {
@@ -399,18 +413,20 @@
         "issue": "Re-roll result",
         "effect": "Roll again on this table"
       }
-    ]
+    ],
+    "longDescription": "An informational magazine covering topics such as rocket science, robotics, laser technology, and other cutting-edge fields of science and technology."
   },
   {
     "id": "true_police_stories",
     "name": "True Police Stories",
-    "description": "True Police Stories was a pre-War pulp magazine boasting '20 pages—a single issue' that was dedicated to editorialized stories on famous criminal investigations and busts of the time.",
-    "perk": "Once, when you roll the damage of an attack, you may spend a Luck point to turn up to three CD to any face, rather than rolling them. If you learn this perk, you may do this once per scene."
+    "description": "A pre-War pulp magazine dedicated to editorialized stories on famous criminal investigations and police busts of the time, boasting thrilling tales of law enforcement.",
+    "perk": "Once, when you roll the damage of an attack, you may spend a Luck point to turn up to three CD to any face, rather than rolling them. If you learn this perk, you may do this once per scene.",
+    "longDescription": "True Police Stories was a pre-War pulp magazine boasting '20 pages—a single issue' that was dedicated to editorialized stories on famous criminal investigations and busts of the time."
   },
   {
     "id": "tumblers_today",
     "name": "Tumblers Today",
-    "description": "Tumblers Today is a pre-War magazine containing information about the clandestine art of lockpicking and the latest in mechanical locks found in safes, footlockers, and doors.",
+    "description": "A pre-War magazine containing information about the clandestine art of lockpicking and the latest in mechanical locks found in safes, footlockers, and doors.",
     "perk": "Depending on the individual issue found, you receive a different perk, which you may benefit from once. If you later learn the perk, you may use that benefit once per scene.",
     "issues": [
       {
@@ -438,12 +454,13 @@
         "issue": "Locksmith Certification Special—Pass with Flying Colors",
         "effect": "When you suffer one or more complications on a Lockpicking test, spend 1 Luck point to ignore those complications"
       }
-    ]
+    ],
+    "longDescription": "Tumblers Today is a pre-War magazine containing information about the clandestine art of lockpicking and the latest in mechanical locks found in safes, footlockers, and doors."
   },
   {
     "id": "unstoppables",
     "name": "Unstoppables",
-    "description": "Unstoppables is a comic book published by Hubris Comics prior to the Great War. The series follows an ensemble cast of characters including the Silver Shroud, Mistress of Mystery, The Inspector, Manta Man and Grognak the Barbarian.",
+    "description": "A pre-War comic book series from Hubris Comics following an ensemble cast of heroes including the Silver Shroud, Mistress of Mystery, The Inspector, Manta Man, and Grognak the Barbarian.",
     "perk": "Depending on the individual issue found, you receive a different perk, allowing you to spend Luck points to avoid a single instance of damage, which you may benefit from once. If you later learn the perk, you may use that benefit as often as you have Luck points to spend on it.",
     "issues": [
       {
@@ -471,12 +488,13 @@
         "issue": "Visit the Ux-Ron Galaxy!",
         "effect": "Spend 1 Luck point to avoid all Energy damage from a single attack"
       }
-    ]
+    ],
+    "longDescription": "Unstoppables is a comic book published by Hubris Comics prior to the Great War. The series follows an ensemble cast of characters including the Silver Shroud, Mistress of Mystery, The Inspector, Manta Man and Grognak the Barbarian."
   },
   {
     "id": "us_covert_operations_manual",
     "name": "U.S. Covert Operations Manual",
-    "description": "The U.S. Covert Operations Manual is a training handbook produced by the Department of the Army to train its personnel in the art of subterfuge.",
+    "description": "A pre-War training handbook produced by the U.",
     "perk": "Depending on the individual issue found, you receive a different perk, which you may benefit from once. If you later learn the perk, you may use that benefit once per scene.",
     "issues": [
       {
@@ -529,12 +547,13 @@
         "issue": "FH 5-10 Tiptoe Through the Tulips",
         "effect": "When you spend a Luck point to re-roll a d20 on an AGI test, instead count that die as if it had rolled a 1"
       }
-    ]
+    ],
+    "longDescription": "The U.S. Covert Operations Manual is a training handbook produced by the Department of the Army to train its personnel in the art of subterfuge."
   },
   {
     "id": "wasteland_survival_guide",
     "name": "Wasteland Survival Guide",
-    "description": "The Wasteland Survival Guide is another post-War series of instructional magazines, written and illustrated with crude pen drawings.",
+    "description": "A post-War series of instructional magazines written and illustrated with crude pen drawings, offering practical advice for surviving the harsh realities of life in the wasteland.",
     "perk": "Depending on the individual issue found, you receive a different perk, which you may benefit from once. If you later learn the perk, you may use that benefit once per scene.",
     "issues": [
       {
@@ -572,6 +591,7 @@
         "issue": "Hunting in the Wastes",
         "effect": "When you butcher an animal you've killed and the amount of meat found can be increased by spending AP, you gain 1 bonus AP for that purpose"
       }
-    ]
+    ],
+    "longDescription": "The Wasteland Survival Guide is another post-War series of instructional magazines, written and illustrated with crude pen drawings."
   }
 ]

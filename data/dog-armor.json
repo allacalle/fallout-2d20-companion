@@ -1,6 +1,65 @@
 [
-  {"id":"dog_helmet","name":"Dog Helmet","covers":["head"],"physicalDR":2,"energyDR":1,"radiationDR":0,"weight":1,"cost":7,"rarity":2},
-  {"id":"light_dog_armor","name":"Light Dog Armor","covers":["torso","legs"],"physicalDR":1,"energyDR":1,"radiationDR":0,"weight":1,"cost":10,"rarity":1},
-  {"id":"medium_dog_armor","name":"Medium Dog Armor","covers":["torso","legs"],"physicalDR":2,"energyDR":2,"radiationDR":0,"weight":2,"cost":15,"rarity":2},
-  {"id":"heavy_dog_armor","name":"Heavy Dog Armor","covers":["torso","legs"],"physicalDR":3,"energyDR":3,"radiationDR":0,"weight":2,"cost":20,"rarity":3}
+  {
+    "id": "dog_helmet",
+    "name": "Dog Helmet",
+    "description": "A protective helmet for a dog, providing protection to the head from physical and energy attacks.",
+    "longDescription": "A protective helmet designed for dogs, offering coverage to the head. It provides a modest amount of physical and energy damage resistance, keeping your canine companion safe in combat.",
+    "covers": [
+      "head"
+    ],
+    "physicalDR": 2,
+    "energyDR": 1,
+    "radiationDR": 0,
+    "weight": 1,
+    "cost": 7,
+    "rarity": 2
+  },
+  {
+    "id": "light_dog_armor",
+    "name": "Light Dog Armor",
+    "description": "Lightweight armor for dogs, covering the torso and legs with basic protection.",
+    "longDescription": "Light armor designed for dogs, covering the torso and legs. Provides basic physical and energy damage resistance without weighing the animal down too much, allowing for mobility in combat.",
+    "covers": [
+      "torso",
+      "legs"
+    ],
+    "physicalDR": 1,
+    "energyDR": 1,
+    "radiationDR": 0,
+    "weight": 1,
+    "cost": 10,
+    "rarity": 1
+  },
+  {
+    "id": "medium_dog_armor",
+    "name": "Medium Dog Armor",
+    "description": "Medium-grade armor for dogs, offering improved protection for the torso and legs.",
+    "longDescription": "Medium armor for canine companions, providing improved physical and energy damage resistance over light armor. Covers the torso and legs with sturdier materials for better battlefield protection.",
+    "covers": [
+      "torso",
+      "legs"
+    ],
+    "physicalDR": 2,
+    "energyDR": 2,
+    "radiationDR": 0,
+    "weight": 2,
+    "cost": 15,
+    "rarity": 2
+  },
+  {
+    "id": "heavy_dog_armor",
+    "name": "Heavy Dog Armor",
+    "description": "Heavy-duty armor for dogs, maximizing protection at the cost of weight.",
+    "longDescription": "Heavy armor designed for dogs, offering the maximum level of physical and energy damage resistance. The sturdier construction provides superior protection but adds weight that may impact mobility.",
+    "covers": [
+      "torso",
+      "legs"
+    ],
+    "physicalDR": 3,
+    "energyDR": 3,
+    "radiationDR": 0,
+    "weight": 2,
+    "cost": 20,
+    "rarity": 3
+  }
 ]

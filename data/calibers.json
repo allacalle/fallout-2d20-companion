@@ -6,7 +6,8 @@
     "weight": "<1",
     "cost": 1,
     "rarity": 0,
-    "description": "Small-caliber pistol ammunition designed for double-action revolvers before the Great War. Abundant enough that it is the ammunition of choice for most makeshift firearms."
+    "description": "Small-caliber pistol ammunition designed for double-action revolvers before the Great War. Abundant enough that it is the ammunition of choice for most makeshift firearms.",
+    "longDescription": "Small-caliber pistol ammunition designed for double-action revolvers before the Great War. Abundant enough that it is the ammunition of choice for most makeshift firearms in the wasteland, though it lacks stopping power compared to larger rounds."
   },
   {
     "id": "10mm",
@@ -15,7 +16,8 @@
     "weight": "<1",
     "cost": 2,
     "rarity": 0,
-    "description": "One of the most common types of pistol round found in the wastelands, manufactured in vast quantities before the Great War for 10mm pistols."
+    "description": "One of the most common types of pistol round found in the wastelands, manufactured in vast quantities before the Great War for 10mm pistols.",
+    "longDescription": "One of the most common types of pistol round found in the wastelands, manufactured in vast quantities before the Great War Standard issue for military and law enforcement sidearms, it offers a good balance of magazine capacity and stopping power."
   },
   {
     "id": "308",
@@ -24,7 +26,8 @@
     "weight": "<1",
     "cost": 3,
     "rarity": 1,
-    "description": "A high-powered rifle round normally used in hunting rifles and some bolt-action pipe rifles."
+    "description": "A high-powered rifle round normally used in hunting rifles and some bolt-action pipe rifles.",
+    "longDescription": "A high-powered rifle round normally used in hunting rifles and some bolt-action pipe rifles. Offers excellent stopping power and accuracy at range, making it favored by marksmen and hunters."
   },
   {
     "id": "flare",
@@ -33,7 +36,8 @@
     "weight": "<1",
     "cost": 1,
     "rarity": 1,
-    "description": "A small tube like a shotgun cartridge, containing a chemical which burns brightly when ignited. Fired from a flare gun."
+    "description": "A small tube like a shotgun cartridge, containing a chemical which burns brightly when ignited. Fired from a flare gun.",
+    "longDescription": "A small tube resembling a shotgun cartridge, containing a chemical compound which burns brightly when ignited. Fired from a flare gun for signaling or illumination, not intended as an anti-personnel round."
   },
   {
     "id": "shotgun_shell",
@@ -42,7 +46,8 @@
     "weight": "<1",
     "cost": 3,
     "rarity": 1,
-    "description": "The standard shotgun shell found in the wastelands is a 12 gauge 2 3/4\" cartridge filled with #0 buckshot."
+    "description": "The standard shotgun shell found in the wastelands is a 12 gauge 2 3/4\" cartridge filled with #0 buckshot.",
+    "longDescription": "The standard shotgun shell found in the wastelands is a 12 gauge 2 3/4 inch cartridge filled with #0 buckshot. Effective at close range where the spread of pellets can hit multiple targets."
   },
   {
     "id": "45",
@@ -51,7 +56,8 @@
     "weight": "<1",
     "cost": 3,
     "rarity": 2,
-    "description": "A decent round which combines reasonable stopping power with manageable recoil."
+    "description": "A decent round which combines reasonable stopping power with manageable recoil.",
+    "longDescription": "A decent pistol and submachine gun round which combines reasonable stopping power with manageable recoil. Commonly used in combat rifles and submachine guns, it was popular with law enforcement and military forces."
   },
   {
     "id": "flamer_fuel",
@@ -60,7 +66,8 @@
     "weight": "<1",
     "cost": 1,
     "rarity": 2,
-    "description": "Fuel for flamers and other fire-based weapons."
+    "description": "Fuel for flamers and other fire-based weapons.",
+    "longDescription": "A flammable fuel mixture used by flamers and other fire-based weapons. When ignited and sprayed, it creates a jet of flame that can burn targets at a distance, ideal for clearing foliage and fortified positions."
   },
   {
     "id": "fusion_cell",
@@ -69,7 +76,8 @@
     "weight": "<1",
     "cost": 3,
     "rarity": 2,
-    "description": "A small, self-contained power source used by many energy weapons. When found, it is in the form of a small battery-like device."
+    "description": "A small, self-contained power source used by many energy weapons. When found, it is in the form of a small battery-like device.",
+    "longDescription": "A small, self-contained power source used by many energy weapons. When found, it takes the form of a small battery-like device containing microfusion technology that powers laser and plasma weapons."
   },
   {
     "id": "gamma_round",
@@ -78,7 +86,8 @@
     "weight": "<1",
     "cost": 10,
     "rarity": 2,
-    "description": "Specialized ammunition for the gamma gun, inflicting radiation damage."
+    "description": "Specialized ammunition for the gamma gun, inflicting radiation damage.",
+    "longDescription": "Specialized ammunition for the gamma gun, designed to emit high-intensity ionizing radiation on impact. Devastating to living creatures but leaves other targets largely unharmed."
   },
   {
     "id": "railway_spike",
@@ -87,7 +96,8 @@
     "weight": "<1",
     "cost": 1,
     "rarity": 2,
-    "description": "A standard railway spike, used as ammunition for the railway rifle."
+    "description": "A standard railway spike, used as ammunition for the railway rifle.",
+    "longDescription": "A standard railway spike repurposed as ammunition for the railway rifle. Propelled at high speeds by steam pressure, these heavy projectiles can pierce and impale targets with tremendous force."
   },
   {
     "id": "syringe",
@@ -96,7 +106,8 @@
     "weight": "<1",
     "cost": 0,
     "rarity": 2,
-    "description": "Syringer ammunition comes in various forms, often hand-crafted by wasteland chemists. None of the Effects rolled on the damage roll inflict any additional effects."
+    "description": "Syringer ammunition comes in various forms, often hand-crafted by wasteland chemists. None of the Effects rolled on the damage roll inflict any additional effects.",
+    "longDescription": "Syringer ammunition comes in various forms, often hand-crafted by wasteland chemists. Each syringe can be loaded with different chemical or biological agents to inflict a range of debilitating effects on the target."
   },
   {
     "id": "44_magnum",
@@ -105,7 +116,8 @@
     "weight": "<1",
     "cost": 3,
     "rarity": 3,
-    "description": "The powerful .44 Magnum round was originally developed for revolvers. Its excellent stopping power makes it a favorite among wastelanders."
+    "description": "The powerful .44 Magnum round was originally developed for revolvers. Its excellent stopping power makes it a favorite among wastelanders.",
+    "longDescription": "The powerful .44 Magnum round was originally developed for revolvers. Its excellent stopping power makes it a favorite among wastelanders who need to put down tough enemies with a single shot."
   },
   {
     "id": "50",
@@ -114,7 +126,8 @@
     "weight": "<1",
     "cost": 4,
     "rarity": 3,
-    "description": "A high-powered rifle round used by specialized weapons."
+    "description": "A high-powered rifle round used by specialized weapons.",
+    "longDescription": "A large-caliber rifle round that delivers tremendous stopping power at long range. Used by specialized sniper weapons and heavy rifles, it can punch through most forms of armor."
   },
   {
     "id": "5_56mm",
@@ -123,7 +136,8 @@
     "weight": "<1",
     "cost": 2,
     "rarity": 3,
-    "description": "The standard U.S. Army rifle round before the Great War. Common enough to sustain regular use."
+    "description": "The standard U.S. Army rifle round before the Great War. Common enough to sustain regular use.",
+    "longDescription": "The standard U.S. Army rifle round before the Great War, used in assault rifles and carbines. It offers decent stopping power with manageable recoil and is common enough to sustain regular use."
   },
   {
     "id": "5mm",
@@ -132,7 +146,8 @@
     "weight": "<1",
     "cost": 1,
     "rarity": 3,
-    "description": "Small-caliber ammunition used by miniguns and other Gatling weapons. Consumed at ten times the normal rate."
+    "description": "Small-caliber ammunition used by miniguns and other Gatling weapons. Consumed at ten times the normal rate.",
+    "longDescription": "Small-caliber ammunition used by miniguns and other Gatling-style weapons. Consumed at ten times the normal rate due to the high rate of fire, making it difficult to keep the weapon supplied."
   },
   {
     "id": "fusion_core",
@@ -141,7 +156,8 @@
     "weight": 4,
     "cost": 200,
     "rarity": 3,
-    "description": "A large, powerful energy source used by Power Armor and some heavy energy weapons."
+    "description": "A large, powerful energy source used by Power Armor and some heavy energy weapons.",
+    "longDescription": "A large, powerful energy source used by Power Armor and some heavy energy weapons. Each core provides hours of operational power but is extremely heavy and difficult to find."
   },
   {
     "id": "missile",
@@ -150,7 +166,8 @@
     "weight": 7,
     "cost": 25,
     "rarity": 3,
-    "description": "A self-propelled explosive projectile used by missile launchers and similar heavy weapons."
+    "description": "A self-propelled explosive projectile used by missile launchers and similar heavy weapons.",
+    "longDescription": "A self-propelled explosive projectile used by missile launchers and similar heavy weapons. Fin-stabilized for accurate flight, each missile delivers a devastating explosive payload on impact."
   },
   {
     "id": "plasma_cartridge",
@@ -159,7 +176,8 @@
     "weight": "<1",
     "cost": 5,
     "rarity": 4,
-    "description": "A specialized energy cartridge used by plasma weapons."
+    "description": "A specialized energy cartridge used by plasma weapons.",
+    "longDescription": "A specialized energy cartridge used by plasma weapons. Contains chemicals that are rapidly transformed into superheated ionized gas upon firing, creating bolts of plasma."
   },
   {
     "id": "2mm_ec",
@@ -168,7 +186,8 @@
     "weight": "<1",
     "cost": 10,
     "rarity": 5,
-    "description": "Electromagnetic cartridge used by the gauss rifle. Rare and expensive."
+    "description": "Electromagnetic cartridge used by the gauss rifle. Rare and expensive.",
+    "longDescription": "An electromagnetic cartridge used by the gauss rifle. Rare and expensive, these advanced munitions are accelerated to hypersonic velocities using magnetic induction technology."
   },
   {
     "id": "mini_nuke",
@@ -177,6 +196,7 @@
     "weight": 12,
     "cost": 100,
     "rarity": 6,
-    "description": "A miniature nuclear warhead used by the Fat Man launcher. Extremely rare and devastating."
+    "description": "A miniature nuclear warhead used by the Fat Man launcher. Extremely rare and devastating.",
+    "longDescription": "A miniature nuclear warhead used by the Fat Man launcher. Each mini-nuke contains a compact tactical nuclear device capable of devastating a large area. Extremely rare and valuable."
   }
 ]

@@ -9,7 +9,8 @@
     "weight": "<1",
     "cost": 125,
     "rarity": 3,
-    "description": "A powerful and effective pre-War medicine which cleanses the body of the effects of addiction and the withdrawal symptoms that accompany it."
+    "description": "A powerful and effective pre-War medicine which cleanses the body of the effects of addiction and the withdrawal symptoms that accompany it.",
+    "longDescription": "A powerful and effective pre-War medicine which cleanses the body of the effects of addiction and withdrawal symptoms. It can take some time to work and has side-effects such as nausea and dizziness."
   },
   {
     "id": "chem_antibiotics",
@@ -21,7 +22,8 @@
     "weight": "<1",
     "cost": 75,
     "rarity": 3,
-    "description": "A dose of potent, broad-spectrum antibiotics that'll help clear out pretty much any infection or disease."
+    "description": "A dose of potent, broad-spectrum antibiotics that'll help clear out pretty much any infection or disease.",
+    "longDescription": "A dose of potent, broad-spectrum antibiotics that'll help clear out pretty much any infection or disease. Taking too many can be damaging to health overall, though they're rare enough that this is rarely a problem."
   },
   {
     "id": "chem_berry_mentats",
@@ -34,7 +36,8 @@
     "weight": "<1",
     "cost": 60,
     "rarity": 3,
-    "description": "A portion of Mentats reformulated to promote brain activity and memory."
+    "description": "A portion of Mentats reformulated to promote brain activity and memory.",
+    "longDescription": "A portion of Mentats reformulated to promote brain activity and memory. Enhances cognitive function and recall, making it easier to solve complex problems."
   },
   {
     "id": "chem_buffjet",
@@ -47,7 +50,8 @@
     "weight": "<1",
     "cost": 75,
     "rarity": 4,
-    "description": "A potent cocktail of Buffout and Jet, combining the strength-enhancing effects of steroids with the accelerated reflexes of Jet."
+    "description": "A potent cocktail of Buffout and Jet, combining the strength-enhancing effects of steroids with the accelerated reflexes of Jet.",
+    "longDescription": "A potent, if highly addictive mixture of Buffout and Jet, providing a boost to physical prowess, heightened reflexes, and a burst of adrenaline."
   },
   {
     "id": "chem_buffout",
@@ -60,7 +64,8 @@
     "weight": "<1",
     "cost": 45,
     "rarity": 2,
-    "description": "A powerful and quick-acting steroid which gained popularity with athletes prior to the Great War. For a few minutes, it makes one stronger and tougher."
+    "description": "A powerful and quick-acting steroid which gained popularity with athletes prior to the Great War. For a few minutes, it makes one stronger and tougher.",
+    "longDescription": "A powerful and quick-acting steroid which gained popularity with athletes prior to the Great War. For a few minutes, it makes one stronger and tougher."
   },
   {
     "id": "chem_bufftats",
@@ -73,7 +78,8 @@
     "weight": "<1",
     "cost": 75,
     "rarity": 4,
-    "description": "An addictive cocktail of Buffout steroids and Mentats, heightening both physical prowess and awareness."
+    "description": "An addictive cocktail of Buffout steroids and Mentats, heightening both physical prowess and awareness.",
+    "longDescription": "An addictive cocktail of Buffout steroids and Mentats, heightening both physical prowess and awareness simultaneously."
   },
   {
     "id": "chem_calmex",
@@ -86,7 +92,8 @@
     "weight": "<1",
     "cost": 100,
     "rarity": 4,
-    "description": "A light tranquilizer used to calm the nerves. It isn't potent enough to function as a painkiller, but a dose can quiet a troubled mind."
+    "description": "A light tranquilizer used to calm the nerves. It isn't potent enough to function as a painkiller, but a dose can quiet a troubled mind.",
+    "longDescription": "A light tranquilizer used to calm the nerves. Not potent enough to function as a painkiller, but a dose can quiet anxieties and fears, keeping panic from disturbing delicate activities."
   },
   {
     "id": "chem_daddy_o",
@@ -99,7 +106,8 @@
     "weight": "<1",
     "cost": 50,
     "rarity": 2,
-    "description": "A pre-War recreational drug that alters perception and heightens mental acuity, but can lead to confusion and paranoia."
+    "description": "A pre-War recreational drug that alters perception and heightens mental acuity, but can lead to confusion and paranoia.",
+    "longDescription": "Popular with beatniks and intellectuals before the Great War, Daddy-O heightens the user's cognitive faculties, making them more alert and able to process information."
   },
   {
     "id": "chem_day_tripper",
@@ -112,7 +120,8 @@
     "weight": "<1",
     "cost": 40,
     "rarity": 3,
-    "description": "A mild pre-War relaxant and hallucinogen, Day Tripper was favored by Americans seeking a brief escape from reality. The resulting high made users more laid-back and relaxed."
+    "description": "A mild pre-War relaxant and hallucinogen, Day Tripper was favored by Americans seeking a brief escape from reality. The resulting high made users more laid-back and relaxed.",
+    "longDescription": "A mild pre-War relaxant and hallucinogen favored by Americans seeking a brief escape from reality. The high makes users more laid-back and relaxed, while also making them less inclined to exert themselves physically."
   },
   {
     "id": "chem_fury",
@@ -125,7 +134,8 @@
     "weight": "<1",
     "cost": 30,
     "rarity": 4,
-    "description": "An extremely powerful combat stimulant, Fury grants users a sense of invincibility, rendering them nearly immune to pain and recklessly dangerous in melee combat."
+    "description": "An extremely powerful combat stimulant, Fury grants users a sense of invincibility, rendering them nearly immune to pain and recklessly dangerous in melee combat.",
+    "longDescription": "An extremely powerful combat stimulant that grants users a sense of invincibility, rendering them nearly immune to pain and recklessly dangerous in melee combat, while also rendering them largely oblivious to everything else."
   },
   {
     "id": "chem_grape_mentats",
@@ -138,7 +148,8 @@
     "weight": "<1",
     "cost": 60,
     "rarity": 3,
-    "description": "A variant of Mentats that enhances social grace and persuasiveness."
+    "description": "A variant of Mentats that enhances social grace and persuasiveness.",
+    "longDescription": "A variant of Mentats that enhances social grace and persuasiveness. Altered to reduce social anxiety, boost confidence, and make users more aware of body language and social cues."
   },
   {
     "id": "chem_healing_salve",
@@ -150,7 +161,8 @@
     "weight": "<1",
     "cost": 20,
     "rarity": 1,
-    "description": "A salve or ointment which can be applied to reduce pain and speed recovery from injury, typically made from several natural herbal ingredients."
+    "description": "A salve or ointment which can be applied to reduce pain and speed recovery from injury, typically made from several natural herbal ingredients.",
+    "longDescription": "A salve or ointment which can be applied to reduce pain and speed recovery from injury, typically made from several natural herbal ingredients."
   },
   {
     "id": "chem_jet",
@@ -163,7 +175,8 @@
     "weight": "<1",
     "cost": 50,
     "rarity": 2,
-    "description": "An inhaled stimulant which creates an altered state of consciousness where time appears to slow, heightening reflexes and allowing the user to act more quickly during a moment of crisis."
+    "description": "An inhaled stimulant which creates an altered state of consciousness where time appears to slow, heightening reflexes and allowing the user to act more quickly during a moment of crisis.",
+    "longDescription": "An inhaled stimulant which creates an altered state of consciousness where time appears to slow, heightening reflexes and allowing the user to act more quickly during a moment of crisis."
   },
   {
     "id": "chem_jet_fuel",
@@ -176,7 +189,8 @@
     "weight": "<1",
     "cost": 60,
     "rarity": 3,
-    "description": "A volatile variant of Jet, Jet Fuel provides a massive burst of energy in the user, allowing them to act more swiftly and decisively."
+    "description": "A volatile variant of Jet, Jet Fuel provides a massive burst of energy in the user, allowing them to act more swiftly and decisively.",
+    "longDescription": "A volatile variant of Jet, Jet Fuel provides a massive burst of energy in the user, allowing them to act more swiftly and decisively."
   },
   {
     "id": "chem_med_x",
@@ -189,7 +203,8 @@
     "weight": "<1",
     "cost": 50,
     "rarity": 2,
-    "description": "A potent opiate analgesic which significantly reduces both the perception of pain and the natural emotional response to pain. In short, it's a powerful painkiller."
+    "description": "A potent opiate analgesic which significantly reduces both the perception of pain and the natural emotional response to pain. In short, it's a powerful painkiller.",
+    "longDescription": "A potent opiate analgesic which significantly reduces both the perception of pain and the natural emotional response to pain. In short, it's a powerful painkiller."
   },
   {
     "id": "chem_mentats",
@@ -202,7 +217,8 @@
     "weight": "<1",
     "cost": 50,
     "rarity": 2,
-    "description": "A popular recreational and performance-enhancing drug before the Great War, Mentats enhance memory and speed mental processes."
+    "description": "A popular recreational and performance-enhancing drug before the Great War, Mentats enhance memory and speed mental processes.",
+    "longDescription": "A popular recreational and performance-enhancing drug before the Great War which enhances memory and speeds mental processes. Popular amongst students and those in jobs requiring intensive thought."
   },
   {
     "id": "chem_orange_mentats",
@@ -215,7 +231,8 @@
     "weight": "<1",
     "cost": 60,
     "rarity": 3,
-    "description": "A variant of Mentats which heighten awareness and sensory acuity."
+    "description": "A variant of Mentats which heighten awareness and sensory acuity.",
+    "longDescription": "A variant of Mentats which heighten awareness and sensory acuity. Enhances perception and allows the user to re-roll dice on aimed attacks."
   },
   {
     "id": "chem_overdrive",
@@ -228,7 +245,8 @@
     "weight": "<1",
     "cost": 55,
     "rarity": 3,
-    "description": "An enhanced form of Psycho which massively stimulates aggression, making the user more dangerous in combat."
+    "description": "An enhanced form of Psycho which massively stimulates aggression, making the user more dangerous in combat.",
+    "longDescription": "An enhanced form of Psycho which massively stimulates aggression, making the user more dangerous in combat by increasing damage output and allowing re-rolls of combat dice."
   },
   {
     "id": "chem_psycho",
@@ -241,7 +259,8 @@
     "weight": "<1",
     "cost": 50,
     "rarity": 2,
-    "description": "A potent combat stimulant created by the U.S. Army to enhance the effectiveness of soldiers in battle, inducing a state of heightened aggression and reduced pain sensitivity."
+    "description": "A potent combat stimulant created by the U.S. Army to enhance the effectiveness of soldiers in battle, inducing a state of heightened aggression and reduced pain sensitivity.",
+    "longDescription": "A potent combat stimulant created by the U.S. Army to enhance the effectiveness of their soldiers. It stimulates aggression and dulls pain receptors, allowing the user to fight harder with less care for their own safety."
   },
   {
     "id": "chem_psycho_jet",
@@ -254,7 +273,8 @@
     "weight": "<1",
     "cost": 70,
     "rarity": 4,
-    "description": "A powerful, addictive cocktail of Psycho and Jet, which enhances aggression, dulls pain, and augments a target's reflexes and energy levels."
+    "description": "A powerful, addictive cocktail of Psycho and Jet, which enhances aggression, dulls pain, and augments a target's reflexes and energy levels.",
+    "longDescription": "A powerful, addictive cocktail of Psycho and Jet which enhances aggression, dulls pain, and augments reflexes and energy levels. The effect is an explosive burst of extreme violence."
   },
   {
     "id": "chem_psychobuff",
@@ -267,7 +287,8 @@
     "weight": "<1",
     "cost": 70,
     "rarity": 4,
-    "description": "A highly addictive cocktail of Psycho and Buffout steroids, combining the effects of the two drugs to produce a period of extreme strength, durability, and aggression."
+    "description": "A highly addictive cocktail of Psycho and Buffout steroids, combining the effects of the two drugs to produce a period of extreme strength, durability, and aggression.",
+    "longDescription": "A highly addictive cocktail of Psycho and Buffout steroids, combining the effects of both drugs to produce a period of extreme strength, durability, and aggression."
   },
   {
     "id": "chem_psychotats",
@@ -280,7 +301,8 @@
     "weight": "<1",
     "cost": 70,
     "rarity": 4,
-    "description": "A combination of Psycho and Mentats, providing enhanced combat performance while maintaining mental clarity."
+    "description": "A combination of Psycho and Mentats, providing enhanced combat performance while maintaining mental clarity.",
+    "longDescription": "A cocktail of Psycho and Mentats. The heightened awareness and aggression partially cancel one another out, resulting in a short period of high aggression, enhanced sensory acuity, and boosted pain tolerance."
   },
   {
     "id": "chem_rad_x",
@@ -292,7 +314,8 @@
     "weight": "<1",
     "cost": 40,
     "rarity": 2,
-    "description": "A pre-War medication that temporarily fortifies the body against the effects of radiation poisoning."
+    "description": "A pre-War medication that temporarily fortifies the body against the effects of radiation poisoning.",
+    "longDescription": "A preventative medicine for those intending to enter areas with heightened risk of radiation exposure. A dose helps you resist the effects of radiation, especially when combined with other protective measures."
   },
   {
     "id": "chem_rad_x_diluted",
@@ -304,7 +327,8 @@
     "weight": "<1",
     "cost": 25,
     "rarity": 1,
-    "description": "A diluted version of Rad-X, roughly half as effective but easier to find than the full-strength version."
+    "description": "A diluted version of Rad-X, roughly half as effective but easier to find than the full-strength version.",
+    "longDescription": "A diluted form of Rad-X, reducing its effectiveness but allowing limited supplies to last longer. About half as effective as standard Rad-X."
   },
   {
     "id": "chem_radaway",
@@ -316,7 +340,8 @@
     "weight": "<1",
     "cost": 80,
     "rarity": 2,
-    "description": "An intravenous drug which purges radiation from the user's body, absorbing radiation as it circulates through the user's bloodstream."
+    "description": "An intravenous drug which purges radiation from the user's body, absorbing radiation as it circulates through the user's bloodstream.",
+    "longDescription": "An intravenous drug which purges radiation from the user's body, absorbing radiation as it circulates through the bloodstream. Also a potent diuretic, expelling radiation with urine."
   },
   {
     "id": "chem_radaway_diluted",
@@ -328,7 +353,8 @@
     "weight": "<1",
     "cost": 50,
     "rarity": 1,
-    "description": "A diluted version of RadAway, roughly half as effective but easier to find than the full-strength version."
+    "description": "A diluted version of RadAway, roughly half as effective but easier to find than the full-strength version.",
+    "longDescription": "A diluted form of RadAway, reducing its effectiveness as the user is only taking a partial dose. Only about half as effective as standard RadAway, but easier to find."
   },
   {
     "id": "chem_skeeto_spit",
@@ -340,7 +366,8 @@
     "weight": "<1",
     "cost": 40,
     "rarity": 2,
-    "description": "A tribal remedy made from the saliva of mutated mosquitoes, known to temporarily bolster one's constitution."
+    "description": "A tribal remedy made from the saliva of mutated mosquitoes, known to temporarily bolster one's constitution.",
+    "longDescription": "Derived from the secretions of a Bloodbug and the curative properties of wasteland plants, Skeeto Spit is a wasteland remedy which dulls the user's ability to feel pain. Effective, lasting, and non-addictive."
   },
   {
     "id": "chem_stimpak",
@@ -352,7 +379,8 @@
     "weight": "<1",
     "cost": 50,
     "rarity": 2,
-    "description": "A wonder of pre-War science, a Stimpak is a single-use syringe filled with a variety of potent healing agents, stimulants, and painkillers."
+    "description": "A wonder of pre-War science, a Stimpak is a single-use syringe filled with a variety of potent healing agents, stimulants, and painkillers.",
+    "longDescription": "A stimulation delivery package, or Stimpak, is a form of fast-acting medication used to bolster the body's own healing and recuperative ability. Countless millions were produced for first aid kits, hospitals, and clinics."
   },
   {
     "id": "chem_stimpak_diluted",
@@ -364,7 +392,8 @@
     "weight": "<1",
     "cost": 30,
     "rarity": 1,
-    "description": "A diluted version of a Stimpak, roughly half as effective but easier to find than the full-strength version."
+    "description": "A diluted version of a Stimpak, roughly half as effective but easier to find than the full-strength version.",
+    "longDescription": "A diluted Stimpak, reducing its effectiveness as the user is only taking a partial dose. Only about half as effective as a standard Stimpak, but easier to find."
   },
   {
     "id": "chem_super_stimpak",
@@ -376,7 +405,8 @@
     "weight": "<1",
     "cost": 90,
     "rarity": 4,
-    "description": "An enhanced version of the standard Stimpak, delivering a more concentrated dose of healing agents for greater effect."
+    "description": "An enhanced version of the standard Stimpak, delivering a more concentrated dose of healing agents for greater effect.",
+    "longDescription": "An enhanced version of the standard Stimpak with an additional vial of medicine and a leather strap to secure the needle. A more potent cocktail allowing it to heal much more effectively."
   },
   {
     "id": "chem_stimpak_diffuser",
@@ -388,7 +418,8 @@
     "weight": "<1",
     "cost": 200,
     "rarity": 5,
-    "description": "This delivery mechanism allows the contents of a Super Stimpak to be dispersed into an aerosol cloud, providing a burst of medicinal vapor over a small area."
+    "description": "This delivery mechanism allows the contents of a Super Stimpak to be dispersed into an aerosol cloud, providing a burst of medicinal vapor over a small area.",
+    "longDescription": "This delivery mechanism allows the contents of a super Stimpak to be dispersed into an aerosol cloud, providing a burst of medicinal vapor over a small area, healing all within close range."
   },
   {
     "id": "chem_ultra_jet",
@@ -401,7 +432,8 @@
     "weight": "<1",
     "cost": 67,
     "rarity": 2,
-    "description": "An extremely concentrated form of Jet, it is significantly more potent and affects Ghouls as easily as it does humans."
+    "description": "An extremely concentrated form of Jet, it is significantly more potent and affects Ghouls as easily as it does humans.",
+    "longDescription": "An extremely concentrated form of Jet, significantly more potent, affecting Ghouls as easily as humans due to its potency. Highly addictive with permanent effects."
   },
   {
     "id": "chem_x_cell",
@@ -414,7 +446,8 @@
     "weight": "<1",
     "cost": 60,
     "rarity": 4,
-    "description": "A general-purpose performance enhancer still being developed before the Great War. Development was never finished, but prototype versions were distributed through the black market."
+    "description": "A general-purpose performance enhancer still being developed before the Great War. Development was never finished, but prototype versions were distributed through the black market.",
+    "longDescription": "A general-purpose performance enhancer still being developed before the Great War. It enhances all aspects of a user's abilities for a few minutes, but is extremely addictive."
   },
   {
     "id": "drink_beer",
@@ -425,7 +458,8 @@
     "weight": 1,
     "cost": 5,
     "rarity": 1,
-    "description": "One of the oldest beverages created by humans, beer is a carbonated alcoholic drink made from fermented cereal grains, popular pre-War to relax after a hard day's work."
+    "description": "One of the oldest beverages created by humans, beer is a carbonated alcoholic drink made from fermented cereal grains, popular pre-War to relax after a hard day's work.",
+    "longDescription": "One of the oldest beverages created by humans, beer is a carbonated alcoholic drink made from fermented cereal grains, popular pre-War to relax after a hard day's work."
   },
   {
     "id": "drink_blood_pack",
@@ -436,7 +470,8 @@
     "weight": "<1",
     "cost": 10,
     "rarity": 2,
-    "description": "A bag of pre-War blood, intended for medical transfusions. Some wastelanders drink it for its nutritional content, though it's hardly a pleasant beverage."
+    "description": "A bag of pre-War blood, intended for medical transfusions. Some wastelanders drink it for its nutritional content, though it's hardly a pleasant beverage.",
+    "longDescription": "A bag of pre-War blood, intended for medical transfusions. Some wastelanders drink it for its nutritional content, though it's hardly a pleasant beverage."
   },
   {
     "id": "drink_bourbon",
@@ -447,7 +482,8 @@
     "weight": 1,
     "cost": 7,
     "rarity": 2,
-    "description": "A distinctly American type of whiskey, bourbon is a barrel-aged, distilled spirit made mainly of corn. Pre-War, those who favored it tended to get a reputation as being tough or rugged."
+    "description": "A distinctly American type of whiskey, bourbon is a barrel-aged, distilled spirit made mainly of corn. Pre-War, those who favored it tended to get a reputation as being tough or rugged.",
+    "longDescription": "A distinctly American type of whiskey, bourbon is a barrel-aged, distilled spirit made mainly of corn. Pre-War, those who favored it tended to get a reputation as being tough or rugged."
   },
   {
     "id": "drink_brahmin_milk",
@@ -458,7 +494,8 @@
     "weight": "<1",
     "cost": 15,
     "rarity": 2,
-    "description": "Milk from a brahmin. This drink is a true lifesaver, as it has properties that cleanse radiation poisoning from the body."
+    "description": "Milk from a brahmin. This drink is a true lifesaver, as it has properties that cleanse radiation poisoning from the body.",
+    "longDescription": "Milk from a brahmin. This drink is a true lifesaver, as it has properties that cleanse radiation poisoning from the body."
   },
   {
     "id": "drink_dirty_water",
@@ -469,7 +506,8 @@
     "weight": "<1",
     "cost": 5,
     "rarity": 0,
-    "description": "Water collected from rivers, lakes, swimming pools, and any other unfiltered water source. It's not recommended to drink dirty water without filtering or purifying it first."
+    "description": "Water collected from rivers, lakes, swimming pools, and any other unfiltered water source. It's not recommended to drink dirty water without filtering or purifying it first.",
+    "longDescription": "Water collected from rivers, lakes, swimming pools, and any other unfiltered water source. It's not recommended to drink dirty water without filtering or purifying it first."
   },
   {
     "id": "drink_moonshine",
@@ -480,7 +518,8 @@
     "weight": "<1",
     "cost": 30,
     "rarity": 3,
-    "description": "High-proof distilled spirits produced in an illicit or makeshift manner. Due to their unorthodox origins, moonshine can be dangerous to consume, often contaminated with dangerous chemicals."
+    "description": "High-proof distilled spirits produced in an illicit or makeshift manner. Due to their unorthodox origins, moonshine can be dangerous to consume, often contaminated with dangerous chemicals.",
+    "longDescription": "High-proof distilled spirits produced in an illicit or makeshift manner. Due to their unorthodox origins, moonshine can be dangerous to consume, often contaminated with dangerous chemicals."
   },
   {
     "id": "drink_nuka_cherry",
@@ -491,7 +530,8 @@
     "weight": 1,
     "cost": 40,
     "rarity": 3,
-    "description": "Produced by the Nuka-Cola Corporation after it bought the patent for a rival beverage, Nuka-Cherry is a blend of the typical Nuka-Cola recipe with a distinctive cherry flavoring and a bright red color."
+    "description": "Produced by the Nuka-Cola Corporation after it bought the patent for a rival beverage, Nuka-Cherry is a blend of the typical Nuka-Cola recipe with a distinctive cherry flavoring and a bright red color.",
+    "longDescription": "Produced by the Nuka-Cola Corporation after it bought the patent for a rival beverage, Nuka-Cherry is a blend of the typical Nuka-Cola recipe with a distinctive cherry flavoring and a bright red color."
   },
   {
     "id": "drink_nuka_cola",
@@ -502,7 +542,8 @@
     "weight": 1,
     "cost": 20,
     "rarity": 2,
-    "description": "The flagship beverage of the Nuka-Cola Corporation, this carbonated soft drink is instantly recognizable by its distinctive brown glass bottle and sweet, refreshing taste."
+    "description": "The flagship beverage of the Nuka-Cola Corporation, this carbonated soft drink is instantly recognizable by its distinctive brown glass bottle and sweet, refreshing taste.",
+    "longDescription": "The flagship beverage of the Nuka-Cola Corporation, this carbonated soft drink is instantly recognizable by its distinctive brown glass bottle and sweet, refreshing taste."
   },
   {
     "id": "drink_nuka_cola_quantum",
@@ -513,7 +554,8 @@
     "weight": 1,
     "cost": 50,
     "rarity": 5,
-    "description": "Introduced the same day the bombs fell, Nuka-Cola Quantum was the newest flavor, with twice the calories, twice the carbohydrates, twice the caffeine, and twice the taste. The drink's distinctive blue glow comes from a safe isotope additive."
+    "description": "Introduced the same day the bombs fell, Nuka-Cola Quantum was the newest flavor, with twice the calories, twice the carbohydrates, twice the caffeine, and twice the taste. The drink's distinctive blue glow comes from a safe isotope additive.",
+    "longDescription": "Introduced the same day the bombs fell, Nuka-Cola Quantum was the newest flavor, with twice the calories, twice the carbohydrates, twice the caffeine, and twice the taste. The drink's distinctive blue glow comes from a safe isotope additive."
   },
   {
     "id": "drink_purified_water",
@@ -524,7 +566,8 @@
     "weight": "<1",
     "cost": 20,
     "rarity": 1,
-    "description": "Water which has been cleansed of any contaminants or radiation. Sometimes found in sealed cans or bottles in the wasteland."
+    "description": "Water which has been cleansed of any contaminants or radiation. Sometimes found in sealed cans or bottles in the wasteland.",
+    "longDescription": "Water which has been cleansed of any contaminants or radiation. Sometimes found in sealed cans or bottles in the wasteland."
   },
   {
     "id": "drink_refreshing",
@@ -535,7 +578,8 @@
     "weight": 1,
     "cost": 110,
     "rarity": 5,
-    "description": "A pre-War sports drink designed to rehydrate and restore energy. Its electrolytic properties make it highly effective at revitalizing the body."
+    "description": "A pre-War sports drink designed to rehydrate and restore energy. Its electrolytic properties make it highly effective at revitalizing the body.",
+    "longDescription": "A pre-War sports drink designed to rehydrate and restore energy. Its electrolytic properties make it highly effective at revitalizing the body."
   },
   {
     "id": "drink_rum",
@@ -546,7 +590,8 @@
     "weight": 1,
     "cost": 8,
     "rarity": 2,
-    "description": "A liquor made from fermenting then distilling sugarcane molasses. Rum has strong historic ties to naval and maritime traditions."
+    "description": "A liquor made from fermenting then distilling sugarcane molasses. Rum has strong historic ties to naval and maritime traditions.",
+    "longDescription": "A liquor made from fermenting then distilling sugarcane molasses. Rum has strong historic ties to naval and maritime traditions."
   },
   {
     "id": "drink_vodka",
@@ -557,7 +602,8 @@
     "weight": 1,
     "cost": 5,
     "rarity": 3,
-    "description": "A clear distilled alcoholic beverage, made from fermented rye, wheat, potatoes, or sugar beet molasses."
+    "description": "A clear distilled alcoholic beverage, made from fermented rye, wheat, potatoes, or sugar beet molasses.",
+    "longDescription": "A clear distilled alcoholic beverage, made from fermented rye, wheat, potatoes, or sugar beet molasses."
   },
   {
     "id": "drink_whiskey",
@@ -568,7 +614,8 @@
     "weight": 1,
     "cost": 5,
     "rarity": 3,
-    "description": "A triple-distilled alcoholic beverage made using grain mash. Some wasteland distilleries exist producing post-War versions using corn and other available grains."
+    "description": "A triple-distilled alcoholic beverage made using grain mash. Some wasteland distilleries exist producing post-War versions using corn and other available grains.",
+    "longDescription": "A triple-distilled alcoholic beverage made using grain mash. Some wasteland distilleries exist producing post-War versions using corn and other available grains."
   },
   {
     "id": "drink_wine",
@@ -579,7 +626,8 @@
     "weight": 1,
     "cost": 5,
     "rarity": 3,
-    "description": "An alcoholic beverage made from fermented fruits, typically grapes. Pre-War bottles are still found in cellars and liquor stores across the wasteland."
+    "description": "An alcoholic beverage made from fermented fruits, typically grapes. Pre-War bottles are still found in cellars and liquor stores across the wasteland.",
+    "longDescription": "An alcoholic beverage made from fermented fruits, typically grapes. Pre-War bottles are still found in cellars and liquor stores across the wasteland."
   },
   {
     "id": "food_melon_juice",
@@ -590,7 +638,8 @@
     "weight": "<1",
     "cost": 6,
     "rarity": 2,
-    "description": "Juice made from pressing the pulp of a melon. A refreshing and healthy drink which promotes the body's natural healing."
+    "description": "Juice made from pressing the pulp of a melon. A refreshing and healthy drink which promotes the body's natural healing.",
+    "longDescription": "Juice made from pressing the pulp of a melon. A refreshing and healthy drink which promotes the body's natural healing."
   },
   {
     "id": "food_mutfruit_juice",
@@ -601,7 +650,8 @@
     "weight": "<1",
     "cost": 8,
     "rarity": 2,
-    "description": "Juice made from pressing the pulp of a mutfruit. A sweet and energizing beverage."
+    "description": "Juice made from pressing the pulp of a mutfruit. A sweet and energizing beverage.",
+    "longDescription": "Juice made from pressing the pulp of a mutfruit. A sweet and energizing beverage."
   },
   {
     "id": "food_tarberry_juice",
@@ -612,7 +662,8 @@
     "weight": "<1",
     "cost": 5,
     "rarity": 4,
-    "description": "Juice made from pressing tarberries. Drinking Tarberry juice has a potent stimulant effect, making the drinker energetic and ready for action."
+    "description": "Juice made from pressing tarberries. Drinking Tarberry juice has a potent stimulant effect, making the drinker energetic and ready for action.",
+    "longDescription": "Juice made from pressing tarberries. Drinking Tarberry juice has a potent stimulant effect, making the drinker energetic and ready for action."
   },
   {
     "id": "food_tato_juice",
@@ -623,7 +674,8 @@
     "weight": "<1",
     "cost": 7,
     "rarity": 3,
-    "description": "Juice made from pressing Tatos. Despite the unpleasant taste, Tato juice allows the drinker to dig more deeply into reserves of stamina and push themselves further."
+    "description": "Juice made from pressing Tatos. Despite the unpleasant taste, Tato juice allows the drinker to dig more deeply into reserves of stamina and push themselves further.",
+    "longDescription": "Juice made from pressing Tatos. Despite the unpleasant taste, Tato juice allows the drinker to dig more deeply into reserves of stamina and push themselves further."
   },
   {
     "id": "food_baked_bloatfly",
@@ -634,7 +686,8 @@
     "weight": "<1",
     "cost": 15,
     "rarity": 1,
-    "description": "A bloatfly cooked over an open fire. Not particularly appetizing, but edible."
+    "description": "A bloatfly cooked over an open fire. Not particularly appetizing, but edible.",
+    "longDescription": "A bloatfly cooked over an open fire. Not particularly appetizing, but edible. The cooking process reduces the radiation content and makes the meat safer to consume, if not more enjoyable."
   },
   {
     "id": "food_bloodbug_steak",
@@ -645,7 +698,8 @@
     "weight": "<1",
     "cost": 18,
     "rarity": 2,
-    "description": "A cooked slab of bloodbug meat. Surprisingly nutritious despite its unappealing origin."
+    "description": "A cooked slab of bloodbug meat. Surprisingly nutritious despite its unappealing origin.",
+    "longDescription": "A cooked slab of bloodbug meat. Surprisingly nutritious despite its unappealing origin. The cooking process transforms the slimy meat into something reasonably edible."
   },
   {
     "id": "food_brain_fungus",
@@ -656,7 +710,8 @@
     "weight": "<1",
     "cost": 6,
     "rarity": 1,
-    "description": "A mutated fungus that grows in dark, damp places. Consuming it raw has adverse effects on mental clarity."
+    "description": "A mutated fungus that grows in dark, damp places. Consuming it raw has adverse effects on mental clarity.",
+    "longDescription": "A mutated fungus that grows in dark, damp places. Consuming it raw has adverse effects on mental clarity."
   },
   {
     "id": "food_carrot",
@@ -667,7 +722,8 @@
     "weight": "<1",
     "cost": 3,
     "rarity": 1,
-    "description": "A root vegetable grown in soil. Provides decent nutrition and is relatively easy to grow. A staple of wasteland agriculture."
+    "description": "A root vegetable grown in soil. Provides decent nutrition and is relatively easy to grow. A staple of wasteland agriculture.",
+    "longDescription": "A crunchy, edible root vegetable. Carrots are commonly grown in wasteland farms and provide decent nutrition. They can be eaten raw or used in cooking various recipes."
   },
   {
     "id": "food_cooked_softshell",
@@ -678,7 +734,8 @@
     "weight": "<1",
     "cost": 40,
     "rarity": 3,
-    "description": "The softer meat from mirelurks, cooked into a rough steak. A high-energy meal, those who eat cooked softshell meat are often invigorated and eager for action for a while afterwards."
+    "description": "The softer meat from mirelurks, cooked into a rough steak. A high-energy meal, those who eat cooked softshell meat are often invigorated and eager for action for a while afterwards.",
+    "longDescription": "The softer meat from mirelurks, cooked into a rough steak. A high-energy meal, those who eat cooked softshell meat are often invigorated and eager for action for a while afterwards."
   },
   {
     "id": "food_corn",
@@ -689,7 +746,8 @@
     "weight": "<1",
     "cost": 6,
     "rarity": 1,
-    "description": "A highly versatile crop cultivated across the Americas for centuries. Corn remains largely unchanged by the War, and it remains a staple of wasteland agriculture."
+    "description": "A highly versatile crop cultivated across the Americas for centuries. Corn remains largely unchanged by the War, and it remains a staple of wasteland agriculture.",
+    "longDescription": "A highly versatile crop cultivated across the Americas for centuries. Corn remains largely unchanged by the War, and it remains a staple of wasteland agriculture."
   },
   {
     "id": "food_crispy_squirrel",
@@ -700,7 +758,8 @@
     "weight": "<1",
     "cost": 6,
     "rarity": 2,
-    "description": "Chunks of squirrel meat cooked until crispy. A decent snack, if not particularly filling."
+    "description": "Chunks of squirrel meat cooked until crispy. A decent snack, if not particularly filling.",
+    "longDescription": "Chunks of squirrel meat cooked until crispy. A decent snack, if not particularly filling. Squirrels are small creatures, so it takes several to make a meal."
   },
   {
     "id": "food_deathclaw_omelette",
@@ -711,7 +770,8 @@
     "weight": "<1",
     "cost": 80,
     "rarity": 4,
-    "description": "An omelette made from a deathclaw egg. In addition to being highly nutritious, it stimulates the natural healing processes of the body."
+    "description": "An omelette made from a deathclaw egg. In addition to being highly nutritious, it stimulates the natural healing processes of the body.",
+    "longDescription": "An omelette made from a deathclaw egg. In addition to being highly nutritious, it stimulates the natural healing processes of the body."
   },
   {
     "id": "food_deathclaw_steak",
@@ -722,7 +782,8 @@
     "weight": 1,
     "cost": 130,
     "rarity": 4,
-    "description": "A cooked slab of deathclaw meat. The process of cooking has enhanced its nutritional value and eliminated the radiation hazard."
+    "description": "A cooked slab of deathclaw meat. The process of cooking has enhanced its nutritional value and eliminated the radiation hazard.",
+    "longDescription": "A cooked slab of deathclaw meat. The process of cooking has enhanced its nutritional value and eliminated the radiation hazard."
   },
   {
     "id": "food_glowing_fungus",
@@ -733,7 +794,8 @@
     "weight": 1,
     "cost": 5,
     "rarity": 0,
-    "description": "A bioluminescent fungus that grows in irradiated areas. It has medicinal properties but also contains significant radiation."
+    "description": "A bioluminescent fungus that grows in irradiated areas. It has medicinal properties but also contains significant radiation.",
+    "longDescription": "A bioluminescent fungus that grows in irradiated areas. It has medicinal properties but also contains significant radiation."
   },
   {
     "id": "food_gourd",
@@ -744,7 +806,8 @@
     "weight": 1,
     "cost": 6,
     "rarity": 1,
-    "description": "A large edible fruit, which is fleshy with a hard skin, like a pumpkin. The pulp inside can be eaten or used in cooking."
+    "description": "A large edible fruit, which is fleshy with a hard skin, like a pumpkin. The pulp inside can be eaten or used in cooking.",
+    "longDescription": "A large edible fruit, which is fleshy with a hard skin, like a pumpkin. The pulp inside can be scooped out and eaten or used in cooking, while the outer skin is often carved and used as decoration."
   },
   {
     "id": "food_grilled_radroach",
@@ -755,7 +818,8 @@
     "weight": "<1",
     "cost": 7,
     "rarity": 1,
-    "description": "A grilled chunk of meat taken from a radroach. Not especially appetizing, but sufficiently nutritious for those with few other choices."
+    "description": "A grilled chunk of meat taken from a radroach. Not especially appetizing, but sufficiently nutritious for those with few other choices.",
+    "longDescription": "A grilled chunk of meat taken from a radroach. Not especially appetizing, especially if you know where it came from, but sufficiently nutritious and filling for those with few other choices."
   },
   {
     "id": "food_grilled_radstag",
@@ -766,7 +830,8 @@
     "weight": 1,
     "cost": 60,
     "rarity": 2,
-    "description": "A cooked portion of radstag meat. The lean, gamey meat provides nourishment and a feeling of vitality."
+    "description": "A cooked portion of radstag meat. The lean, gamey meat provides nourishment and a feeling of vitality.",
+    "longDescription": "A grilled rack of ribs from a radstag. Easy enough to make when you've got the main ingredient, but tasty and satisfying enough that your burdens feel a little lighter once you've finished eating."
   },
   {
     "id": "food_hubflower",
@@ -777,7 +842,8 @@
     "weight": 1,
     "cost": 3,
     "rarity": 0,
-    "description": "A mutated flower that grows in the wasteland. It has mild healing properties when consumed."
+    "description": "A mutated flower that grows in the wasteland. It has mild healing properties when consumed.",
+    "longDescription": "A mutated flower that grows in the wasteland. It has mild healing properties when consumed and is also used as an ingredient in various recipes and chems."
   },
   {
     "id": "food_iguana_bits",
@@ -788,7 +854,8 @@
     "weight": "<1",
     "cost": 8,
     "rarity": 1,
-    "description": "Small pieces of dried or cooked iguana meat. A lightweight, portable source of protein."
+    "description": "Small pieces of dried or cooked iguana meat. A lightweight, portable source of protein.",
+    "longDescription": "Small pieces of dried or cooked iguana meat. A lightweight, portable source of protein favored by travelers. The vendor 'Iguana Bob' is famous throughout the wasteland for these."
   },
   {
     "id": "food_iguana_stick",
@@ -799,7 +866,8 @@
     "weight": "<1",
     "cost": 33,
     "rarity": 2,
-    "description": "A skewer of iguana meat roasted over a fire. A common street food in many settlements."
+    "description": "A skewer of iguana meat roasted over a fire. A common street food in many settlements.",
+    "longDescription": "A skewer of iguana meat roasted over a fire. A common street food in many settlements. Lightweight and portable, making it a good travel ration."
   },
   {
     "id": "food_iguana_soup",
@@ -810,7 +878,8 @@
     "weight": 1,
     "cost": 21,
     "rarity": 3,
-    "description": "A simple soup made with iguana meat and vegetables. Warm and filling."
+    "description": "A simple soup made with iguana meat and vegetables. Warm and filling.",
+    "longDescription": "A simple soup made with iguana meat and vegetables. Warm and filling. A common dish in settlements where iguanas are plentiful."
   },
   {
     "id": "food_melon",
@@ -821,7 +890,8 @@
     "weight": 1,
     "cost": 6,
     "rarity": 1,
-    "description": "A large, green, juicy fruit with a hard outer rind. Once cut open, melons are very satisfying, sating hunger and quenching thirst."
+    "description": "A large, green, juicy fruit with a hard outer rind. Once cut open, melons are very satisfying, sating hunger and quenching thirst.",
+    "longDescription": "A large, green, juicy fruit with a hard outer rind. Melons are grown in wasteland farms or found growing wild. Either way, once cut open they're often very satisfying, sating hunger and quenching thirst all in one go."
   },
   {
     "id": "food_mirelurk_cake",
@@ -832,7 +902,8 @@
     "weight": "<1",
     "cost": 35,
     "rarity": 3,
-    "description": "A dense cake or patty made from ground mirelurk meat. Surprisingly tasty and filling."
+    "description": "A dense cake or patty made from ground mirelurk meat. Surprisingly tasty and filling.",
+    "longDescription": "Flakes and fragments of mirelurk meat, mixed with mirelurk egg to bind it together into a patty and then cooked. In addition to some modest nutritional value, eating mirelurk cake allows you to survive underwater for longer."
   },
   {
     "id": "food_mirelurk_egg",
@@ -843,7 +914,8 @@
     "weight": "<1",
     "cost": 30,
     "rarity": 3,
-    "description": "An omelette made from a mirelurk egg. Said to sharpen the mind and improve focus."
+    "description": "An omelette made from a mirelurk egg. Said to sharpen the mind and improve focus.",
+    "longDescription": "Eggs found in mirelurk nests. Normally found in clutches of 2-3, these eggs hatch into mirelurk hatchlings if left undisturbed. They are a key ingredient in Mirelurk Egg Omelette and Mirelurk Cake."
   },
   {
     "id": "food_mirelurk_meat",
@@ -854,7 +926,8 @@
     "weight": "<1",
     "cost": 18,
     "rarity": 1,
-    "description": "Meat taken from inside the carapace of a mirelurk. Difficult to extract but delicious and nutritious."
+    "description": "Meat taken from inside the carapace of a mirelurk. Difficult to extract but delicious and nutritious.",
+    "longDescription": "The meat from dead mirelurks. This tends to be tougher and of poorer quality than softshell mirelurk meat, but it is still entirely edible. Used as an ingredient in various recipes."
   },
   {
     "id": "food_mirelurk_queen",
@@ -865,7 +938,8 @@
     "weight": 1,
     "cost": 130,
     "rarity": 5,
-    "description": "The rare, nutrient-rich meat of a mirelurk Queen. When properly prepared, it can fortify the body and provide a surge of health and vitality."
+    "description": "The rare, nutrient-rich meat of a mirelurk Queen. When properly prepared, it can fortify the body and provide a surge of health and vitality.",
+    "longDescription": "The rare, nutrient-rich meat of a mirelurk Queen. When properly prepared, it can fortify the body and provide a surge of health and vitality."
   },
   {
     "id": "food_mole_rat",
@@ -876,7 +950,8 @@
     "weight": "<1",
     "cost": 8,
     "rarity": 1,
-    "description": "Chopped and cooked pieces of mole rat meat. Better than eating it raw, but still an acquired taste."
+    "description": "Chopped and cooked pieces of mole rat meat. Better than eating it raw, but still an acquired taste.",
+    "longDescription": "Chopped and cooked pieces of mole rat meat. Better than eating it raw, but still tough and chewy. Leaves a feeling of vigor, as if your reserves of stamina have increased."
   },
   {
     "id": "food_mongrel_dog",
@@ -887,7 +962,8 @@
     "weight": "<1",
     "cost": 8,
     "rarity": 0,
-    "description": "A chunk of meat taken from a mongrel dog. Can be cooked to make Mutt Chops."
+    "description": "A chunk of meat taken from a mongrel dog. Can be cooked to make Mutt Chops.",
+    "longDescription": "A chunk of meat taken from a mongrel dog. Can be cooked to make Mutt Chops. Mongrel dogs are common in the wasteland and their meat is a reliable if unglamorous food source."
   },
   {
     "id": "food_mutfruit",
@@ -898,7 +974,8 @@
     "weight": "<1",
     "cost": 8,
     "rarity": 0,
-    "description": "Pronounced 'mute-fruit', and short for mutated fruit, mutfruit is a mutated form of apple, which comes in several different varieties depending on where you are."
+    "description": "Pronounced 'mute-fruit', and short for mutated fruit, mutfruit is a mutated form of apple, which comes in several different varieties depending on where you are.",
+    "longDescription": "Pronounced 'mute-fruit', short for mutated fruit, mutfruit is a mutated form of apple which comes in several varieties. These are cultivated for their sweet flavor, use in cooking, and even medicinal properties in some rare cases."
   },
   {
     "id": "food_mutant_hound",
@@ -909,7 +986,8 @@
     "weight": "<1",
     "cost": 12,
     "rarity": 3,
-    "description": "Cooked chops of mutant hound meat. Still not the tastiest food, but no longer hazardous."
+    "description": "Cooked chops of mutant hound meat. Still not the tastiest food, but no longer hazardous.",
+    "longDescription": "Cooked chops of mutant hound meat. Still not the tastiest food, but no longer hazardous. The meat's off-green color and lumpy texture are off-putting, but it's safe once cooked."
   },
   {
     "id": "food_mutt_chops",
@@ -920,7 +998,8 @@
     "weight": "<1",
     "cost": 12,
     "rarity": 1,
-    "description": "Cuts of mongrel dog meat cooked to make them more nutritious and edible."
+    "description": "Cuts of mongrel dog meat cooked to make them more nutritious and edible.",
+    "longDescription": "Cuts of mongrel dog meat cooked to make them more nutritious and edible. The cooking process improves both the flavor and the nutritional value."
   },
   {
     "id": "food_noodle_cup",
@@ -931,7 +1010,8 @@
     "weight": "<1",
     "cost": 20,
     "rarity": 2,
-    "description": "A simple cup of noodle soup. Moderately filling and thirst-quenching, and simple enough to make if you can find the ingredients."
+    "description": "A simple cup of noodle soup. Moderately filling and thirst-quenching, and simple enough to make if you can find the ingredients.",
+    "longDescription": "A simple cup of noodle soup. Moderately filling and thirst-quenching, and simple enough to make if you can find the ingredients."
   },
   {
     "id": "food_potato_crisps",
@@ -942,7 +1022,8 @@
     "weight": "<1",
     "cost": 7,
     "rarity": 0,
-    "description": "A can of salted or flavored potato chips, sealed in an inert environment for freshness. A common snack pre-War, still found in most places where people lived or worked."
+    "description": "A can of salted or flavored potato chips, sealed in an inert environment for freshness. A common snack pre-War, still found in most places where people lived or worked.",
+    "longDescription": "A can of salted or flavored potato chips, sealed for freshness. A common snack pre-War, you can still find odd packs in most places where people lived or worked."
   },
   {
     "id": "food_radscorpion_egg",
@@ -953,7 +1034,8 @@
     "weight": "<1",
     "cost": 48,
     "rarity": 3,
-    "description": "Made from a radscorpion egg, these omelettes are highly prized by those who make considerable use of combat drugs, as something about the food cleanses the body to remove chemical dependencies and addictions."
+    "description": "Made from a radscorpion egg, these omelettes are highly prized by those who make considerable use of combat drugs, as something about the food cleanses the body to remove chemical dependencies and addictions.",
+    "longDescription": "The egg of a radscorpion. Not easy to get hold of, as they tend to be found in places where there are radscorpions. Can be used to make Radscorpion Egg Omelette."
   },
   {
     "id": "food_radscorpion_steak",
@@ -964,7 +1046,8 @@
     "weight": 1,
     "cost": 65,
     "rarity": 3,
-    "description": "A cooked slab of radscorpion meat. The process of cooking has reduced the radiation below dangerous levels and enhanced the nutritional value."
+    "description": "A cooked slab of radscorpion meat. The process of cooking has reduced the radiation below dangerous levels and enhanced the nutritional value.",
+    "longDescription": "A cooked slab of radscorpion meat. The cooking process reduces the radiation to safe levels and enhances the nutritional value. Eating Radscorpion Steak heightens your resistance to extreme heat for a while."
   },
   {
     "id": "food_radstag_stew",
@@ -975,7 +1058,8 @@
     "weight": 1,
     "cost": 60,
     "rarity": 3,
-    "description": "A hearty stew made with radstag meat and vegetables. Warming and satisfying."
+    "description": "A hearty stew made with radstag meat and vegetables. Warming and satisfying.",
+    "longDescription": "Strips of radstag meat with vegetables and some alcohol, cooked to make a thick, hearty stew. Filling and satisfying, the stew also helps fortify the body, making you more resistant to extreme heat for a while."
   },
   {
     "id": "food_razorgrain",
@@ -986,7 +1070,8 @@
     "weight": "<1",
     "cost": 5,
     "rarity": 1,
-    "description": "A tall, fast-growing grass similar to wheat, which can be ground down to make flour for making bread and other staple foods."
+    "description": "A tall, fast-growing grass similar to wheat, which can be ground down to make flour for making bread and other staple foods.",
+    "longDescription": "A tall, fast-growing grass similar to wheat, which can be ground down to make flour for bread and other staple foods. An ingredient in a few recipes."
   },
   {
     "id": "food_ribeye",
@@ -997,7 +1082,8 @@
     "weight": 1,
     "cost": 40,
     "rarity": 2,
-    "description": "A grilled piece of meat from a brahmin. The closest thing to a pre-War steak you're likely to find."
+    "description": "A grilled piece of meat from a brahmin. The closest thing to a pre-War steak you're likely to find.",
+    "longDescription": "A grilled piece of meat from a brahmin. The closest thing to a pre-War steak you're likely to find. A good piece of grilled brahmin makes for a satisfying meal."
   },
   {
     "id": "food_roasted_mirelurk",
@@ -1008,7 +1094,8 @@
     "weight": "<1",
     "cost": 40,
     "rarity": 2,
-    "description": "A cooked portion of meat from a mirelurk. Though not to the same extent as the softshell meat, roasted mirelurk meat invigorates the body and mind."
+    "description": "A cooked portion of meat from a mirelurk. Though not to the same extent as the softshell meat, roasted mirelurk meat invigorates the body and mind.",
+    "longDescription": "A cooked portion of meat from a mirelurk. Though not to the same extent as the softshell meat, roasted mirelurk meat invigorates the body and mind."
   },
   {
     "id": "food_salisbury",
@@ -1019,7 +1106,8 @@
     "weight": "<1",
     "cost": 20,
     "rarity": 0,
-    "description": "A ready-to-eat meal of ground beef mixed with breadcrumbs, onion, and egg, served with gravy. Pre-packaged, preserved, and sealed for freshness."
+    "description": "A ready-to-eat meal of ground beef mixed with breadcrumbs, onion, and egg, served with gravy. Pre-packaged, preserved, and sealed for freshness.",
+    "longDescription": "A ready-to-eat meal of ground beef mixed with breadcrumbs, onion, and egg, served with gravy. Pre-packaged, preserved, and sealed for freshness."
   },
   {
     "id": "food_silt_bean",
@@ -1030,7 +1118,8 @@
     "weight": "<1",
     "cost": 6,
     "rarity": 1,
-    "description": "A legume that grows in muddy or silty soil. Provides decent nutrition and can be used in various recipes."
+    "description": "A legume that grows in muddy or silty soil. Provides decent nutrition and can be used in various recipes.",
+    "longDescription": "Red-brown pods of legumes growing from the vine of a silt bean plant in the wilderness. Not easily cultivated, but used as an ingredient in a few recipes such as radstag stew."
   },
   {
     "id": "food_squirrel_bits",
@@ -1041,7 +1130,8 @@
     "weight": "<1",
     "cost": 4,
     "rarity": 1,
-    "description": "A few scraps and chunks of squirrel meat. Squirrels, not being especially large creatures, do not have much meat on them."
+    "description": "A few scraps and chunks of squirrel meat. Squirrels, not being especially large creatures, do not have much meat on them.",
+    "longDescription": "A few scraps and chunks of squirrel meat. Squirrels are not especially large creatures, so there's not much meat on them. Can be cooked into various dishes."
   },
   {
     "id": "food_squirrel_stick",
@@ -1052,7 +1142,8 @@
     "weight": "<1",
     "cost": 15,
     "rarity": 2,
-    "description": "Chunks of squirrel meat skewered on a thin piece of wood for cooking, and then roasted over an open flame. Not enough meat for a decent meal, but certainly enough for a snack."
+    "description": "Chunks of squirrel meat skewered on a thin piece of wood for cooking, and then roasted over an open flame. Not enough meat for a decent meal, but certainly enough for a snack.",
+    "longDescription": "Chunks of squirrel meat skewered on a thin piece of wood for cooking, and then roasted over an open flame. Not enough meat for a decent meal, but certainly enough for a snack."
   },
   {
     "id": "food_stingwing",
@@ -1063,7 +1154,8 @@
     "weight": "<1",
     "cost": 35,
     "rarity": 2,
-    "description": "A cooked piece of stingwing meat. Not the most appetizing of foods, but surprisingly useful for those surviving in the wastelands, as it can sharpen the senses."
+    "description": "A cooked piece of stingwing meat. Not the most appetizing of foods, but surprisingly useful for those surviving in the wastelands, as it can sharpen the senses.",
+    "longDescription": "A cooked piece of stingwing meat. Not the most appetizing of foods, but surprisingly useful for those surviving in the wastelands, as it can sharpen the senses."
   },
   {
     "id": "food_tarberry",
@@ -1074,7 +1166,8 @@
     "weight": "<1",
     "cost": 5,
     "rarity": 3,
-    "description": "Small purple berries of the Tarberry plant, a water-grown crop similar to pre-War cranberries. A useful ingredient in several recipes."
+    "description": "Small purple berries of the Tarberry plant, a water-grown crop similar to pre-War cranberries. A useful ingredient in several recipes.",
+    "longDescription": "Small purple berries of the Tarberry plant, a water-grown crop similar to pre-War cranberries. A useful ingredient in several recipes, but difficult to cultivate without clean water."
   },
   {
     "id": "food_tato",
@@ -1085,7 +1178,8 @@
     "weight": "<1",
     "cost": 7,
     "rarity": 1,
-    "description": "A mutated hybrid of the pre-War tomato and potato plants, with the stem and reddish skin of the former and the brownish flesh of the latter. Tatos provide decent nutrition, but taste disgusting."
+    "description": "A mutated hybrid of the pre-War tomato and potato plants, with the stem and reddish skin of the former and the brownish flesh of the latter. Tatos provide decent nutrition, but taste disgusting.",
+    "longDescription": "A mutated hybrid of the pre-War tomato and potato plants, with the stem and reddish skin of the former and the brownish flesh of the latter. Tatos provide decent nutrition but taste disgusting. They're easy to grow and are a staple of wasteland agriculture."
   },
   {
     "id": "food_vegetable_soup",
@@ -1096,7 +1190,8 @@
     "weight": 1,
     "cost": 13,
     "rarity": 2,
-    "description": "A simple soup made with carrot and tato. A reasonably filling meal, sating both hunger and thirst, while also helping to fortify the body against radiation poisoning for a while."
+    "description": "A simple soup made with carrot and tato. A reasonably filling meal, sating both hunger and thirst, while also helping to fortify the body against radiation poisoning for a while.",
+    "longDescription": "A simple soup made with carrot and tato. A reasonably filling meal, sating both hunger and thirst, while also helping to fortify the body against radiation poisoning for a while."
   },
   {
     "id": "food_yao_guai_ribs",
@@ -1107,7 +1202,8 @@
     "weight": 1,
     "cost": 90,
     "rarity": 4,
-    "description": "A rack of ribs made with Yao Guai meat. Both a satisfying meal and inspire a sense of invincibility, while also boosting your tolerance for pain for a short while."
+    "description": "A rack of ribs made with Yao Guai meat. Both a satisfying meal and inspire a sense of invincibility, while also boosting your tolerance for pain for a short while.",
+    "longDescription": "A rack of ribs made with Yao Guai meat. Yao Guai ribs are both a satisfying meal and inspire a sense of invincibility, while also boosting your tolerance for pain for a short while."
   },
   {
     "id": "food_yao_guai_roast",
@@ -1118,7 +1214,8 @@
     "weight": 1,
     "cost": 110,
     "rarity": 4,
-    "description": "A roasted piece of Yao Guai meat cooked with carrot and tato. An extremely filling and satisfying meal, and many have claimed that it heightens their killer instinct."
+    "description": "A roasted piece of Yao Guai meat cooked with carrot and tato. An extremely filling and satisfying meal, and many have claimed that it heightens their killer instinct.",
+    "longDescription": "A roasted piece of Yao Guai meat cooked with carrot and tato. An extremely filling and satisfying meal, and many claim it heightens their killer instinct and ability to inflict harm for a while after eating."
   },
   {
     "id": "food_yum_yum",
@@ -1129,7 +1226,8 @@
     "weight": "<1",
     "cost": 20,
     "rarity": 0,
-    "description": "Hard-boiled eggs stuffed with a spicy filling, which were preserved and sealed for freshness before the Great War."
+    "description": "Hard-boiled eggs stuffed with a spicy filling, which were preserved and sealed for freshness before the Great War.",
+    "longDescription": "Hard-boiled eggs stuffed with a spicy filling, which were preserved and sealed for freshness before the Great War."
   },
   {
     "id": "food_bloatfly_meat",
@@ -1141,7 +1239,8 @@
     "weight": "<1",
     "cost": 8,
     "rarity": 0,
-    "description": "Meat taken from a bloatfly. Not particularly appetizing, but it's a source of protein."
+    "description": "Meat taken from a bloatfly. Not particularly appetizing, but it's a source of protein.",
+    "longDescription": "Meat taken from a bloatfly. Not particularly appetizing, but it's a source of protein for those desperate enough. The meat is stringy and has an unpleasant taste."
   },
   {
     "id": "food_bloodbug_meat",
@@ -1153,7 +1252,8 @@
     "weight": "<1",
     "cost": 8,
     "rarity": 1,
-    "description": "Meat taken from a bloodbug. Slimy and unappealing, but edible when cooked."
+    "description": "Meat taken from a bloodbug. Slimy and unappealing, but edible when cooked.",
+    "longDescription": "Meat taken from a bloodbug. Slimy and unappealing, but edible when cooked. Bloodbugs are parasitic creatures, and their meat carries that same unpleasant quality."
   },
   {
     "id": "food_brahmin_meat",
@@ -1165,7 +1265,8 @@
     "weight": 1,
     "cost": 28,
     "rarity": 1,
-    "description": "A cut of meat taken from a brahmin. A reliable source of protein in the wasteland."
+    "description": "A cut of meat taken from a brahmin. A reliable source of protein in the wasteland.",
+    "longDescription": "A cut of meat taken from a brahmin. A reliable source of protein in the wasteland. Brahmin are common livestock, and their meat is a staple of wasteland diets."
   },
   {
     "id": "food_canned_dog_food",
@@ -1177,7 +1278,8 @@
     "weight": 0.5,
     "cost": 6,
     "rarity": 0,
-    "description": "A can of processed meat-based food, intended for dogs. Edible in a pinch, but deeply unappealing."
+    "description": "A can of processed meat-based food, intended for dogs. Edible in a pinch, but deeply unappealing.",
+    "longDescription": "A can of processed meat-based food, intended for dogs. Edible in a pinch, but definitely not a first choice for human consumption. Better than starving, though."
   },
   {
     "id": "food_cram",
@@ -1189,7 +1291,8 @@
     "weight": "<1",
     "cost": 25,
     "rarity": 1,
-    "description": "A can of processed meat, typically containing a mixture of brahmin, radstag, and other meats. The can is sealed for preservation and can last for decades."
+    "description": "A can of processed meat, typically containing a mixture of brahmin, radstag, and other meats. The can is sealed for preservation and can last for decades.",
+    "longDescription": "A can of processed meat, typically containing a mixture of brahmin, radstag, and other meats. The can is sealed for preservation and can last for decades."
   },
   {
     "id": "food_dandy_boy_apples",
@@ -1201,7 +1304,8 @@
     "weight": "<1",
     "cost": 7,
     "rarity": 0,
-    "description": "Candied apples produced by the Dandy Boy company. An extremely sweet fruit-based snack packaged in a cardboard box."
+    "description": "Candied apples produced by the Dandy Boy company. An extremely sweet fruit-based snack packaged in a cardboard box.",
+    "longDescription": "Candied apples produced by the Dandy Boy company. An extremely sweet fruit-based snack packaged in a cardboard box."
   },
   {
     "id": "food_deathclaw_egg",
@@ -1213,7 +1317,8 @@
     "weight": "<1",
     "cost": 69,
     "rarity": 3,
-    "description": "The egg of a deathclaw. Extremely dangerous to acquire, but highly prized for its nutritional value."
+    "description": "The egg of a deathclaw. Extremely dangerous to acquire, but highly prized for its nutritional value.",
+    "longDescription": "The egg of a deathclaw. Extremely dangerous to acquire, but highly prized for its nutritional value."
   },
   {
     "id": "food_deathclaw_meat",
@@ -1225,7 +1330,8 @@
     "weight": 1,
     "cost": 110,
     "rarity": 3,
-    "description": "Meat taken from a slain deathclaw. Extremely dangerous to obtain, but highly nutritious and prized across the wasteland."
+    "description": "Meat taken from a slain deathclaw. Extremely dangerous to obtain, but highly nutritious and prized across the wasteland.",
+    "longDescription": "Meat taken from a deathclaw. Extremely dangerous to obtain, but highly nutritious and prized by those who can acquire it. The meat is rich and filling."
   },
   {
     "id": "food_instamash",
@@ -1237,7 +1343,8 @@
     "weight": "<1",
     "cost": 20,
     "rarity": 0,
-    "description": "A packet of dehydrated mashed potatoes. Just add water (heated or not) and you have a quick, filling meal."
+    "description": "A packet of dehydrated mashed potatoes. Just add water (heated or not) and you have a quick, filling meal.",
+    "longDescription": "A packet of freeze-dried powdered mashed potato still sealed inside its cardboard box. Just add water! Sometimes, preserved boxes can be found which are not irradiated."
   },
   {
     "id": "food_gum_drops",
@@ -1249,7 +1356,8 @@
     "weight": "<1",
     "cost": 5,
     "rarity": 0,
-    "description": "A pre-War confection of small drops of congealed gelatin, sweetened and flavored. The most common variety to survive the War were labelled as 'radioactive' for their powerful sour flavor."
+    "description": "A pre-War confection of small drops of congealed gelatin, sweetened and flavored. The most common variety to survive the War were labelled as 'radioactive' for their powerful sour flavor.",
+    "longDescription": "A pre-War confection, gum drops are small drops of congealed gelatin sweetened and flavored with a variety of overpowering flavors. The most common variety to survive the War were labelled as radioactive for their powerful sour flavor. Long years in cupboards has made this more literal."
   },
   {
     "id": "food_fancy_lads_snack_cakes",
@@ -1261,7 +1369,8 @@
     "weight": "<1",
     "cost": 18,
     "rarity": 0,
-    "description": "A box of pre-War packaged snack cakes, filled with a sweet, creamy center. Surprisingly well-preserved despite their age."
+    "description": "A box of pre-War packaged snack cakes, filled with a sweet, creamy center. Surprisingly well-preserved despite their age.",
+    "longDescription": "A box of pre-War packaged snack cakes, filled with a sweet, creamy center. Surprisingly well-preserved despite their age."
   },
   {
     "id": "food_blamco_brand_mac_and_cheese",
@@ -1273,7 +1382,8 @@
     "weight": "<1",
     "cost": 10,
     "rarity": 1,
-    "description": "A packaged box of dried macaroni pasta and a packet of powdered cheese mix. A pre-War staple that's still perfectly edible decades later."
+    "description": "A packaged box of dried macaroni pasta and a packet of powdered cheese mix. A pre-War staple that's still perfectly edible decades later.",
+    "longDescription": "A packaged box of dried macaroni pasta and a packet of powdered cheese mix. A pre-War staple that's still perfectly edible decades later."
   },
   {
     "id": "food_mole_rat_meat",
@@ -1285,7 +1395,8 @@
     "weight": "<1",
     "cost": 5,
     "rarity": 0,
-    "description": "Meat taken from a mole rat. Not the most appetizing food, but it's edible and provides sustenance."
+    "description": "Meat taken from a mole rat. Not the most appetizing food, but it's edible and provides sustenance.",
+    "longDescription": "Meat taken from a mole rat. Not the most appetizing food, but it's edible and provides necessary nutrition. Can be cooked to make Mole Rat Chunks."
   },
   {
     "id": "food_mutant_hound_meat",
@@ -1297,7 +1408,8 @@
     "weight": "<1",
     "cost": 8,
     "rarity": 2,
-    "description": "A cut of meat taken from a dead mutant hound. This meat's off-green color and lumpy texture suggests that it would be quite unpleasant to eat."
+    "description": "A cut of meat taken from a dead mutant hound. This meat's off-green color and lumpy texture suggests that it would be quite unpleasant to eat.",
+    "longDescription": "A cut of meat taken from a dead mutant hound. This meat's off-green color and lumpy texture suggests it would be quite unpleasant to eat. Eaten raw, it contains radiation and is unpalatable."
   },
   {
     "id": "food_perfectly_preserved_pie",
@@ -1309,7 +1421,8 @@
     "weight": "<1",
     "cost": 20,
     "rarity": 3,
-    "description": "A slice of fruit pie shielded from the radioactive environment since before the Great War. Copious preservatives keep it as edible as the day it was made."
+    "description": "A slice of fruit pie shielded from the radioactive environment since before the Great War. Copious preservatives keep it as edible as the day it was made.",
+    "longDescription": "A slice of fruit pie preserved within a Port-A-Diner, shielded from radiation since before the Great War. Copious quantities of preservatives keep it as edible as the day it was made."
   },
   {
     "id": "food_pork_n_beans",
@@ -1321,7 +1434,8 @@
     "weight": "<1",
     "cost": 10,
     "rarity": 0,
-    "description": "A can containing a complete meal: beans stewed in a tomato sauce with chunks of cured pork belly. The tin may be slightly rusted, but the contents are still edible."
+    "description": "A can containing a complete meal: beans stewed in a tomato sauce with chunks of cured pork belly. The tin may be slightly rusted, but the contents are still edible.",
+    "longDescription": "A can containing a complete meal: beans stewed in a tomato sauce with chunks of cured pork belly. The tin may be slightly rusted, but the contents are still edible."
   },
   {
     "id": "food_potted_meat",
@@ -1333,7 +1447,8 @@
     "weight": 1,
     "cost": 25,
     "rarity": 0,
-    "description": "A small metal tin of mixed processed meat, typically containing mixtures of meat from brahmin, radstags, mole rats, mongrel dogs, and anything else the maker can get their hands on."
+    "description": "A small metal tin of mixed processed meat, typically containing mixtures of meat from brahmin, radstags, mole rats, mongrel dogs, and anything else the maker can get their hands on.",
+    "longDescription": "A small metal tin of mixed processed meat, typically containing mixtures of brahmin, radstag, mole rat, and mongrel dog, and anything else the maker can get their hands on (some of which may not be fit for human consumption)."
   },
   {
     "id": "food_radroach_meat",
@@ -1345,7 +1460,8 @@
     "weight": "<1",
     "cost": 3,
     "rarity": 0,
-    "description": "Meat taken from a radroach. Not particularly tasty, but it's a common source of protein in the wasteland."
+    "description": "Meat taken from a radroach. Not particularly tasty, but it's a common source of protein in the wasteland.",
+    "longDescription": "Meat from the mutated, irradiated cockroaches known commonly as radroaches. The meat is mildly radioactive and offers little nourishment or satisfaction. Cooking provides only marginal improvement."
   },
   {
     "id": "food_radscorpion_meat",
@@ -1357,7 +1473,8 @@
     "weight": 1,
     "cost": 55,
     "rarity": 2,
-    "description": "Meat taken from inside the carapace of a radscorpion, normally from the tail or one of the legs. Difficult to obtain, as it requires killing a radscorpion."
+    "description": "Meat taken from inside the carapace of a radscorpion, normally from the tail or one of the legs. Difficult to obtain, as it requires killing a radscorpion.",
+    "longDescription": "Meat taken from inside the carapace of a radscorpion, normally from the tail or legs where it's easier to get to. Difficult to obtain, as it requires killing a radscorpion."
   },
   {
     "id": "food_radstag_meat",
@@ -1369,7 +1486,8 @@
     "weight": 1,
     "cost": 50,
     "rarity": 1,
-    "description": "Meat taken from a radstag, a mutated deer-like creature. Lean and gamey, it provides good nutrition."
+    "description": "Meat taken from a radstag, a mutated deer-like creature. Lean and gamey, it provides good nutrition.",
+    "longDescription": "A piece of meat cut from the body of a dead radstag. It's bulky but can produce nutritious and satisfying meals. Can be cooked to make Grilled Radstag or used in Radstag Stew."
   },
   {
     "id": "food_squirrel_stew",
@@ -1381,7 +1499,8 @@
     "weight": 1,
     "cost": 24,
     "rarity": 2,
-    "description": "Chunks of squirrel meat, along with carrot, tato, and some bloodleaf, cooked together to create a thick stew. More filling and appetizing than the ingredients individually."
+    "description": "Chunks of squirrel meat, along with carrot, tato, and some bloodleaf, cooked together to create a thick stew. More filling and appetizing than the ingredients individually.",
+    "longDescription": "Chunks of squirrel meat along with carrot, tato, and some bloodleaf, cooked together to create a thick stew. More filling and appetizing than the ingredients individually."
   },
   {
     "id": "food_stingwing_meat",
@@ -1393,7 +1512,8 @@
     "weight": "<1",
     "cost": 30,
     "rarity": 1,
-    "description": "Meat taken from the body of a stingwing, a mutated scorpionfly with a nasty sting. Doesn't look especially tasty, but it cooks reasonably well."
+    "description": "Meat taken from the body of a stingwing, a mutated scorpionfly with a nasty sting. Doesn't look especially tasty, but it cooks reasonably well.",
+    "longDescription": "Meat taken from the body of a stingwing, a mutated scorpionfly with a nasty sting. Doesn't look especially tasty, but it cooks reasonably well once you've pried the exoskeleton off."
   },
   {
     "id": "food_sugar_bombs",
@@ -1405,7 +1525,8 @@
     "weight": "<1",
     "cost": 11,
     "rarity": 0,
-    "description": "A pre-War breakfast cereal heavily sweetened with sugar. The box may have seen better days, but the contents are still edible, if absurdly sweet."
+    "description": "A pre-War breakfast cereal heavily sweetened with sugar. The box may have seen better days, but the contents are still edible, if absurdly sweet.",
+    "longDescription": "A pre-War breakfast cereal with \"explosive great taste\", the box contains little cereal shapes resembling stylized atomic bombs coated in copious amounts of sugar. Some boxes claim to contain a prize inside."
   },
   {
     "id": "food_sweet_roll",
@@ -1417,7 +1538,8 @@
     "weight": "<1",
     "cost": 9,
     "rarity": 1,
-    "description": "A small, sweetened pastry or baked confection normally made as a treat for children or people who need a bit of cheering up."
+    "description": "A small, sweetened pastry or baked confection normally made as a treat for children or people who need a bit of cheering up.",
+    "longDescription": "A small, sweetened pastry or baked confection normally made as a treat for children or people who need a bit of cheering up. A comforting find in the harsh wasteland."
   },
   {
     "id": "food_yao_guai_meat",
@@ -1429,7 +1551,8 @@
     "weight": 1,
     "cost": 85,
     "rarity": 3,
-    "description": "Dangerous meat to obtain, Yao Guai meat comes from the bodies of slain Yao Guai, a ferocious mutated form of bear that roams the wastelands. The meat is highly prized and nutritious."
+    "description": "Dangerous meat to obtain, Yao Guai meat comes from the bodies of slain Yao Guai, a ferocious mutated form of bear that roams the wastelands. The meat is highly prized and nutritious.",
+    "longDescription": "Another dangerous meat to obtain, Yao Guai meat comes from the bodies of slain Yao Guai, a ferocious mutated form of bear. The meat is highly prized and nutritious."
   },
   {
     "id": "food_food_paste",
@@ -1441,7 +1564,8 @@
     "weight": "<1",
     "cost": 0,
     "rarity": 2,
-    "description": "A flavorless mush, garish pink in color, developed by Vault-Tec as part of the Nutritional Alternative Paste Program. Fortified with vitamins and minerals, it remains unspoiled for over a century."
+    "description": "A flavorless mush, garish pink in color, developed by Vault-Tec as part of the Nutritional Alternative Paste Program. Fortified with vitamins and minerals, it remains unspoiled for over a century.",
+    "longDescription": "A flavorless mush, garish pink in color, developed by Vault-Tec as part of the Nutritional Alternative Paste Program. Fortified with vitamins and minerals, it remains unspoiled for over a century."
   },
   {
     "id": "food_institute_food_packet",
@@ -1453,7 +1577,8 @@
     "weight": "<1",
     "cost": 10,
     "rarity": 2,
-    "description": "A small white box of food marked with the symbol of the Institute. Each box contains enriched ration bars filled with essential nutrients."
+    "description": "A small white box of food marked with the symbol of the Institute. Each box contains enriched ration bars filled with essential nutrients.",
+    "longDescription": "A small white box of food marked with the symbol of the Institute. Each box contains enriched ration bars filled with essential nutrients, providing your daily requirements of forty different vitamins, minerals, and nutrients."
   },
   {
     "id": "food_dirty_wastelander",
@@ -1465,7 +1590,8 @@
     "weight": 1,
     "cost": 10,
     "rarity": 3,
-    "description": "An extremely potent alcoholic beverage, made from a blend of whiskey, Nuka-Cola, and Mutfruit, which has much the same effect as most alcoholic drinks, just moreso."
+    "description": "An extremely potent alcoholic beverage, made from a blend of whiskey, Nuka-Cola, and Mutfruit, which has much the same effect as most alcoholic drinks, just moreso.",
+    "longDescription": "An extremely potent alcoholic beverage, made from a blend of whiskey, Nuka-Cola, and Mutfruit, which has much the same effect as most alcoholic drinks, just moreso."
   },
   {
     "id": "food_irradiated_blood",
@@ -1477,7 +1603,8 @@
     "weight": "<1",
     "cost": 50,
     "rarity": 2,
-    "description": "A blood bag filled with discolored—often green—blood-like fluid. About as useful as a normal blood pack, but highly irradiated."
+    "description": "A blood bag filled with discolored—often green—blood-like fluid. About as useful as a normal blood pack, but highly irradiated.",
+    "longDescription": "A blood bag filled with discolored—often green—blood-like fluid. About as useful as a normal blood pack, but highly irradiated."
   },
   {
     "id": "drink_glowing_blood_pack",
@@ -1488,6 +1615,7 @@
     "weight": "<1",
     "cost": 30,
     "rarity": 3,
-    "description": "A blood bag filled with a luminescent green fluid. If you can stomach the acrid, metallic taste, they have potent restorative properties and help protect the body against radiation poisoning for a short while."
+    "description": "A blood bag filled with a luminescent green fluid. If you can stomach the acrid, metallic taste, they have potent restorative properties and help protect the body against radiation poisoning for a short while.",
+    "longDescription": "A blood bag filled with a luminescent green fluid. If you can stomach the acrid, metallic taste, they have potent restorative properties and help protect the body against radiation poisoning for a short while."
   }
 ]
